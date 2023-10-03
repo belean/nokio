@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nokio"
+version = "0.1.0"
+description = ""
+authors = ["Mikael Backlund <mikael.backlund@wsp.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
+ipython = "^8.16.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
