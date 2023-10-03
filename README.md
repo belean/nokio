@@ -117,3 +117,27 @@ Is about closing the books for the year and generate a sammanställning for års
 ## 3.12 rules
 
 Gives the amount owned by company to major shareholders
+
+## Git
+
+```bash
+    # start git on localhost
+    git init
+
+    # add files to local repo
+    git add . -m "Inital commit"
+
+    # Create a main branch
+    git symbolic-ref HEAD refs/heads/main
+    git commit -m "Adding branch main"
+
+    # Add remote repo
+    git remote add origin https://github.com/belean/nokio.git
+
+    # Github doesn't support password get a PAT token from Github user. Store in .env and enter as password
+    git config --local credential.helper ""
+    git pull origin main --allow-unrelated-histories
+
+    # push the changes to remote (origin)
+    git push origin main
+```
