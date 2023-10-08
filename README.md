@@ -41,7 +41,7 @@ The verficate is a proof of the transaction
 {
     "v_id": 8,
     "v_image": "https://nokio.org/5569979445/4_1.png",
-    "v_uploaded": "2023-10-02T14:38:12Z",
+    "v_uploaded": "2023-10-02T14:38:12Z"
 }
 ```
 
@@ -81,7 +81,7 @@ Are historic transactions that can be utilized to help out with the transaction 
 
 ```json
 {
-    [
+    templates: [
         {
             "name": "Domain fee",
             "structure": ["1930K", "8265D"]
