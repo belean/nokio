@@ -2,7 +2,7 @@
 
 Author: **Mikael Backlund** Owner: **Be Lean Building Solutions AB**
 
-Nokio is a product that helps small business doing small bookkeeping tasks. These tasks
+Nokio is an Open Source product (GPL3) that helps small business doing small and easy bookkeeping tasks. These tasks
 include:
 
 * Keeping gneral ledger (GL)
