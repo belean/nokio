@@ -8,6 +8,8 @@ from nokio.transaction import (
 )
 import dictdiffer
 
+# TODO Fixture setting up and tearing down
+
 
 def reset():
     db["TransactionStore"].update_one(
