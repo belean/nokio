@@ -5,12 +5,12 @@ Author: **Mikael Backlund** Owner: **Be Lean Building Solutions AB**
 Nokio is an Open Source product (GPL3) that helps small business doing small and easy bookkeeping tasks. These tasks
 include:
 
-* Keeping gneral ledger (GL)
-* Performing Reconciliation of accounts
-* VAT reporting
-* Balance sheet
-* Result sheet
-* Closing of books
+- Keeping gneral ledger (GL)
+- Performing Reconciliation of accounts
+- VAT reporting
+- Balance sheet
+- Result sheet
+- Closing of books
 
 Domain name filed at namecheap.org: nokio.org
 
@@ -20,16 +20,16 @@ These are documents in MongoDB Atlas and in the collection 2023 of the database 
 
 ```json
 {
-    "t_id": 4,
-    "t_name": "Domain fee 1Y",
-    "t_date": "2023-10-03T16:38:12Z",
-    "t_description": "Domain name to map host IP to nokio.org",
-    "t_data": {
-        "T_Kassa +/- (1930)":           [0, 84.62], 
-        "K_Post&Internet +/- (8265)":   [84.62, 0]
-        },
-    "t_method": "https://nokio.org/method/#Transaction_explained",
-    "t_verification": 8
+  "t_id": 4,
+  "t_name": "Domain fee 1Y",
+  "t_date": "2023-10-03T16:38:12Z",
+  "t_description": "Domain name to map host IP to nokio.org",
+  "t_data": {
+    "T_Kassa +/- (1930)": [0, 84.62],
+    "K_Post&Internet +/- (8265)": [84.62, 0]
+  },
+  "t_method": "https://nokio.org/method/#Transaction_explained",
+  "t_verification": 8
 }
 ```
 
@@ -39,9 +39,9 @@ The verficate is a proof of the transaction
 
 ```json
 {
-    "v_id": 8,
-    "v_image": "https://nokio.org/5569979445/4_1.png",
-    "v_uploaded": "2023-10-02T14:38:12Z"
+  "v_id": 8,
+  "v_image": "https://nokio.org/5569979445/4_1.png",
+  "v_uploaded": "2023-10-02T14:38:12Z"
 }
 ```
 
@@ -53,12 +53,12 @@ One document represent a year and has the structure. There are no time in GL as 
 ```json
 {
     "556997-9445": 2023,
-    "GeneralLedger": 
+    "GeneralLedger":
     {
-        "T_Kassa +- (1930)" :         25 915.38,
-        "S_Eget kapital -+ (2045)":  -25 000.00,
+        "A_Kassa +- (1930)" :         25 915.38,
+        "D_Eget kapital -+ (2045)":  -25 000.00,
         "I_Income -+ (3000)" :         1 000.00,
-        "K_Post&Internet +- (8265)":      84.62, 
+        "C_Post&Internet +- (8265)":      84.62,
     },
     "last_transcation": 4
 }
@@ -70,8 +70,8 @@ Is fixed with a name and a account number. This can be aliased at own will the a
 
 ```json
 {
-    "1630": ["Skattekonto", "T_Skattekonto +-" ],
-    "1930": ["Kassa", "T_Kassa +-" ],
+  "1630": ["Skattekonto", "T_Skattekonto +-"],
+  "1930": ["Kassa", "T_Kassa +-"]
 }
 ```
 
@@ -81,16 +81,16 @@ Are historic transactions that can be utilized to help out with the transaction 
 
 ```json
 {
-    templates: [
-        {
-            "name": "Domain fee",
-            "structure": ["1930K", "8265D"]
-        }, 
-        {
-            "name": "Salary",
-            "structure": ["3000K", "1930D", "2640D"]
-        }
-    ]
+  "templates": [
+    {
+      "name": "Domain fee",
+      "structure": ["1930K", "8265D"]
+    },
+    {
+      "name": "Salary",
+      "structure": ["3000K", "1930D", "2640D"]
+    }
+  ]
 }
 ```
 
@@ -141,3 +141,25 @@ Gives the amount owned by company to major shareholders
     # push the changes to remote (origin)
     git push origin main
 ```
+
+## FastAPI
+
+### FastAPI routes
+
+| Endpoint            | Request type | Description                                                                                          |
+| ------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
+| /transaction        | GET          | Get a list of transactions with sorting options. Options: Sort by id asc and name asc and date desc. |
+| /transaction/{t_id} | GET          | Get transaction by t_id                                                                              |
+|                     |              |                                                                                                      |
+
+To run the FastAPI app execute
+
+```bash
+    uvicorn app.main:app --reload
+```
+
+Try it out in the web browser
+http://127.0.0.1:8000/transactions?orgnr=556997-9445
+http://127.0.0.1:8000/transactions?orgnr=556997-9445&sort_by=id
+or
+http://127.0.0.1:8000/docs
