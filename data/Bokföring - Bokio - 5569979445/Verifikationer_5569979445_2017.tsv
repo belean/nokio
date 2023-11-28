@@ -1,0 +1,842 @@
+Serie	Number	Date	Text	CreatedBy	CreatedDate	Account	Amount
+V	1	2017-01-31	Pensionsförsäkring	info@belean.se	2017-02-05 15:23:29	1930	-7650.00
+V	1	2017-01-31	Pensionsförsäkring	info@belean.se	2017-02-05 15:23:29	2514	-1855.89
+V	1	2017-01-31	Pensionsförsäkring	info@belean.se	2017-02-05 15:23:29	7412	7650.00
+V	1	2017-01-31	Pensionsförsäkring	info@belean.se	2017-02-05 15:23:29	7533	1855.89
+V	2	2017-01-12	Utlägg utbetalning	info@belean.se	2017-02-05 15:24:52	1930	-2748.50
+V	2	2017-01-12	Utlägg utbetalning	info@belean.se	2017-02-05 15:24:52	2890	2748.50
+V	3	2017-01-01	Pensionsförsäkring	info@belean.se	2017-02-05 15:32:26	1930	-1845.00
+V	3	2017-01-01	Pensionsförsäkring	info@belean.se	2017-02-05 15:32:26	2514	-447.60
+V	3	2017-01-01	Pensionsförsäkring	info@belean.se	2017-02-05 15:32:26	7412	1845.00
+V	3	2017-01-01	Pensionsförsäkring	info@belean.se	2017-02-05 15:32:26	7533	447.60
+V	4	2017-01-12	Mobiltelefon	info@belean.se	2017-02-05 15:33:46	1930	-1266.00
+V	4	2017-01-12	Mobiltelefon	info@belean.se	2017-02-05 15:33:46	2640	253.20
+V	4	2017-01-12	Mobiltelefon	info@belean.se	2017-02-05 15:33:46	6212	1012.80
+V	5	2017-01-01	Finansiell Leasing avbetalning	info@belean.se	2017-02-05 15:39:07	1269	-638.89
+V	5	2017-01-01	Finansiell Leasing avbetalning	info@belean.se	2017-02-05 15:39:07	1930	-2067.00
+V	5	2017-01-01	Finansiell Leasing avbetalning	info@belean.se	2017-02-05 15:39:07	2391	1860.27
+V	5	2017-01-01	Finansiell Leasing avbetalning	info@belean.se	2017-02-05 15:39:07	2640	206.73
+V	5	2017-01-01	Finansiell Leasing avbetalning	info@belean.se	2017-02-05 15:39:07	7836	638.89
+V	6	2017-01-14	Utbildning	info@belean.se	2017-02-05 15:40:56	1930	-49.00
+V	6	2017-01-14	Utbildning	info@belean.se	2017-02-05 15:40:56	2640	9.80
+V	6	2017-01-14	Utbildning	info@belean.se	2017-02-05 15:40:56	7610	39.20
+V	7	2017-01-26	Mobiltelefon	info@belean.se	2017-02-05 16:51:47	1930	-649.00
+V	7	2017-01-26	Mobiltelefon	info@belean.se	2017-02-05 16:51:47	2640	129.80
+V	7	2017-01-26	Mobiltelefon	info@belean.se	2017-02-05 16:51:47	6212	519.20
+V	8	2017-01-12	Annullering V4: Mobiltelefon	info@belean.se	2017-02-05 17:46:11	1930	1266.00
+V	8	2017-01-12	Annullering V4: Mobiltelefon	info@belean.se	2017-02-05 17:46:11	2640	-253.20
+V	8	2017-01-12	Annullering V4: Mobiltelefon	info@belean.se	2017-02-05 17:46:11	6212	-1012.80
+V	9	2017-01-04	Försäljning av konsulttjänster Okt	info@belean.se	2017-02-05 18:02:53	1930	171325.00
+V	9	2017-01-04	Försäljning av konsulttjänster Okt	info@belean.se	2017-02-05 18:02:53	2610	-34265.00
+V	9	2017-01-04	Försäljning av konsulttjänster Okt	info@belean.se	2017-02-05 18:02:53	3001	-137060.00
+V	10	2017-01-24	Överbetalt lön för Jan	info@belean.se	2017-02-05 18:27:34	1612	1388.00
+V	10	2017-01-24	Överbetalt lön för Jan	info@belean.se	2017-02-05 18:27:34	7210	-1388.00
+V	11	2017-01-17	Överbetalt sociala avgifter och löneskatt	info@belean.se	2017-02-05 18:34:41	1640	3473.00
+V	11	2017-01-17	Överbetalt sociala avgifter och löneskatt	info@belean.se	2017-02-05 18:34:41	2510	-3473.00
+V	12	2017-01-31	Banktjänster	info@belean.se	2017-02-05 18:41:01	1930	-50.00
+V	12	2017-01-31	Banktjänster	info@belean.se	2017-02-05 18:41:01	6570	50.00
+V	13	2017-01-31	Bilförsäkring avdragsgill Folksam	info@belean.se	2017-02-05 18:42:35	1930	-428.00
+V	13	2017-01-31	Bilförsäkring avdragsgill Folksam	info@belean.se	2017-02-05 18:42:35	6310	428.00
+V	14	2017-01-04	Annullering V9: Försäljning av konsulttjänster Okt	info@belean.se	2017-03-05 16:11:30	1930	-171325.00
+V	14	2017-01-04	Annullering V9: Försäljning av konsulttjänster Okt	info@belean.se	2017-03-05 16:11:30	2610	34265.00
+V	14	2017-01-04	Annullering V9: Försäljning av konsulttjänster Okt	info@belean.se	2017-03-05 16:11:30	3001	137060.00
+V	15	2017-01-05	Försäljning transporter	info@belean.se	2017-03-05 17:49:49	1510	-157.50
+V	15	2017-01-05	Försäljning transporter	info@belean.se	2017-03-05 17:49:49	1930	157.50
+V	16	2017-01-05	Försäljning konsulttjänter i okt	info@belean.se	2017-03-05 17:52:21	1510	-171325.00
+V	16	2017-01-05	Försäljning konsulttjänter i okt	info@belean.se	2017-03-05 17:52:21	1930	171325.00
+V	17	2017-01-12	Mobiltelefon	info@belean.se	2017-03-05 17:54:01	1930	-1266.00
+V	17	2017-01-12	Mobiltelefon	info@belean.se	2017-03-05 17:54:01	2440	1266.00
+V	18	2017-02-16	Macbook bok	info@belean.se	2017-03-05 17:54:58	1930	-175.00
+V	18	2017-02-16	Macbook bok	info@belean.se	2017-03-05 17:54:58	2640	35.00
+V	18	2017-02-16	Macbook bok	info@belean.se	2017-03-05 17:54:58	7610	140.00
+V	19	2017-01-25	Utlägg utbetalning	info@belean.se	2017-03-05 18:02:27	1930	-2527.70
+V	19	2017-01-25	Utlägg utbetalning	info@belean.se	2017-03-05 18:02:27	2820	2527.70
+V	20	2017-01-25	Löneutbetalning	info@belean.se	2017-03-05 18:13:14	1930	-35023.00
+V	20	2017-01-25	Löneutbetalning	info@belean.se	2017-03-05 18:13:14	2710	-17277.00
+V	20	2017-01-25	Löneutbetalning	info@belean.se	2017-03-05 18:13:14	2731	-16432.66
+V	20	2017-01-25	Löneutbetalning	info@belean.se	2017-03-05 18:13:14	7210	52300.00
+V	20	2017-01-25	Löneutbetalning	info@belean.se	2017-03-05 18:13:14	7510	16432.66
+V	21	2017-02-13	Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-05 18:13:14	1630	33709.00
+V	21	2017-02-13	Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-05 18:13:14	1630	-33709.00
+V	21	2017-02-13	Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-05 18:13:14	1930	-33709.00
+V	21	2017-02-13	Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-05 18:13:14	2710	17277.00
+V	21	2017-02-13	Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-05 18:13:14	2731	16432.66
+V	21	2017-02-13	Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-05 18:13:14	3740	-0.66
+V	22	2017-02-16	Annullering V18: Macbook bok	info@belean.se	2017-03-05 18:15:10	1930	175.00
+V	22	2017-02-16	Annullering V18: Macbook bok	info@belean.se	2017-03-05 18:15:10	2640	-35.00
+V	22	2017-02-16	Annullering V18: Macbook bok	info@belean.se	2017-03-05 18:15:10	7610	-140.00
+V	23	2017-01-12	Annullering V2: Utlägg utbetalning	info@belean.se	2017-03-05 18:20:46	1930	2748.50
+V	23	2017-01-12	Annullering V2: Utlägg utbetalning	info@belean.se	2017-03-05 18:20:46	2890	-2748.50
+V	24	2017-01-26	Annullering V7: Mobiltelefon	info@belean.se	2017-03-05 18:24:54	1930	649.00
+V	24	2017-01-26	Annullering V7: Mobiltelefon	info@belean.se	2017-03-05 18:24:54	2640	-129.80
+V	24	2017-01-26	Annullering V7: Mobiltelefon	info@belean.se	2017-03-05 18:24:54	6212	-519.20
+V	25	2017-01-24	Annullering V10: Överbetalt lön för Jan	info@belean.se	2017-03-05 18:30:28	1612	-1388.00
+V	25	2017-01-24	Annullering V10: Överbetalt lön för Jan	info@belean.se	2017-03-05 18:30:28	7210	1388.00
+V	26	2017-01-17	Annullering V11: Överbetalt sociala avgifter och löneskatt	info@belean.se	2017-03-05 18:30:37	1640	-3473.00
+V	26	2017-01-17	Annullering V11: Överbetalt sociala avgifter och löneskatt	info@belean.se	2017-03-05 18:30:37	2510	3473.00
+V	27	2017-01-25	Korrigering lön och soc avg jan	info@belean.se	2017-03-05 19:01:43	1612	1388.00
+V	27	2017-01-25	Korrigering lön och soc avg jan	info@belean.se	2017-03-05 19:01:43	1630	3473.00
+V	27	2017-01-25	Korrigering lön och soc avg jan	info@belean.se	2017-03-05 19:01:43	1930	-4861.00
+V	28	2017-01-01	Annullering V5: Finansiell Leasing avbetalning	info@belean.se	2017-03-05 19:05:52	1269	638.89
+V	28	2017-01-01	Annullering V5: Finansiell Leasing avbetalning	info@belean.se	2017-03-05 19:05:52	1930	2067.00
+V	28	2017-01-01	Annullering V5: Finansiell Leasing avbetalning	info@belean.se	2017-03-05 19:05:52	2391	-1860.27
+V	28	2017-01-01	Annullering V5: Finansiell Leasing avbetalning	info@belean.se	2017-03-05 19:05:52	2640	-206.73
+V	28	2017-01-01	Annullering V5: Finansiell Leasing avbetalning	info@belean.se	2017-03-05 19:05:52	7836	-638.89
+V	29	2017-01-01	Leasing av bil	info@belean.se	2017-03-05 19:21:25	1930	2067.00
+V	29	2017-01-01	Leasing av bil	info@belean.se	2017-03-05 19:21:25	2640	-206.74
+V	29	2017-01-01	Leasing av bil	info@belean.se	2017-03-05 19:21:25	5615	-1860.26
+V	30	2017-01-01	Annullering V29: Leasing av bil	info@belean.se	2017-03-05 19:22:35	1930	-2067.00
+V	30	2017-01-01	Annullering V29: Leasing av bil	info@belean.se	2017-03-05 19:22:35	2640	206.74
+V	30	2017-01-01	Annullering V29: Leasing av bil	info@belean.se	2017-03-05 19:22:35	5615	1860.26
+V	31	2017-01-01	Leasing av bil	info@belean.se	2017-03-05 19:25:36	1930	2067.00
+V	31	2017-01-01	Leasing av bil	info@belean.se	2017-03-05 19:25:36	2640	-206.74
+V	31	2017-01-01	Leasing av bil	info@belean.se	2017-03-05 19:25:36	5615	-1860.26
+V	32	2017-01-01	Billeasning	info@belean.se	2017-03-05 19:29:57	1930	-2067.00
+V	32	2017-01-01	Billeasning	info@belean.se	2017-03-05 19:29:57	2640	206.74
+V	32	2017-01-01	Billeasning	info@belean.se	2017-03-05 19:29:57	5615	1860.26
+V	33	2017-01-17	Social avgifter och personalskatt dec 16	info@belean.se	2017-03-05 19:50:01	1930	-37182.00
+V	33	2017-01-17	Social avgifter och personalskatt dec 16	info@belean.se	2017-03-05 19:50:01	2510	37182.00
+V	34	2017-01-01	Annullering V31: Leasing av bil	info@belean.se	2017-03-05 19:54:22	1930	-2067.00
+V	34	2017-01-01	Annullering V31: Leasing av bil	info@belean.se	2017-03-05 19:54:22	2640	206.74
+V	34	2017-01-01	Annullering V31: Leasing av bil	info@belean.se	2017-03-05 19:54:22	5615	1860.26
+V	35	2017-01-25	Annullering V27: Korrigering lön och soc avg jan	info@belean.se	2017-03-05 20:09:25	1612	-1388.00
+V	35	2017-01-25	Annullering V27: Korrigering lön och soc avg jan	info@belean.se	2017-03-05 20:09:25	1630	-3473.00
+V	35	2017-01-25	Annullering V27: Korrigering lön och soc avg jan	info@belean.se	2017-03-05 20:09:25	1930	4861.00
+V	36	2017-01-24	Korrigering av utbetald lön jan	info@belean.se	2017-03-05 20:13:24	1612	1388.00
+V	36	2017-01-24	Korrigering av utbetald lön jan	info@belean.se	2017-03-05 20:13:24	1930	-1388.00
+V	37	2017-01-12	Utlägg utbetalning	info@belean.se	2017-03-05 20:14:36	2890	-2748.50
+V	37	2017-01-12	Utlägg utbetalning	info@belean.se	2017-03-05 20:14:36	2890	2748.50
+V	38	2017-01-26	Mobiltelefon tillbehör	info@belean.se	2017-03-05 20:16:55	2640	129.80
+V	38	2017-01-26	Mobiltelefon tillbehör	info@belean.se	2017-03-05 20:16:55	2890	-649.00
+V	38	2017-01-26	Mobiltelefon tillbehör	info@belean.se	2017-03-05 20:16:55	6212	519.20
+V	39	2017-02-22	Telefonavgifter	info@belean.se	2017-03-05 20:18:20	1930	-660.00
+V	39	2017-02-22	Telefonavgifter	info@belean.se	2017-03-05 20:18:20	2640	132.00
+V	39	2017-02-22	Telefonavgifter	info@belean.se	2017-03-05 20:18:20	6210	528.00
+V	40	2017-02-01	billeasing	info@belean.se	2017-03-05 20:28:12	1930	-2067.00
+V	40	2017-02-01	billeasing	info@belean.se	2017-03-05 20:28:12	2640	206.74
+V	40	2017-02-01	billeasing	info@belean.se	2017-03-05 20:28:12	5615	1860.26
+V	41	2017-02-14	Utbildning tidning	info@belean.se	2017-03-05 20:29:29	1930	-99.00
+V	41	2017-02-14	Utbildning tidning	info@belean.se	2017-03-05 20:29:29	2640	19.80
+V	41	2017-02-14	Utbildning tidning	info@belean.se	2017-03-05 20:29:29	7610	79.20
+V	42	2017-01-12	Trängselskatt avdragsgill	info@belean.se	2017-03-05 20:30:15	1930	-46.00
+V	42	2017-01-12	Trängselskatt avdragsgill	info@belean.se	2017-03-05 20:30:15	5616	46.00
+V	43	2017-02-01	Pensionsförsäkring	info@belean.se	2017-03-05 20:32:18	1930	-1845.00
+V	43	2017-02-01	Pensionsförsäkring	info@belean.se	2017-03-05 20:32:18	2514	-447.60
+V	43	2017-02-01	Pensionsförsäkring	info@belean.se	2017-03-05 20:32:18	7412	1845.00
+V	43	2017-02-01	Pensionsförsäkring	info@belean.se	2017-03-05 20:32:18	7533	447.60
+V	44	2017-02-16	Böcker	info@belean.se	2017-03-05 20:32:58	1930	-175.00
+V	44	2017-02-16	Böcker	info@belean.se	2017-03-05 20:32:58	2640	9.91
+V	44	2017-02-16	Böcker	info@belean.se	2017-03-05 20:32:58	6970	165.09
+V	45	2017-02-05	Försäljning varor	info@belean.se	2017-03-05 20:40:55	1510	-182450.00
+V	45	2017-02-05	Försäljning varor	info@belean.se	2017-03-05 20:40:55	1930	182450.00
+V	46	2017-02-05	Försäljning varor	info@belean.se	2017-03-05 20:41:54	1510	-177.20
+V	46	2017-02-05	Försäljning varor	info@belean.se	2017-03-05 20:41:54	1930	177.20
+V	47	2017-01-12	Annullering V42: Trängselskatt avdragsgill	info@belean.se	2017-03-05 20:56:44	1930	46.00
+V	47	2017-01-12	Annullering V42: Trängselskatt avdragsgill	info@belean.se	2017-03-05 20:56:44	5616	-46.00
+V	48	2017-02-28	Trängselskatt avdragsgill	info@belean.se	2017-03-05 20:58:41	1930	-46.00
+V	48	2017-02-28	Trängselskatt avdragsgill	info@belean.se	2017-03-05 20:58:41	5616	46.00
+V	49	2017-02-28	Pensionsförsäkring feb	info@belean.se	2017-03-05 21:10:23	1930	-7650.00
+V	49	2017-02-28	Pensionsförsäkring feb	info@belean.se	2017-03-05 21:10:23	2514	-1855.89
+V	49	2017-02-28	Pensionsförsäkring feb	info@belean.se	2017-03-05 21:10:23	7412	7650.00
+V	49	2017-02-28	Pensionsförsäkring feb	info@belean.se	2017-03-05 21:10:23	7533	1855.89
+V	50	2017-02-02	Biljetter Inrikes	info@belean.se	2017-03-05 21:11:25	2640	6.23
+V	50	2017-02-02	Biljetter Inrikes	info@belean.se	2017-03-05 21:11:25	2890	-110.00
+V	50	2017-02-02	Biljetter Inrikes	info@belean.se	2017-03-05 21:11:25	5810	103.77
+V	51	2017-01-30	Inköp Förbrukningsinventarier	info@belean.se	2017-03-05 21:15:32	2640	200.60
+V	51	2017-01-30	Inköp Förbrukningsinventarier	info@belean.se	2017-03-05 21:15:32	2890	-1003.00
+V	51	2017-01-30	Inköp Förbrukningsinventarier	info@belean.se	2017-03-05 21:15:32	5410	802.40
+V	52	2017-02-28	Företagsförsäkring avdragsgill Folksam bil	info@belean.se	2017-03-05 21:18:42	1930	-430.00
+V	52	2017-02-28	Företagsförsäkring avdragsgill Folksam bil	info@belean.se	2017-03-05 21:18:42	6310	430.00
+V	53	2017-02-13	Slutlig skatt Aktiebolag	info@belean.se	2017-03-06 18:09:23	1930	-97232.00
+V	53	2017-02-13	Slutlig skatt Aktiebolag	info@belean.se	2017-03-06 18:09:23	2510	97232.00
+V	54	2017-01-30	MacBook Pro Inköp Förbrukningsinventarier	info@belean.se	2017-03-06 18:11:47	1930	-22530.00
+V	54	2017-01-30	MacBook Pro Inköp Förbrukningsinventarier	info@belean.se	2017-03-06 18:11:47	2440	22530.00
+V	55	2017-02-27	Betalning av moms	info@belean.se	2017-03-06 18:14:56	1930	-334449.00
+V	55	2017-02-27	Betalning av moms	info@belean.se	2017-03-06 18:14:56	2510	334449.00
+V	56	2017-02-15	Preliminärskatt Aktiebolag	info@belean.se	2017-03-06 19:07:35	1630	7870.00
+V	56	2017-02-15	Preliminärskatt Aktiebolag	info@belean.se	2017-03-06 19:07:35	1630	-7870.00
+V	56	2017-02-15	Preliminärskatt Aktiebolag	info@belean.se	2017-03-06 19:07:35	1930	-7870.00
+V	56	2017-02-15	Preliminärskatt Aktiebolag	info@belean.se	2017-03-06 19:07:35	2510	7870.00
+V	57	2017-01-17	Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-11 18:07:21	1630	37182.00
+V	57	2017-01-17	Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-11 18:07:21	1630	-37182.00
+V	57	2017-01-17	Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-11 18:07:21	1930	-37182.00
+V	57	2017-01-17	Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-11 18:07:21	2710	19588.00
+V	57	2017-01-17	Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-11 18:07:21	2731	17594.00
+V	58	2017-01-07	Kostnadsränta	info@belean.se	2017-03-11 18:10:34	1630	-2.00
+V	58	2017-01-07	Kostnadsränta	info@belean.se	2017-03-11 18:10:34	8423	2.00
+V	59	2017-02-01	Arbetsgivaravgift Aug 2015	info@belean.se	2017-03-11 18:14:42	1630	-34876.00
+V	59	2017-02-01	Arbetsgivaravgift Aug 2015	info@belean.se	2017-03-11 18:14:42	2730	34876.00
+V	60	2017-02-01	Avdragen skatt Aug 2015	info@belean.se	2017-03-11 18:16:32	1630	-28131.00
+V	60	2017-02-01	Avdragen skatt Aug 2015	info@belean.se	2017-03-11 18:16:32	2710	28131.00
+V	61	2017-02-04	Korriogerad intäktsränta	info@belean.se	2017-03-11 18:20:32	1630	-14662.00
+V	61	2017-02-04	Korriogerad intäktsränta	info@belean.se	2017-03-11 18:20:32	2510	14662.00
+V	62	2017-02-04	Kostnadsränta	info@belean.se	2017-03-11 18:22:08	1630	-970.00
+V	62	2017-02-04	Kostnadsränta	info@belean.se	2017-03-11 18:22:08	8423	970.00
+V	63	2017-02-04	Korrigerad kostnadsränta	info@belean.se	2017-03-11 18:23:07	1630	-7.00
+V	63	2017-02-04	Korrigerad kostnadsränta	info@belean.se	2017-03-11 18:23:07	8423	7.00
+V	64	2017-01-25	Annullering V20: Löneutbetalning	info@belean.se	2017-03-11 18:44:24	1930	35023.00
+V	64	2017-01-25	Annullering V20: Löneutbetalning	info@belean.se	2017-03-11 18:44:24	2710	17277.00
+V	64	2017-01-25	Annullering V20: Löneutbetalning	info@belean.se	2017-03-11 18:44:24	2731	16432.66
+V	64	2017-01-25	Annullering V20: Löneutbetalning	info@belean.se	2017-03-11 18:44:24	7210	-52300.00
+V	64	2017-01-25	Annullering V20: Löneutbetalning	info@belean.se	2017-03-11 18:44:24	7510	-16432.66
+V	65	2017-02-13	Annullering V21: Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-11 18:44:24	1630	-33709.00
+V	65	2017-02-13	Annullering V21: Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-11 18:44:24	1630	33709.00
+V	65	2017-02-13	Annullering V21: Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-11 18:44:24	1930	33709.00
+V	65	2017-02-13	Annullering V21: Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-11 18:44:24	2710	-17277.00
+V	65	2017-02-13	Annullering V21: Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-11 18:44:24	2731	-16432.66
+V	65	2017-02-13	Annullering V21: Arbetsgivaravgifter och inkomstskatt	info@belean.se	2017-03-11 18:44:24	3740	0.66
+V	66	2017-02-13	Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-11 18:48:21	1630	34039.00
+V	66	2017-02-13	Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-11 18:48:21	1630	-34039.00
+V	66	2017-02-13	Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-11 18:48:21	1930	-34039.00
+V	66	2017-02-13	Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-11 18:48:21	2710	17607.00
+V	66	2017-02-13	Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-11 18:48:21	2731	16432.66
+V	66	2017-02-13	Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-11 18:48:21	3740	-0.66
+V	67	2017-02-13	Slutlig skatt 2015	info@belean.se	2017-03-11 18:50:24	1630	-89944.00
+V	67	2017-02-13	Slutlig skatt 2015	info@belean.se	2017-03-11 18:50:24	2510	89944.00
+V	68	2017-02-13	Förseningsavgift inkomstdeklaration	info@belean.se	2017-03-11 18:55:35	1630	-6250.00
+V	68	2017-02-13	Förseningsavgift inkomstdeklaration	info@belean.se	2017-03-11 18:55:35	2510	6250.00
+V	69	2017-02-14	Inbetalning	info@belean.se	2017-03-11 18:59:34	1630	97232.00
+V	69	2017-02-14	Inbetalning	info@belean.se	2017-03-11 18:59:34	1910	-97232.00
+V	70	2017-02-27	Moms 2016	info@belean.se	2017-03-11 19:05:22	1630	334449.00
+V	70	2017-02-27	Moms 2016	info@belean.se	2017-03-11 19:05:22	1630	-334449.00
+V	70	2017-02-27	Moms 2016	info@belean.se	2017-03-11 19:05:22	1930	-334449.00
+V	70	2017-02-27	Moms 2016	info@belean.se	2017-03-11 19:05:22	2610	354659.69
+V	70	2017-02-27	Moms 2016	info@belean.se	2017-03-11 19:05:22	2640	-20210.69
+V	71	2017-03-04	Korrigerad kostnadsränta/kostnadsränta	info@belean.se	2017-03-11 19:08:21	1630	-950.00
+V	71	2017-03-04	Korrigerad kostnadsränta/kostnadsränta	info@belean.se	2017-03-11 19:08:21	1630	-1016.00
+V	71	2017-03-04	Korrigerad kostnadsränta/kostnadsränta	info@belean.se	2017-03-11 19:08:21	2510	1016.00
+V	71	2017-03-04	Korrigerad kostnadsränta/kostnadsränta	info@belean.se	2017-03-11 19:08:21	8423	950.00
+V	72	2017-02-14	Annullering V69: Inbetalning	info@belean.se	2017-03-11 19:11:36	1630	-97232.00
+V	72	2017-02-14	Annullering V69: Inbetalning	info@belean.se	2017-03-11 19:11:36	1910	97232.00
+V	73	2017-02-14	Inbetalning	info@belean.se	2017-03-11 19:12:32	1630	97232.00
+V	73	2017-02-14	Inbetalning	info@belean.se	2017-03-11 19:12:32	1930	-97232.00
+V	74	2017-01-17	Annullering V33: Social avgifter och personalskatt dec 16	info@belean.se	2017-03-12 12:36:34	1930	37182.00
+V	74	2017-01-17	Annullering V33: Social avgifter och personalskatt dec 16	info@belean.se	2017-03-12 12:36:34	2510	-37182.00
+V	75	2017-01-17	Annullering V57: Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-12 12:36:57	1630	-37182.00
+V	75	2017-01-17	Annullering V57: Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-12 12:36:57	1630	37182.00
+V	75	2017-01-17	Annullering V57: Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-12 12:36:57	1930	37182.00
+V	75	2017-01-17	Annullering V57: Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-12 12:36:57	2710	-19588.00
+V	75	2017-01-17	Annullering V57: Arbetsgivaravgift och avdragen skatt Dec	info@belean.se	2017-03-12 12:36:57	2731	-17594.00
+V	76	2017-01-17	Utbetalt arb.avg. och skatteavdrag	info@belean.se	2017-03-12 12:42:21	1630	37182.00
+V	76	2017-01-17	Utbetalt arb.avg. och skatteavdrag	info@belean.se	2017-03-12 12:42:21	1630	-37182.00
+V	76	2017-01-17	Utbetalt arb.avg. och skatteavdrag	info@belean.se	2017-03-12 12:42:21	1930	-37182.00
+V	76	2017-01-17	Utbetalt arb.avg. och skatteavdrag	info@belean.se	2017-03-12 12:42:21	2510	37182.00
+V	77	2017-01-24	Annullering V36: Korrigering av utbetald lön jan	info@belean.se	2017-03-12 13:22:47	1612	-1388.00
+V	77	2017-01-24	Annullering V36: Korrigering av utbetald lön jan	info@belean.se	2017-03-12 13:22:47	1930	1388.00
+V	78	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:25	1930	-36411.00
+V	78	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:25	2710	-17277.00
+V	78	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:25	2731	-16432.66
+V	78	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:25	2890	1388.00
+V	78	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:25	7210	52300.00
+V	78	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:25	7510	16432.66
+V	79	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:26	1930	-36411.00
+V	79	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:26	2710	-17277.00
+V	79	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:26	2731	-16432.66
+V	79	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:26	2890	1388.00
+V	79	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:26	7210	52300.00
+V	79	2017-01-24	Löneutbetalning	info@belean.se	2017-03-12 13:44:26	7510	16432.66
+V	80	2017-01-24	Löneutbetalning Jan	info@belean.se	2017-03-12 13:46:27	1930	-36411.00
+V	80	2017-01-24	Löneutbetalning Jan	info@belean.se	2017-03-12 13:46:27	2710	-17277.00
+V	80	2017-01-24	Löneutbetalning Jan	info@belean.se	2017-03-12 13:46:27	2731	-16432.66
+V	80	2017-01-24	Löneutbetalning Jan	info@belean.se	2017-03-12 13:46:27	2890	1388.00
+V	80	2017-01-24	Löneutbetalning Jan	info@belean.se	2017-03-12 13:46:27	7210	52300.00
+V	80	2017-01-24	Löneutbetalning Jan	info@belean.se	2017-03-12 13:46:27	7510	16432.66
+V	81	2017-01-24	Annullering V78: Löneutbetalning	info@belean.se	2017-03-12 13:47:24	1930	36411.00
+V	81	2017-01-24	Annullering V78: Löneutbetalning	info@belean.se	2017-03-12 13:47:24	2710	17277.00
+V	81	2017-01-24	Annullering V78: Löneutbetalning	info@belean.se	2017-03-12 13:47:24	2731	16432.66
+V	81	2017-01-24	Annullering V78: Löneutbetalning	info@belean.se	2017-03-12 13:47:24	2890	-1388.00
+V	81	2017-01-24	Annullering V78: Löneutbetalning	info@belean.se	2017-03-12 13:47:24	7210	-52300.00
+V	81	2017-01-24	Annullering V78: Löneutbetalning	info@belean.se	2017-03-12 13:47:24	7510	-16432.66
+V	82	2017-01-24	Annullering V79: Löneutbetalning	info@belean.se	2017-03-12 13:47:34	1930	36411.00
+V	82	2017-01-24	Annullering V79: Löneutbetalning	info@belean.se	2017-03-12 13:47:34	2710	17277.00
+V	82	2017-01-24	Annullering V79: Löneutbetalning	info@belean.se	2017-03-12 13:47:34	2731	16432.66
+V	82	2017-01-24	Annullering V79: Löneutbetalning	info@belean.se	2017-03-12 13:47:34	2890	-1388.00
+V	82	2017-01-24	Annullering V79: Löneutbetalning	info@belean.se	2017-03-12 13:47:34	7210	-52300.00
+V	82	2017-01-24	Annullering V79: Löneutbetalning	info@belean.se	2017-03-12 13:47:34	7510	-16432.66
+V	83	2017-02-13	Annullering V66: Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-12 13:59:34	1630	-34039.00
+V	83	2017-02-13	Annullering V66: Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-12 13:59:34	1630	34039.00
+V	83	2017-02-13	Annullering V66: Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-12 13:59:34	1930	34039.00
+V	83	2017-02-13	Annullering V66: Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-12 13:59:34	2710	-17607.00
+V	83	2017-02-13	Annullering V66: Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-12 13:59:34	2731	-16432.66
+V	83	2017-02-13	Annullering V66: Arbetsgivaravgift och avdragen skatt	info@belean.se	2017-03-12 13:59:34	3740	0.66
+V	84	2017-02-13	Arbetsgivaravgift och inkomstskatt Jan	info@belean.se	2017-03-12 14:25:02	1630	33709.00
+V	84	2017-02-13	Arbetsgivaravgift och inkomstskatt Jan	info@belean.se	2017-03-12 14:25:02	1630	-33709.00
+V	84	2017-02-13	Arbetsgivaravgift och inkomstskatt Jan	info@belean.se	2017-03-12 14:25:02	1640	330.00
+V	84	2017-02-13	Arbetsgivaravgift och inkomstskatt Jan	info@belean.se	2017-03-12 14:25:02	1930	-34039.00
+V	84	2017-02-13	Arbetsgivaravgift och inkomstskatt Jan	info@belean.se	2017-03-12 14:25:02	2710	17277.00
+V	84	2017-02-13	Arbetsgivaravgift och inkomstskatt Jan	info@belean.se	2017-03-12 14:25:02	2731	16432.66
+V	84	2017-02-13	Arbetsgivaravgift och inkomstskatt Jan	info@belean.se	2017-03-12 14:25:02	3740	-0.66
+V	85	2017-02-13	Annullering V53: Slutlig skatt Aktiebolag	info@belean.se	2017-03-12 14:42:42	1930	97232.00
+V	85	2017-02-13	Annullering V53: Slutlig skatt Aktiebolag	info@belean.se	2017-03-12 14:42:42	2510	-97232.00
+V	86	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-03-12 14:58:31	1640	-330.00
+V	86	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-03-12 14:58:31	1930	-34693.00
+V	86	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-03-12 14:58:31	2710	-17277.00
+V	86	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-03-12 14:58:31	2731	-16432.66
+V	86	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-03-12 14:58:31	7210	52300.00
+V	86	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-03-12 14:58:31	7510	16432.66
+V	87	2017-02-24	Utbetalning privata utlägg	info@belean.se	2017-03-12 15:10:58	1930	-3775.00
+V	87	2017-02-24	Utbetalning privata utlägg	info@belean.se	2017-03-12 15:10:58	2890	3775.00
+V	88	2017-02-27	Annullering V55: Betalning av moms	info@belean.se	2017-03-12 15:11:58	1930	334449.00
+V	88	2017-02-27	Annullering V55: Betalning av moms	info@belean.se	2017-03-12 15:11:58	2510	-334449.00
+V	89	2017-02-28	Banktjänster	info@belean.se	2017-03-12 15:13:39	1930	-50.00
+V	89	2017-02-28	Banktjänster	info@belean.se	2017-03-12 15:13:39	6570	50.00
+V	90	2017-03-06	Milersättning Feb	info@belean.se	2017-03-12 16:25:29	2890	-1125.80
+V	90	2017-03-06	Milersättning Feb	info@belean.se	2017-03-12 16:25:29	7331	1125.80
+V	91	2017-02-04	Milersättning Jan	info@belean.se	2017-03-12 16:28:26	2890	-1151.15
+V	91	2017-02-04	Milersättning Jan	info@belean.se	2017-03-12 16:28:26	7331	1151.15
+V	92	2017-01-12	Terminalglasögon	info@belean.se	2017-03-12 16:39:58	2640	549.70
+V	92	2017-01-12	Terminalglasögon	info@belean.se	2017-03-12 16:39:58	2890	-2748.50
+V	92	2017-01-12	Terminalglasögon	info@belean.se	2017-03-12 16:39:58	7690	2198.80
+V	93	2017-03-01	Billeasing	info@belean.se	2017-04-07 11:03:15	1930	-2067.00
+V	93	2017-03-01	Billeasing	info@belean.se	2017-04-07 11:03:15	2640	206.74
+V	93	2017-03-01	Billeasing	info@belean.se	2017-04-07 11:03:15	5615	1860.26
+V	94	2017-03-01	Pensionsförsäkring	info@belean.se	2017-04-07 11:18:09	1930	-1844.97
+V	94	2017-03-01	Pensionsförsäkring	info@belean.se	2017-04-07 11:18:09	2514	-447.59
+V	94	2017-03-01	Pensionsförsäkring	info@belean.se	2017-04-07 11:18:09	7412	1844.97
+V	94	2017-03-01	Pensionsförsäkring	info@belean.se	2017-04-07 11:18:09	7533	447.59
+V	95	2017-03-13	Försäljning dec 16	info@belean.se	2017-04-07 11:22:57	1510	-124600.00
+V	95	2017-03-13	Försäljning dec 16	info@belean.se	2017-04-07 11:22:57	1930	124600.00
+V	96	2017-03-31	Pensionsförsäkring	info@belean.se	2017-04-07 11:25:06	1930	-7650.00
+V	96	2017-03-31	Pensionsförsäkring	info@belean.se	2017-04-07 11:25:06	2514	-1855.89
+V	96	2017-03-31	Pensionsförsäkring	info@belean.se	2017-04-07 11:25:06	7412	7650.00
+V	96	2017-03-31	Pensionsförsäkring	info@belean.se	2017-04-07 11:25:06	7533	1855.89
+V	97	2017-03-16	Utbildning	info@belean.se	2017-04-07 11:25:56	1930	-99.00
+V	97	2017-03-16	Utbildning	info@belean.se	2017-04-07 11:25:56	2640	19.80
+V	97	2017-03-16	Utbildning	info@belean.se	2017-04-07 11:25:56	7610	79.20
+V	98	2017-03-30	Post frimärke	info@belean.se	2017-04-07 11:26:41	2890	-65.00
+V	98	2017-03-30	Post frimärke	info@belean.se	2017-04-07 11:26:41	6250	65.00
+V	99	2017-03-29	Parkering H&M	info@belean.se	2017-04-07 11:29:11	2640	12.00
+V	99	2017-03-29	Parkering H&M	info@belean.se	2017-04-07 11:29:11	2890	-60.00
+V	99	2017-03-29	Parkering H&M	info@belean.se	2017-04-07 11:29:11	5810	48.00
+V	100	2017-03-30	Parkering Ica	info@belean.se	2017-04-07 11:29:51	2640	6.00
+V	100	2017-03-30	Parkering Ica	info@belean.se	2017-04-07 11:29:51	2890	-30.00
+V	100	2017-03-30	Parkering Ica	info@belean.se	2017-04-07 11:29:51	5810	24.00
+V	101	2017-03-04	Biltvätt	info@belean.se	2017-04-07 11:38:43	2640	35.80
+V	101	2017-03-04	Biltvätt	info@belean.se	2017-04-07 11:38:43	2890	-179.00
+V	101	2017-03-04	Biltvätt	info@belean.se	2017-04-07 11:38:43	5619	143.20
+V	102	2017-03-06	Överföring till företagskonto	info@belean.se	2017-04-07 11:42:28	1930	10000.00
+V	102	2017-03-06	Överföring till företagskonto	info@belean.se	2017-04-07 11:42:28	1940	-10000.00
+V	103	2017-03-13	Överföring till företagskonto	info@belean.se	2017-04-07 11:43:56	1930	70000.00
+V	103	2017-03-13	Överföring till företagskonto	info@belean.se	2017-04-07 11:43:56	1940	-70000.00
+V	104	2017-03-04	Överlämnat KFM	info@belean.se	2017-04-07 11:53:42	1630	78795.00
+V	104	2017-03-04	Överlämnat KFM	info@belean.se	2017-04-07 11:53:42	2490	-78795.00
+V	105	2017-03-06	Inbetalning skatteskuld	info@belean.se	2017-04-07 12:01:16	1630	79653.00
+V	105	2017-03-06	Inbetalning skatteskuld	info@belean.se	2017-04-07 12:01:16	1930	-79653.00
+V	106	2017-03-13	Arbetsgivaravgift och inkomstskatt Feb	info@belean.se	2017-04-07 12:45:56	1630	33709.00
+V	106	2017-03-13	Arbetsgivaravgift och inkomstskatt Feb	info@belean.se	2017-04-07 12:45:56	1630	-33709.00
+V	106	2017-03-13	Arbetsgivaravgift och inkomstskatt Feb	info@belean.se	2017-04-07 12:45:56	1930	-33709.00
+V	106	2017-03-13	Arbetsgivaravgift och inkomstskatt Feb	info@belean.se	2017-04-07 12:45:56	2710	17277.00
+V	106	2017-03-13	Arbetsgivaravgift och inkomstskatt Feb	info@belean.se	2017-04-07 12:45:56	2731	16432.00
+V	107	2017-03-13	Preliminärskatt Aktiebolag	info@belean.se	2017-04-07 12:48:12	1630	7870.00
+V	107	2017-03-13	Preliminärskatt Aktiebolag	info@belean.se	2017-04-07 12:48:12	1630	-7870.00
+V	107	2017-03-13	Preliminärskatt Aktiebolag	info@belean.se	2017-04-07 12:48:12	1930	-7870.00
+V	107	2017-03-13	Preliminärskatt Aktiebolag	info@belean.se	2017-04-07 12:48:12	2510	7870.00
+V	108	2017-03-23	Löneutbetalning Mar	info@belean.se	2017-04-07 12:52:56	1930	-35023.00
+V	108	2017-03-23	Löneutbetalning Mar	info@belean.se	2017-04-07 12:52:56	2710	-17277.00
+V	108	2017-03-23	Löneutbetalning Mar	info@belean.se	2017-04-07 12:52:56	2731	-16432.66
+V	108	2017-03-23	Löneutbetalning Mar	info@belean.se	2017-04-07 12:52:56	7210	52300.00
+V	108	2017-03-23	Löneutbetalning Mar	info@belean.se	2017-04-07 12:52:56	7510	16432.66
+V	109	2017-03-24	Utlägg utbetalning	info@belean.se	2017-04-07 12:54:52	1930	-1624.00
+V	109	2017-03-24	Utlägg utbetalning	info@belean.se	2017-04-07 12:54:52	2890	1624.00
+V	110	2017-03-31	Företagsförsäkring avdragsgill bil	info@belean.se	2017-04-07 12:57:33	1930	-428.00
+V	110	2017-03-31	Företagsförsäkring avdragsgill bil	info@belean.se	2017-04-07 12:57:33	6310	428.00
+V	111	2017-03-31	Banktjänster	info@belean.se	2017-04-07 12:58:28	1930	-377.00
+V	111	2017-03-31	Banktjänster	info@belean.se	2017-04-07 12:58:28	6570	377.00
+V	112	2017-03-08	Reglerat skuld till KFM	info@belean.se	2017-04-07 14:25:30	1940	-79408.00
+V	112	2017-03-08	Reglerat skuld till KFM	info@belean.se	2017-04-07 14:25:30	2490	79408.00
+V	113	2017-03-10	Omprövning avdragen skatt Sep-Nov -15	info@belean.se	2017-04-13 13:36:19	1630	7389.00
+V	113	2017-03-10	Omprövning avdragen skatt Sep-Nov -15	info@belean.se	2017-04-13 13:36:19	3900	-7389.00
+V	114	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-04-13 14:27:56	1930	-34693.00
+V	114	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-04-13 14:27:56	2710	-17277.00
+V	114	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-04-13 14:27:56	2731	-16432.66
+V	114	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-04-13 14:27:56	2890	-330.00
+V	114	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-04-13 14:27:56	7210	52300.00
+V	114	2017-02-23	Löneutbetalning Feb	info@belean.se	2017-04-13 14:27:56	7510	16432.66
+V	115	2017-02-23	Annullering V86: Löneutbetalning Feb	info@belean.se	2017-04-13 14:31:18	1640	330.00
+V	115	2017-02-23	Annullering V86: Löneutbetalning Feb	info@belean.se	2017-04-13 14:31:18	1930	34693.00
+V	115	2017-02-23	Annullering V86: Löneutbetalning Feb	info@belean.se	2017-04-13 14:31:18	2710	17277.00
+V	115	2017-02-23	Annullering V86: Löneutbetalning Feb	info@belean.se	2017-04-13 14:31:18	2731	16432.66
+V	115	2017-02-23	Annullering V86: Löneutbetalning Feb	info@belean.se	2017-04-13 14:31:18	7210	-52300.00
+V	115	2017-02-23	Annullering V86: Löneutbetalning Feb	info@belean.se	2017-04-13 14:31:18	7510	-16432.66
+V	116	2017-03-07	Avdragen skatt Jan 17	info@belean.se	2017-04-13 14:37:50	1630	330.00
+V	116	2017-03-07	Avdragen skatt Jan 17	info@belean.se	2017-04-13 14:37:50	1640	-330.00
+V	117	2017-04-01	Kostnadsränta	info@belean.se	2017-04-13 14:42:21	1630	1737.00
+V	117	2017-04-01	Kostnadsränta	info@belean.se	2017-04-13 14:42:21	8423	-1737.00
+V	118	2017-04-01	Intäktsränta	info@belean.se	2017-04-13 14:46:53	1610	5.00
+V	118	2017-04-01	Intäktsränta	info@belean.se	2017-04-13 14:46:53	8423	-5.00
+V	119	2017-04-01	Utbetal	info@belean.se	2017-04-13 14:49:37	1630	-8049.00
+V	119	2017-04-01	Utbetal	info@belean.se	2017-04-13 14:49:37	1930	8049.00
+V	120	2017-04-01	Annullering V118: Intäktsränta	info@belean.se	2017-04-13 14:51:01	1610	-5.00
+V	120	2017-04-01	Annullering V118: Intäktsränta	info@belean.se	2017-04-13 14:51:01	8423	5.00
+V	121	2017-04-01	Intäktsränta	info@belean.se	2017-04-13 14:52:01	1630	5.00
+V	121	2017-04-01	Intäktsränta	info@belean.se	2017-04-13 14:52:01	8423	-5.00
+V	122	2017-04-13	Däckbyte CMF801	info@belean.se	2017-05-08 17:10:36	2640	70.00
+V	122	2017-04-13	Däckbyte CMF801	info@belean.se	2017-05-08 17:10:36	2890	-350.00
+V	122	2017-04-13	Däckbyte CMF801	info@belean.se	2017-05-08 17:10:36	5619	280.00
+V	123	2017-04-13	Tidning	info@belean.se	2017-05-08 17:12:36	1930	-99.00
+V	123	2017-04-13	Tidning	info@belean.se	2017-05-08 17:12:36	2640	19.80
+V	123	2017-04-13	Tidning	info@belean.se	2017-05-08 17:12:36	7610	79.20
+V	124	2017-04-13	Telefonavgifter	info@belean.se	2017-05-08 17:13:50	1930	-1615.00
+V	124	2017-04-13	Telefonavgifter	info@belean.se	2017-05-08 17:13:50	2640	323.00
+V	124	2017-04-13	Telefonavgifter	info@belean.se	2017-05-08 17:13:50	6210	1292.00
+V	125	2017-04-03	Billeasing	info@belean.se	2017-05-08 17:15:00	1930	-2067.00
+V	125	2017-04-03	Billeasing	info@belean.se	2017-05-08 17:15:00	2640	206.74
+V	125	2017-04-03	Billeasing	info@belean.se	2017-05-08 17:15:00	5615	1860.26
+V	126	2017-04-03	Pensionsförsäkring Folksam	info@belean.se	2017-05-08 17:18:11	1930	-1844.97
+V	126	2017-04-03	Pensionsförsäkring Folksam	info@belean.se	2017-05-08 17:18:11	2514	-447.59
+V	126	2017-04-03	Pensionsförsäkring Folksam	info@belean.se	2017-05-08 17:18:11	7412	1844.97
+V	126	2017-04-03	Pensionsförsäkring Folksam	info@belean.se	2017-05-08 17:18:11	7533	447.59
+V	127	2017-04-21	Inlösen leasing CMF801	info@belean.se	2017-05-08 17:50:55	1720	-18375.00
+V	127	2017-04-21	Inlösen leasing CMF801	info@belean.se	2017-05-08 17:50:55	1930	-10740.00
+V	127	2017-04-21	Inlösen leasing CMF801	info@belean.se	2017-05-08 17:50:55	5615	29115.00
+V	128	2017-04-12	Preliminärskatt	info@belean.se	2017-05-15 15:51:51	1630	7870.00
+V	128	2017-04-12	Preliminärskatt	info@belean.se	2017-05-15 15:51:51	1630	-7870.00
+V	128	2017-04-12	Preliminärskatt	info@belean.se	2017-05-15 15:51:51	1930	-7870.00
+V	128	2017-04-12	Preliminärskatt	info@belean.se	2017-05-15 15:51:51	2510	7870.00
+V	129	2017-04-12	Arbetsgivaravgift och inkomstskatt Mar	info@belean.se	2017-05-15 15:59:26	1630	15066.00
+V	129	2017-04-12	Arbetsgivaravgift och inkomstskatt Mar	info@belean.se	2017-05-15 15:59:26	1630	-15066.00
+V	129	2017-04-12	Arbetsgivaravgift och inkomstskatt Mar	info@belean.se	2017-05-15 15:59:26	1930	-15066.00
+V	129	2017-04-12	Arbetsgivaravgift och inkomstskatt Mar	info@belean.se	2017-05-15 15:59:26	2710	6426.00
+V	129	2017-04-12	Arbetsgivaravgift och inkomstskatt Mar	info@belean.se	2017-05-15 15:59:26	2731	8640.00
+V	130	2017-04-24	Löneutbetalning Apr	info@belean.se	2017-05-15 16:03:50	1930	-21074.00
+V	130	2017-04-24	Löneutbetalning Apr	info@belean.se	2017-05-15 16:03:50	2710	-6426.00
+V	130	2017-04-24	Löneutbetalning Apr	info@belean.se	2017-05-15 16:03:50	2731	-8640.00
+V	130	2017-04-24	Löneutbetalning Apr	info@belean.se	2017-05-15 16:03:50	7210	27500.00
+V	130	2017-04-24	Löneutbetalning Apr	info@belean.se	2017-05-15 16:03:50	7510	8640.00
+V	131	2017-04-28	Bilförsäkring Folksam	info@belean.se	2017-05-15 16:07:36	1930	-450.00
+V	131	2017-04-28	Bilförsäkring Folksam	info@belean.se	2017-05-15 16:07:36	6310	450.00
+V	132	2017-04-28	Banktjänster	info@belean.se	2017-05-15 16:08:17	1930	-50.00
+V	132	2017-04-28	Banktjänster	info@belean.se	2017-05-15 16:08:17	6570	50.00
+V	133	2017-04-08	Försäljning tjänster Jan	info@belean.se	2017-05-15 16:17:41	1930	164088.75
+V	133	2017-04-08	Försäljning tjänster Jan	info@belean.se	2017-05-15 16:17:41	2610	-32817.75
+V	133	2017-04-08	Försäljning tjänster Jan	info@belean.se	2017-05-15 16:17:41	3001	-131271.00
+V	134	2017-04-18	Utdelning 2016	info@belean.se	2017-05-15 19:20:04	1930	-50000.00
+V	134	2017-04-18	Utdelning 2016	info@belean.se	2017-05-15 19:20:04	2099	50000.00
+V	135	2017-05-14	Milersättning Mar	info@belean.se	2017-05-15 19:54:54	2890	-591.50
+V	135	2017-05-14	Milersättning Mar	info@belean.se	2017-05-15 19:54:54	7331	591.50
+V	136	2017-05-15	Faktura #1: 48750,0000 inbetalt	info@belean.se	2017-05-15 20:06:21	1930	48750.00
+V	136	2017-05-15	Faktura #1: 48750,0000 inbetalt	info@belean.se	2017-05-15 20:06:21	2611	-9750.00
+V	136	2017-05-15	Faktura #1: 48750,0000 inbetalt	info@belean.se	2017-05-15 20:06:21	3011	-39000.00
+V	137	2017-06-15	Faktura #2: 194878,0000 inbetalt	info@belean.se	2017-08-12 11:04:05	1930	194878.00
+V	137	2017-06-15	Faktura #2: 194878,0000 inbetalt	info@belean.se	2017-08-12 11:04:05	2611	-38975.62
+V	137	2017-06-15	Faktura #2: 194878,0000 inbetalt	info@belean.se	2017-08-12 11:04:05	3011	-155902.50
+V	137	2017-06-15	Faktura #2: 194878,0000 inbetalt	info@belean.se	2017-08-12 11:04:05	3740	0.12
+V	138	2017-07-13	Faktura #3: 185006,0000 inbetalt	info@belean.se	2017-08-12 11:04:30	1930	185006.00
+V	138	2017-07-13	Faktura #3: 185006,0000 inbetalt	info@belean.se	2017-08-12 11:04:30	2611	-37001.25
+V	138	2017-07-13	Faktura #3: 185006,0000 inbetalt	info@belean.se	2017-08-12 11:04:30	3011	-148005.00
+V	138	2017-07-13	Faktura #3: 185006,0000 inbetalt	info@belean.se	2017-08-12 11:04:30	3740	0.25
+V	139	2017-05-02	Pensionsförsäkring	info@belean.se	2017-08-12 11:39:30	1930	-7650.00
+V	139	2017-05-02	Pensionsförsäkring	info@belean.se	2017-08-12 11:39:30	2514	-1855.89
+V	139	2017-05-02	Pensionsförsäkring	info@belean.se	2017-08-12 11:39:30	7412	7650.00
+V	139	2017-05-02	Pensionsförsäkring	info@belean.se	2017-08-12 11:39:30	7533	1855.89
+V	140	2017-05-02	Billeasning CMF801	info@belean.se	2017-08-12 11:44:05	1930	-2067.00
+V	140	2017-05-02	Billeasning CMF801	info@belean.se	2017-08-12 11:44:05	2640	206.74
+V	140	2017-05-02	Billeasning CMF801	info@belean.se	2017-08-12 11:44:05	5615	1860.26
+V	141	2017-05-02	Pensionsförsäkring	info@belean.se	2017-08-12 11:45:44	1930	-1845.00
+V	141	2017-05-02	Pensionsförsäkring	info@belean.se	2017-08-12 11:45:44	2514	-447.60
+V	141	2017-05-02	Pensionsförsäkring	info@belean.se	2017-08-12 11:45:44	7412	1845.00
+V	141	2017-05-02	Pensionsförsäkring	info@belean.se	2017-08-12 11:45:44	7533	447.60
+V	142	2017-05-08	Utbildning	info@belean.se	2017-08-12 11:48:14	1930	-99.00
+V	142	2017-05-08	Utbildning	info@belean.se	2017-08-12 11:48:14	2640	19.80
+V	142	2017-05-08	Utbildning	info@belean.se	2017-08-12 11:48:14	7610	79.20
+V	143	2017-05-08	Bilskatt CMF801	info@belean.se	2017-08-12 11:50:00	1930	-1153.00
+V	143	2017-05-08	Bilskatt CMF801	info@belean.se	2017-08-12 11:50:00	5612	1153.00
+V	144	2017-05-09	Omprövning Avdragen skatt	info@belean.se	2017-08-12 11:52:40	1630	-18643.00
+V	144	2017-05-09	Omprövning Avdragen skatt	info@belean.se	2017-08-12 11:52:40	1930	18643.00
+V	145	2017-05-12	Arbetsgivaravgift	info@belean.se	2017-08-12 11:59:58	1630	15066.00
+V	145	2017-05-12	Arbetsgivaravgift	info@belean.se	2017-08-12 11:59:58	1930	-15066.00
+V	146	2017-05-12	Preliminärskatt Aktiebolag	info@belean.se	2017-08-12 12:05:56	1630	7870.00
+V	146	2017-05-12	Preliminärskatt Aktiebolag	info@belean.se	2017-08-12 12:05:56	1630	-7870.00
+V	146	2017-05-12	Preliminärskatt Aktiebolag	info@belean.se	2017-08-12 12:05:56	1930	-7870.00
+V	146	2017-05-12	Preliminärskatt Aktiebolag	info@belean.se	2017-08-12 12:05:56	2510	7870.00
+V	147	2017-05-12	Annullering V145: Arbetsgivaravgift	info@belean.se	2017-08-12 12:30:26	1630	-15066.00
+V	147	2017-05-12	Annullering V145: Arbetsgivaravgift	info@belean.se	2017-08-12 12:30:26	1930	15066.00
+V	148	2017-05-12	Arbetsgivaravgift och skatt April	info@belean.se	2017-08-12 12:34:49	1630	15066.00
+V	148	2017-05-12	Arbetsgivaravgift och skatt April	info@belean.se	2017-08-12 12:34:49	1630	-15066.00
+V	148	2017-05-12	Arbetsgivaravgift och skatt April	info@belean.se	2017-08-12 12:34:49	1930	-15066.00
+V	148	2017-05-12	Arbetsgivaravgift och skatt April	info@belean.se	2017-08-12 12:34:49	2710	6426.00
+V	148	2017-05-12	Arbetsgivaravgift och skatt April	info@belean.se	2017-08-12 12:34:49	2731	8640.00
+V	149	2017-05-29	Bilskatt	info@belean.se	2017-08-12 12:42:43	1930	-100.00
+V	149	2017-05-29	Bilskatt	info@belean.se	2017-08-12 12:42:43	5619	100.00
+V	150	2017-05-31	Trängselskatt avdragsgill	info@belean.se	2017-08-12 12:43:26	1930	-141.00
+V	150	2017-05-31	Trängselskatt avdragsgill	info@belean.se	2017-08-12 12:43:26	5616	141.00
+V	151	2017-05-31	Pensionsförsäkring maj	info@belean.se	2017-08-12 12:44:20	1930	-7650.00
+V	151	2017-05-31	Pensionsförsäkring maj	info@belean.se	2017-08-12 12:44:20	2514	-1855.89
+V	151	2017-05-31	Pensionsförsäkring maj	info@belean.se	2017-08-12 12:44:20	7412	7650.00
+V	151	2017-05-31	Pensionsförsäkring maj	info@belean.se	2017-08-12 12:44:20	7533	1855.89
+V	152	2017-06-01	Pensionsförsäkring	info@belean.se	2017-08-12 12:45:16	1930	-1845.00
+V	152	2017-06-01	Pensionsförsäkring	info@belean.se	2017-08-12 12:45:16	2514	-447.60
+V	152	2017-06-01	Pensionsförsäkring	info@belean.se	2017-08-12 12:45:16	7412	1845.00
+V	152	2017-06-01	Pensionsförsäkring	info@belean.se	2017-08-12 12:45:16	7533	447.60
+V	153	2017-06-01	Företagsförsäkring avdragsgill	info@belean.se	2017-08-12 12:46:31	1930	-3274.00
+V	153	2017-06-01	Företagsförsäkring avdragsgill	info@belean.se	2017-08-12 12:46:31	6310	3274.00
+V	154	2017-05-22	Försäljning tjänster	info@belean.se	2017-08-12 12:59:47	1930	95000.00
+V	154	2017-05-22	Försäljning tjänster	info@belean.se	2017-08-12 12:59:47	2610	-19000.00
+V	154	2017-05-22	Försäljning tjänster	info@belean.se	2017-08-12 12:59:47	3011	-76000.00
+V	155	2017-05-23	Löneutbetalning Maj	info@belean.se	2017-08-12 13:05:45	1930	-35023.00
+V	155	2017-05-23	Löneutbetalning Maj	info@belean.se	2017-08-12 13:05:45	2710	-17277.00
+V	155	2017-05-23	Löneutbetalning Maj	info@belean.se	2017-08-12 13:05:45	2731	-16432.00
+V	155	2017-05-23	Löneutbetalning Maj	info@belean.se	2017-08-12 13:05:45	7210	52300.00
+V	155	2017-05-23	Löneutbetalning Maj	info@belean.se	2017-08-12 13:05:45	7510	16432.00
+V	156	2017-05-24	Utdelning 2016	info@belean.se	2017-08-12 13:07:47	1930	-50000.00
+V	156	2017-05-24	Utdelning 2016	info@belean.se	2017-08-12 13:07:47	2099	50000.00
+V	157	2017-05-24	Utbetalning privata utlägg	info@belean.se	2017-08-12 13:10:01	1930	-1606.00
+V	157	2017-05-24	Utbetalning privata utlägg	info@belean.se	2017-08-12 13:10:01	2890	1606.00
+V	158	2017-05-30	Återbetald leasing maj	info@belean.se	2017-08-12 13:14:13	1930	2067.00
+V	158	2017-05-30	Återbetald leasing maj	info@belean.se	2017-08-12 13:14:13	2640	-206.74
+V	158	2017-05-30	Återbetald leasing maj	info@belean.se	2017-08-12 13:14:13	5615	-1860.26
+V	159	2017-05-31	Bilförsäkring CMF801 maj	info@belean.se	2017-08-12 13:16:26	1930	-450.00
+V	159	2017-05-31	Bilförsäkring CMF801 maj	info@belean.se	2017-08-12 13:16:26	6310	450.00
+V	160	2017-05-31	Banktjänster	info@belean.se	2017-08-12 13:17:17	1930	-50.00
+V	160	2017-05-31	Banktjänster	info@belean.se	2017-08-12 13:17:17	6570	50.00
+V	161	2017-06-12	Arbetsgivaravgift och löneskatt Maj	info@belean.se	2017-08-12 13:29:07	1610	-33709.00
+V	161	2017-06-12	Arbetsgivaravgift och löneskatt Maj	info@belean.se	2017-08-12 13:29:07	1630	33709.00
+V	161	2017-06-12	Arbetsgivaravgift och löneskatt Maj	info@belean.se	2017-08-12 13:29:07	1930	-33709.00
+V	161	2017-06-12	Arbetsgivaravgift och löneskatt Maj	info@belean.se	2017-08-12 13:29:07	2710	17277.00
+V	161	2017-06-12	Arbetsgivaravgift och löneskatt Maj	info@belean.se	2017-08-12 13:29:07	2731	16432.00
+V	162	2017-06-12	Utbildning	info@belean.se	2017-08-12 13:30:30	1930	-99.00
+V	162	2017-06-12	Utbildning	info@belean.se	2017-08-12 13:30:30	2640	19.80
+V	162	2017-06-12	Utbildning	info@belean.se	2017-08-12 13:30:30	7610	79.20
+V	163	2017-07-01	Pensionsförsäkring	info@belean.se	2017-08-12 13:31:16	1930	-1845.00
+V	163	2017-07-01	Pensionsförsäkring	info@belean.se	2017-08-12 13:31:16	2514	-447.60
+V	163	2017-07-01	Pensionsförsäkring	info@belean.se	2017-08-12 13:31:16	7412	1845.00
+V	163	2017-07-01	Pensionsförsäkring	info@belean.se	2017-08-12 13:31:16	7533	447.60
+V	164	2017-06-30	Pensionsförsäkring	info@belean.se	2017-08-12 13:31:51	1930	-7650.00
+V	164	2017-06-30	Pensionsförsäkring	info@belean.se	2017-08-12 13:31:51	2514	-1855.89
+V	164	2017-06-30	Pensionsförsäkring	info@belean.se	2017-08-12 13:31:51	7412	7650.00
+V	164	2017-06-30	Pensionsförsäkring	info@belean.se	2017-08-12 13:31:51	7533	1855.89
+V	165	2017-07-10	Utbildning	info@belean.se	2017-08-12 13:32:37	1930	-99.00
+V	165	2017-07-10	Utbildning	info@belean.se	2017-08-12 13:32:37	2640	19.80
+V	165	2017-07-10	Utbildning	info@belean.se	2017-08-12 13:32:37	7610	79.20
+V	166	2017-06-21	Löneutbetalning Jun	info@belean.se	2017-08-12 13:35:59	1930	-35023.00
+V	166	2017-06-21	Löneutbetalning Jun	info@belean.se	2017-08-12 13:35:59	2710	-17277.00
+V	166	2017-06-21	Löneutbetalning Jun	info@belean.se	2017-08-12 13:35:59	2731	-16432.00
+V	166	2017-06-21	Löneutbetalning Jun	info@belean.se	2017-08-12 13:35:59	7210	52300.00
+V	166	2017-06-21	Löneutbetalning Jun	info@belean.se	2017-08-12 13:35:59	7510	16432.00
+V	167	2017-06-29	Försäljning tjänster	info@belean.se	2017-08-12 13:38:51	1930	142880.00
+V	167	2017-06-29	Försäljning tjänster	info@belean.se	2017-08-12 13:38:51	2610	-28576.00
+V	167	2017-06-29	Försäljning tjänster	info@belean.se	2017-08-12 13:38:51	3011	-114304.00
+V	168	2017-06-30	Försäkring fordon CMF801	info@belean.se	2017-08-12 13:40:23	1930	220.00
+V	168	2017-06-30	Försäkring fordon CMF801	info@belean.se	2017-08-12 13:40:23	6310	-220.00
+V	169	2017-06-30	Banktjänster	info@belean.se	2017-08-12 13:41:22	1930	-372.50
+V	169	2017-06-30	Banktjänster	info@belean.se	2017-08-12 13:41:22	6570	372.50
+V	170	2017-06-29	Annullering V167: Försäljning tjänster	info@belean.se	2017-08-12 13:42:59	1930	-142880.00
+V	170	2017-06-29	Annullering V167: Försäljning tjänster	info@belean.se	2017-08-12 13:42:59	2610	28576.00
+V	170	2017-06-29	Annullering V167: Försäljning tjänster	info@belean.se	2017-08-12 13:42:59	3011	114304.00
+V	171	2017-06-29	Försäljning tjänster	info@belean.se	2017-08-12 13:45:47	1930	178600.00
+V	171	2017-06-29	Försäljning tjänster	info@belean.se	2017-08-12 13:45:47	2610	-35720.00
+V	171	2017-06-29	Försäljning tjänster	info@belean.se	2017-08-12 13:45:47	3011	-142880.00
+V	172	2017-06-12	Justering av v161	info@belean.se	2017-08-12 14:01:07	1610	33709.00
+V	172	2017-06-12	Justering av v161	info@belean.se	2017-08-12 14:01:07	1630	-33709.00
+V	173	2017-06-14	Preliminärskatt	info@belean.se	2017-08-12 14:08:26	1630	-7870.00
+V	173	2017-06-14	Preliminärskatt	info@belean.se	2017-08-12 14:08:26	2510	7870.00
+V	174	2017-06-12	Omprövningsbeslut skatt	info@belean.se	2017-08-12 14:28:01	1630	-18643.00
+V	174	2017-06-12	Omprövningsbeslut skatt	info@belean.se	2017-08-12 14:28:01	2710	10851.00
+V	174	2017-06-12	Omprövningsbeslut skatt	info@belean.se	2017-08-12 14:28:01	2731	7792.00
+V	175	2017-07-17	Mobiltelefon	info@belean.se	2017-08-12 17:36:20	1930	-3555.00
+V	175	2017-07-17	Mobiltelefon	info@belean.se	2017-08-12 17:36:20	2640	711.00
+V	175	2017-07-17	Mobiltelefon	info@belean.se	2017-08-12 17:36:20	6212	2844.00
+V	176	2017-07-31	Inköp Förbrukningsinventarier	info@belean.se	2017-08-12 17:37:53	1930	-1331.00
+V	176	2017-07-31	Inköp Förbrukningsinventarier	info@belean.se	2017-08-12 17:37:53	2640	266.20
+V	176	2017-07-31	Inköp Förbrukningsinventarier	info@belean.se	2017-08-12 17:37:53	5410	1064.80
+V	177	2017-08-07	Utbildning	info@belean.se	2017-08-12 17:38:31	1930	-99.00
+V	177	2017-08-07	Utbildning	info@belean.se	2017-08-12 17:38:31	2640	19.80
+V	177	2017-08-07	Utbildning	info@belean.se	2017-08-12 17:38:31	7610	79.20
+V	178	2017-07-31	Pensionsförsäkring	info@belean.se	2017-08-12 17:39:15	1930	-7650.00
+V	178	2017-07-31	Pensionsförsäkring	info@belean.se	2017-08-12 17:39:15	2514	-1855.89
+V	178	2017-07-31	Pensionsförsäkring	info@belean.se	2017-08-12 17:39:15	7412	7650.00
+V	178	2017-07-31	Pensionsförsäkring	info@belean.se	2017-08-12 17:39:15	7533	1855.89
+V	179	2017-08-01	Pensionsförsäkring	info@belean.se	2017-08-12 17:39:55	1930	-1845.00
+V	179	2017-08-01	Pensionsförsäkring	info@belean.se	2017-08-12 17:39:55	2514	-447.60
+V	179	2017-08-01	Pensionsförsäkring	info@belean.se	2017-08-12 17:39:55	7412	1845.00
+V	179	2017-08-01	Pensionsförsäkring	info@belean.se	2017-08-12 17:39:55	7533	447.60
+V	180	2017-07-12	Preliminärskatt Aktiebolag	info@belean.se	2017-08-12 17:41:16	1630	7870.00
+V	180	2017-07-12	Preliminärskatt Aktiebolag	info@belean.se	2017-08-12 17:41:16	1630	-7870.00
+V	180	2017-07-12	Preliminärskatt Aktiebolag	info@belean.se	2017-08-12 17:41:16	1930	-7870.00
+V	180	2017-07-12	Preliminärskatt Aktiebolag	info@belean.se	2017-08-12 17:41:16	2510	7870.00
+V	181	2017-07-24	Löneutbetalning Jul	info@belean.se	2017-08-12 17:46:20	1930	-35023.00
+V	181	2017-07-24	Löneutbetalning Jul	info@belean.se	2017-08-12 17:46:20	2710	-17277.00
+V	181	2017-07-24	Löneutbetalning Jul	info@belean.se	2017-08-12 17:46:20	2731	-16432.00
+V	181	2017-07-24	Löneutbetalning Jul	info@belean.se	2017-08-12 17:46:20	7210	52300.00
+V	181	2017-07-24	Löneutbetalning Jul	info@belean.se	2017-08-12 17:46:20	7510	16432.00
+V	182	2017-07-25	Utdelning 2016	info@belean.se	2017-08-12 17:47:56	1930	-100000.00
+V	182	2017-07-25	Utdelning 2016	info@belean.se	2017-08-12 17:47:56	2099	100000.00
+V	183	2017-07-31	Banktjänster	info@belean.se	2017-08-12 17:48:36	1930	-50.00
+V	183	2017-07-31	Banktjänster	info@belean.se	2017-08-12 17:48:36	6570	50.00
+V	184	2017-07-12	Arbetsgivaravgift och persskatt juni	info@belean.se	2017-08-12 17:53:18	1630	-33709.00
+V	184	2017-07-12	Arbetsgivaravgift och persskatt juni	info@belean.se	2017-08-12 17:53:18	2710	17277.00
+V	184	2017-07-12	Arbetsgivaravgift och persskatt juni	info@belean.se	2017-08-12 17:53:18	2731	16432.00
+V	185	2017-05-09	Representation, 90kr Extern	info@belean.se	2017-08-12 18:00:34	2640	29.79
+V	185	2017-05-09	Representation, 90kr Extern	info@belean.se	2017-08-12 18:00:34	2890	-278.00
+V	185	2017-05-09	Representation, 90kr Extern	info@belean.se	2017-08-12 18:00:34	6071	180.00
+V	185	2017-05-09	Representation, 90kr Extern	info@belean.se	2017-08-12 18:00:34	6072	68.21
+V	186	2017-06-30	Inköp Förbrukningsinventarier	info@belean.se	2017-08-12 18:07:13	2640	87.60
+V	186	2017-06-30	Inköp Förbrukningsinventarier	info@belean.se	2017-08-12 18:07:13	2890	-438.00
+V	186	2017-06-30	Inköp Förbrukningsinventarier	info@belean.se	2017-08-12 18:07:13	5410	350.40
+V	187	2017-06-29	Friskvård	info@belean.se	2017-08-12 18:07:48	2640	5.38
+V	187	2017-06-29	Friskvård	info@belean.se	2017-08-12 18:07:48	2890	-95.00
+V	187	2017-06-29	Friskvård	info@belean.se	2017-08-12 18:07:48	7699	89.62
+V	188	2017-06-24	Representation 2017	info@belean.se	2017-08-12 18:09:58	2640	230.00
+V	188	2017-06-24	Representation 2017	info@belean.se	2017-08-12 18:09:58	2890	-3800.00
+V	188	2017-06-24	Representation 2017	info@belean.se	2017-08-12 18:09:58	6072	3570.00
+V	189	2017-08-17	Arbetsgivaravgift och avdragen skatt juli 2017	info@belean.se	2017-09-09 09:50:22	1630	-33709.00
+V	189	2017-08-17	Arbetsgivaravgift och avdragen skatt juli 2017	info@belean.se	2017-09-09 09:50:22	1630	33709.00
+V	189	2017-08-17	Arbetsgivaravgift och avdragen skatt juli 2017	info@belean.se	2017-09-09 09:50:22	1930	-33709.00
+V	189	2017-08-17	Arbetsgivaravgift och avdragen skatt juli 2017	info@belean.se	2017-09-09 09:50:22	2710	17277.00
+V	189	2017-08-17	Arbetsgivaravgift och avdragen skatt juli 2017	info@belean.se	2017-09-09 09:50:22	2731	16432.00
+V	190	2017-09-01	Pensionsförsäkring	info@belean.se	2017-09-09 09:51:46	1930	-1845.00
+V	190	2017-09-01	Pensionsförsäkring	info@belean.se	2017-09-09 09:51:46	2514	-447.60
+V	190	2017-09-01	Pensionsförsäkring	info@belean.se	2017-09-09 09:51:46	7412	1845.00
+V	190	2017-09-01	Pensionsförsäkring	info@belean.se	2017-09-09 09:51:46	7533	447.60
+V	191	2017-08-31	Pensionsförsäkring	info@belean.se	2017-09-09 09:52:55	1930	-7650.00
+V	191	2017-08-31	Pensionsförsäkring	info@belean.se	2017-09-09 09:52:55	2514	-1855.89
+V	191	2017-08-31	Pensionsförsäkring	info@belean.se	2017-09-09 09:52:55	7412	7650.00
+V	191	2017-08-31	Pensionsförsäkring	info@belean.se	2017-09-09 09:52:55	7533	1855.89
+V	192	2017-08-24	Löneutbetalning Aug	info@belean.se	2017-09-09 10:00:17	1930	-35023.00
+V	192	2017-08-24	Löneutbetalning Aug	info@belean.se	2017-09-09 10:00:17	2710	-17277.00
+V	192	2017-08-24	Löneutbetalning Aug	info@belean.se	2017-09-09 10:00:17	2731	-16432.00
+V	192	2017-08-24	Löneutbetalning Aug	info@belean.se	2017-09-09 10:00:17	7210	52300.00
+V	192	2017-08-24	Löneutbetalning Aug	info@belean.se	2017-09-09 10:00:17	7510	16432.00
+V	193	2017-08-17	Preliminärskatt Aktiebolag	info@belean.se	2017-09-09 10:02:09	1630	7870.00
+V	193	2017-08-17	Preliminärskatt Aktiebolag	info@belean.se	2017-09-09 10:02:09	1630	-7870.00
+V	193	2017-08-17	Preliminärskatt Aktiebolag	info@belean.se	2017-09-09 10:02:09	1930	-7870.00
+V	193	2017-08-17	Preliminärskatt Aktiebolag	info@belean.se	2017-09-09 10:02:09	2510	7870.00
+V	194	2017-08-31	Banktjänster	info@belean.se	2017-09-09 10:03:09	1930	-50.00
+V	194	2017-08-31	Banktjänster	info@belean.se	2017-09-09 10:03:09	6570	50.00
+V	195	2017-08-25	Utbetalning privata utlägg	info@belean.se	2017-09-09 10:05:31	1930	-4611.00
+V	195	2017-08-25	Utbetalning privata utlägg	info@belean.se	2017-09-09 10:05:31	2890	4611.00
+V	196	2017-08-25	Utdelning 2016	info@belean.se	2017-09-09 10:08:16	1910	-20941.00
+V	196	2017-08-25	Utdelning 2016	info@belean.se	2017-09-09 10:08:16	2099	20941.00
+V	197	2017-08-18	Representation 2017	info@belean.se	2017-09-09 10:23:32	2640	25.39
+V	197	2017-08-18	Representation 2017	info@belean.se	2017-09-09 10:23:32	2890	-237.00
+V	197	2017-08-18	Representation 2017	info@belean.se	2017-09-09 10:23:32	6071	120.00
+V	197	2017-08-18	Representation 2017	info@belean.se	2017-09-09 10:23:32	6072	91.61
+V	198	2017-09-04	Representation 2017	info@belean.se	2017-09-09 10:24:08	2640	27.85
+V	198	2017-09-04	Representation 2017	info@belean.se	2017-09-09 10:24:08	2890	-260.00
+V	198	2017-09-04	Representation 2017	info@belean.se	2017-09-09 10:24:08	6071	120.00
+V	198	2017-09-04	Representation 2017	info@belean.se	2017-09-09 10:24:08	6072	112.15
+V	199	2017-08-29	Friskvård	info@belean.se	2017-09-09 10:31:33	2640	50.66
+V	199	2017-08-29	Friskvård	info@belean.se	2017-09-09 10:31:33	2890	-895.00
+V	199	2017-08-29	Friskvård	info@belean.se	2017-09-09 10:31:33	7699	844.34
+V	200	2017-08-25	Korrigering av v196	info@belean.se	2017-09-09 11:03:30	1910	20941.00
+V	200	2017-08-25	Korrigering av v196	info@belean.se	2017-09-09 11:03:30	1930	-20941.00
+V	201	2017-09-15	Faktura #4: 183909,0000 inbetalt	info@belean.se	2017-10-02 08:27:05	1930	183909.00
+V	201	2017-09-15	Faktura #4: 183909,0000 inbetalt	info@belean.se	2017-10-02 08:27:05	2611	-36781.88
+V	201	2017-09-15	Faktura #4: 183909,0000 inbetalt	info@belean.se	2017-10-02 08:27:05	3011	-147127.50
+V	201	2017-09-15	Faktura #4: 183909,0000 inbetalt	info@belean.se	2017-10-02 08:27:05	3740	0.38
+V	202	2017-10-16	Faktura #5: 209869,0000 inbetalt	info@belean.se	2017-12-17 11:45:06	1930	209869.00
+V	202	2017-10-16	Faktura #5: 209869,0000 inbetalt	info@belean.se	2017-12-17 11:45:06	2611	-41973.75
+V	202	2017-10-16	Faktura #5: 209869,0000 inbetalt	info@belean.se	2017-12-17 11:45:06	3011	-167895.00
+V	202	2017-10-16	Faktura #5: 209869,0000 inbetalt	info@belean.se	2017-12-17 11:45:06	3740	-0.25
+V	203	2017-11-16	Faktura #6: 178425,0000 inbetalt	info@belean.se	2017-12-17 11:45:07	1930	178425.00
+V	203	2017-11-16	Faktura #6: 178425,0000 inbetalt	info@belean.se	2017-12-17 11:45:07	2611	-35685.00
+V	203	2017-11-16	Faktura #6: 178425,0000 inbetalt	info@belean.se	2017-12-17 11:45:07	3011	-142740.00
+V	204	2017-12-15	Faktura #7: 201703,0000 inbetalt	info@belean.se	2017-12-17 11:45:08	1930	201703.00
+V	204	2017-12-15	Faktura #7: 201703,0000 inbetalt	info@belean.se	2017-12-17 11:45:08	2611	-40340.62
+V	204	2017-12-15	Faktura #7: 201703,0000 inbetalt	info@belean.se	2017-12-17 11:45:08	3011	-161362.50
+V	204	2017-12-15	Faktura #7: 201703,0000 inbetalt	info@belean.se	2017-12-17 11:45:08	3740	0.12
+V	205	2017-09-11	Utbildning	info@belean.se	2017-12-17 12:03:39	1930	-99.00
+V	205	2017-09-11	Utbildning	info@belean.se	2017-12-17 12:03:39	2640	19.80
+V	205	2017-09-11	Utbildning	info@belean.se	2017-12-17 12:03:39	7610	79.20
+V	206	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:13:13	1610	-33709.00
+V	206	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:13:13	1630	33709.00
+V	206	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:13:13	1930	-33709.00
+V	206	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:13:13	2710	17277.00
+V	206	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:13:13	2731	16432.00
+V	207	2017-09-22	Löneutbetalning Sept	info@belean.se	2017-12-17 12:23:36	1930	-35023.00
+V	207	2017-09-22	Löneutbetalning Sept	info@belean.se	2017-12-17 12:23:36	2710	-17277.00
+V	207	2017-09-22	Löneutbetalning Sept	info@belean.se	2017-12-17 12:23:36	2731	-16432.00
+V	207	2017-09-22	Löneutbetalning Sept	info@belean.se	2017-12-17 12:23:36	7210	52300.00
+V	207	2017-09-22	Löneutbetalning Sept	info@belean.se	2017-12-17 12:23:36	7510	16432.00
+V	208	2017-09-25	Utbetyalning privata utlägg	info@belean.se	2017-12-17 12:27:52	1930	-1392.00
+V	208	2017-09-25	Utbetyalning privata utlägg	info@belean.se	2017-12-17 12:27:52	2890	1392.00
+V	209	2017-09-12	Prel skatt	info@belean.se	2017-12-17 12:29:31	1630	7870.00
+V	209	2017-09-12	Prel skatt	info@belean.se	2017-12-17 12:29:31	1630	-7870.00
+V	209	2017-09-12	Prel skatt	info@belean.se	2017-12-17 12:29:31	1930	-7870.00
+V	209	2017-09-12	Prel skatt	info@belean.se	2017-12-17 12:29:31	2510	7870.00
+V	210	2017-09-12	Annullering V206: Löneskatter Augusti	info@belean.se	2017-12-17 12:34:11	1610	33709.00
+V	210	2017-09-12	Annullering V206: Löneskatter Augusti	info@belean.se	2017-12-17 12:34:11	1630	-33709.00
+V	210	2017-09-12	Annullering V206: Löneskatter Augusti	info@belean.se	2017-12-17 12:34:11	1930	33709.00
+V	210	2017-09-12	Annullering V206: Löneskatter Augusti	info@belean.se	2017-12-17 12:34:11	2710	-17277.00
+V	210	2017-09-12	Annullering V206: Löneskatter Augusti	info@belean.se	2017-12-17 12:34:11	2731	-16432.00
+V	211	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:38:56	1630	-33709.00
+V	211	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:38:56	1630	33709.00
+V	211	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:38:56	1930	-33709.00
+V	211	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:38:56	2710	17277.00
+V	211	2017-09-12	Löneskatter Augusti	info@belean.se	2017-12-17 12:38:56	2731	16432.00
+V	212	2017-09-25	Utdelning 2016	info@belean.se	2017-12-17 12:42:18	1930	-50000.00
+V	212	2017-09-25	Utdelning 2016	info@belean.se	2017-12-17 12:42:18	2091	50000.00
+V	213	2017-09-29	Banktjänster	info@belean.se	2017-12-17 12:45:28	1930	-366.50
+V	213	2017-09-29	Banktjänster	info@belean.se	2017-12-17 12:45:28	6570	366.50
+V	214	2017-09-30	Pensionsförsäkring	info@belean.se	2017-12-17 12:49:11	1930	-7650.00
+V	214	2017-09-30	Pensionsförsäkring	info@belean.se	2017-12-17 12:49:11	2514	-1855.89
+V	214	2017-09-30	Pensionsförsäkring	info@belean.se	2017-12-17 12:49:11	7412	7650.00
+V	214	2017-09-30	Pensionsförsäkring	info@belean.se	2017-12-17 12:49:11	7533	1855.89
+V	215	2017-10-02	Pensionsförsäkring	info@belean.se	2017-12-17 12:50:38	1930	-1845.00
+V	215	2017-10-02	Pensionsförsäkring	info@belean.se	2017-12-17 12:50:38	2514	-447.60
+V	215	2017-10-02	Pensionsförsäkring	info@belean.se	2017-12-17 12:50:38	7412	1845.00
+V	215	2017-10-02	Pensionsförsäkring	info@belean.se	2017-12-17 12:50:38	7533	447.60
+V	216	2017-10-06	Utbildning	info@belean.se	2017-12-17 12:52:20	1930	-99.00
+V	216	2017-10-06	Utbildning	info@belean.se	2017-12-17 12:52:20	2640	19.80
+V	216	2017-10-06	Utbildning	info@belean.se	2017-12-17 12:52:20	7610	79.20
+V	217	2017-10-12	Löneskatter okt	info@belean.se	2017-12-17 13:01:40	1630	33709.00
+V	217	2017-10-12	Löneskatter okt	info@belean.se	2017-12-17 13:01:40	1630	-33709.00
+V	217	2017-10-12	Löneskatter okt	info@belean.se	2017-12-17 13:01:40	1930	-33709.00
+V	217	2017-10-12	Löneskatter okt	info@belean.se	2017-12-17 13:01:40	2710	17277.00
+V	217	2017-10-12	Löneskatter okt	info@belean.se	2017-12-17 13:01:40	2731	16432.00
+V	218	2017-10-12	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 13:02:59	1630	7870.00
+V	218	2017-10-12	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 13:02:59	1630	-7870.00
+V	218	2017-10-12	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 13:02:59	1930	-7870.00
+V	218	2017-10-12	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 13:02:59	2510	7870.00
+V	219	2017-10-13	Inköp Förbrukningsinventarier	info@belean.se	2017-12-17 13:05:39	1930	-2084.00
+V	219	2017-10-13	Inköp Förbrukningsinventarier	info@belean.se	2017-12-17 13:05:39	2640	416.80
+V	219	2017-10-13	Inköp Förbrukningsinventarier	info@belean.se	2017-12-17 13:05:39	5410	1667.20
+V	220	2017-10-16	Mobiltelefon	info@belean.se	2017-12-17 13:06:55	1930	-3119.00
+V	220	2017-10-16	Mobiltelefon	info@belean.se	2017-12-17 13:06:55	2640	623.80
+V	220	2017-10-16	Mobiltelefon	info@belean.se	2017-12-17 13:06:55	6212	2495.20
+V	221	2017-10-24	Löneutbetalning okt	info@belean.se	2017-12-17 13:10:32	1930	-35023.00
+V	221	2017-10-24	Löneutbetalning okt	info@belean.se	2017-12-17 13:10:32	2710	-17277.00
+V	221	2017-10-24	Löneutbetalning okt	info@belean.se	2017-12-17 13:10:32	2731	-16432.00
+V	221	2017-10-24	Löneutbetalning okt	info@belean.se	2017-12-17 13:10:32	7210	52300.00
+V	221	2017-10-24	Löneutbetalning okt	info@belean.se	2017-12-17 13:10:32	7510	16432.00
+V	222	2017-10-31	Pensionsförsäkring	info@belean.se	2017-12-17 13:13:21	1930	-7650.00
+V	222	2017-10-31	Pensionsförsäkring	info@belean.se	2017-12-17 13:13:21	2514	-1855.89
+V	222	2017-10-31	Pensionsförsäkring	info@belean.se	2017-12-17 13:13:21	7412	7650.00
+V	222	2017-10-31	Pensionsförsäkring	info@belean.se	2017-12-17 13:13:21	7533	1855.89
+V	223	2017-11-01	Pensionsförsäkring	info@belean.se	2017-12-17 13:14:24	1930	-1845.00
+V	223	2017-11-01	Pensionsförsäkring	info@belean.se	2017-12-17 13:14:24	2514	-447.60
+V	223	2017-11-01	Pensionsförsäkring	info@belean.se	2017-12-17 13:14:24	7412	1845.00
+V	223	2017-11-01	Pensionsförsäkring	info@belean.se	2017-12-17 13:14:24	7533	447.60
+V	224	2017-10-31	Banktjänster	info@belean.se	2017-12-17 13:15:16	1930	-50.00
+V	224	2017-10-31	Banktjänster	info@belean.se	2017-12-17 13:15:16	6570	50.00
+V	225	2017-11-13	Löneskatter Okt	info@belean.se	2017-12-17 13:24:22	1630	33709.00
+V	225	2017-11-13	Löneskatter Okt	info@belean.se	2017-12-17 13:24:22	1630	-33709.00
+V	225	2017-11-13	Löneskatter Okt	info@belean.se	2017-12-17 13:24:22	1930	-33709.00
+V	225	2017-11-13	Löneskatter Okt	info@belean.se	2017-12-17 13:24:22	2710	17277.00
+V	225	2017-11-13	Löneskatter Okt	info@belean.se	2017-12-17 13:24:22	2731	16432.00
+V	226	2017-11-13	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 13:25:37	1630	7870.00
+V	226	2017-11-13	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 13:25:37	1630	-7870.00
+V	226	2017-11-13	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 13:25:37	1930	-7870.00
+V	226	2017-11-13	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 13:25:37	2510	7870.00
+V	227	2017-11-15	Utbildning	info@belean.se	2017-12-17 13:27:36	1930	-99.00
+V	227	2017-11-15	Utbildning	info@belean.se	2017-12-17 13:27:36	2640	19.80
+V	227	2017-11-15	Utbildning	info@belean.se	2017-12-17 13:27:36	7610	79.20
+V	228	2017-11-23	Löneutbetalning Nov	info@belean.se	2017-12-17 13:30:28	1930	-35023.00
+V	228	2017-11-23	Löneutbetalning Nov	info@belean.se	2017-12-17 13:30:28	2710	-17277.00
+V	228	2017-11-23	Löneutbetalning Nov	info@belean.se	2017-12-17 13:30:28	2731	-16432.00
+V	228	2017-11-23	Löneutbetalning Nov	info@belean.se	2017-12-17 13:30:28	7210	52300.00
+V	228	2017-11-23	Löneutbetalning Nov	info@belean.se	2017-12-17 13:30:28	7510	16432.00
+V	229	2017-11-30	Pensionsförsäkring	info@belean.se	2017-12-17 13:32:07	1930	-7650.00
+V	229	2017-11-30	Pensionsförsäkring	info@belean.se	2017-12-17 13:32:07	2514	-1855.89
+V	229	2017-11-30	Pensionsförsäkring	info@belean.se	2017-12-17 13:32:07	7412	7650.00
+V	229	2017-11-30	Pensionsförsäkring	info@belean.se	2017-12-17 13:32:07	7533	1855.89
+V	230	2017-12-01	Pensionsförsäkring	info@belean.se	2017-12-17 13:33:21	1930	-1845.00
+V	230	2017-12-01	Pensionsförsäkring	info@belean.se	2017-12-17 13:33:21	2514	-447.60
+V	230	2017-12-01	Pensionsförsäkring	info@belean.se	2017-12-17 13:33:21	7412	1845.00
+V	230	2017-12-01	Pensionsförsäkring	info@belean.se	2017-12-17 13:33:21	7533	447.60
+V	231	2017-11-30	Banktjänster	info@belean.se	2017-12-17 13:34:06	1930	-50.00
+V	231	2017-11-30	Banktjänster	info@belean.se	2017-12-17 13:34:06	6570	50.00
+V	232	2017-12-12	Löneskatter Nov	info@belean.se	2017-12-17 14:48:19	1630	33709.00
+V	232	2017-12-12	Löneskatter Nov	info@belean.se	2017-12-17 14:48:19	1630	-33709.00
+V	232	2017-12-12	Löneskatter Nov	info@belean.se	2017-12-17 14:48:19	1930	-33709.00
+V	232	2017-12-12	Löneskatter Nov	info@belean.se	2017-12-17 14:48:19	2710	17277.00
+V	232	2017-12-12	Löneskatter Nov	info@belean.se	2017-12-17 14:48:19	2731	16432.00
+V	233	2017-12-08	Utbildning	info@belean.se	2017-12-17 14:54:22	1930	-99.00
+V	233	2017-12-08	Utbildning	info@belean.se	2017-12-17 14:54:22	2640	19.80
+V	233	2017-12-08	Utbildning	info@belean.se	2017-12-17 14:54:22	7610	79.20
+V	234	2017-12-13	Inköp Förbrukningsinventarier	info@belean.se	2017-12-17 14:57:00	1930	-2165.00
+V	234	2017-12-13	Inköp Förbrukningsinventarier	info@belean.se	2017-12-17 14:57:00	2640	433.00
+V	234	2017-12-13	Inköp Förbrukningsinventarier	info@belean.se	2017-12-17 14:57:00	5410	1732.00
+V	235	2017-12-12	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 14:58:02	1630	7870.00
+V	235	2017-12-12	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 14:58:02	1630	-7870.00
+V	235	2017-12-12	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 14:58:02	1930	-7870.00
+V	235	2017-12-12	Preliminärskatt Aktiebolag	info@belean.se	2017-12-17 14:58:02	2510	7870.00
+V	236	2017-03-04	Biltvätt	info@belean.se	2017-12-17 15:20:34	2640	27.80
+V	236	2017-03-04	Biltvätt	info@belean.se	2017-12-17 15:20:34	2890	-139.00
+V	236	2017-03-04	Biltvätt	info@belean.se	2017-12-17 15:20:34	5610	111.20
+V	237	2017-06-27	Kontorsmaterial	info@belean.se	2017-12-17 15:22:24	2640	14.00
+V	237	2017-06-27	Kontorsmaterial	info@belean.se	2017-12-17 15:22:24	2890	-70.00
+V	237	2017-06-27	Kontorsmaterial	info@belean.se	2017-12-17 15:22:24	6110	56.00
+V	238	2017-10-14	Representation 2017	info@belean.se	2017-12-17 15:27:37	2640	276.00
+V	238	2017-10-14	Representation 2017	info@belean.se	2017-12-17 15:27:37	2890	-3519.00
+V	238	2017-10-14	Representation 2017	info@belean.se	2017-12-17 15:27:37	6072	3243.00
+V	239	2017-10-14	Representation 2017	info@belean.se	2017-12-17 15:30:06	2640	129.75
+V	239	2017-10-14	Representation 2017	info@belean.se	2017-12-17 15:30:06	2890	-1309.00
+V	239	2017-10-14	Representation 2017	info@belean.se	2017-12-17 15:30:06	6072	1179.25
+V	240	2017-10-17	Representation 2017	info@belean.se	2017-12-17 15:31:23	2640	23.57
+V	240	2017-10-17	Representation 2017	info@belean.se	2017-12-17 15:31:23	2890	-220.00
+V	240	2017-10-17	Representation 2017	info@belean.se	2017-12-17 15:31:23	6072	196.43
+V	241	2017-11-14	Representation 2017	info@belean.se	2017-12-17 15:33:39	2640	89.95
+V	241	2017-11-14	Representation 2017	info@belean.se	2017-12-17 15:33:39	2890	-840.00
+V	241	2017-11-14	Representation 2017	info@belean.se	2017-12-17 15:33:39	6072	750.05
+V	242	2017-10-27	Representation 2017	info@belean.se	2017-12-17 15:35:08	2640	46.61
+V	242	2017-10-27	Representation 2017	info@belean.se	2017-12-17 15:35:08	2890	-435.00
+V	242	2017-10-27	Representation 2017	info@belean.se	2017-12-17 15:35:08	6072	388.39
+V	243	2017-11-30	Representation 2017	info@belean.se	2017-12-17 15:37:48	2640	146.10
+V	243	2017-11-30	Representation 2017	info@belean.se	2017-12-17 15:37:48	2890	-1062.00
+V	243	2017-11-30	Representation 2017	info@belean.se	2017-12-17 15:37:48	6072	915.90
+V	244	2017-11-22	Representation 2017	info@belean.se	2017-12-17 15:39:38	2640	92.10
+V	244	2017-11-22	Representation 2017	info@belean.se	2017-12-17 15:39:38	2890	-729.00
+V	244	2017-11-22	Representation 2017	info@belean.se	2017-12-17 15:39:38	6072	636.90
+V	245	2017-08-16	Friskvård	info@belean.se	2017-12-17 15:40:27	2640	50.66
+V	245	2017-08-16	Friskvård	info@belean.se	2017-12-17 15:40:27	2890	-895.00
+V	245	2017-08-16	Friskvård	info@belean.se	2017-12-17 15:40:27	7699	844.34
+V	246	2017-05-19	Friskvård Göteborgsvarvet	info@belean.se	2018-01-14 14:48:19	2890	-595.00
+V	246	2017-05-19	Friskvård Göteborgsvarvet	info@belean.se	2018-01-14 14:48:19	7699	595.00
+V	247	2017-12-27	E-bok	info@belean.se	2018-01-14 14:52:11	2890	-126.34
+V	247	2017-12-27	E-bok	info@belean.se	2018-01-14 14:52:11	6970	126.34
+V	248	2017-12-15	Inköp Förbrukningsinventarier	info@belean.se	2018-01-14 14:57:08	2640	1389.60
+V	248	2017-12-15	Inköp Förbrukningsinventarier	info@belean.se	2018-01-14 14:57:08	2890	-6948.00
+V	248	2017-12-15	Inköp Förbrukningsinventarier	info@belean.se	2018-01-14 14:57:08	5410	5558.40
+V	249	2017-12-13	Inköp Förbrukningsinventarier Inet	info@belean.se	2018-01-14 15:22:48	2640	207.80
+V	249	2017-12-13	Inköp Förbrukningsinventarier Inet	info@belean.se	2018-01-14 15:22:48	2890	-1039.00
+V	249	2017-12-13	Inköp Förbrukningsinventarier Inet	info@belean.se	2018-01-14 15:22:48	5410	831.20
+V	250	2017-12-27	E-bok	info@belean.se	2018-01-14 15:24:27	2890	-260.52
+V	250	2017-12-27	E-bok	info@belean.se	2018-01-14 15:24:27	6970	260.52
+V	251	2017-12-24	Julgåva	info@belean.se	2018-01-14 15:31:32	2890	-1035.00
+V	251	2017-12-24	Julgåva	info@belean.se	2018-01-14 15:31:32	6992	1035.00
+V	252	2017-12-27	Julgåva WWF	info@belean.se	2018-01-14 15:38:58	2890	-1000.00
+V	252	2017-12-27	Julgåva WWF	info@belean.se	2018-01-14 15:38:58	6992	1000.00
+V	253	2017-12-28	Julgåva	info@belean.se	2018-01-14 15:42:21	2890	-1000.00
+V	253	2017-12-28	Julgåva	info@belean.se	2018-01-14 15:42:21	6992	1000.00
+V	254	2017-12-27	Julgåva	info@belean.se	2018-01-14 15:47:53	1930	-1000.00
+V	254	2017-12-27	Julgåva	info@belean.se	2018-01-14 15:47:53	6992	1000.00
+V	255	2017-12-27	Julgåva	info@belean.se	2018-01-14 15:51:16	1930	-996.00
+V	255	2017-12-27	Julgåva	info@belean.se	2018-01-14 15:51:16	6992	996.00
+V	256	2017-12-31	Pensionsförsäkring	info@belean.se	2018-01-14 15:59:12	1930	-7650.00
+V	256	2017-12-31	Pensionsförsäkring	info@belean.se	2018-01-14 15:59:12	2514	-1855.89
+V	256	2017-12-31	Pensionsförsäkring	info@belean.se	2018-01-14 15:59:12	7412	7650.00
+V	256	2017-12-31	Pensionsförsäkring	info@belean.se	2018-01-14 15:59:12	7533	1855.89
+V	257	2017-12-19	Inköp Förbrukningsinventarier	info@belean.se	2018-01-14 16:00:17	1930	-3245.00
+V	257	2017-12-19	Inköp Förbrukningsinventarier	info@belean.se	2018-01-14 16:00:17	2640	649.00
+V	257	2017-12-19	Inköp Förbrukningsinventarier	info@belean.se	2018-01-14 16:00:17	5410	2596.00
+V	258	2017-11-30	Representation 2017	info@belean.se	2018-01-14 16:05:45	2640	158.10
+V	258	2017-11-30	Representation 2017	info@belean.se	2018-01-14 16:05:45	2890	-1174.00
+V	258	2017-11-30	Representation 2017	info@belean.se	2018-01-14 16:05:45	6072	1015.90
+V	259	2017-12-21	Löneutbetalning Dec	info@belean.se	2018-01-14 16:13:27	1930	-35023.00
+V	259	2017-12-21	Löneutbetalning Dec	info@belean.se	2018-01-14 16:13:27	2710	-17277.00
+V	259	2017-12-21	Löneutbetalning Dec	info@belean.se	2018-01-14 16:13:27	2731	-16432.00
+V	259	2017-12-21	Löneutbetalning Dec	info@belean.se	2018-01-14 16:13:27	7210	52300.00
+V	259	2017-12-21	Löneutbetalning Dec	info@belean.se	2018-01-14 16:13:27	7510	16432.00
+V	260	2017-12-22	Utlägg utbetalning	info@belean.se	2018-01-14 16:15:04	1930	-9218.00
+V	260	2017-12-22	Utlägg utbetalning	info@belean.se	2018-01-14 16:15:04	2890	9218.00
+V	261	2017-12-29	Banktjänster	info@belean.se	2018-01-14 16:21:37	1930	-372.50
+V	261	2017-12-29	Banktjänster	info@belean.se	2018-01-14 16:21:37	6570	372.50
+V	262	2017-12-31	Kundfordran Teksystems	info@belean.se	2018-01-14 16:44:09	1510	144788.00
+V	262	2017-12-31	Kundfordran Teksystems	info@belean.se	2018-01-14 16:44:09	2611	-28957.50
+V	262	2017-12-31	Kundfordran Teksystems	info@belean.se	2018-01-14 16:44:09	3011	-115830.50
+V	263	2017-12-31	Kundfordran One Road AB	info@belean.se	2018-01-14 16:59:50	1510	1174.00
+V	263	2017-12-31	Kundfordran One Road AB	info@belean.se	2018-01-14 16:59:50	2611	-234.80
+V	263	2017-12-31	Kundfordran One Road AB	info@belean.se	2018-01-14 16:59:50	3011	-939.20
+V	264	2017-12-31	Sociala avgifter och personalskatt Dec	info@belean.se	2018-01-14 17:22:01	2710	17277.00
+V	264	2017-12-31	Sociala avgifter och personalskatt Dec	info@belean.se	2018-01-14 17:22:01	2731	16432.00
+V	264	2017-12-31	Sociala avgifter och personalskatt Dec	info@belean.se	2018-01-14 17:22:01	2940	-33709.00
+V	265	2017-12-31	Upplupen prel skatt dec	info@belean.se	2018-01-14 17:49:14	2510	7870.00
+V	265	2017-12-31	Upplupen prel skatt dec	info@belean.se	2018-01-14 17:49:14	2940	-7870.00
+V	266	2017-12-31	Mobiltelefon	info@belean.se	2018-01-14 18:04:23	2440	-2849.00
+V	266	2017-12-31	Mobiltelefon	info@belean.se	2018-01-14 18:04:23	2640	569.80
+V	266	2017-12-31	Mobiltelefon	info@belean.se	2018-01-14 18:04:23	6212	2279.20
+V	267	2017-12-31	Årets skatt	info@belean.se	2018-01-14 18:11:17	2512	-93000.00
+V	267	2017-12-31	Årets skatt	info@belean.se	2018-01-14 18:11:17	8910	93000.00
+V	268	2017-12-31	Bokslut	info@belean.se	2018-01-14 18:11:51	2099	-312342.07
+V	268	2017-12-31	Bokslut	info@belean.se	2018-01-14 18:11:51	8999	312342.07

@@ -1,0 +1,576 @@
+Serie	Number	Date	Text	CreatedBy	CreatedDate	Account	Amount
+V	1	2022-01-05	5484150041 San mateo /22-01-04 - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-01-11 13:37:21	1930	-3157.74
+V	1	2022-01-05	5484150041 San mateo /22-01-04 - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-01-11 13:37:21	2614	-789.44
+V	1	2022-01-05	5484150041 San mateo /22-01-04 - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-01-11 13:37:21	2645	789.44
+V	1	2022-01-05	5484150041 San mateo /22-01-04 - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-01-11 13:37:21	4531	3157.74
+V	2	2022-01-02	5484796814 Google /22-01-01 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-01-11 13:37:55	1930	-730.80
+V	2	2022-01-02	5484796814 Google /22-01-01 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-01-11 13:37:55	2614	-182.70
+V	2	2022-01-02	5484796814 Google /22-01-01 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-01-11 13:37:55	2645	182.70
+V	2	2022-01-02	5484796814 Google /22-01-01 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-01-11 13:37:55	4535	730.80
+V	3	2022-01-05	Annullering av V1: 5484150041 San mateo /22-01-04 - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-01-11 13:42:15	1930	3157.74
+V	3	2022-01-05	Annullering av V1: 5484150041 San mateo /22-01-04 - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-01-11 13:42:15	2614	789.44
+V	3	2022-01-05	Annullering av V1: 5484150041 San mateo /22-01-04 - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-01-11 13:42:15	2645	-789.44
+V	3	2022-01-05	Annullering av V1: 5484150041 San mateo /22-01-04 - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-01-11 13:42:15	4531	-3157.74
+V	4	2022-01-02	Annullering av V2: 5484796814 Google /22-01-01 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-01-11 13:42:28	1930	730.80
+V	4	2022-01-02	Annullering av V2: 5484796814 Google /22-01-01 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-01-11 13:42:28	2614	182.70
+V	4	2022-01-02	Annullering av V2: 5484796814 Google /22-01-01 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-01-11 13:42:28	2645	-182.70
+V	4	2022-01-02	Annullering av V2: 5484796814 Google /22-01-01 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-01-11 13:42:28	4535	-730.80
+V	5	2022-01-05	5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:45:36	1930	-3157.74
+V	5	2022-01-05	5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:45:36	2614	-789.44
+V	5	2022-01-05	5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:45:36	2645	789.44
+V	5	2022-01-05	5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:45:36	4531	3157.74
+V	5	2022-01-05	5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:45:36	4598	-3157.74
+V	5	2022-01-05	5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:45:36	6910	3157.74
+V	6	2022-01-05	Annullering av V5: 5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:47:38	1930	3157.74
+V	6	2022-01-05	Annullering av V5: 5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:47:38	2614	789.44
+V	6	2022-01-05	Annullering av V5: 5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:47:38	2645	-789.44
+V	6	2022-01-05	Annullering av V5: 5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:47:38	4531	-3157.74
+V	6	2022-01-05	Annullering av V5: 5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:47:38	4598	3157.74
+V	6	2022-01-05	Annullering av V5: 5484150041 San mateo /22-01-04 - Mjukvara licens	mikael@sciple.ai	2022-01-11 13:47:38	6910	-3157.74
+V	7	2022-01-05	5484150041 San mateo /22-01-04	mikael@sciple.ai	2022-01-11 13:57:24	1930	-3157.74
+V	7	2022-01-05	5484150041 San mateo /22-01-04	mikael@sciple.ai	2022-01-11 13:57:24	2440	3157.74
+V	8	2022-01-02	5484796814 Google /22-01-01	mikael@sciple.ai	2022-01-11 14:05:10	1930	-730.80
+V	8	2022-01-02	5484796814 Google /22-01-01	mikael@sciple.ai	2022-01-11 14:05:10	2440	730.80
+V	9	2022-01-02	5484720284 Google ads67/22-01-01	mikael@sciple.ai	2022-01-11 14:16:23	1930	-204.74
+V	9	2022-01-02	5484720284 Google ads67/22-01-01	mikael@sciple.ai	2022-01-11 14:16:23	2440	204.74
+V	10	2022-01-01	5484826319 Atlanta /22-01-01	mikael@sciple.ai	2022-01-11 14:18:41	1930	-92.98
+V	10	2022-01-01	5484826319 Atlanta /22-01-01	mikael@sciple.ai	2022-01-11 14:18:41	2440	92.98
+V	11	2022-01-11	320118377824 - Konsultarvoden momsfri	rajiv@sciple.ai	2022-02-14 09:26:19	1931	-20000.00
+V	11	2022-01-11	320118377824 - Konsultarvoden momsfri	rajiv@sciple.ai	2022-02-14 09:26:19	4538	20000.00
+V	11	2022-01-11	320118377824 - Konsultarvoden momsfri	rajiv@sciple.ai	2022-02-14 09:26:19	4598	-20000.00
+V	11	2022-01-11	320118377824 - Konsultarvoden momsfri	rajiv@sciple.ai	2022-02-14 09:26:19	6550	20000.00
+V	12	2022-04-05	Föreningen framtidens fö - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-04-28 17:25:06	1931	-1000.00
+V	12	2022-04-05	Föreningen framtidens fö - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-04-28 17:25:06	2614	-250.00
+V	12	2022-04-05	Föreningen framtidens fö - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-04-28 17:25:06	2645	250.00
+V	12	2022-04-05	Föreningen framtidens fö - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-04-28 17:25:06	4535	1000.00
+V	13	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:21:05	1930	-391.92
+V	13	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:21:05	2614	-97.98
+V	13	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:21:05	2645	97.98
+V	13	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:21:05	4535	391.92
+V	13	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:21:05	4598	-391.92
+V	13	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:21:05	6910	391.92
+V	14	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:05	1930	-389.23
+V	14	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:05	2614	-97.31
+V	14	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:05	2645	97.31
+V	14	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:05	4535	389.23
+V	14	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:05	4598	-389.23
+V	14	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:05	6910	389.23
+V	15	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:20	1930	-384.76
+V	15	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:20	2614	-96.19
+V	15	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:20	2645	96.19
+V	15	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:20	4535	384.76
+V	15	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:20	4598	-384.76
+V	15	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:22:20	6910	384.76
+V	16	2022-04-25	DUBLIN /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:28:30	1930	-921.02
+V	16	2022-04-25	DUBLIN /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:28:30	2614	-230.26
+V	16	2022-04-25	DUBLIN /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:28:30	2645	230.26
+V	16	2022-04-25	DUBLIN /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:28:30	4535	921.02
+V	16	2022-04-25	DUBLIN /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:28:30	4598	-921.02
+V	16	2022-04-25	DUBLIN /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:28:30	6910	921.02
+V	17	2022-03-25	DUBLIN /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:05	1930	-914.53
+V	17	2022-03-25	DUBLIN /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:05	2614	-228.63
+V	17	2022-03-25	DUBLIN /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:05	2645	228.63
+V	17	2022-03-25	DUBLIN /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:05	4535	914.53
+V	17	2022-03-25	DUBLIN /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:05	4598	-914.53
+V	17	2022-03-25	DUBLIN /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:05	6910	914.53
+V	18	2022-02-25	DUBLIN /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:41	1930	-923.56
+V	18	2022-02-25	DUBLIN /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:41	2614	-230.89
+V	18	2022-02-25	DUBLIN /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:41	2645	230.89
+V	18	2022-02-25	DUBLIN /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:41	4535	923.56
+V	18	2022-02-25	DUBLIN /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:41	4598	-923.56
+V	18	2022-02-25	DUBLIN /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:29:41	6910	923.56
+V	19	2022-04-25	Annulment of V13: WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:34:58	1930	391.92
+V	19	2022-04-25	Annulment of V13: WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:34:58	2614	97.98
+V	19	2022-04-25	Annulment of V13: WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:34:58	2645	-97.98
+V	19	2022-04-25	Annulment of V13: WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:34:58	4535	-391.92
+V	19	2022-04-25	Annulment of V13: WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:34:58	4598	391.92
+V	19	2022-04-25	Annulment of V13: WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:34:58	6910	-391.92
+V	20	2022-03-25	Annulment of V14: WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:04	1930	389.23
+V	20	2022-03-25	Annulment of V14: WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:04	2614	97.31
+V	20	2022-03-25	Annulment of V14: WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:04	2645	-97.31
+V	20	2022-03-25	Annulment of V14: WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:04	4535	-389.23
+V	20	2022-03-25	Annulment of V14: WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:04	4598	389.23
+V	20	2022-03-25	Annulment of V14: WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:04	6910	-389.23
+V	21	2022-02-25	Annulment of V15: WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:14	1930	384.76
+V	21	2022-02-25	Annulment of V15: WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:14	2614	96.19
+V	21	2022-02-25	Annulment of V15: WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:14	2645	-96.19
+V	21	2022-02-25	Annulment of V15: WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:14	4535	-384.76
+V	21	2022-02-25	Annulment of V15: WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:14	4598	384.76
+V	21	2022-02-25	Annulment of V15: WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-04-29 13:35:14	6910	-384.76
+V	22	2022-04-19	GOOGLE ADS67 /22-04-18 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:07	1930	-2164.99
+V	22	2022-04-19	GOOGLE ADS67 /22-04-18 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:07	2614	-541.25
+V	22	2022-04-19	GOOGLE ADS67 /22-04-18 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:07	2645	541.25
+V	22	2022-04-19	GOOGLE ADS67 /22-04-18 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:07	4535	2164.99
+V	22	2022-04-19	GOOGLE ADS67 /22-04-18 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:07	4598	-2164.99
+V	22	2022-04-19	GOOGLE ADS67 /22-04-18 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:07	6910	2164.99
+V	23	2022-03-20	GOOGLE ADS67 /22-03-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:49	1930	-2959.45
+V	23	2022-03-20	GOOGLE ADS67 /22-03-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:49	2614	-739.86
+V	23	2022-03-20	GOOGLE ADS67 /22-03-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:49	2645	739.86
+V	23	2022-03-20	GOOGLE ADS67 /22-03-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:49	4535	2959.45
+V	23	2022-03-20	GOOGLE ADS67 /22-03-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:49	4598	-2959.45
+V	23	2022-03-20	GOOGLE ADS67 /22-03-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:53:49	6910	2959.45
+V	24	2022-02-25	GOOGLE ADS67 /22-02-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:54:25	1930	-2000.00
+V	24	2022-02-25	GOOGLE ADS67 /22-02-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:54:25	2614	-500.00
+V	24	2022-02-25	GOOGLE ADS67 /22-02-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:54:25	2645	500.00
+V	24	2022-02-25	GOOGLE ADS67 /22-02-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:54:25	4535	2000.00
+V	24	2022-02-25	GOOGLE ADS67 /22-02-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:54:25	4598	-2000.00
+V	24	2022-02-25	GOOGLE ADS67 /22-02-19 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:54:25	6910	2000.00
+V	25	2022-02-02	GOOGLE ADS67 /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:55:01	1930	-1660.24
+V	25	2022-02-02	GOOGLE ADS67 /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:55:01	2614	-415.06
+V	25	2022-02-02	GOOGLE ADS67 /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:55:01	2645	415.06
+V	25	2022-02-02	GOOGLE ADS67 /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:55:01	4535	1660.24
+V	25	2022-02-02	GOOGLE ADS67 /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:55:01	4598	-1660.24
+V	25	2022-02-02	GOOGLE ADS67 /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 11:55:01	6910	1660.24
+V	26	2022-01-31	Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:03:48	1930	-743.90
+V	26	2022-01-31	Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:03:48	2614	-185.98
+V	26	2022-01-31	Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:03:48	2645	185.98
+V	26	2022-01-31	Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:03:48	4535	743.90
+V	26	2022-01-31	Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:03:48	4598	-743.90
+V	26	2022-01-31	Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:03:48	6910	743.90
+V	27	2022-03-03	GOOGLE /22-03-03 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:05:18	1930	-725.00
+V	27	2022-03-03	GOOGLE /22-03-03 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:05:18	2614	-181.25
+V	27	2022-03-03	GOOGLE /22-03-03 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:05:18	2645	181.25
+V	27	2022-03-03	GOOGLE /22-03-03 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:05:18	4535	725.00
+V	27	2022-03-03	GOOGLE /22-03-03 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:05:18	4598	-725.00
+V	27	2022-03-03	GOOGLE /22-03-03 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:05:18	6910	725.00
+V	28	2022-04-02	GSUITE SCIPL /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:11:51	1930	-696.00
+V	28	2022-04-02	GSUITE SCIPL /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:11:51	2614	-174.00
+V	28	2022-04-02	GSUITE SCIPL /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:11:51	2645	174.00
+V	28	2022-04-02	GSUITE SCIPL /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:11:51	4535	696.00
+V	28	2022-04-02	GSUITE SCIPL /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:11:51	4598	-696.00
+V	28	2022-04-02	GSUITE SCIPL /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:11:51	6910	696.00
+V	29	2022-01-31	Annulment of V26: Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:28:11	1930	743.90
+V	29	2022-01-31	Annulment of V26: Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:28:11	2614	185.98
+V	29	2022-01-31	Annulment of V26: Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:28:11	2645	-185.98
+V	29	2022-01-31	Annulment of V26: Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:28:11	4535	-743.90
+V	29	2022-01-31	Annulment of V26: Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:28:11	4598	743.90
+V	29	2022-01-31	Annulment of V26: Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:28:11	6910	-743.90
+V	30	2022-02-03	GOOGLE CLOUD /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:49:27	1930	-743.90
+V	30	2022-02-03	GOOGLE CLOUD /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:49:27	2614	-185.98
+V	30	2022-02-03	GOOGLE CLOUD /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:49:27	2645	185.98
+V	30	2022-02-03	GOOGLE CLOUD /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:49:27	4535	743.90
+V	30	2022-02-03	GOOGLE CLOUD /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:49:27	4598	-743.90
+V	30	2022-02-03	GOOGLE CLOUD /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 12:49:27	6910	743.90
+V	31	2022-01-26	Salary payment	rajiv@sciple.ai	2022-05-02 14:37:53	1930	-37925.00
+V	31	2022-01-26	Salary payment	rajiv@sciple.ai	2022-05-02 14:37:53	2710	-10075.00
+V	31	2022-01-26	Salary payment	rajiv@sciple.ai	2022-05-02 14:37:53	2731	-15081.60
+V	31	2022-01-26	Salary payment	rajiv@sciple.ai	2022-05-02 14:37:53	7210	48000.00
+V	31	2022-01-26	Salary payment	rajiv@sciple.ai	2022-05-02 14:37:53	7510	15081.60
+V	32	2022-02-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:38:18	1930	-37925.00
+V	32	2022-02-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:38:18	2710	-10075.00
+V	32	2022-02-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:38:18	2731	-15081.60
+V	32	2022-02-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:38:18	7210	48000.00
+V	32	2022-02-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:38:18	7510	15081.60
+V	33	2022-03-23	Salary payment	rajiv@sciple.ai	2022-05-02 14:40:47	1930	-37925.00
+V	33	2022-03-23	Salary payment	rajiv@sciple.ai	2022-05-02 14:40:47	2710	-10075.00
+V	33	2022-03-23	Salary payment	rajiv@sciple.ai	2022-05-02 14:40:47	2731	-15081.60
+V	33	2022-03-23	Salary payment	rajiv@sciple.ai	2022-05-02 14:40:47	7210	48000.00
+V	33	2022-03-23	Salary payment	rajiv@sciple.ai	2022-05-02 14:40:47	7510	15081.60
+V	34	2022-04-12	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:13	1630	25156.00
+V	34	2022-04-12	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:13	1630	-25156.00
+V	34	2022-04-12	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:13	1930	-25156.00
+V	34	2022-04-12	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:13	2710	10075.00
+V	34	2022-04-12	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:13	2731	15081.60
+V	34	2022-04-12	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:13	3740	-0.60
+V	35	2022-03-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:27	1630	25156.00
+V	35	2022-03-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:27	1630	-25156.00
+V	35	2022-03-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:27	1930	-25156.00
+V	35	2022-03-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:27	2710	10075.00
+V	35	2022-03-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:27	2731	15081.60
+V	35	2022-03-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:27	3740	-0.60
+V	36	2022-02-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:35	1630	25156.00
+V	36	2022-02-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:35	1630	-25156.00
+V	36	2022-02-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:35	1930	-25156.00
+V	36	2022-02-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:35	2710	10075.00
+V	36	2022-02-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:35	2731	15081.60
+V	36	2022-02-14	Social fees and income tax	rajiv@sciple.ai	2022-05-02 14:41:35	3740	-0.60
+V	37	2022-04-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:42:30	1930	-37925.00
+V	37	2022-04-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:42:30	2710	-10075.00
+V	37	2022-04-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:42:30	2731	-15081.60
+V	37	2022-04-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:42:30	7210	48000.00
+V	37	2022-04-28	Salary payment	rajiv@sciple.ai	2022-05-02 14:42:30	7510	15081.60
+V	38	2022-04-05	Föreningen framtidens fö - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-05-02 15:01:38	1930	-1000.00
+V	38	2022-04-05	Föreningen framtidens fö - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-05-02 15:01:38	2614	-250.00
+V	38	2022-04-05	Föreningen framtidens fö - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-05-02 15:01:38	2645	250.00
+V	38	2022-04-05	Föreningen framtidens fö - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-05-02 15:01:38	4535	1000.00
+V	39	2022-04-02	SAN MATEO /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:06:25	1930	-3216.64
+V	39	2022-04-02	SAN MATEO /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:06:25	2614	-804.16
+V	39	2022-04-02	SAN MATEO /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:06:25	2645	804.16
+V	39	2022-04-02	SAN MATEO /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:06:25	4531	3216.64
+V	39	2022-04-02	SAN MATEO /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:06:25	4598	-3216.64
+V	39	2022-04-02	SAN MATEO /22-04-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:06:25	6910	3216.64
+V	40	2022-03-02	SAN MATEO /22-03-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:07:35	1930	-2956.61
+V	40	2022-03-02	SAN MATEO /22-03-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:07:35	2614	-739.15
+V	40	2022-03-02	SAN MATEO /22-03-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:07:35	2645	739.15
+V	40	2022-03-02	SAN MATEO /22-03-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:07:35	4531	2956.61
+V	40	2022-03-02	SAN MATEO /22-03-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:07:35	4598	-2956.61
+V	40	2022-03-02	SAN MATEO /22-03-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:07:35	6910	2956.61
+V	41	2022-02-03	SAN MATEO /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:09:13	1930	-3211.98
+V	41	2022-02-03	SAN MATEO /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:09:13	2614	-803.00
+V	41	2022-02-03	SAN MATEO /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:09:13	2645	803.00
+V	41	2022-02-03	SAN MATEO /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:09:13	4531	3211.98
+V	41	2022-02-03	SAN MATEO /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:09:13	4598	-3211.98
+V	41	2022-02-03	SAN MATEO /22-02-02 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:09:13	6910	3211.98
+V	42	2022-02-01	ATLANTA /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:15:02	1930	-106.66
+V	42	2022-02-01	ATLANTA /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:15:02	2614	-26.67
+V	42	2022-02-01	ATLANTA /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:15:02	2645	26.67
+V	42	2022-02-01	ATLANTA /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:15:02	4531	106.66
+V	42	2022-02-01	ATLANTA /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:15:02	4598	-106.66
+V	42	2022-02-01	ATLANTA /22-02-01 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:15:02	6910	106.66
+V	43	2022-01-11	BOLAGSVERKET /22-01-10 - Bolagsverket, ej avdragsgill	rajiv@sciple.ai	2022-05-02 15:21:02	1930	-250.00
+V	43	2022-01-11	BOLAGSVERKET /22-01-10 - Bolagsverket, ej avdragsgill	rajiv@sciple.ai	2022-05-02 15:21:02	6992	250.00
+V	44	2022-04-01	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-05-02 15:22:31	1930	-185.00
+V	44	2022-04-01	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-05-02 15:22:31	6570	185.00
+V	45	2022-03-04	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-05-02 15:22:32	1930	-101.66
+V	45	2022-03-04	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-05-02 15:22:32	6570	101.66
+V	46	2022-01-24	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-05-02 15:22:32	1930	-85.00
+V	46	2022-01-24	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-05-02 15:22:32	6570	85.00
+V	47	2022-01-11	Kostnad - Banktjänster	rajiv@sciple.ai	2022-05-02 15:22:32	1930	-1.75
+V	47	2022-01-11	Kostnad - Banktjänster	rajiv@sciple.ai	2022-05-02 15:22:32	6570	1.75
+V	48	2022-04-25	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:32	1930	20000.00
+V	48	2022-04-25	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:32	1931	-20000.00
+V	49	2022-04-12	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:54	1930	47296.49
+V	49	2022-04-12	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:54	1931	-47296.49
+V	50	2022-02-28	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:54	1930	28396.35
+V	50	2022-02-28	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:54	1931	-28396.35
+V	51	2022-02-14	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:54	1930	56244.51
+V	51	2022-02-14	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:54	1931	-56244.51
+V	52	2022-01-25	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:55	1930	36931.29
+V	52	2022-01-25	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:55	1931	-36931.29
+V	53	2022-01-11	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:55	1930	30693.53
+V	53	2022-01-11	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-05-02 15:32:55	1931	-30693.53
+V	54	2022-03-18	Bg 5612-9612 - Erhållna bidrag	rajiv@sciple.ai	2022-05-02 15:38:05	1930	50000.00
+V	54	2022-03-18	Bg 5612-9612 - Erhållna bidrag	rajiv@sciple.ai	2022-05-02 15:38:05	3980	-50000.00
+V	55	2022-04-13	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-05-02 15:40:38	1630	25309.00
+V	55	2022-04-13	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-05-02 15:40:38	1930	-25309.00
+V	56	2022-03-15	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-05-02 15:40:49	1630	15500.00
+V	56	2022-03-15	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-05-02 15:40:49	1930	-15500.00
+V	57	2022-02-17	4156690604 /22-02-16 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:43:01	1930	-4518.40
+V	57	2022-02-17	4156690604 /22-02-16 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:43:01	2614	-1129.60
+V	57	2022-02-17	4156690604 /22-02-16 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:43:01	2645	1129.60
+V	57	2022-02-17	4156690604 /22-02-16 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:43:01	4531	4518.40
+V	57	2022-02-17	4156690604 /22-02-16 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:43:01	4598	-4518.40
+V	57	2022-02-17	4156690604 /22-02-16 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:43:01	6910	4518.40
+V	58	2022-01-11	320118377824 - Konsultarvoden momsfri	rajiv@sciple.ai	2022-05-02 15:52:35	1930	-20000.00
+V	58	2022-01-11	320118377824 - Konsultarvoden momsfri	rajiv@sciple.ai	2022-05-02 15:52:35	6550	20000.00
+V	59	2022-02-11	LINKEDIN 754 /22-02-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:56:02	1930	-663.99
+V	59	2022-02-11	LINKEDIN 754 /22-02-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:56:02	2614	-166.00
+V	59	2022-02-11	LINKEDIN 754 /22-02-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:56:02	2645	166.00
+V	59	2022-02-11	LINKEDIN 754 /22-02-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:56:02	4535	663.99
+V	59	2022-02-11	LINKEDIN 754 /22-02-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:56:02	4598	-663.99
+V	59	2022-02-11	LINKEDIN 754 /22-02-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:56:02	6910	663.99
+V	60	2022-01-11	LINKEDIN-743 /22-01-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:57:21	1930	-663.99
+V	60	2022-01-11	LINKEDIN-743 /22-01-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:57:21	2614	-166.00
+V	60	2022-01-11	LINKEDIN-743 /22-01-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:57:21	2645	166.00
+V	60	2022-01-11	LINKEDIN-743 /22-01-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:57:21	4535	663.99
+V	60	2022-01-11	LINKEDIN-743 /22-01-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:57:21	4598	-663.99
+V	60	2022-01-11	LINKEDIN-743 /22-01-10 - Mjukvara licens	rajiv@sciple.ai	2022-05-02 15:57:21	6910	663.99
+V	61	2022-02-10	SAN FRANCISC /22-02-09 - Mjukvara licens	rajiv@sciple.ai	2022-05-03 11:09:46	1930	-2015.48
+V	61	2022-02-10	SAN FRANCISC /22-02-09 - Mjukvara licens	rajiv@sciple.ai	2022-05-03 11:09:46	2614	-503.87
+V	61	2022-02-10	SAN FRANCISC /22-02-09 - Mjukvara licens	rajiv@sciple.ai	2022-05-03 11:09:46	2645	503.87
+V	61	2022-02-10	SAN FRANCISC /22-02-09 - Mjukvara licens	rajiv@sciple.ai	2022-05-03 11:09:46	4531	2015.48
+V	61	2022-02-10	SAN FRANCISC /22-02-09 - Mjukvara licens	rajiv@sciple.ai	2022-05-03 11:09:46	4598	-2015.48
+V	61	2022-02-10	SAN FRANCISC /22-02-09 - Mjukvara licens	rajiv@sciple.ai	2022-05-03 11:09:46	6910	2015.48
+V	62	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	1930	-391.92
+V	62	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	2614	-97.98
+V	62	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	2645	97.98
+V	62	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	4531	391.92
+V	62	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	4598	-391.92
+V	62	2022-04-25	WALNUT /22-04-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	6910	391.92
+V	63	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	1930	-389.23
+V	63	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	2614	-97.31
+V	63	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	2645	97.31
+V	63	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	4531	389.23
+V	63	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	4598	-389.23
+V	63	2022-03-25	WALNUT /22-03-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:35	6910	389.23
+V	64	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	1930	-384.76
+V	64	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	2614	-96.19
+V	64	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	2645	96.19
+V	64	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	4531	384.76
+V	64	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	4598	-384.76
+V	64	2022-02-25	WALNUT /22-02-24 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	6910	384.76
+V	65	2022-01-28	WALNUT /22-01-28 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	1930	-192.39
+V	65	2022-01-28	WALNUT /22-01-28 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	2614	-48.10
+V	65	2022-01-28	WALNUT /22-01-28 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	2645	48.10
+V	65	2022-01-28	WALNUT /22-01-28 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	4531	192.39
+V	65	2022-01-28	WALNUT /22-01-28 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	4598	-192.39
+V	65	2022-01-28	WALNUT /22-01-28 - Mjukvara licens	rajiv@sciple.ai	2022-05-09 09:05:36	6910	192.39
+V	66	2022-03-31	Momsredovisning: januari 2022 - mars 2022	rajiv@sciple.ai	2022-06-02 02:51:51	2614	6257.56
+V	66	2022-03-31	Momsredovisning: januari 2022 - mars 2022	rajiv@sciple.ai	2022-06-02 02:51:51	2645	-6257.56
+V	67	2022-07-11	Kontorsmaterial	rajiv@sciple.ai	2022-07-13 07:40:26	1930	-49.90
+V	67	2022-07-11	Kontorsmaterial	rajiv@sciple.ai	2022-07-13 07:40:26	2640	9.98
+V	67	2022-07-11	Kontorsmaterial	rajiv@sciple.ai	2022-07-13 07:40:26	6110	39.92
+V	68	2022-06-16	Connect Väst - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-07-13 08:40:50	1930	-2563.89
+V	68	2022-06-16	Connect Väst - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-07-13 08:40:50	2614	-640.97
+V	68	2022-06-16	Connect Väst - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-07-13 08:40:50	2645	640.97
+V	68	2022-06-16	Connect Väst - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-07-13 08:40:50	4535	2563.89
+V	69	2022-05-12	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-07-13 08:48:50	1930	100703.35
+V	69	2022-05-12	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-07-13 08:48:50	1931	-100703.35
+V	70	2022-05-05	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-07-13 08:49:42	1930	-205.00
+V	70	2022-05-05	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-07-13 08:49:42	6570	205.00
+V	71	2022-05-31	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-07-13 08:49:42	1930	-205.00
+V	71	2022-05-31	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-07-13 08:49:42	6570	205.00
+V	72	2022-07-04	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-07-13 08:49:42	1930	-205.00
+V	72	2022-07-04	Banktjänster - Banktjänster	rajiv@sciple.ai	2022-07-13 08:49:42	6570	205.00
+V	73	2022-06-13	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-07-13 08:50:41	1630	25500.00
+V	73	2022-06-13	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-07-13 08:50:41	1930	-25500.00
+V	74	2022-05-23	Lön	rajiv@sciple.ai	2022-07-13 08:58:35	1930	-37925.00
+V	74	2022-05-23	Lön	rajiv@sciple.ai	2022-07-13 08:58:35	2710	-10075.00
+V	74	2022-05-23	Lön	rajiv@sciple.ai	2022-07-13 08:58:35	2731	-15081.60
+V	74	2022-05-23	Lön	rajiv@sciple.ai	2022-07-13 08:58:35	7210	48000.00
+V	74	2022-05-23	Lön	rajiv@sciple.ai	2022-07-13 08:58:35	7510	15081.60
+V	75	2022-05-13	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-07-13 09:00:01	1630	30000.00
+V	75	2022-05-13	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-07-13 09:00:01	1930	-30000.00
+V	76	2022-06-30	Momsredovisning: april 2022 - juni 2022	rajiv@sciple.ai	2022-07-13 09:42:56	2614	2988.62
+V	76	2022-06-30	Momsredovisning: april 2022 - juni 2022	rajiv@sciple.ai	2022-07-13 09:42:56	2645	-2988.62
+V	77	2022-05-12	Arbetsgivaravgifter och inkomstskatt	rajiv@sciple.ai	2022-07-13 11:42:42	1630	25156.00
+V	77	2022-05-12	Arbetsgivaravgifter och inkomstskatt	rajiv@sciple.ai	2022-07-13 11:42:42	1630	-25156.00
+V	77	2022-05-12	Arbetsgivaravgifter och inkomstskatt	rajiv@sciple.ai	2022-07-13 11:42:42	1930	-25156.00
+V	77	2022-05-12	Arbetsgivaravgifter och inkomstskatt	rajiv@sciple.ai	2022-07-13 11:42:42	2710	10075.00
+V	77	2022-05-12	Arbetsgivaravgifter och inkomstskatt	rajiv@sciple.ai	2022-07-13 11:42:42	2731	15081.60
+V	77	2022-05-12	Arbetsgivaravgifter och inkomstskatt	rajiv@sciple.ai	2022-07-13 11:42:42	3740	-0.60
+V	78	2022-05-25	DUBLIN /22-05-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:05:52	1930	-949.90
+V	78	2022-05-25	DUBLIN /22-05-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:05:52	2614	-237.48
+V	78	2022-05-25	DUBLIN /22-05-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:05:52	2645	237.48
+V	78	2022-05-25	DUBLIN /22-05-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:05:52	4535	949.90
+V	78	2022-05-25	DUBLIN /22-05-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:05:52	4598	-949.90
+V	78	2022-05-25	DUBLIN /22-05-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:05:52	6910	949.90
+V	79	2022-06-25	DUBLIN /22-06-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:07:33	1930	-983.98
+V	79	2022-06-25	DUBLIN /22-06-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:07:33	2614	-246.00
+V	79	2022-06-25	DUBLIN /22-06-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:07:33	2645	246.00
+V	79	2022-06-25	DUBLIN /22-06-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:07:33	4535	983.98
+V	79	2022-06-25	DUBLIN /22-06-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:07:33	4598	-983.98
+V	79	2022-06-25	DUBLIN /22-06-24 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 13:07:33	6910	983.98
+V	80	2022-07-01	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:51:50	1930	-1353.85
+V	80	2022-07-01	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:51:50	2614	-338.46
+V	80	2022-07-01	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:51:50	2645	338.46
+V	80	2022-07-01	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:51:50	4531	1353.85
+V	80	2022-07-01	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:51:50	4598	-1353.85
+V	80	2022-07-01	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:51:50	6910	1353.85
+V	81	2022-05-31	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:52:55	1930	-348.00
+V	81	2022-05-31	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:52:55	2614	-87.00
+V	81	2022-05-31	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:52:55	2645	87.00
+V	81	2022-05-31	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:52:55	4535	348.00
+V	81	2022-05-31	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:52:55	4598	-348.00
+V	81	2022-05-31	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:52:55	6910	348.00
+V	82	2022-06-30	Annullering av V76: Momsredovisning: april 2022 - juni 2022	rajiv@sciple.ai	2022-07-13 15:54:02	2614	-2988.62
+V	82	2022-06-30	Annullering av V76: Momsredovisning: april 2022 - juni 2022	rajiv@sciple.ai	2022-07-13 15:54:02	2645	2988.62
+V	83	2022-06-30	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:56:35	1930	-348.00
+V	83	2022-06-30	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:56:35	2614	-87.00
+V	83	2022-06-30	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:56:35	2645	87.00
+V	83	2022-06-30	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:56:35	4535	348.00
+V	83	2022-06-30	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:56:35	4598	-348.00
+V	83	2022-06-30	Mjukvara licens	rajiv@sciple.ai	2022-07-13 15:56:35	6910	348.00
+V	84	2022-07-01	MongoDB	rajiv@sciple.ai	2022-07-13 16:03:22	1930	-1709.24
+V	84	2022-07-01	MongoDB	rajiv@sciple.ai	2022-07-13 16:03:22	2614	-427.31
+V	84	2022-07-01	MongoDB	rajiv@sciple.ai	2022-07-13 16:03:22	2645	427.31
+V	84	2022-07-01	MongoDB	rajiv@sciple.ai	2022-07-13 16:03:22	4535	1709.24
+V	84	2022-07-01	MongoDB	rajiv@sciple.ai	2022-07-13 16:03:22	4598	-1709.24
+V	84	2022-07-01	MongoDB	rajiv@sciple.ai	2022-07-13 16:03:22	6910	1709.24
+V	85	2022-06-01	Neo4j	rajiv@sciple.ai	2022-07-13 16:04:35	1930	-3379.43
+V	85	2022-06-01	Neo4j	rajiv@sciple.ai	2022-07-13 16:04:35	2614	-844.86
+V	85	2022-06-01	Neo4j	rajiv@sciple.ai	2022-07-13 16:04:35	2645	844.86
+V	85	2022-06-01	Neo4j	rajiv@sciple.ai	2022-07-13 16:04:35	4531	3379.43
+V	85	2022-06-01	Neo4j	rajiv@sciple.ai	2022-07-13 16:04:35	4598	-3379.43
+V	85	2022-06-01	Neo4j	rajiv@sciple.ai	2022-07-13 16:04:35	6910	3379.43
+V	86	2022-06-05	DUBLIN /22-06-04 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:09	1930	-751.37
+V	86	2022-06-05	DUBLIN /22-06-04 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:09	2614	-187.84
+V	86	2022-06-05	DUBLIN /22-06-04 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:09	2645	187.84
+V	86	2022-06-05	DUBLIN /22-06-04 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:09	4535	751.37
+V	86	2022-06-05	DUBLIN /22-06-04 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:09	4598	-751.37
+V	86	2022-06-05	DUBLIN /22-06-04 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:09	6910	751.37
+V	87	2022-05-03	SAN MATEO /22-05-02 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:41	1930	-3289.62
+V	87	2022-05-03	SAN MATEO /22-05-02 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:41	2614	-822.41
+V	87	2022-05-03	SAN MATEO /22-05-02 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:41	2645	822.41
+V	87	2022-05-03	SAN MATEO /22-05-02 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:41	4531	3289.62
+V	87	2022-05-03	SAN MATEO /22-05-02 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:41	4598	-3289.62
+V	87	2022-05-03	SAN MATEO /22-05-02 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:23:41	6910	3289.62
+V	88	2022-05-03	GSUITE SCIPL /22-05-03 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:24:00	1930	-649.60
+V	88	2022-05-03	GSUITE SCIPL /22-05-03 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:24:00	2614	-162.40
+V	88	2022-05-03	GSUITE SCIPL /22-05-03 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:24:00	2645	162.40
+V	88	2022-05-03	GSUITE SCIPL /22-05-03 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:24:00	4535	649.60
+V	88	2022-05-03	GSUITE SCIPL /22-05-03 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:24:00	4598	-649.60
+V	88	2022-05-03	GSUITE SCIPL /22-05-03 - Mjukvara licens	mikael@sciple.ai	2022-07-13 16:24:00	6910	649.60
+V	89	2022-05-01	Mailchimp /22-05-01 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 16:24:36	1930	-111.68
+V	89	2022-05-01	Mailchimp /22-05-01 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 16:24:36	2614	-27.92
+V	89	2022-05-01	Mailchimp /22-05-01 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 16:24:36	2645	27.92
+V	89	2022-05-01	Mailchimp /22-05-01 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 16:24:36	4531	111.68
+V	89	2022-05-01	Mailchimp /22-05-01 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 16:24:36	4598	-111.68
+V	89	2022-05-01	Mailchimp /22-05-01 - Mjukvara licens	rajiv@sciple.ai	2022-07-13 16:24:36	6910	111.68
+V	90	2022-07-02	GOOGLE ADS67 /22-07-01 - Försäljning tjänster inom EU	rajiv@sciple.ai	2022-07-13 16:26:06	1930	0.29
+V	90	2022-07-02	GOOGLE ADS67 /22-07-01 - Försäljning tjänster inom EU	rajiv@sciple.ai	2022-07-13 16:26:06	3308	-0.29
+V	91	2022-05-02	GOOGLE ADS67 /22-05-01 - Försäljning tjänster inom EU	rajiv@sciple.ai	2022-07-13 16:26:27	1930	0.42
+V	91	2022-05-02	GOOGLE ADS67 /22-05-01 - Försäljning tjänster inom EU	rajiv@sciple.ai	2022-07-13 16:26:27	3308	-0.42
+V	92	2022-06-03	GOOGLE ADS67 /22-06-02 - Försäljning tjänster inom EU	rajiv@sciple.ai	2022-07-13 16:26:27	1930	22.77
+V	92	2022-06-03	GOOGLE ADS67 /22-06-02 - Försäljning tjänster inom EU	rajiv@sciple.ai	2022-07-13 16:26:27	3308	-22.77
+V	93	2022-07-13	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-07-15 15:18:52	1930	51469.14
+V	93	2022-07-13	Valutaväxling - Överföring till företagskonto	rajiv@sciple.ai	2022-07-15 15:18:52	1931	-51469.14
+V	94	2022-07-13	Löneutbetalning	rajiv@sciple.ai	2022-07-15 15:24:52	1930	-18886.00
+V	94	2022-07-13	Löneutbetalning	rajiv@sciple.ai	2022-07-15 15:24:52	2710	-5114.00
+V	94	2022-07-13	Löneutbetalning	rajiv@sciple.ai	2022-07-15 15:24:52	2731	-7540.80
+V	94	2022-07-13	Löneutbetalning	rajiv@sciple.ai	2022-07-15 15:24:52	7210	24000.00
+V	94	2022-07-13	Löneutbetalning	rajiv@sciple.ai	2022-07-15 15:24:52	7510	7540.80
+V	95	2022-07-14	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-07-15 15:26:36	1630	7000.00
+V	95	2022-07-14	Skatteverket - Insättning till skattekonto	rajiv@sciple.ai	2022-07-15 15:26:36	1930	-7000.00
+V	96	2022-07-19	Post	rajiv@sciple.ai	2022-07-19 09:33:51	1930	-26.00
+V	96	2022-07-19	Post	rajiv@sciple.ai	2022-07-19 09:33:51	6250	26.00
+V	97	2022-03-05	Kostnadsränta	mikael@sciple.ai	2022-07-23 16:16:55	1630	-6.00
+V	97	2022-03-05	Kostnadsränta	mikael@sciple.ai	2022-07-23 16:16:55	8423	6.00
+V	98	2022-04-02	kostnadsränta skattekonto	mikael@sciple.ai	2022-07-23 16:21:21	1630	-6.00
+V	98	2022-04-02	kostnadsränta skattekonto	mikael@sciple.ai	2022-07-23 16:21:21	8423	6.00
+V	99	2022-05-01	Kostnadsränta skattekonto	mikael@sciple.ai	2022-07-23 16:22:23	1630	-11.00
+V	99	2022-05-01	Kostnadsränta skattekonto	mikael@sciple.ai	2022-07-23 16:22:23	8423	11.00
+V	100	2022-06-04	Kostnadsränta 	mikael@sciple.ai	2022-07-23 16:23:14	1630	-11.00
+V	100	2022-06-04	Kostnadsränta 	mikael@sciple.ai	2022-07-23 16:23:14	8423	11.00
+V	101	2022-01-12	Moms okt 2021 - dec 2021	mikael@sciple.ai	2022-07-23 16:42:27	1630	432.00
+V	101	2022-01-12	Moms okt 2021 - dec 2021	mikael@sciple.ai	2022-07-23 16:42:27	1650	-432.00
+V	102	2022-03-15	Annullering av V56: Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:31:42	1630	-15500.00
+V	102	2022-03-15	Annullering av V56: Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:31:42	1930	15500.00
+V	103	2022-03-15	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:31:42	1630	15500.00
+V	103	2022-03-15	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:31:42	1630	-25156.00
+V	103	2022-03-15	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:31:42	1930	-15500.00
+V	103	2022-03-15	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:31:42	1930	25156.00
+V	104	2022-04-13	Annullering av V55: Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:36:40	1630	-25309.00
+V	104	2022-04-13	Annullering av V55: Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:36:40	1930	25309.00
+V	105	2022-04-13	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:36:40	1630	25309.00
+V	105	2022-04-13	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:36:40	1630	-25156.00
+V	105	2022-04-13	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:36:40	1930	25156.00
+V	105	2022-04-13	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:36:40	1930	-25309.00
+V	106	2022-05-13	Annullering av V75: Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:39:03	1630	-30000.00
+V	106	2022-05-13	Annullering av V75: Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:39:03	1930	30000.00
+V	107	2022-05-13	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:39:03	1630	-25156.00
+V	107	2022-05-13	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:39:03	1630	30000.00
+V	107	2022-05-13	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:39:03	1930	-30000.00
+V	107	2022-05-13	Skatteverket - Insättning till skattekonto	mikael@sciple.ai	2022-07-23 17:39:03	1930	25156.00
+V	108	2022-03-14	Increased tax	mikael@sciple.ai	2022-07-23 17:49:27	1630	153.00
+V	108	2022-03-14	Increased tax	mikael@sciple.ai	2022-07-23 17:49:27	2710	-153.00
+V	109	2022-03-14	Annullering av V108: Increased tax	mikael@sciple.ai	2022-07-23 17:51:43	1630	-153.00
+V	109	2022-03-14	Annullering av V108: Increased tax	mikael@sciple.ai	2022-07-23 17:51:43	2710	153.00
+V	110	2022-03-14	Increased tax	mikael@sciple.ai	2022-07-23 17:51:43	1630	-153.00
+V	110	2022-03-14	Increased tax	mikael@sciple.ai	2022-07-23 17:51:43	2710	153.00
+V	111	2022-04-12	increased tax 	mikael@sciple.ai	2022-07-23 17:57:50	1630	-153.00
+V	111	2022-04-12	increased tax 	mikael@sciple.ai	2022-07-23 17:57:50	2710	153.00
+V	112	2022-05-12	increased tax	mikael@sciple.ai	2022-07-23 17:59:42	1630	-153.00
+V	112	2022-05-12	increased tax	mikael@sciple.ai	2022-07-23 17:59:42	2710	153.00
+V	113	2022-07-19	Rullfrimärke	rajiv@sciple.ai	2022-08-03 12:08:29	1930	-26.00
+V	113	2022-07-19	Rullfrimärke	rajiv@sciple.ai	2022-08-03 12:08:29	6250	26.00
+V	114	2022-07-11	Post -Kuvert	rajiv@sciple.ai	2022-08-03 12:09:02	1930	-39.92
+V	114	2022-07-11	Post -Kuvert	rajiv@sciple.ai	2022-08-03 12:09:02	6250	39.92
+V	115	2022-08-03	5490990502 Banktjänster - Banktjänster	mikael@sciple.ai	2022-08-23 14:31:51	1930	-205.00
+V	115	2022-08-03	5490990502 Banktjänster - Banktjänster	mikael@sciple.ai	2022-08-23 14:31:51	6570	205.00
+V	116	2022-08-03	5484693320 Dublin /22-08-02 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:04	1930	-1740.23
+V	116	2022-08-03	5484693320 Dublin /22-08-02 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:04	2614	-435.06
+V	116	2022-08-03	5484693320 Dublin /22-08-02 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:04	2645	435.06
+V	116	2022-08-03	5484693320 Dublin /22-08-02 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:04	4535	1740.23
+V	116	2022-08-03	5484693320 Dublin /22-08-02 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:04	4598	-1740.23
+V	116	2022-08-03	5484693320 Dublin /22-08-02 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:04	6910	1740.23
+V	117	2022-08-02	5484119564 Gsuite scipl/22-08-01 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:46	1930	-348.00
+V	117	2022-08-02	5484119564 Gsuite scipl/22-08-01 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:46	2614	-87.00
+V	117	2022-08-02	5484119564 Gsuite scipl/22-08-01 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:46	2645	87.00
+V	117	2022-08-02	5484119564 Gsuite scipl/22-08-01 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:46	4535	348.00
+V	117	2022-08-02	5484119564 Gsuite scipl/22-08-01 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:46	4598	-348.00
+V	117	2022-08-02	5484119564 Gsuite scipl/22-08-01 - Mjukvara licens	mikael@sciple.ai	2022-08-23 14:37:46	6910	348.00
+V	118	2022-07-19	Annullering av V113: Rullfrimärke	mikael@sciple.ai	2022-08-23 14:45:18	1930	26.00
+V	118	2022-07-19	Annullering av V113: Rullfrimärke	mikael@sciple.ai	2022-08-23 14:45:18	6250	-26.00
+V	119	2022-07-11	Annullering av V114: Post -Kuvert	mikael@sciple.ai	2022-08-23 14:49:07	1930	39.92
+V	119	2022-07-11	Annullering av V114: Post -Kuvert	mikael@sciple.ai	2022-08-23 14:49:07	6250	-39.92
+V	120	2022-07-13	Annullering av V93: Valutaväxling - Överföring till företagskonto	mikael@sciple.ai	2022-08-23 14:58:46	1930	-51469.14
+V	120	2022-07-13	Annullering av V93: Valutaväxling - Överföring till företagskonto	mikael@sciple.ai	2022-08-23 14:58:46	1931	51469.14
+V	121	2022-07-13	Valutaväxling - Överföring till företagskonto	mikael@sciple.ai	2022-08-23 14:58:46	1930	51469.14
+V	121	2022-07-13	Valutaväxling - Överföring till företagskonto	mikael@sciple.ai	2022-08-23 14:58:46	1931	-51411.62
+V	121	2022-07-13	Valutaväxling - Överföring till företagskonto	mikael@sciple.ai	2022-08-23 14:58:46	7960	-57.52
+V	122	2022-07-25	5484843448 Dublin /22-07-24 - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-08-23 15:30:57	1930	-990.91
+V	122	2022-07-25	5484843448 Dublin /22-07-24 - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-08-23 15:30:57	2614	-247.73
+V	122	2022-07-25	5484843448 Dublin /22-07-24 - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-08-23 15:30:57	2645	247.73
+V	122	2022-07-25	5484843448 Dublin /22-07-24 - Inköp tjänster inom EU 25%	rajiv@sciple.ai	2022-08-23 15:30:57	4535	990.91
+V	123	2022-06-14	Social fees and income tax	mikael@sciple.ai	2022-08-23 15:38:03	1630	-25309.00
+V	123	2022-06-14	Social fees and income tax	mikael@sciple.ai	2022-08-23 15:38:03	2710	10228.00
+V	123	2022-06-14	Social fees and income tax	mikael@sciple.ai	2022-08-23 15:38:03	2731	15081.00
+V	124	2022-08-12	Förseningsavgift till skatteverket	mikael@sciple.ai	2022-08-23 15:40:28	1630	-625.00
+V	124	2022-08-12	Förseningsavgift till skatteverket	mikael@sciple.ai	2022-08-23 15:40:28	6992	625.00
+V	125	2022-08-26	Arbetsgivaravgift + personskatt	mikael@sciple.ai	2022-08-29 12:33:58	1630	-12654.00
+V	125	2022-08-26	Arbetsgivaravgift + personskatt	mikael@sciple.ai	2022-08-29 12:33:58	2710	5114.00
+V	125	2022-08-26	Arbetsgivaravgift + personskatt	mikael@sciple.ai	2022-08-29 12:33:58	2731	7540.00
+V	126	2022-08-28	Utlägg: Mikael Backlund	mikael@sciple.ai	2022-08-29 12:37:08	1930	-60.00
+V	126	2022-08-28	Utlägg: Mikael Backlund	mikael@sciple.ai	2022-08-29 12:37:08	2890	60.00
+V	127	2022-08-24	Hubspot August	rajiv@sciple.ai	2022-08-29 12:39:38	1930	-1029.33
+V	127	2022-08-24	Hubspot August	rajiv@sciple.ai	2022-08-29 12:39:38	2640	205.87
+V	127	2022-08-24	Hubspot August	rajiv@sciple.ai	2022-08-29 12:39:38	6910	823.46
+V	128	2022-08-25	5484843448 Dublin /22-08-22 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-08-29 12:40:40	1930	-1029.33
+V	128	2022-08-25	5484843448 Dublin /22-08-22 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-08-29 12:40:40	2614	-257.38
+V	128	2022-08-25	5484843448 Dublin /22-08-22 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-08-29 12:40:40	2645	257.38
+V	128	2022-08-25	5484843448 Dublin /22-08-22 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-08-29 12:40:40	4535	1029.33
+V	129	2022-08-25	Annullering av V128: 5484843448 Dublin /22-08-22 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-08-29 12:42:23	1930	1029.33
+V	129	2022-08-25	Annullering av V128: 5484843448 Dublin /22-08-22 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-08-29 12:42:23	2614	257.38
+V	129	2022-08-25	Annullering av V128: 5484843448 Dublin /22-08-22 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-08-29 12:42:23	2645	-257.38
+V	129	2022-08-25	Annullering av V128: 5484843448 Dublin /22-08-22 - Inköp tjänster inom EU 25%	mikael@sciple.ai	2022-08-29 12:42:23	4535	-1029.33
+V	130	2022-08-24	Annullering av V127: Hubspot August	mikael@sciple.ai	2022-08-29 12:47:35	1930	1029.33
+V	130	2022-08-24	Annullering av V127: Hubspot August	mikael@sciple.ai	2022-08-29 12:47:35	2640	-205.87
+V	130	2022-08-24	Annullering av V127: Hubspot August	mikael@sciple.ai	2022-08-29 12:47:35	6910	-823.46
+V	131	2022-08-24	Hubspot August Inköp av tjänst inom EU	mikael@sciple.ai	2022-08-29 12:47:35	1930	-1029.33
+V	131	2022-08-24	Hubspot August Inköp av tjänst inom EU	mikael@sciple.ai	2022-08-29 12:47:35	2614	-257.38
+V	131	2022-08-24	Hubspot August Inköp av tjänst inom EU	mikael@sciple.ai	2022-08-29 12:47:35	2645	257.38
+V	131	2022-08-24	Hubspot August Inköp av tjänst inom EU	mikael@sciple.ai	2022-08-29 12:47:35	4535	1029.33
+V	132	2022-08-29	Korrigering justerad personskatt	mikael@sciple.ai	2022-08-29 13:00:34	1630	546.00
+V	132	2022-08-29	Korrigering justerad personskatt	mikael@sciple.ai	2022-08-29 13:00:34	1930	-546.00
+V	132	2022-08-29	Korrigering justerad personskatt	mikael@sciple.ai	2022-08-29 13:00:34	2710	-612.00
+V	132	2022-08-29	Korrigering justerad personskatt	mikael@sciple.ai	2022-08-29 13:00:34	7510	612.00
+V	133	2022-06-30	Momsredovisning: april 2022 - juni 2022	mikael@sciple.ai	2022-08-29 13:06:56	2614	5691.53
+V	133	2022-06-30	Momsredovisning: april 2022 - juni 2022	mikael@sciple.ai	2022-08-29 13:06:56	2645	-5691.53
+V	134	2022-11-08	Gsuite scipl/22-09-01 - Mjukvara licens	mikael@sciple.ai	2022-11-08 13:03:50	2614	-87.00
+V	134	2022-11-08	Gsuite scipl/22-09-01 - Mjukvara licens	mikael@sciple.ai	2022-11-08 13:03:50	2645	87.00
+V	134	2022-11-08	Gsuite scipl/22-09-01 - Mjukvara licens	mikael@sciple.ai	2022-11-08 13:03:50	2890	-348.00
+V	134	2022-11-08	Gsuite scipl/22-09-01 - Mjukvara licens	mikael@sciple.ai	2022-11-08 13:03:50	4535	348.00
+V	134	2022-11-08	Gsuite scipl/22-09-01 - Mjukvara licens	mikael@sciple.ai	2022-11-08 13:03:50	4598	-348.00
+V	134	2022-11-08	Gsuite scipl/22-09-01 - Mjukvara licens	mikael@sciple.ai	2022-11-08 13:03:50	6910	348.00
+V	135	2022-10-03	banktjänster	mikael@sciple.ai	2022-12-28 15:21:54	1930	-205.00
+V	135	2022-10-03	banktjänster	mikael@sciple.ai	2022-12-28 15:21:54	6570	205.00
+V	136	2022-10-28	Frimärke	mikael@sciple.ai	2022-12-28 15:56:18	2890	-130.00
+V	136	2022-10-28	Frimärke	mikael@sciple.ai	2022-12-28 15:56:18	6250	130.00
+V	137	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:05:44	2614	-2.24
+V	137	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:05:44	2645	2.24
+V	137	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:05:44	2890	-8.94
+V	137	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:05:44	4535	8.94
+V	137	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:05:44	4598	-8.94
+V	137	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:05:44	6910	8.94
+V	138	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:08:45	2614	-242.45
+V	138	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:08:45	2645	242.45
+V	138	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:08:45	2890	-969.81
+V	138	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:08:45	4535	969.81
+V	138	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:08:45	4598	-969.81
+V	138	2022-12-02	AWS mjukvara licens	mikael@sciple.ai	2022-12-28 16:08:45	6910	969.81
+V	139	2022-11-08	Google mjukvara licens	mikael@sciple.ai	2022-12-28 16:11:12	2614	-81.39
+V	139	2022-11-08	Google mjukvara licens	mikael@sciple.ai	2022-12-28 16:11:12	2645	81.39
+V	139	2022-11-08	Google mjukvara licens	mikael@sciple.ai	2022-12-28 16:11:12	2890	-325.54
+V	139	2022-11-08	Google mjukvara licens	mikael@sciple.ai	2022-12-28 16:11:12	4535	325.54
+V	139	2022-11-08	Google mjukvara licens	mikael@sciple.ai	2022-12-28 16:11:12	4598	-325.54
+V	139	2022-11-08	Google mjukvara licens	mikael@sciple.ai	2022-12-28 16:11:12	6910	325.54
+V	140	2022-12-14	namecheap.com - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-12-28 16:16:21	2614	-424.95
+V	140	2022-12-14	namecheap.com - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-12-28 16:16:21	2645	424.95
+V	140	2022-12-14	namecheap.com - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-12-28 16:16:21	2890	-1699.79
+V	140	2022-12-14	namecheap.com - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-12-28 16:16:21	4531	1699.79
+V	141	2022-12-18	namecheap.com - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-12-28 16:18:03	2614	-29.00
+V	141	2022-12-18	namecheap.com - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-12-28 16:18:03	2645	29.00
+V	141	2022-12-18	namecheap.com - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-12-28 16:18:03	2890	-116.00
+V	141	2022-12-18	namecheap.com - Inköp Tjänster utanför EU	mikael@sciple.ai	2022-12-28 16:18:03	4531	116.00
+V	142	2022-09-30	Momsredovisning: juli 2022 - september 2022	mikael@sciple.ai	2022-12-28 17:10:59	1650	10.00
+V	142	2022-09-30	Momsredovisning: juli 2022 - september 2022	mikael@sciple.ai	2022-12-28 17:10:59	2614	1792.94
+V	142	2022-09-30	Momsredovisning: juli 2022 - september 2022	mikael@sciple.ai	2022-12-28 17:10:59	2640	-9.98
+V	142	2022-09-30	Momsredovisning: juli 2022 - september 2022	mikael@sciple.ai	2022-12-28 17:10:59	2645	-1792.94
+V	142	2022-09-30	Momsredovisning: juli 2022 - september 2022	mikael@sciple.ai	2022-12-28 17:10:59	3740	-0.02
+V	143	2022-12-31	Bankränta	mikael@sciple.ai	2023-01-21 15:55:53	1930	106.41
+V	143	2022-12-31	Bankränta	mikael@sciple.ai	2023-01-21 15:55:53	8311	-106.41
+V	144	2022-12-29	Förbrukningsinventarie	mikael@sciple.ai	2023-01-21 16:05:02	2640	1017.80
+V	144	2022-12-29	Förbrukningsinventarie	mikael@sciple.ai	2023-01-21 16:05:02	2890	-5089.00
+V	144	2022-12-29	Förbrukningsinventarie	mikael@sciple.ai	2023-01-21 16:05:02	5410	4071.20
+V	145	2022-09-03	Kostnadsränta	mikael@sciple.ai	2023-01-21 16:32:32	1630	-2.00
+V	145	2022-09-03	Kostnadsränta	mikael@sciple.ai	2023-01-21 16:32:32	8423	2.00
+V	146	2022-12-31	Momsredovisning: oktober 2022 - december 2022	mikael@sciple.ai	2023-01-21 16:37:59	1650	1017.00
+V	146	2022-12-31	Momsredovisning: oktober 2022 - december 2022	mikael@sciple.ai	2023-01-21 16:37:59	2614	867.03
+V	146	2022-12-31	Momsredovisning: oktober 2022 - december 2022	mikael@sciple.ai	2023-01-21 16:37:59	2640	-1017.80
+V	146	2022-12-31	Momsredovisning: oktober 2022 - december 2022	mikael@sciple.ai	2023-01-21 16:37:59	2645	-867.03
+V	146	2022-12-31	Momsredovisning: oktober 2022 - december 2022	mikael@sciple.ai	2023-01-21 16:37:59	3740	0.80
+V	147	2022-12-31	Periodisering	mikael@sciple.ai	2023-01-21 16:43:10	2990	-6250.00
+V	147	2022-12-31	Periodisering	mikael@sciple.ai	2023-01-21 16:43:10	6000	6250.00
+V	148	2022-12-31	Årets resultat	mikael@sciple.ai	2023-01-21 16:43:57	2099	408634.15
+V	148	2022-12-31	Årets resultat	mikael@sciple.ai	2023-01-21 16:43:57	8999	-408634.15

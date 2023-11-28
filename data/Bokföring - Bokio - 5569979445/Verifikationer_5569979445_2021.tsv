@@ -1,0 +1,52 @@
+Serie	Number	Date	Text	CreatedBy	CreatedDate	Account	Amount
+V	1	2021-02-13	Inbet Slutlig skatt 2019	info@belean.se	2021-03-20 16:40:29	1630	177700.00
+V	1	2021-02-13	Inbet Slutlig skatt 2019	info@belean.se	2021-03-20 16:40:29	1930	-177700.00
+V	2	2021-03-12	Slutlig skatt 2019	info@belean.se	2021-03-20 16:47:02	1630	-175409.00
+V	2	2021-03-12	Slutlig skatt 2019	info@belean.se	2021-03-20 16:47:02	2512	175409.00
+V	3	2021-03-30	Bokföra föregående års resultat	info@belean.se	2021-03-30 18:23:41	2098	2923.00
+V	3	2021-03-30	Bokföra föregående års resultat	info@belean.se	2021-03-30 18:23:41	2099	-2923.00
+V	4	2021-03-30	Utdelning 2020	info@belean.se	2021-03-30 18:31:10	2091	180023.00
+V	4	2021-03-30	Utdelning 2020	info@belean.se	2021-03-30 18:31:10	2098	-2923.00
+V	4	2021-03-30	Utdelning 2020	info@belean.se	2021-03-30 18:31:10	2898	-177100.00
+V	5	2021-01-18	Överföring	info@belean.se	2021-10-23 10:10:08	1385	-335000.00
+V	5	2021-01-18	Överföring	info@belean.se	2021-10-23 10:10:08	1930	335000.00
+V	6	2021-02-10	Utdelning1	info@belean.se	2021-10-23 10:20:01	1930	-22300.00
+V	6	2021-02-10	Utdelning1	info@belean.se	2021-10-23 10:20:01	2898	22300.00
+V	7	2021-01-04	Bankränta	info@belean.se	2021-10-23 10:34:16	1760	-116.36
+V	7	2021-01-04	Bankränta	info@belean.se	2021-10-23 10:34:16	1930	116.36
+V	8	2021-04-01	Beslut 210330 moms jan 2020 - dec 2020	info@belean.se	2021-10-23 10:45:06	1630	-123.00
+V	8	2021-04-01	Beslut 210330 moms jan 2020 - dec 2020	info@belean.se	2021-10-23 10:45:06	1930	123.00
+V	9	2021-01-04	Annullering av V7: Bankränta	info@belean.se	2021-10-23 10:48:23	1760	116.36
+V	9	2021-01-04	Annullering av V7: Bankränta	info@belean.se	2021-10-23 10:48:23	1930	-116.36
+V	10	2021-04-03	Korrigerad kostnadsränta	info@belean.se	2021-10-23 10:58:05	1630	-2121.00
+V	10	2021-04-03	Korrigerad kostnadsränta	info@belean.se	2021-10-23 10:58:05	8423	2121.00
+V	11	2021-04-01	Annullering av V8: Beslut 210330 moms jan 2020 - dec 2020	info@belean.se	2021-10-23 11:02:43	1630	123.00
+V	11	2021-04-01	Annullering av V8: Beslut 210330 moms jan 2020 - dec 2020	info@belean.se	2021-10-23 11:02:43	1930	-123.00
+V	12	2021-04-01	Beslut 210330 moms jan 2020 - dec 2020	info@belean.se	2021-10-23 11:02:43	1630	123.00
+V	12	2021-04-01	Beslut 210330 moms jan 2020 - dec 2020	info@belean.se	2021-10-23 11:02:43	1630	-123.00
+V	12	2021-04-01	Beslut 210330 moms jan 2020 - dec 2020	info@belean.se	2021-10-23 11:02:43	1650	-123.00
+V	12	2021-04-01	Beslut 210330 moms jan 2020 - dec 2020	info@belean.se	2021-10-23 11:02:43	1930	123.00
+V	13	2021-01-11	Domänavgift 2021	info@belean.se	2022-05-07 09:11:40	2640	122.50
+V	13	2021-01-11	Domänavgift 2021	info@belean.se	2022-05-07 09:11:40	2890	-612.50
+V	13	2021-01-11	Domänavgift 2021	info@belean.se	2022-05-07 09:11:40	6230	490.00
+V	14	2021-10-25	Uttag	info@belean.se	2022-05-07 09:40:47	1930	-154910.00
+V	14	2021-10-25	Uttag	info@belean.se	2022-05-07 09:40:47	2091	154910.00
+V	15	2021-10-25	Annullering av V14: Uttag	info@belean.se	2022-05-07 09:49:12	1930	154910.00
+V	15	2021-10-25	Annullering av V14: Uttag	info@belean.se	2022-05-07 09:49:12	2091	-154910.00
+V	16	2021-10-25	Uttag utdelning 2020	info@belean.se	2022-05-07 09:49:12	1930	-154910.00
+V	16	2021-10-25	Uttag utdelning 2020	info@belean.se	2022-05-07 09:49:12	2898	154910.00
+V	17	2021-12-31	Sparränta	info@belean.se	2022-05-07 09:51:01	1930	811.00
+V	17	2021-12-31	Sparränta	info@belean.se	2022-05-07 09:51:01	8311	-811.00
+V	18	2021-10-25	Insättning 	info@belean.se	2022-05-07 09:54:13	1385	-19800.00
+V	18	2021-10-25	Insättning 	info@belean.se	2022-05-07 09:54:13	1930	19800.00
+V	19	2021-12-31	kapitalförsäkring värdeförändring	info@belean.se	2022-05-07 10:28:05	1385	293081.00
+V	19	2021-12-31	kapitalförsäkring värdeförändring	info@belean.se	2022-05-07 10:28:05	8228	-293081.00
+V	20	2021-12-31	Momsredovisning: januari 2021 - december 2021	info@belean.se	2022-05-07 10:40:43	1650	122.00
+V	20	2021-12-31	Momsredovisning: januari 2021 - december 2021	info@belean.se	2022-05-07 10:40:43	2640	-122.50
+V	20	2021-12-31	Momsredovisning: januari 2021 - december 2021	info@belean.se	2022-05-07 10:40:43	3740	0.50
+V	21	2021-12-31	Föregående års resultat	info@belean.se	2022-05-07 16:38:24	2098	-291281.00
+V	21	2021-12-31	Föregående års resultat	info@belean.se	2022-05-07 16:38:24	2099	291281.00
+V	22	2021-12-31	Årets skatt	info@belean.se	2023-01-21 12:57:34	2512	-65.00
+V	22	2021-12-31	Årets skatt	info@belean.se	2023-01-21 12:57:34	8910	65.00
+V	23	2021-12-31	Årets resultat	info@belean.se	2023-01-21 12:57:41	2099	-291215.50
+V	23	2021-12-31	Årets resultat	info@belean.se	2023-01-21 12:57:41	8999	291215.50

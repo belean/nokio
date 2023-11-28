@@ -1,0 +1,82 @@
+Serie	Number	Date	Text	CreatedBy	CreatedDate	Account	Amount
+V	1	2020-01-01	Omföring av årets resultat	info@belean.se	2020-02-10 20:37:12	2098	-643973.00
+V	1	2020-01-01	Omföring av årets resultat	info@belean.se	2020-02-10 20:37:12	2099	643973.00
+V	2	2020-02-10	Resultatdisposition	info@belean.se	2020-02-10 20:46:09	2091	-472098.00
+V	2	2020-02-10	Resultatdisposition	info@belean.se	2020-02-10 20:46:09	2098	643973.00
+V	2	2020-02-10	Resultatdisposition	info@belean.se	2020-02-10 20:46:09	2898	-171875.00
+V	3	2020-02-10	Utbetalning av utdelning	info@belean.se	2020-02-10 20:47:42	1930	-171875.00
+V	3	2020-02-10	Utbetalning av utdelning	info@belean.se	2020-02-10 20:47:42	2898	171875.00
+V	4	2020-04-07	Moms 2019	info@belean.se	2021-03-20 15:19:54	1630	3876.00
+V	4	2020-04-07	Moms 2019	info@belean.se	2021-03-20 15:19:54	2640	-3876.28
+V	4	2020-04-07	Moms 2019	info@belean.se	2021-03-20 15:19:54	3740	0.28
+V	5	2020-04-14	Förs.avgift moms/arbetsgivardeklaration 200117	info@belean.se	2021-03-20 15:26:12	1630	625.00
+V	5	2020-04-14	Förs.avgift moms/arbetsgivardeklaration 200117	info@belean.se	2021-03-20 15:26:12	1630	-625.00
+V	5	2020-04-14	Förs.avgift moms/arbetsgivardeklaration 200117	info@belean.se	2021-03-20 15:26:12	1930	-625.00
+V	5	2020-04-14	Förs.avgift moms/arbetsgivardeklaration 200117	info@belean.se	2021-03-20 15:26:12	8423	625.00
+V	6	2020-04-16	SKV Utbetalning	info@belean.se	2021-03-20 15:27:42	1630	-3876.00
+V	6	2020-04-16	SKV Utbetalning	info@belean.se	2021-03-20 15:27:42	1930	3876.00
+V	7	2020-05-26	Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:45:07	1630	20936.00
+V	7	2020-05-26	Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:45:07	1630	440.00
+V	7	2020-05-26	Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:45:07	1930	-21376.00
+V	8	2020-05-26	Annullering av V7: Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:58:56	1630	-20936.00
+V	8	2020-05-26	Annullering av V7: Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:58:56	1630	-440.00
+V	8	2020-05-26	Annullering av V7: Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:58:56	1930	21376.00
+V	9	2020-05-26	Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:58:56	1630	-20936.00
+V	9	2020-05-26	Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:58:56	1630	21376.00
+V	9	2020-05-26	Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:58:56	1930	-21376.00
+V	9	2020-05-26	Omräkning slutlig skatt 2017	info@belean.se	2021-03-20 15:58:56	2514	20936.00
+V	10	2020-06-06	kostnadsränta	info@belean.se	2021-03-20 16:00:42	1630	-429.00
+V	10	2020-06-06	kostnadsränta	info@belean.se	2021-03-20 16:00:42	8423	429.00
+V	11	2020-06-12	Förseningsavgift	info@belean.se	2021-03-20 16:13:41	1630	625.00
+V	11	2020-06-12	Förseningsavgift	info@belean.se	2021-03-20 16:13:41	1630	-625.00
+V	11	2020-06-12	Förseningsavgift	info@belean.se	2021-03-20 16:13:41	1930	-625.00
+V	11	2020-06-12	Förseningsavgift	info@belean.se	2021-03-20 16:13:41	8423	625.00
+V	12	2020-03-20	Investering i kapitalförsäkring	info@belean.se	2021-03-28 13:25:21	1385	975000.00
+V	12	2020-03-20	Investering i kapitalförsäkring	info@belean.se	2021-03-28 13:25:21	1930	-975000.00
+V	13	2020-03-20	Investering i kapitalförsäkring2	info@belean.se	2021-03-28 13:27:17	1385	16994.20
+V	13	2020-03-20	Investering i kapitalförsäkring2	info@belean.se	2021-03-28 13:27:17	1940	-16994.20
+V	14	2020-02-11	Utlägg	info@belean.se	2021-03-28 13:40:14	1930	-14129.00
+V	14	2020-02-11	Utlägg	info@belean.se	2021-03-28 13:40:14	2890	14129.00
+V	15	2020-01-13	gåva till hjälporganisation	info@belean.se	2021-03-28 13:47:41	1930	-5000.00
+V	15	2020-01-13	gåva till hjälporganisation	info@belean.se	2021-03-28 13:47:41	6992	5000.00
+V	16	2020-01-31	Banktjänster	info@belean.se	2021-03-28 13:49:06	1930	-50.00
+V	16	2020-01-31	Banktjänster	info@belean.se	2021-03-28 13:49:06	6570	50.00
+V	17	2020-01-07	vände lev skuld	info@belean.se	2021-03-28 13:52:52	1930	-378.00
+V	17	2020-01-07	vände lev skuld	info@belean.se	2021-03-28 13:52:52	2440	378.00
+V	18	2020-01-13	Annullering av V15: gåva till hjälporganisation	info@belean.se	2021-03-28 13:57:25	1930	5000.00
+V	18	2020-01-13	Annullering av V15: gåva till hjälporganisation	info@belean.se	2021-03-28 13:57:25	6992	-5000.00
+V	19	2020-02-21	Mobiltelefon	info@belean.se	2021-03-28 14:04:42	1930	-510.00
+V	19	2020-02-21	Mobiltelefon	info@belean.se	2021-03-28 14:04:42	2640	102.00
+V	19	2020-02-21	Mobiltelefon	info@belean.se	2021-03-28 14:04:42	6212	408.00
+V	20	2020-02-28	Banktjänster	info@belean.se	2021-03-28 14:08:06	1930	-50.00
+V	20	2020-02-28	Banktjänster	info@belean.se	2021-03-28 14:08:06	6570	50.00
+V	21	2020-03-06	Mobiltelefon	info@belean.se	2021-03-28 14:11:01	1930	-288.00
+V	21	2020-03-06	Mobiltelefon	info@belean.se	2021-03-28 14:11:01	2640	57.60
+V	21	2020-03-06	Mobiltelefon	info@belean.se	2021-03-28 14:11:01	6212	230.40
+V	22	2020-03-31	Banktjänster	info@belean.se	2021-03-28 14:15:43	1930	-414.75
+V	22	2020-03-31	Banktjänster	info@belean.se	2021-03-28 14:15:43	6570	414.75
+V	23	2020-04-03	Mobiltelefon	info@belean.se	2021-03-28 14:17:33	1930	-121.00
+V	23	2020-04-03	Mobiltelefon	info@belean.se	2021-03-28 14:17:33	2640	24.20
+V	23	2020-04-03	Mobiltelefon	info@belean.se	2021-03-28 14:17:33	6212	96.80
+V	24	2020-04-20	stängde konto danske bank slutlikvid	info@belean.se	2021-03-28 14:22:51	1385	1235.64
+V	24	2020-04-20	stängde konto danske bank slutlikvid	info@belean.se	2021-03-28 14:22:51	1930	-1235.64
+V	25	2020-04-24	uttag ur kapitalförsäkring	info@belean.se	2021-03-28 14:26:19	1385	-625.00
+V	25	2020-04-24	uttag ur kapitalförsäkring	info@belean.se	2021-03-28 14:26:19	1930	625.00
+V	26	2020-04-28	Uttag ur kap förs	info@belean.se	2021-03-28 14:27:49	1385	-50000.00
+V	26	2020-04-28	Uttag ur kap förs	info@belean.se	2021-03-28 14:27:49	1930	50000.00
+V	27	2020-04-16	Annullering av V6: SKV Utbetalning	info@belean.se	2021-03-28 14:55:10	1630	3876.00
+V	27	2020-04-16	Annullering av V6: SKV Utbetalning	info@belean.se	2021-03-28 14:55:10	1930	-3876.00
+V	28	2020-04-16	SKV Utbetalning	info@belean.se	2021-03-28 14:55:10	1385	3876.00
+V	28	2020-04-16	SKV Utbetalning	info@belean.se	2021-03-28 14:55:10	1630	-3876.00
+V	29	2020-12-31	Ränteintäkter	info@belean.se	2021-03-28 14:58:26	1930	116.36
+V	29	2020-12-31	Ränteintäkter	info@belean.se	2021-03-28 14:58:26	8311	-116.36
+V	30	2020-03-12	slutlig skatt 2019	info@belean.se	2021-03-28 16:10:18	2510	-218.00
+V	30	2020-03-12	slutlig skatt 2019	info@belean.se	2021-03-28 16:10:18	2512	218.00
+V	31	2020-03-10	frimärke - Post	info@belean.se	2021-03-28 16:23:01	2890	-110.00
+V	31	2020-03-10	frimärke - Post	info@belean.se	2021-03-28 16:23:01	6250	110.00
+V	32	2020-12-31	stäng moms 	info@belean.se	2021-03-28 17:13:57	1650	122.56
+V	32	2020-12-31	stäng moms 	info@belean.se	2021-03-28 17:13:57	2610	0.24
+V	32	2020-12-31	stäng moms 	info@belean.se	2021-03-28 17:13:57	2614	61.00
+V	32	2020-12-31	stäng moms 	info@belean.se	2021-03-28 17:13:57	2640	-183.80
+V	33	2020-12-31	Årets resultat 2020	info@belean.se	2021-03-28 17:19:37	2099	2923.00
+V	33	2020-12-31	Årets resultat 2020	info@belean.se	2021-03-28 17:19:37	8999	-2923.00

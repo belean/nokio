@@ -1,0 +1,225 @@
+Serie	Number	Date	Text	CreatedBy	CreatedDate	Account	Amount
+V	1	2019-06-07	Försäljning Tjänster	info@belean.se	2019-08-15 18:29:57	1930	168933.00
+V	1	2019-06-07	Försäljning Tjänster	info@belean.se	2019-08-15 18:29:57	3000	-168933.00
+V	2	2019-07-05	Försäljning Tjänster 	info@belean.se	2019-08-15 18:31:12	1930	83618.00
+V	2	2019-07-05	Försäljning Tjänster 	info@belean.se	2019-08-15 18:31:12	3000	-83618.00
+V	3	2019-08-09	Försäljning Tjänster	info@belean.se	2019-08-15 18:32:06	1930	84974.00
+V	3	2019-08-09	Försäljning Tjänster	info@belean.se	2019-08-15 18:32:06	3000	-84974.00
+V	4	2019-02-26	Moms 2018	info@belean.se	2019-08-15 18:51:57	1630	199735.00
+V	4	2019-02-26	Moms 2018	info@belean.se	2019-08-15 18:51:57	1630	-199735.00
+V	4	2019-02-26	Moms 2018	info@belean.se	2019-08-15 18:51:57	1930	-199735.00
+V	4	2019-02-26	Moms 2018	info@belean.se	2019-08-15 18:51:57	2610	-269700.00
+V	4	2019-02-26	Moms 2018	info@belean.se	2019-08-15 18:51:57	2611	475279.00
+V	4	2019-02-26	Moms 2018	info@belean.se	2019-08-15 18:51:57	2640	-5844.15
+V	4	2019-02-26	Moms 2018	info@belean.se	2019-08-15 18:51:57	3740	0.15
+V	5	2019-04-30	Utdelning 2018	info@belean.se	2019-08-15 18:57:40	1930	-175606.00
+V	5	2019-04-30	Utdelning 2018	info@belean.se	2019-08-15 18:57:40	2091	-29554.00
+V	5	2019-04-30	Utdelning 2018	info@belean.se	2019-08-15 18:57:40	2099	205160.00
+V	6	2019-01-05	Utbetalning utlägg	info@belean.se	2019-08-15 19:01:39	1930	-19366.55
+V	6	2019-01-05	Utbetalning utlägg	info@belean.se	2019-08-15 19:01:39	2890	19366.55
+V	7	2019-01-15	Leverantörsskuld	info@belean.se	2019-08-15 19:05:10	1930	-3303.00
+V	7	2019-01-15	Leverantörsskuld	info@belean.se	2019-08-15 19:05:10	2440	3303.00
+V	8	2019-09-06	Försäljning Tjänster	info@belean.se	2019-09-15 15:18:29	1930	213342.00
+V	8	2019-09-06	Försäljning Tjänster	info@belean.se	2019-09-15 15:18:29	3000	-213342.00
+V	9	2019-06-10	Lunch med Andreas S Preem - Representation	info@belean.se	2019-09-15 15:44:44	2640	24.64
+V	9	2019-06-10	Lunch med Andreas S Preem - Representation	info@belean.se	2019-09-15 15:44:44	2890	-230.00
+V	9	2019-06-10	Lunch med Andreas S Preem - Representation	info@belean.se	2019-09-15 15:44:44	6072	205.36
+V	10	2019-03-27	Enklare förtäring fika - Representation Jonas Kask	info@belean.se	2019-09-15 15:46:29	2640	8.90
+V	10	2019-03-27	Enklare förtäring fika - Representation Jonas Kask	info@belean.se	2019-09-15 15:46:29	2890	-83.00
+V	10	2019-03-27	Enklare förtäring fika - Representation Jonas Kask	info@belean.se	2019-09-15 15:46:29	6071	74.10
+V	11	2019-06-03	Lunch med Preem - Representation Jiani och Svante Samuelsson Preem	info@belean.se	2019-09-15 15:47:31	2640	37.93
+V	11	2019-06-03	Lunch med Preem - Representation Jiani och Svante Samuelsson Preem	info@belean.se	2019-09-15 15:47:31	2890	-354.00
+V	11	2019-06-03	Lunch med Preem - Representation Jiani och Svante Samuelsson Preem	info@belean.se	2019-09-15 15:47:31	6072	316.07
+V	12	2019-05-29	Lunch med Natalie LP - Representation	info@belean.se	2019-09-15 15:47:57	2640	40.18
+V	12	2019-05-29	Lunch med Natalie LP - Representation	info@belean.se	2019-09-15 15:47:57	2890	-375.00
+V	12	2019-05-29	Lunch med Natalie LP - Representation	info@belean.se	2019-09-15 15:47:57	6072	334.82
+V	13	2019-03-26	Datormus - Inköp förbrukningsinventarier	info@belean.se	2019-09-15 15:48:26	2640	29.80
+V	13	2019-03-26	Datormus - Inköp förbrukningsinventarier	info@belean.se	2019-09-15 15:48:26	2890	-149.00
+V	13	2019-03-26	Datormus - Inköp förbrukningsinventarier	info@belean.se	2019-09-15 15:48:26	5410	119.20
+V	14	2019-07-03	Utbildning	info@belean.se	2019-09-15 15:49:58	2640	135.00
+V	14	2019-07-03	Utbildning	info@belean.se	2019-09-15 15:49:58	2890	-675.00
+V	14	2019-07-03	Utbildning	info@belean.se	2019-09-15 15:49:58	7610	540.00
+V	15	2019-01-07	Utbildning Dagstidning	info@belean.se	2019-09-15 15:53:04	1930	-99.00
+V	15	2019-01-07	Utbildning Dagstidning	info@belean.se	2019-09-15 15:53:04	2640	19.80
+V	15	2019-01-07	Utbildning Dagstidning	info@belean.se	2019-09-15 15:53:04	7610	79.20
+V	16	2019-01-15	Telefonavgifter	info@belean.se	2019-09-15 15:53:48	1930	-470.00
+V	16	2019-01-15	Telefonavgifter	info@belean.se	2019-09-15 15:53:48	2640	94.00
+V	16	2019-01-15	Telefonavgifter	info@belean.se	2019-09-15 15:53:48	6210	376.00
+V	17	2019-01-11	Inköp IT produkter	info@belean.se	2019-09-15 15:54:48	2640	75.00
+V	17	2019-01-11	Inköp IT produkter	info@belean.se	2019-09-15 15:54:48	2890	-375.00
+V	17	2019-01-11	Inköp IT produkter	info@belean.se	2019-09-15 15:54:48	6230	300.00
+V	18	2019-06-04	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 15:55:36	2640	39.80
+V	18	2019-06-04	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 15:55:36	2890	-199.00
+V	18	2019-06-04	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 15:55:36	5410	159.20
+V	19	2019-07-29	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:01:27	2640	159.42
+V	19	2019-07-29	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:01:27	2890	-797.11
+V	19	2019-07-29	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:01:27	5410	637.69
+V	20	2019-07-11	Böcker	info@belean.se	2019-09-15 16:04:47	2640	19.81
+V	20	2019-07-11	Böcker	info@belean.se	2019-09-15 16:04:47	2890	-350.00
+V	20	2019-07-11	Böcker	info@belean.se	2019-09-15 16:04:47	6970	330.19
+V	21	2019-07-29	Friskvård	info@belean.se	2019-09-15 16:05:38	2890	-645.00
+V	21	2019-07-29	Friskvård	info@belean.se	2019-09-15 16:05:38	7699	645.00
+V	22	2019-06-27	Friskvård	info@belean.se	2019-09-15 16:06:53	2890	-295.00
+V	22	2019-06-27	Friskvård	info@belean.se	2019-09-15 16:06:53	7699	295.00
+V	23	2019-06-27	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:07:59	1930	-2336.00
+V	23	2019-06-27	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:07:59	2640	467.20
+V	23	2019-06-27	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:07:59	5410	1868.80
+V	24	2019-07-15	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:08:42	2640	229.80
+V	24	2019-07-15	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:08:42	2890	-1149.00
+V	24	2019-07-15	Inköp förbrukningsinventarier	info@belean.se	2019-09-15 16:08:42	5410	919.20
+V	25	2019-01-01	Utbildning	info@belean.se	2019-09-15 16:12:47	2640	22.99
+V	25	2019-01-01	Utbildning	info@belean.se	2019-09-15 16:12:47	2890	-114.93
+V	25	2019-01-01	Utbildning	info@belean.se	2019-09-15 16:12:47	7610	91.94
+V	26	2019-06-13	Representation	info@belean.se	2019-09-26 14:50:01	2640	8.79
+V	26	2019-06-13	Representation	info@belean.se	2019-09-26 14:50:01	2890	-82.00
+V	26	2019-06-13	Representation	info@belean.se	2019-09-26 14:50:01	6071	73.21
+V	27	2019-08-30	Representation m Phil Coates	info@belean.se	2019-09-26 14:51:41	2640	67.20
+V	27	2019-08-30	Representation m Phil Coates	info@belean.se	2019-09-26 14:51:41	2890	-336.00
+V	27	2019-08-30	Representation m Phil Coates	info@belean.se	2019-09-26 14:51:41	6072	268.80
+V	28	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 15:20:17	1630	-12397.00
+V	28	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 15:20:17	2510	-93979.00
+V	28	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 15:20:17	2512	106376.00
+V	29	2019-09-13	Annullering av V28: Slutlig skatt 2018	info@belean.se	2019-09-26 15:21:32	1630	12397.00
+V	29	2019-09-13	Annullering av V28: Slutlig skatt 2018	info@belean.se	2019-09-26 15:21:32	2510	93979.00
+V	29	2019-09-13	Annullering av V28: Slutlig skatt 2018	info@belean.se	2019-09-26 15:21:32	2512	-106376.00
+V	30	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 15:21:32	1630	12397.00
+V	30	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 15:21:32	2510	-93979.00
+V	30	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 15:21:32	2512	81582.00
+V	31	2019-09-13	Annullering av V30: Slutlig skatt 2018	info@belean.se	2019-09-26 16:35:15	1630	-12397.00
+V	31	2019-09-13	Annullering av V30: Slutlig skatt 2018	info@belean.se	2019-09-26 16:35:15	2510	93979.00
+V	31	2019-09-13	Annullering av V30: Slutlig skatt 2018	info@belean.se	2019-09-26 16:35:15	2512	-81582.00
+V	32	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 16:35:15	1630	12397.00
+V	32	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 16:35:15	2510	-93979.00
+V	32	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 16:35:15	2512	58773.00
+V	32	2019-09-13	Slutlig skatt 2018	info@belean.se	2019-09-26 16:35:15	2514	22809.00
+V	33	2019-03-12	Slutlig skatt 2017	info@belean.se	2019-09-26 18:25:05	1630	-1532.00
+V	33	2019-03-12	Slutlig skatt 2017	info@belean.se	2019-09-26 18:25:05	2510	-94440.00
+V	33	2019-03-12	Slutlig skatt 2017	info@belean.se	2019-09-26 18:25:05	2512	95972.00
+V	34	2019-10-03	Mobiltelefon	info@belean.se	2020-01-06 11:23:59	1930	-452.00
+V	34	2019-10-03	Mobiltelefon	info@belean.se	2020-01-06 11:23:59	2640	84.72
+V	34	2019-10-03	Mobiltelefon	info@belean.se	2020-01-06 11:23:59	6212	367.28
+V	35	2019-09-03	Mobiltelefon	info@belean.se	2020-01-06 11:25:53	1930	-403.00
+V	35	2019-09-03	Mobiltelefon	info@belean.se	2020-01-06 11:25:53	2640	80.60
+V	35	2019-09-03	Mobiltelefon	info@belean.se	2020-01-06 11:25:53	6212	322.40
+V	36	2019-08-02	Mobiltelefon	info@belean.se	2020-01-06 11:28:13	1930	-948.00
+V	36	2019-08-02	Mobiltelefon	info@belean.se	2020-01-06 11:28:13	2640	189.60
+V	36	2019-08-02	Mobiltelefon	info@belean.se	2020-01-06 11:28:13	6212	758.40
+V	37	2019-06-17	Företagsförsäkring	info@belean.se	2020-01-06 11:31:01	1930	-3417.00
+V	37	2019-06-17	Företagsförsäkring	info@belean.se	2020-01-06 11:31:01	6310	3417.00
+V	38	2019-07-17	Mobiltelefon	info@belean.se	2020-01-06 11:32:59	1930	-342.00
+V	38	2019-07-17	Mobiltelefon	info@belean.se	2020-01-06 11:32:59	2640	68.40
+V	38	2019-07-17	Mobiltelefon	info@belean.se	2020-01-06 11:32:59	6212	273.60
+V	39	2019-07-05	Mobiltelefon	info@belean.se	2020-01-06 11:34:33	1930	-557.00
+V	39	2019-07-05	Mobiltelefon	info@belean.se	2020-01-06 11:34:33	2640	111.40
+V	39	2019-07-05	Mobiltelefon	info@belean.se	2020-01-06 11:34:33	6212	445.60
+V	40	2019-04-16	Mobiltelefon	info@belean.se	2020-01-06 11:36:23	1930	-423.00
+V	40	2019-04-16	Mobiltelefon	info@belean.se	2020-01-06 11:36:23	2640	84.60
+V	40	2019-04-16	Mobiltelefon	info@belean.se	2020-01-06 11:36:23	6212	338.40
+V	41	2019-10-25	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 11:56:31	1930	-4081.00
+V	41	2019-10-25	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 11:56:31	2640	816.20
+V	41	2019-10-25	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 11:56:31	5410	3264.80
+V	42	2019-12-09	Mobiltelefon	info@belean.se	2020-01-06 11:58:04	1930	-373.00
+V	42	2019-12-09	Mobiltelefon	info@belean.se	2020-01-06 11:58:04	2640	74.60
+V	42	2019-12-09	Mobiltelefon	info@belean.se	2020-01-06 11:58:04	6212	298.40
+V	43	2019-11-01	Mobiltelefon	info@belean.se	2020-01-06 11:59:29	1930	-433.00
+V	43	2019-11-01	Mobiltelefon	info@belean.se	2020-01-06 11:59:29	2640	74.50
+V	43	2019-11-01	Mobiltelefon	info@belean.se	2020-01-06 11:59:29	6212	358.50
+V	44	2019-09-01	Kontorsmaterial	info@belean.se	2020-01-06 12:00:13	2640	23.80
+V	44	2019-09-01	Kontorsmaterial	info@belean.se	2020-01-06 12:00:13	2890	-119.00
+V	44	2019-09-01	Kontorsmaterial	info@belean.se	2020-01-06 12:00:13	6110	95.20
+V	45	2019-09-07	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 12:02:07	2640	35.94
+V	45	2019-09-07	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 12:02:07	2890	-179.70
+V	45	2019-09-07	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 12:02:07	5410	143.76
+V	46	2019-05-13	Friskvård	info@belean.se	2020-01-06 12:04:59	2640	399.00
+V	46	2019-05-13	Friskvård	info@belean.se	2020-01-06 12:04:59	2890	-1995.00
+V	46	2019-05-13	Friskvård	info@belean.se	2020-01-06 12:04:59	7699	1596.00
+V	47	2019-12-31	Mobiltelefon	info@belean.se	2020-01-06 12:07:34	2440	-378.00
+V	47	2019-12-31	Mobiltelefon	info@belean.se	2020-01-06 12:07:34	2640	75.60
+V	47	2019-12-31	Mobiltelefon	info@belean.se	2020-01-06 12:07:34	6212	302.40
+V	48	2019-10-16	Representation Preem EAC	info@belean.se	2020-01-06 12:18:02	2640	7.92
+V	48	2019-10-16	Representation Preem EAC	info@belean.se	2020-01-06 12:18:02	2890	-73.90
+V	48	2019-10-16	Representation Preem EAC	info@belean.se	2020-01-06 12:18:02	6071	65.98
+V	49	2019-10-14	Representation Nathalie LP	info@belean.se	2020-01-06 12:19:07	1930	-270.00
+V	49	2019-10-14	Representation Nathalie LP	info@belean.se	2020-01-06 12:19:07	2640	28.93
+V	49	2019-10-14	Representation Nathalie LP	info@belean.se	2020-01-06 12:19:07	6072	241.07
+V	50	2019-12-31	Bankavgifter	info@belean.se	2020-01-06 12:26:07	1930	-2050.50
+V	50	2019-12-31	Bankavgifter	info@belean.se	2020-01-06 12:26:07	6570	2050.50
+V	51	2019-12-06	Preem nov	info@belean.se	2020-01-06 12:33:36	1930	193456.00
+V	51	2019-12-06	Preem nov	info@belean.se	2020-01-06 12:33:36	3014	-193456.00
+V	52	2019-11-08	Preem Okt	info@belean.se	2020-01-06 12:35:23	1930	196957.00
+V	52	2019-11-08	Preem Okt	info@belean.se	2020-01-06 12:35:23	3014	-196959.00
+V	52	2019-11-08	Preem Okt	info@belean.se	2020-01-06 12:35:23	3740	2.00
+V	53	2019-09-06	Preem Aug	info@belean.se	2020-01-06 12:36:39	1930	213342.00
+V	53	2019-09-06	Preem Aug	info@belean.se	2020-01-06 12:36:39	3014	-213344.00
+V	53	2019-09-06	Preem Aug	info@belean.se	2020-01-06 12:36:39	3740	2.00
+V	54	2019-08-09	Preem Juli	info@belean.se	2020-01-06 12:37:46	1930	84974.00
+V	54	2019-08-09	Preem Juli	info@belean.se	2020-01-06 12:37:46	3014	-84976.00
+V	54	2019-08-09	Preem Juli	info@belean.se	2020-01-06 12:37:46	3740	2.00
+V	55	2019-06-07	Preem Maj	info@belean.se	2020-01-06 12:38:39	1930	168933.00
+V	55	2019-06-07	Preem Maj	info@belean.se	2020-01-06 12:38:39	3014	-168935.00
+V	55	2019-06-07	Preem Maj	info@belean.se	2020-01-06 12:38:39	3740	2.00
+V	56	2019-10-04	Preem Sep	info@belean.se	2020-01-06 12:39:45	1930	179555.00
+V	56	2019-10-04	Preem Sep	info@belean.se	2020-01-06 12:39:45	3014	-179557.00
+V	56	2019-10-04	Preem Sep	info@belean.se	2020-01-06 12:39:45	3740	2.00
+V	57	2019-07-05	Preem Jun	info@belean.se	2020-01-06 12:40:30	1930	83618.00
+V	57	2019-07-05	Preem Jun	info@belean.se	2020-01-06 12:40:30	3014	-83620.00
+V	57	2019-07-05	Preem Jun	info@belean.se	2020-01-06 12:40:30	3740	2.00
+V	58	2019-06-07	Annullering av V1: Försäljning Tjänster	info@belean.se	2020-01-06 13:24:55	1930	-168933.00
+V	58	2019-06-07	Annullering av V1: Försäljning Tjänster	info@belean.se	2020-01-06 13:24:55	3000	168933.00
+V	59	2019-07-05	Annullering av V2: Försäljning Tjänster 	info@belean.se	2020-01-06 13:25:05	1930	-83618.00
+V	59	2019-07-05	Annullering av V2: Försäljning Tjänster 	info@belean.se	2020-01-06 13:25:05	3000	83618.00
+V	60	2019-08-09	Annullering av V3: Försäljning Tjänster	info@belean.se	2020-01-06 13:25:23	1930	-84974.00
+V	60	2019-08-09	Annullering av V3: Försäljning Tjänster	info@belean.se	2020-01-06 13:25:23	3000	84974.00
+V	61	2019-09-06	Annullering av V8: Försäljning Tjänster	info@belean.se	2020-01-06 13:25:30	1930	-213342.00
+V	61	2019-09-06	Annullering av V8: Försäljning Tjänster	info@belean.se	2020-01-06 13:25:30	3000	213342.00
+V	62	2019-01-15	Inbetalning F-skatt dec	info@belean.se	2020-01-06 13:40:36	1630	7628.00
+V	62	2019-01-15	Inbetalning F-skatt dec	info@belean.se	2020-01-06 13:40:36	1630	-7628.00
+V	62	2019-01-15	Inbetalning F-skatt dec	info@belean.se	2020-01-06 13:40:36	1930	-7628.00
+V	62	2019-01-15	Inbetalning F-skatt dec	info@belean.se	2020-01-06 13:40:36	2940	7628.00
+V	63	2019-07-01	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 14:32:04	1930	-2336.00
+V	63	2019-07-01	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 14:32:04	2640	467.20
+V	63	2019-07-01	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 14:32:04	5410	1868.80
+V	64	2019-10-05	Uttag skattekonto	info@belean.se	2020-01-06 15:05:07	1630	-12397.00
+V	64	2019-10-05	Uttag skattekonto	info@belean.se	2020-01-06 15:05:07	1930	12397.00
+V	65	2019-07-01	Annullering av V63: Inköp förbrukningsinventarier	info@belean.se	2020-01-06 15:59:42	1930	2336.00
+V	65	2019-07-01	Annullering av V63: Inköp förbrukningsinventarier	info@belean.se	2020-01-06 15:59:42	2640	-467.20
+V	65	2019-07-01	Annullering av V63: Inköp förbrukningsinventarier	info@belean.se	2020-01-06 15:59:42	5410	-1868.80
+V	66	2019-10-25	Annullering av V41: Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:03:56	1930	4081.00
+V	66	2019-10-25	Annullering av V41: Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:03:56	2640	-816.20
+V	66	2019-10-25	Annullering av V41: Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:03:56	5410	-3264.80
+V	67	2019-10-25	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:03:56	2640	816.20
+V	67	2019-10-25	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:03:56	2890	-4081.00
+V	67	2019-10-25	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:03:56	5410	3264.80
+V	68	2019-10-14	Annullering av V49: Representation Nathalie LP	info@belean.se	2020-01-06 16:06:06	1930	270.00
+V	68	2019-10-14	Annullering av V49: Representation Nathalie LP	info@belean.se	2020-01-06 16:06:06	2640	-28.93
+V	68	2019-10-14	Annullering av V49: Representation Nathalie LP	info@belean.se	2020-01-06 16:06:06	6072	-241.07
+V	69	2019-10-14	Representation Nathalie LP	info@belean.se	2020-01-06 16:06:06	2640	28.93
+V	69	2019-10-14	Representation Nathalie LP	info@belean.se	2020-01-06 16:06:06	2890	-270.00
+V	69	2019-10-14	Representation Nathalie LP	info@belean.se	2020-01-06 16:06:06	6072	241.07
+V	70	2019-09-08	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:43:02	2640	120.40
+V	70	2019-09-08	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:43:02	2890	-602.00
+V	70	2019-09-08	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 16:43:02	5410	481.60
+V	71	2019-09-24	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 17:13:27	2640	119.80
+V	71	2019-09-24	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 17:13:27	2890	-599.00
+V	71	2019-09-24	Inköp förbrukningsinventarier	info@belean.se	2020-01-06 17:13:27	5410	479.20
+V	72	2019-12-31	Gåva till Hjärnfonden	info@belean.se	2020-02-10 19:26:07	1930	-5000.00
+V	72	2019-12-31	Gåva till Hjärnfonden	info@belean.se	2020-02-10 19:26:07	6993	5000.00
+V	73	2019-02-26	Annullering av V4: Moms 2018	info@belean.se	2020-02-10 20:19:46	1630	-199735.00
+V	73	2019-02-26	Annullering av V4: Moms 2018	info@belean.se	2020-02-10 20:19:46	1630	199735.00
+V	73	2019-02-26	Annullering av V4: Moms 2018	info@belean.se	2020-02-10 20:19:46	1930	199735.00
+V	73	2019-02-26	Annullering av V4: Moms 2018	info@belean.se	2020-02-10 20:19:46	2610	269700.00
+V	73	2019-02-26	Annullering av V4: Moms 2018	info@belean.se	2020-02-10 20:19:46	2611	-475279.00
+V	73	2019-02-26	Annullering av V4: Moms 2018	info@belean.se	2020-02-10 20:19:46	2640	5844.15
+V	73	2019-02-26	Annullering av V4: Moms 2018	info@belean.se	2020-02-10 20:19:46	3740	-0.15
+V	74	2019-02-26	Moms 2018	info@belean.se	2020-02-10 20:19:46	1930	-199735.00
+V	74	2019-02-26	Moms 2018	info@belean.se	2020-02-10 20:19:46	2610	205579.00
+V	74	2019-02-26	Moms 2018	info@belean.se	2020-02-10 20:19:46	2640	-5844.15
+V	74	2019-02-26	Moms 2018	info@belean.se	2020-02-10 20:19:46	3740	0.15
+V	75	2019-12-31	Skatt på årets resultat 2019	info@belean.se	2020-02-10 20:25:34	2512	-175703.00
+V	75	2019-12-31	Skatt på årets resultat 2019	info@belean.se	2020-02-10 20:25:34	8910	175703.00
+V	76	2019-12-31	Avsättning till periodiseringsfond 2019	info@belean.se	2020-02-10 20:28:22	2129	-273225.00
+V	76	2019-12-31	Avsättning till periodiseringsfond 2019	info@belean.se	2020-02-10 20:28:22	8811	273225.00
+V	77	2019-12-31	Årets resultat	info@belean.se	2020-02-10 20:33:00	2099	-643973.00
+V	77	2019-12-31	Årets resultat	info@belean.se	2020-02-10 20:33:00	8999	643973.00
+V	78	2019-12-31	Korrigering moms vid försäljning av tjänst inom eu	info@belean.se	2021-03-20 14:41:06	3014	1120847.00
+V	78	2019-12-31	Korrigering moms vid försäljning av tjänst inom eu	info@belean.se	2021-03-20 14:41:06	3308	-1120847.00

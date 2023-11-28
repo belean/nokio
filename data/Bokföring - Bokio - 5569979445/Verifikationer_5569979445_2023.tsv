@@ -1,0 +1,12 @@
+Serie	Number	Date	Text	CreatedBy	CreatedDate	Account	Amount
+V	1	2023-05-04	Utdelning 2022	info@belean.se	2023-05-04 14:02:35	2091	187550.00
+V	1	2023-05-04	Utdelning 2022	info@belean.se	2023-05-04 14:02:35	2898	-187550.00
+V	2	2023-02-03	Återköp aktier	info@belean.se	2023-05-05 13:24:44	1312	2890.00
+V	2	2023-02-03	Återköp aktier	info@belean.se	2023-05-05 13:24:44	1930	-2890.00
+V	3	2023-01-01	boka om årets vinst	info@belean.se	2023-05-05 13:35:49	2098	91728.78
+V	3	2023-01-01	boka om årets vinst	info@belean.se	2023-05-05 13:35:49	2099	-91728.78
+V	4	2023-05-04	Annullering av V1: Utdelning 2022	info@belean.se	2023-05-05 13:47:02	2091	-187550.00
+V	4	2023-05-04	Annullering av V1: Utdelning 2022	info@belean.se	2023-05-05 13:47:02	2898	187550.00
+V	5	2023-05-04	Utdelning 2022	info@belean.se	2023-05-05 13:47:02	2091	279278.78
+V	5	2023-05-04	Utdelning 2022	info@belean.se	2023-05-05 13:47:02	2098	-91728.78
+V	5	2023-05-04	Utdelning 2022	info@belean.se	2023-05-05 13:47:02	2898	-187550.00

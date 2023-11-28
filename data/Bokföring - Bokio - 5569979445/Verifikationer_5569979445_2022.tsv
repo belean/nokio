@@ -1,0 +1,54 @@
+Serie	Number	Date	Text	CreatedBy	CreatedDate	Account	Amount
+V	1	2022-01-27	Domänavgift 2022	info@belean.se	2022-05-07 09:13:19	2640	151.75
+V	1	2022-01-27	Domänavgift 2022	info@belean.se	2022-05-07 09:13:19	2890	-758.75
+V	1	2022-01-27	Domänavgift 2022	info@belean.se	2022-05-07 09:13:19	6230	607.00
+V	2	2022-05-07	Föregående års resultat	info@belean.se	2022-05-07 09:24:16	2098	2611.00
+V	2	2022-05-07	Föregående års resultat	info@belean.se	2022-05-07 09:24:16	2099	-2611.00
+V	3	2022-05-07	utdelning efter stämma 2021	info@belean.se	2022-05-07 09:32:24	2091	2611.00
+V	3	2022-05-07	utdelning efter stämma 2021	info@belean.se	2022-05-07 09:32:24	2091	183700.00
+V	3	2022-05-07	utdelning efter stämma 2021	info@belean.se	2022-05-07 09:32:24	2098	-2611.00
+V	3	2022-05-07	utdelning efter stämma 2021	info@belean.se	2022-05-07 09:32:24	2898	-183700.00
+V	4	2022-05-07	Annullering av V2: Föregående års resultat	info@belean.se	2022-05-07 10:56:39	2098	-2611.00
+V	4	2022-05-07	Annullering av V2: Föregående års resultat	info@belean.se	2022-05-07 10:56:39	2099	2611.00
+V	5	2022-05-07	Föregående års resultat	info@belean.se	2022-05-07 10:56:39	2098	291281.00
+V	5	2022-05-07	Föregående års resultat	info@belean.se	2022-05-07 10:56:39	2099	-291281.00
+V	6	2022-05-07	Annullering av V3: utdelning efter stämma 2021	info@belean.se	2022-05-07 10:58:06	2091	-183700.00
+V	6	2022-05-07	Annullering av V3: utdelning efter stämma 2021	info@belean.se	2022-05-07 10:58:06	2091	-2611.00
+V	6	2022-05-07	Annullering av V3: utdelning efter stämma 2021	info@belean.se	2022-05-07 10:58:06	2098	2611.00
+V	6	2022-05-07	Annullering av V3: utdelning efter stämma 2021	info@belean.se	2022-05-07 10:58:06	2898	183700.00
+V	7	2022-05-07	Annullering av V5: Föregående års resultat	info@belean.se	2022-05-07 11:01:32	2098	-291281.00
+V	7	2022-05-07	Annullering av V5: Föregående års resultat	info@belean.se	2022-05-07 11:01:32	2099	291281.00
+V	8	2022-05-07	Föregående års resultat	info@belean.se	2022-05-07 11:03:27	2098	-291281.00
+V	8	2022-05-07	Föregående års resultat	info@belean.se	2022-05-07 11:03:27	2099	291281.00
+V	9	2022-05-07	utdelning 2021	info@belean.se	2022-05-07 11:08:21	2091	-107581.00
+V	9	2022-05-07	utdelning 2021	info@belean.se	2022-05-07 11:08:21	2098	291281.00
+V	9	2022-05-07	utdelning 2021	info@belean.se	2022-05-07 11:08:21	2898	-183700.00
+V	10	2022-05-07	Annullering av V8: Föregående års resultat	info@belean.se	2022-05-07 16:38:24	2098	291281.00
+V	10	2022-05-07	Annullering av V8: Föregående års resultat	info@belean.se	2022-05-07 16:38:24	2099	-291281.00
+V	11	2022-05-16	Utbetalning skattekonto	info@belean.se	2022-12-28 10:01:11	1630	-122.00
+V	11	2022-05-16	Utbetalning skattekonto	info@belean.se	2022-12-28 10:01:11	1930	122.00
+V	12	2022-05-16	Annullering av V11: Utbetalning skattekonto	info@belean.se	2022-12-28 10:03:30	1630	122.00
+V	12	2022-05-16	Annullering av V11: Utbetalning skattekonto	info@belean.se	2022-12-28 10:03:30	1930	-122.00
+V	13	2022-05-16	Utbetalning skattekonto	info@belean.se	2022-12-28 10:03:30	1630	122.00
+V	13	2022-05-16	Utbetalning skattekonto	info@belean.se	2022-12-28 10:03:30	1630	-122.00
+V	13	2022-05-16	Utbetalning skattekonto	info@belean.se	2022-12-28 10:03:30	1650	-122.00
+V	13	2022-05-16	Utbetalning skattekonto	info@belean.se	2022-12-28 10:03:30	1930	122.00
+V	14	2022-09-06	Köp av aktier i Sciple	info@belean.se	2022-12-28 10:23:12	1312	11573.00
+V	14	2022-09-06	Köp av aktier i Sciple	info@belean.se	2022-12-28 10:23:12	1930	-11573.00
+V	15	2022-12-28	Korrigering v25 2020	info@belean.se	2022-12-28 10:43:43	1385	4.18
+V	15	2022-12-28	Korrigering v25 2020	info@belean.se	2022-12-28 10:43:43	1930	-4.18
+V	16	2022-12-28	Utbetalning utlägg	info@belean.se	2023-01-21 13:14:56	1930	-1481.00
+V	16	2022-12-28	Utbetalning utlägg	info@belean.se	2023-01-21 13:14:56	2890	1481.00
+V	17	2022-12-31	Bankränta	info@belean.se	2023-01-21 13:17:09	1930	207.17
+V	17	2022-12-31	Bankränta	info@belean.se	2023-01-21 13:17:09	8311	-207.17
+V	18	2022-12-31	Momsredovisning: januari 2022 - december 2022	info@belean.se	2023-01-21 13:21:00	1650	151.00
+V	18	2022-12-31	Momsredovisning: januari 2022 - december 2022	info@belean.se	2023-01-21 13:21:00	2640	-151.75
+V	18	2022-12-31	Momsredovisning: januari 2022 - december 2022	info@belean.se	2023-01-21 13:21:00	3740	0.75
+V	19	2022-12-31	Årets resultat	info@belean.se	2023-01-21 13:26:56	2099	400.58
+V	19	2022-12-31	Årets resultat	info@belean.se	2023-01-21 13:26:56	8999	-400.58
+V	20	2022-12-31	värdeförändring kapitalförsäkring	info@belean.se	2023-01-21 13:41:54	1385	-91262.55
+V	20	2022-12-31	värdeförändring kapitalförsäkring	info@belean.se	2023-01-21 13:41:54	8228	91262.55
+V	21	2022-12-31	Annullering av V19: Årets resultat	info@belean.se	2023-01-21 13:43:49	2099	-400.58
+V	21	2022-12-31	Annullering av V19: Årets resultat	info@belean.se	2023-01-21 13:43:49	8999	400.58
+V	22	2022-12-31	Årets resultat	info@belean.se	2023-01-21 13:45:41	2099	91663.13
+V	22	2022-12-31	Årets resultat	info@belean.se	2023-01-21 13:45:41	8999	-91663.13
