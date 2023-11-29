@@ -1,12 +1,13 @@
-{"_id":{"$oid":"65227d9136de85a4fd454dd9"},
-  [
+{
+  "_id": { "$oid": "65227d9136de85a4fd454dd9" },
+  "template": [
     {
       "name": "Domain fee",
-      "structure":["1930K","8265D"]
-    }, 
+      "structure": ["1930K", "8265D"]
+    },
     {
       "name": "Salary",
-      "structure":["3000K","1930D","2640D"]
+      "structure": ["3000K", "1930D", "2640D"]
     }
   ]
 }

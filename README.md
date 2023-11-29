@@ -104,11 +104,11 @@ Run accounts against each other ingående - utgånde and grenerate a skatteverke
 
 ## Balance sheet
 
-Dept versus tillgång and they should end up as zero
+Dept versus assets and they should always end up as zero
 
 ## Result sheet
 
-intäkt - result and they should erqual eachother out
+income - cost = result and they should erqual each other out
 
 ## Bokslut
 
@@ -155,7 +155,8 @@ Gives the amount owned by company to major shareholders
 To run the FastAPI app execute
 
 ```bash
-    uvicorn app.main:app --reload
+cd ~/Projects/nokio
+uvicorn nokio.app.main:app --reload
 ```
 
 Try it out in the web browser
@@ -163,3 +164,33 @@ http://127.0.0.1:8000/transactions?orgnr=556997-9445
 http://127.0.0.1:8000/transactions?orgnr=556997-9445&sort_by=id
 or
 http://127.0.0.1:8000/docs
+
+## AWS Amplify build setting
+
+```yaml
+version: 1
+backend:
+  phases:
+    build:
+      commands:
+        - "# Execute Amplify CLI with the helper script"
+        - update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.8 11
+        - /usr/local/bin/pip3.8 install --user pipenv
+        - amplifyPush --simple
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - yarn install
+    build:
+      commands:
+        - yarn run build
+        - node ./node_modules/gulp/bin/gulp.js licenses
+  artifacts:
+    baseDirectory: build
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
+```

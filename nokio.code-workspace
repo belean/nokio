@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../FARM-Intro"
+    },
+    {
+      "path": "../nokio-web"
+    }
+  ],
+  "settings": {
+    "cSpell.enabled": false
+  }
+}
