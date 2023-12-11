@@ -23,7 +23,7 @@
 ## Mikael @ 2023-11-19
 
 - Activated domain nokio.org in [Namecheap]
-  - www.nokio.org -> d3hb68lkbfe00j.cloudfront.net
+  - <www.nokio.org> -> d3hb68lkbfe00j.cloudfront.net
   - Recreated nokio-web amplify app
   - Centered cards in SectionTeam
 
@@ -82,6 +82,6 @@
 
 - [Python Logging](https://betterstack.com/community/guides/logging/how-to-start-logging-with-python/)
 
-- [FastAPI]()
+- [FastAPI](<https://fastapi.tiangolo.com/>)
 
 - [Namecheap](https://ap.www.namecheap.com/domains/domaincontrolpanel/nokio.org/advancedns)
