@@ -6,6 +6,7 @@ def split_SIE(sie_file: Path):
     """Split the SIE file in separate rows"""
     tot: dict = dict(IB={}, UB={}, RES={}, KONTO={}, META={"RAR": {}})
 
+    # for each row type map a function dealing with type
     row_mapper = {
         "#KONTO": convert_KONTO,
         "#SRU": convert_KONTO,

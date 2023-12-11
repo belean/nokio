@@ -1,5 +1,18 @@
 # Nokio user log
 
+## Mikael @ 2023-12-17
+
+- Now trans, trans list and trans template work together
+
+## Mikael @ 2023-12-16
+
+- Start to play with with Appsmith
+- Appsmith license key: 28E896-A51C90-579DFC-2611C1-5C4011-V3
+
+## Mikael @ 2023-12-03
+
+- Started with a Streamlit GUI
+
 ## Mikael @ 2023-11-29
 
 - Reformat bokio_import and debugging and test remains
@@ -23,7 +36,7 @@
 ## Mikael @ 2023-11-19
 
 - Activated domain nokio.org in [Namecheap]
-  - www.nokio.org -> d3hb68lkbfe00j.cloudfront.net
+  - <www.nokio.org> -> d3hb68lkbfe00j.cloudfront.net
   - Recreated nokio-web amplify app
   - Centered cards in SectionTeam
 
@@ -73,15 +86,20 @@
 1. ~~Configure amplify hosting~~
 1. Finish the emailing belean/Sciple/Nokio to One Lambda
 1. Import Bokio backup readout
-1. web page for accesing the Python API
+1. Streamlit web page for accesing the Python FastAPI
 1. AWS cognito user sign up
 1. Google analytics for cash
 1. ~~Favicon to website and~~
+1. Create a text edit area with json validator
+1. see <https://docs.appsmith.com/core-concepts/writing-code/ext-libraries>
+1. Create a text edit area with and sum calculation.
 
 ## References
 
 - [Python Logging](https://betterstack.com/community/guides/logging/how-to-start-logging-with-python/)
 
-- [FastAPI]()
+- [FastAPI](<https://fastapi.tiangolo.com/>)
+
+- [Streamlit]()
 
 - [Namecheap](https://ap.www.namecheap.com/domains/domaincontrolpanel/nokio.org/advancedns)
