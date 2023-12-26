@@ -37,6 +37,7 @@
 
 - Activated domain nokio.org in [Namecheap]
   - <www.nokio.org> -> d3hb68lkbfe00j.cloudfront.net
+  - <www.nokio.org> -> d3hb68lkbfe00j.cloudfront.net
   - Recreated nokio-web amplify app
   - Centered cards in SectionTeam
 
@@ -98,7 +99,7 @@
 
 - [Python Logging](https://betterstack.com/community/guides/logging/how-to-start-logging-with-python/)
 
-- [FastAPI](<https://fastapi.tiangolo.com/>)
+- [FastAPI](https://fastapi.tiangolo.com/)
 
 - [Streamlit]()
 
