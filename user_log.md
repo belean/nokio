@@ -1,5 +1,56 @@
 # Nokio user log
 
+## Next steps
+
+1. Import Bokio backup readout
+1. New transaction Button and clear text area
+1. Save transaction as a template, update template list
+1. Delete transaction if not consolidated
+1. FastAPI in Docker container started with docker compose start
+1. Finish the emailing belean/Sciple/Nokio to One Lambda
+1. Finish the Bokio import
+1. AWS cognito user sign up
+1. Google analytics for cash
+1. ~~Appsmith web page for accessing the Python FastAPI~~
+1. ~~Nicer logging with one logger for the entire module, like [Python Logging]~~
+1. ~~Unit test fixtures in pytest to set up and tear down test suite~~
+1. ~~Python API for separating presentation and logic~~
+1. ~~Web landing page to attract users~~
+1. ~~Configure amplify hosting~~
+1. ~~Favicon to website and~~
+1. ~~Create a text edit area with json validator with [ajv] or [Json Form]~~
+1. ~~see <https://docs.appsmith.com/core-concepts/writing-code/ext-libraries>~~
+1. ~~Create a text edit area with and sum calculation.~~
+
+## Mikael @ 2024-01-01
+
+- Appsmith web page for accessing the Python FastAPI
+- Using JSONForm
+- using FastAPI
+- Validating t_data
+
+## Mikael @ 2023-12-30
+
+- testing JSONForm
+
+## Mikael @ 2023-12-27
+
+- Connecting Appsmith in container with FastAPI on host with host.docker.internal
+
+## Mikael @ 2023-12-26
+
+- Starting appsmith:
+  - Start docker deamon in Mac OS by Docker Desktop
+  - cd /Users/backis/Projects/appsmith
+  - docker compose start
+  - Login at http://localhost
+    with backis2012@gmail.com and `b****S*2*`
+  - Select dev
+- Adding save as template
+- Cleaned up templates in MongoDB (as info@belean.se)
+- Connect with Fast api on port 8000
+  - open 8000 on docker in Appsmith
+
 ## Mikael @ 2023-12-17
 
 - Now trans, trans list and trans template work together
@@ -78,23 +129,6 @@
   - Web landing page to attract users
   - Configure amplify hosting
 
-## Next steps
-
-1. ~~Nicer logging with one logger for the entire module, like [Python Logging]~~
-1. ~~Unit test fixtures in pytest to set up and tear down test suite~~
-1. ~~Python API for separating presentation and logic~~
-1. ~~Web landing page to attract users~~
-1. ~~Configure amplify hosting~~
-1. Finish the emailing belean/Sciple/Nokio to One Lambda
-1. Import Bokio backup readout
-1. Streamlit web page for accesing the Python FastAPI
-1. AWS cognito user sign up
-1. Google analytics for cash
-1. ~~Favicon to website and~~
-1. Create a text edit area with json validator
-1. see <https://docs.appsmith.com/core-concepts/writing-code/ext-libraries>
-1. Create a text edit area with and sum calculation.
-
 ## References
 
 - [Python Logging](https://betterstack.com/community/guides/logging/how-to-start-logging-with-python/)
@@ -104,3 +138,7 @@
 - [Streamlit]()
 
 - [Namecheap](https://ap.www.namecheap.com/domains/domaincontrolpanel/nokio.org/advancedns)
+
+- [ajv](https://ajv.js.org/)
+
+- [Json Form](https://docs.appsmith.com/reference/widgets/json-form)

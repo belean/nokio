@@ -150,12 +150,16 @@ Gives the amount owned by company to major shareholders
 | ------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
 | /transaction        | GET          | Get a list of transactions with sorting options. Options: Sort by id asc and name asc and date desc. |
 | /transaction/{t_id} | GET          | Get transaction by t_id                                                                              |
-|                     |              |                                                                                                      |
+| /transaction        | POST         | Create new transaction                                                                               |
+| /template           | GET          | Get list of templates                                                                                |
+| /template/{temp_id} | GET          | Get template by id                                                                                   |
+| /template           | POST         | Create new template                                                                                  |
 
 To run the FastAPI app execute
 
 ```bash
 cd ~/Projects/nokio
+poetry shell
 uvicorn nokio.app.main:app --reload
 ```
 
@@ -194,3 +198,11 @@ frontend:
     paths:
       - node_modules/**/*
 ```
+
+## Connect Appsmith docker container to FastAPI on localhost
+
+<https://stackoverflow.com/questions/24319662/from-inside-of-a-docker-container-how-do-i-connect-to-the-localhost-of-the-mach>
+
+and
+
+<https://docs.appsmith.com/connect-data/how-to-guides/how-to-work-with-local-apis-on-appsmith?connect-method=localhost>
