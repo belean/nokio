@@ -76,6 +76,7 @@ def get_transaction_list(sort_by: str = "date", orgnr: str = None):
                 "Orgnr": 1,
                 "_id": 0,
                 "t_data": 1,
+                "t_locked": 1,
             },
         )
         .sort(sort_field, sort_order)
