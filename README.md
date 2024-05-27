@@ -14,6 +14,25 @@ include:
 
 Domain name filed at namecheap.org: nokio.org
 
+## Installation
+
+To run the FastAPI app execute
+
+```bash
+cd ~/Projects/nokio
+poetry shell
+uvicorn nokio.app.main:app --reload
+```
+
+To start appsmith environment
+
+- Start Docker desktop
+
+```bash
+cd ~/Projects/appsmith
+docker compose up
+```
+
 ## Transaction
 
 These are documents in MongoDB Atlas and in the collection 2023 of the database connected to org no. Immutable
@@ -155,13 +174,7 @@ Gives the amount owned by company to major shareholders
 | /template/{temp_id} | GET          | Get template by id                                                                                   |
 | /template           | POST         | Create new template                                                                                  |
 
-To run the FastAPI app execute
-
-```bash
-cd ~/Projects/nokio
-poetry shell
-uvicorn nokio.app.main:app --reload
-```
+or use debugging by using \*\*FastAPI (nokio) and set breakpoints
 
 Try it out in the web browser
 http://127.0.0.1:8000/transactions?orgnr=556997-9445

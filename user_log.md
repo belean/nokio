@@ -22,6 +22,19 @@
 1. ~~see <https://docs.appsmith.com/core-concepts/writing-code/ext-libraries>~~
 1. ~~Create a text edit area with and sum calculation.~~
 
+## 2024-02-18
+
+put transaction example
+{
+"t_name": "Salary from company",
+"t_date": "2023-10-10",
+"t_data": {"1930D": 333.0, "3000K": 283.0, "2610K": 51.0},
+"t_description": null,
+"Orgnr": "556997-9445",
+"t_locked": true,
+"test": "test"
+}
+
 ## Mikael @ 2024-01-01
 
 - Appsmith web page for accessing the Python FastAPI
