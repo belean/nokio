@@ -71,6 +71,21 @@ account_map = {
 }
 
 
+def get_next_transaction_id(orgnr: str):
+    """Returns the greatest transaction id available. The ids are never reused
+    and unique per org.
+    """
+    return (
+        db["Transaction"]
+        .find({"Orgnr": orgnr})
+        .sort("t_id", pymongo.DESCENDING)
+        .limit(1)
+    )
+
+
+# find().sort({age: -1}).limit(1)
+
+
 def get_latest_transaction_gl():
     """Find the general ledger with the highest transaction number"""
     # Get the latest of GL by transaction id

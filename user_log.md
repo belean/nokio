@@ -11,6 +11,11 @@
 1. Finish the Bokio import
 1. AWS cognito user sign up
 1. Google analytics for cash
+1. FastAPI with async
+1. Audit log for replay
+1. ~~Creating MongoDB Atlas indexes for orgnr+transid~~
+1. ~~Install Compass~~
+1. ~~Transaction filters orgnr~~
 1. ~~Appsmith web page for accessing the Python FastAPI~~
 1. ~~Nicer logging with one logger for the entire module, like [Python Logging]~~
 1. ~~Unit test fixtures in pytest to set up and tear down test suite~~
