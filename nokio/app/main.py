@@ -1,11 +1,13 @@
 import contextlib
 import sys
 from fastapi import FastAPI, HTTPException, Query, Request, Body, status
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+from pydantic.types import Json
 from pymongo import MongoClient
 from bson import ObjectId, json_util
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
+from nokio.transaction import get_next_transaction_id
 from nokio import settings
 import pymongo
 import json
@@ -13,7 +15,8 @@ from datetime import datetime
 import logging
 import uvicorn
 
-# from Typing import Any
+
+from typing import Optional, Any
 
 logging.basicConfig(level=logging.DEBUG)  # TODO soething nicer like
 
@@ -28,15 +31,22 @@ class TransactionModel(BaseModel):
     t_name: str
     t_date: str
     t_data: dict[str, float]
-    t_locked: bool
+    t_locked: Optional[bool] = None
     Orgnr: str
-    t_description: str | None
-    t_verification: str | None
+    t_description: Optional[str] = None
+    t_verification: Optional[str] = None
     # customField1: float | None
     # savTemplate: bool | None
 
 
-class UpdateTransactionModel(BaseModel): ...
+class UpdateTransactionModel(BaseModel):
+    t_name: Optional[str]
+    t_date: Optional[str] = None
+    t_data: Json[Any] = Field(default_factory=dict)
+    t_locked: Optional[bool] = None
+    Orgnr: Optional[str] = None
+    t_description: Optional[str] = None
+    t_verification: Optional[str] = None
 
 
 class MongoJSONEncoder(json.JSONEncoder):
@@ -57,7 +67,7 @@ db = client.nokio
 
 
 @app.get("/transaction")
-def get_transaction_list(sort_by: str = "date", orgnr: str = None):
+def get_transaction_list(orgnr: str, sort_by: str = "date"):
     """Get a list of tranactions sorted by date
 
     Args:
@@ -74,9 +84,10 @@ def get_transaction_list(sort_by: str = "date", orgnr: str = None):
         sort_field = "t_name"
         sort_order = pymongo.ASCENDING
 
-    query = {}
-    if orgnr:
-        query["Orgnr"] = orgnr
+    query = {"Orgnr": orgnr}
+    # if orgnr:
+    #    # Convert string to dict
+    #    query["Orgnr"] = json.loads(orgnr)["orgnr"]
 
     transactions = (
         db["Transaction"]
@@ -99,10 +110,10 @@ def get_transaction_list(sort_by: str = "date", orgnr: str = None):
 
 
 @app.get("/transaction/{trans_id}")
-def show_trans(trans_id: str):
-    if (
-        transaction := db["Transaction"].find_one({"t_id": int(trans_id)}, {"_id": 0})
-    ) is not None:
+def show_trans(trans_id: str, orgnr: str):
+    query = {"t_id": int(trans_id), "Orgnr": orgnr}
+
+    if (transaction := db["Transaction"].find_one(query, {"_id": 0})) is not None:
         return transaction
 
     raise HTTPException(status_code=404, detail=f"Transaction: {trans_id} not found!")
@@ -110,22 +121,25 @@ def show_trans(trans_id: str):
 
 @app.put("/transaction/{trans_id}", response_description="Update a transaction")
 def update_trans(
-    trans_id: str, request: Request, transaction: TransactionModel = Body(...)
+    trans_id: str,
+    orgnr: str,
+    request: Request,
+    transaction: UpdateTransactionModel = Body(...),
 ):
     logging.debug(f"1.{transaction=}")
     transaction = {k: v for k, v in transaction.model_dump().items() if v is not None}
     logging.debug(f"2.{transaction=}")
+    query = {"t_id": int(trans_id), "Orgnr": orgnr}
+
     if len(transaction) >= 1:
         logging.debug("Len >=1")
-        update_result = db["Transaction"].update_one(
-            {"t_id": int(trans_id)}, {"$set": transaction}
-        )
+        update_result = db["Transaction"].update_one(query, {"$set": transaction})
         logging.debug(f"{update_result=}")
         if update_result.modified_count == 1:
             logging.debug(f"{update_result.modified_count=}")
             if (
                 updated_task := MongoJSONEncoder().encode(
-                    db["Transaction"].find_one({"t_id": int(trans_id)})
+                    db["Transaction"].find_one(query)
                 )
             ) is not None:
                 return updated_task
@@ -141,8 +155,9 @@ def update_trans(
 
 
 @app.post("/transaction", response_description="Add new transaction")
-def create_transaction(request: Request, transaction: TransactionModel = Body(...)):
+def create_transaction(orgnr: str, transaction: TransactionModel = Body(...)):
     transaction = jsonable_encoder(transaction)
+    transaction["t_id"] = next(get_next_transaction_id(orgnr))["t_id"] + 1
     new_transaction = db["Transaction"].insert_one(transaction)
     # transaction.model_dump_json
     # transaction_dict = transaction.model_dump()
