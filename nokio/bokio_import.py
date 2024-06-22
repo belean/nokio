@@ -1,10 +1,12 @@
 import json
+import re
+import pandas as pd
 from pathlib import Path
 
 
 def split_SIE(sie_file: Path):
     """Split the SIE file in separate rows"""
-    tot: dict = dict(IB={}, UB={}, RES={}, KONTO={}, META={"RAR": {}})
+    tot: dict = dict(IB={}, UB={}, RES={}, KONTO={}, META={"RAR": {}}, TRANS={})
 
     # for each row type map a function dealing with type
     row_mapper = {
@@ -18,17 +20,25 @@ def split_SIE(sie_file: Path):
         "#FNAMN": convert_META,
         "#RAR": convert_META,
         "#KPTYP": convert_META,
-        "#FORMAT": convert_META
+        "#FORMAT": convert_META,
         # "#dummy": lambda x: x,
     }
 
     with open(sie_file, "r") as fp:
-        while True:
-            row = fp.readline()
-            if row == "":
+        content = fp.read().split("\n")
+        for idx, row in enumerate(content):
+            # row = fp.readline()
+            if row == "" or row[:4] == "#VER":
                 break
             items = row.strip().split()
             row_mapper.get(items[0], lambda x, y: y)(tot, row)
+        # #VER is multiline blocks '{', '}'.
+        ver_match = re.search(r"#VER.*}", "\n".join(content[idx:]), re.DOTALL)
+        trans_list = ver_match.group(0).split("#VER")
+        for trans in trans_list:
+            if len(trans) > 0:
+                result = convert_trans(trans)
+                tot["TRANS"][result.pop("verificate")] = result
 
     with open(
         "data/Bokföring - Bokio - 5592945496/out/5592945496_2023.json",
@@ -36,6 +46,34 @@ def split_SIE(sie_file: Path):
         encoding="utf-8",
     ) as fj:
         json.dump(tot, fj, ensure_ascii=False, indent=2)
+
+
+def convert_trans(trans: str):
+    account = None
+    result = {}
+    for idx, line in enumerate(trans.split("\n")):
+        if line == "":
+            break
+        elif line[:4] == ' "V"':
+            account = {}
+            # Split by '"' and remove empty elements
+            meta_data = list(filter(None, [b.strip() for b in line.split('"')]))
+            result["verificate"] = meta_data[1]
+            result["date"] = meta_data[2]
+            result["name"] = meta_data[3]
+            result["recorded_at"] = meta_data[4]
+            print(idx, "ver")
+        elif line[:1] == "{":
+            is_active = True
+            print(idx, "start")
+        elif line[:1] == "}":
+            is_active = False
+            print(idx, "stop")
+        elif is_active:
+            l_line: list = line.strip().split()
+            account[l_line[1]] = l_line[3]
+    result["account"] = account
+    return result
 
 
 def convert_META(tot: dict, row: str):
@@ -123,6 +161,51 @@ def convert_RES(tot: dict, row: str):
     tot["RES"][items[2]] = tot["RES"].get(items[2], {}) | {items[1]: items[3]}
 
 
+def generate_general_ledger(content) -> pd.DataFrame:
+    """Generate general ledger from list of transactions"""
+
+    trans_list = []
+    trans_index = []
+    for key, val in content.get("TRANS").items():
+        trans_list.append(val.get("account"))
+        trans_index.append(key)
+    return pd.DataFrame.from_records(trans_list, index=trans_index)
+
+
+def get_GL_sum(df_gl):
+    """Get the sum of all accounts"""
+    return df_gl.astype(float).sum()
+
+
+def get_GL_transaction(df_gl, verificate_id: str) -> pd.DataFrame:
+    return df_gl.astype(float).loc[verificate_id, :].dropna()
+
+
+def get_GL_accounts(df_gl, account_nr: str):
+    return df_gl.astype(float).loc[:, account_nr]
+
+
+def get_IB(content) -> pd.DataFrame:
+    """Get ingående balance from list of transactions"""
+    index = []
+    data = []
+    for key, val in content.get("IB").items():
+        index.append(key)
+        data.append(val.get("0"))
+    return pd.DataFrame(data, index=index, columns=["IB2023"])
+
+
+def current_saldo(content):
+    """Calculate the current saldo from sum of incoming balance and transactions"""
+    # incoming balance
+    ib = get_IB(content)
+
+    # General ledger
+    df_gl = generate_general_ledger(content)
+
+    return pd.concat([ib.T.astype(float), df_gl.astype(float)]).sum()
+
+
 def run(sie_file: Path):
     split_SIE(sie_file)
 
@@ -130,3 +213,6 @@ def run(sie_file: Path):
 if __name__ == "__main__":
     # Interactive run
     run(Path("data/Bokföring - Bokio - 5592945496") / "5592945496_2023.se")
+    generate_general_ledger(
+        Path("data/Bokföring - Bokio - 5592945496/out/5592945496_2023.json")
+    )

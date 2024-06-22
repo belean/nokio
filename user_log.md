@@ -2,17 +2,23 @@
 
 ## Next steps
 
-1. Import Bokio backup readout
+1. Clean up import types, Pydantic?
+1. Audit log for replay
 1. New transaction Button and clear text area
 1. Save transaction as a template, update template list
 1. Delete transaction if not consolidated
-1. FastAPI in Docker container started with docker compose start
 1. Finish the emailing belean/Sciple/Nokio to One Lambda
-1. Finish the Bokio import
 1. AWS cognito user sign up
 1. Google analytics for cash
+1. FastAPI in Docker container started with docker compose start
 1. FastAPI with async
-1. Audit log for replay
+1. ~~Import Bokio backup readout~~
+1. ~~Finish the Bokio import~~
+1. ~~Find saldo for IB2023~~
+1. ~~Find all transactions and transform to json~~
+1. ~~Build GL on the fly from transaction list~~
+1. ~~Use verifcate as gl index~~
+1. ~~Calculate current saldo as sum of IB2023 and transaction list~~
 1. ~~Creating MongoDB Atlas indexes for orgnr+transid~~
 1. ~~Install Compass~~
 1. ~~Transaction filters orgnr~~
@@ -26,6 +32,16 @@
 1. ~~Create a text edit area with json validator with [ajv] or [Json Form]~~
 1. ~~see <https://docs.appsmith.com/core-concepts/writing-code/ext-libraries>~~
 1. ~~Create a text edit area with and sum calculation.~~
+
+## 2024-06-22
+
+1. ~~Import Bokio backup readout~~
+1. ~~Finish the Bokio import~~
+1. ~~Find saldo for IB2023~~
+1. ~~Find all transactions and transform to json~~
+1. ~~Build GL on the fly from transaction list~~
+1. ~~Use verifcate as gl index~~
+1. ~~Calculate current saldo as sum of IB2023 and transaction list~~
 
 ## 2024-02-18
 
