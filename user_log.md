@@ -6,7 +6,7 @@
 1. Audit log for replay
 1. New transaction Button and clear text area
 1. Save transaction as a template, update template list
-1. Delete transaction if not consolidated
+1. Delete transaction unless consolidated
 1. Finish the emailing belean/Sciple/Nokio to One Lambda
 1. AWS cognito user sign up
 1. Google analytics for cash
@@ -32,6 +32,8 @@
 1. ~~Create a text edit area with json validator with [ajv] or [Json Form]~~
 1. ~~see <https://docs.appsmith.com/core-concepts/writing-code/ext-libraries>~~
 1. ~~Create a text edit area with and sum calculation.~~
+
+## 2024-06-26
 
 ## 2024-06-22
 

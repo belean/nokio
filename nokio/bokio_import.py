@@ -162,7 +162,11 @@ def convert_RES(tot: dict, row: str):
 
 
 def generate_general_ledger(content) -> pd.DataFrame:
-    """Generate general ledger from list of transactions"""
+    """Generate general ledger from list of transactions
+    Args:
+        content: Dict the content of transactions
+    Returns pd.DataFrame accounts, transactions and values
+    """
 
     trans_list = []
     trans_index = []
