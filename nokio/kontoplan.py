@@ -105,3 +105,28 @@ df_acc_group.index = m_index
 # df_acc_group.loc[3, 39]
 # df_acc_group.loc[3, 391]
 # df_acc_group.loc[3, 39, 391]
+
+
+def test():
+    data = [
+        {(1930, "K"): 3, (2890, "D"): 3},
+        {(1930, "D"): 2, (2890, "K"): 1, (2614, "K"): 1},
+    ]
+    df = pd.DataFrame.from_records(data)
+    df.columns = pd.MultiIndex.from_tuples(df.columns, names=["account", "side"])
+    df = df.reindex(sorted(df.columns), axis=1)
+
+
+def convert_trans(trans):
+    mytrans = {}
+    for item in trans:
+        tmp = {}
+        for key, val in item[1]["account"].items():
+            tmp[(int(key[:-1]), key[-1])] = val
+        mytrans[int(item[0])] = tmp
+
+    df = pd.DataFrame.from_records(mytrans)
+    df.columns = pd.MultiIndex.from_tuples(df.columns, names=["account", "side"])
+    df = df.reindex(sorted(df.columns), axis=1)
+    df.index.name = "Transaction"
+    return df

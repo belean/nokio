@@ -2,7 +2,10 @@
 
 ## Next steps
 
-1. Clean up import types, Pydantic?
+1. Test with different typical transactions
+1. ~~Imports are divided into kredet and debet~~
+1. Upload verificate
+1. ~~Clean up import types, Pydantic?~~
 1. Audit log for replay
 1. New transaction Button and clear text area
 1. Save transaction as a template, update template list
