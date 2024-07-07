@@ -1,4 +1,5 @@
 import json
+import sys
 import re
 import pandas as pd
 from pathlib import Path
@@ -234,25 +235,115 @@ def get_GL_accounts(df_gl, account_nr: int):
 
 
 def get_IB(content) -> pd.DataFrame:
-    """Get ingående balance from list of transactions"""
+    """Get ingående balance (Saldo) from import at start of year 1 of Janurary
+    Args:
+        content, Json file with import from Bokio
+    Raises:
+    Returns pd.DataFrame with Saldo
+    """
     index = []
     data = []
     for key, val in content.get("IB").items():
-        if float(val.get("0")) < 0:
+        """if float(val.get("0")) < 0:
             index.append((int(key), "K"))
             data.append(float(val.get("0")) * (-1))
         else:
             index.append((int(key), "D"))
-            data.append(float(val.get("0")))
-    df = pd.DataFrame(data, index=index, columns=["IB2023"]).T
+            data.append(float(val.get("0")))"""
+        index.append((int(key), "S"))
+        data.append(float(val.get("0")))
+    df = pd.DataFrame(data, index=index, columns=["IB"]).T
     df.columns = pd.MultiIndex.from_tuples(df.columns, names=["account", "side"])
     df = df.reindex(sorted(df.columns), axis=1)
     df.index.name = "Saldo"
     return df
 
 
-def current_saldo(content):
-    """Calculate the current saldo from sum of incoming balance and transactions"""
+def current_saldo(
+    content, accounts: list[int] = None, trans_id: int = None
+) -> pd.DataFrame:
+    """Calculate the current saldo from sum of incoming balance and transactions
+
+    Args:
+        content (Json): From import file
+        account (List[int]): Account numbers
+        trans_id (int, optional): What transaction to include. Zero means incoming balance IB. Defaults to None.
+
+    Raises:
+        RuntimeError: _description_
+
+    Returns:
+        pd.DataFrame: with acconts
+    """
+
+    # incoming balance
+    df_ib = get_IB(content)
+    if trans_id == 0:
+        for item in accounts:
+            return df_ib.loc["IB", (item, "S")]
+        return df_ib
+
+    # General ledger
+    df_gl = generate_general_ledger(content)
+
+    df = pd.concat([df_ib, df_gl])  # .sum()
+    df = df.reindex(sorted(df.columns), axis=1)
+
+    trans_id = (
+        trans_id if trans_id is not None and trans_id <= df.index[-1] else df.index[-1]
+    )
+
+    def get_df(account, df, trans_id):
+        if str(account)[0] not in ("2", "3"):
+            return (
+                df.get((account, "S"), pd.Series([], dtype="float64"))
+                .loc["IB":trans_id]
+                .sum()
+                + df.get((account, "D"), pd.Series([], dtype="float64"))
+                .loc["IB":trans_id]
+                .sum()
+                - df.get((account, "K"), pd.Series([], dtype="float64"))
+                .loc["IB":trans_id]
+                .sum()
+            )
+        else:
+            return (
+                df.get((account, "S"), pd.Series([], dtype="float64"))
+                .loc["IB":trans_id]
+                .sum()
+                - df.get((account, "D"), pd.Series([], dtype="float64"))
+                .loc["IB":trans_id]
+                .sum()
+                + df.get((account, "K"), pd.Series([], dtype="float64"))
+                .loc["IB":trans_id]
+                .sum()
+            )
+
+    df_saldo = df.T.groupby(level=0).apply(
+        lambda df_g: get_df(df_g.name, df_g.T, trans_id)
+    )
+
+    if accounts is not None:
+        for item in accounts:
+            return df_saldo.loc[item]
+
+    return df_saldo
+
+
+def any_saldo(content, accounts: list[int], trans_id: int = None):
+    """_summary_
+
+    Args:
+        content (Json): From import file
+        account (List[int]): Account numbers
+        trans_id (int, optional): What transaction to include. Zero means incoming balance IB. Defaults to None.
+
+    Raises:
+        RuntimeError: _description_
+
+    Returns:
+        pd.DataFrame: with acconts
+    """
     # incoming balance
     ib = get_IB(content)
 
@@ -260,19 +351,22 @@ def current_saldo(content):
     df_gl = generate_general_ledger(content)
 
     df = pd.concat([ib, df_gl])  # .sum()
-    return df.reindex(sorted(df.columns), axis=1)
+    df = df.reindex(sorted(df.columns), axis=1)
 
+    trans_id = trans_id if trans_id is not None else sys.maxsize
 
-def any_saldo(content, account: int, trans_id: int = None):
-    df = current_saldo(content)
-    trans_id = 0 if trans_id is None else trans_id
-    if 0 < trans_id < len(df):
-        return (
-            df.loc["IB2023":trans_id, (account, "D")].sum()
-            - df.loc["IB2023":trans_id, (account, "K")].sum()
-        )
-    else:
-        return df.loc[:, (account, "D")].sum() - df.loc[:, (account, "K")].sum()
+    for account in accounts:
+        # if all([(account, side) in df.columns for side in ("D", "K", "S")]):
+        if trans_id == 0:
+            return df.loc["IB", (account, "S")]
+        elif 0 < trans_id < df.index[-1]:
+            return (
+                df.loc["IB", (account, "S")]
+                + df.loc["IB":trans_id, (account, "D")].sum()
+                - df.loc["IB":trans_id, (account, "K")].sum()
+            )
+        else:
+            return current_saldo(content)[account]
 
     raise RuntimeError(f"Invalid transaction id: {trans_id}!")
 

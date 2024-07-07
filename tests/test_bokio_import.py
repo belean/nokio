@@ -66,7 +66,7 @@ def test_get_IB(content):
     result = get_IB(content)
     assert (
         repr(result)
-        == "account 1630    1650      1930 1931     2081  ...    2645 2710 2731     2890    2990\nside       K       D         D    D        K  ...       D    D    K        K       K\nSaldo                                         ...                                   \nIB2023   2.0  1027.0  23046.95  0.0  25000.0  ...  1861.8  0.0  1.4  8686.89  6250.0\n\n[1 rows x 15 columns]"
+        == "account 1630    1650      1930 1931     2081  ...    2645 2710 2731     2890    2990\nside       S       S         S    S        S  ...       S    S    S        S       S\nSaldo                                         ...                                   \nIB      -2.0  1027.0  23046.95  0.0 -25000.0  ...  1861.8  0.0 -1.4 -8686.89 -6250.0\n\n[1 rows x 15 columns]"
     )
 
 
@@ -74,8 +74,16 @@ def test_current_saldo(content):
     result = current_saldo(content)
     assert (
         repr(result)
-        == "account    1630            1650        ...   6250   6910    8423        \nside          D       K       D     K  ...      D      D       D       K\nIB2023      NaN     2.0  1027.0   NaN  ...    NaN    NaN     NaN     NaN\n1           NaN     NaN     NaN   NaN  ...    NaN    NaN     NaN     NaN\n2           NaN     NaN     NaN   NaN  ...    NaN    NaN     NaN     NaN\n3        6250.0  6250.0     NaN   NaN  ...    NaN    NaN  6250.0     NaN\n4          10.0     NaN     NaN  10.0  ...    NaN    NaN     NaN     NaN\n5        6250.0  6250.0     NaN   NaN  ...    NaN    NaN     NaN  6250.0\n6        6250.0  6250.0     NaN   NaN  ...    NaN    NaN     NaN     NaN\n7           NaN     NaN     NaN   NaN  ...    NaN  48.81     NaN     NaN\n8           NaN     NaN     NaN   NaN  ...    NaN  39.90     NaN     NaN\n9           NaN     NaN     NaN   NaN  ...    NaN  38.71     NaN     NaN\n10          NaN     NaN   155.0   NaN  ...    NaN    NaN     NaN     NaN\n11          NaN     NaN     NaN   NaN  ...    NaN    NaN     NaN     NaN\n12          NaN     NaN     NaN   NaN  ...  150.0    NaN     NaN     NaN\n13          NaN     NaN     NaN   NaN  ...    NaN  48.78     NaN     NaN\n14          NaN     NaN     NaN   NaN  ...    NaN  48.97     NaN     NaN\n15          NaN     NaN     NaN   NaN  ...    NaN  50.14     NaN     NaN\n16          NaN     NaN     NaN   NaN  ...    NaN    NaN     NaN     NaN\n\n[17 rows x 34 columns]"
+        == "account\n1630          8.00\n1650       1172.00\n1930      16796.95\n1931          0.00\n2081     -25000.00\n2093    -837177.70\n2098    -853044.04\n2099    1706088.08\n2440          0.00\n2614      -1837.02\n2640          0.00\n2645       1837.02\n2710          0.00\n2731         -1.40\n2890      -7642.58\n2990     -12500.00\n3740          0.25\n4535        275.31\n4598       -275.31\n5410        464.25\n6000          0.00\n6250        150.00\n6910        275.31\n8423          0.00\ndtype: float64"
     )
+    result = current_saldo(content, [1630], 0)
+    assert repr(result) == "np.float64(-2.0)"
+    result = current_saldo(content, [[1630, 1930]], 100)
+    assert repr(result) == "account\n1630        8.00\n1930    16796.95\ndtype: float64"
+    result = current_saldo(content, ["1630:1930"], 6)
+    assert repr(result) == "np.float64(16796.95)"
+    result = current_saldo(content, 1930)
+    assert repr(result) == "np.float64(16796.95)"
 
 
 def test_convert_trans():
@@ -93,6 +101,10 @@ def test_convert_trans():
 
 
 def test_any_saldo(content):
+    result = any_saldo(content, 1630, 0)
+    assert repr(result) == "np.float64(-2.0)"
+    result = any_saldo(content, 1630, 100)
+    assert repr(result) == "np.float64(8.0)"
     result = any_saldo(content, 1930, 6)
     assert repr(result) == "np.float64(16796.95)"
     result = any_saldo(content, 1930)
