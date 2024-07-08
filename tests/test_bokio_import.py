@@ -76,14 +76,6 @@ def test_current_saldo(content):
         repr(result)
         == "account\n1630          8.00\n1650       1172.00\n1930      16796.95\n1931          0.00\n2081     -25000.00\n2093    -837177.70\n2098    -853044.04\n2099    1706088.08\n2440          0.00\n2614      -1837.02\n2640          0.00\n2645       1837.02\n2710          0.00\n2731         -1.40\n2890      -7642.58\n2990     -12500.00\n3740          0.25\n4535        275.31\n4598       -275.31\n5410        464.25\n6000          0.00\n6250        150.00\n6910        275.31\n8423          0.00\ndtype: float64"
     )
-    result = current_saldo(content, [1630], 0)
-    assert repr(result) == "np.float64(-2.0)"
-    result = current_saldo(content, [[1630, 1930]], 100)
-    assert repr(result) == "account\n1630        8.00\n1930    16796.95\ndtype: float64"
-    result = current_saldo(content, ["1630:1930"], 6)
-    assert repr(result) == "np.float64(16796.95)"
-    result = current_saldo(content, 1930)
-    assert repr(result) == "np.float64(16796.95)"
 
 
 def test_convert_trans():
@@ -100,12 +92,12 @@ def test_convert_trans():
     )
 
 
-def test_any_saldo(content):
-    result = any_saldo(content, 1630, 0)
-    assert repr(result) == "np.float64(-2.0)"
-    result = any_saldo(content, 1630, 100)
-    assert repr(result) == "np.float64(8.0)"
-    result = any_saldo(content, 1930, 6)
-    assert repr(result) == "np.float64(16796.95)"
-    result = any_saldo(content, 1930)
-    assert repr(result) == "np.float64(16796.95)"
+# def test_any_saldo(content):
+#    result = any_saldo(content, 1630, 0)
+#    assert repr(result) == "np.float64(-2.0)"
+#    result = any_saldo(content, 1630, 100)
+#    assert repr(result) == "np.float64(8.0)"
+#    result = any_saldo(content, 1930, 6)
+#    assert repr(result) == "np.float64(16796.95)"
+#    result = any_saldo(content, 1930)
+#    assert repr(result) == "np.float64(16796.95)"

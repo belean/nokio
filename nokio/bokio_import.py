@@ -259,15 +259,11 @@ def get_IB(content) -> pd.DataFrame:
     return df
 
 
-def current_saldo(
-    content, accounts: list[int] = None, trans_id: int = None
-) -> pd.DataFrame:
+def current_saldo(content) -> pd.DataFrame:
     """Calculate the current saldo from sum of incoming balance and transactions
 
     Args:
         content (Json): From import file
-        account (List[int]): Account numbers
-        trans_id (int, optional): What transaction to include. Zero means incoming balance IB. Defaults to None.
 
     Raises:
         RuntimeError: _description_
@@ -278,10 +274,6 @@ def current_saldo(
 
     # incoming balance
     df_ib = get_IB(content)
-    if trans_id == 0:
-        for item in accounts:
-            return df_ib.loc["IB", (item, "S")]
-        return df_ib
 
     # General ledger
     df_gl = generate_general_ledger(content)
@@ -289,43 +281,25 @@ def current_saldo(
     df = pd.concat([df_ib, df_gl])  # .sum()
     df = df.reindex(sorted(df.columns), axis=1)
 
-    trans_id = (
-        trans_id if trans_id is not None and trans_id <= df.index[-1] else df.index[-1]
-    )
+    # trans_id = (
+    #    trans_id if trans_id is not None and trans_id <= df.index[-1] else df.index[-1]
+    # )
 
-    def get_df(account, df, trans_id):
+    def get_df(account, df):
         if str(account)[0] not in ("2", "3"):
             return (
-                df.get((account, "S"), pd.Series([], dtype="float64"))
-                .loc["IB":trans_id]
-                .sum()
-                + df.get((account, "D"), pd.Series([], dtype="float64"))
-                .loc["IB":trans_id]
-                .sum()
-                - df.get((account, "K"), pd.Series([], dtype="float64"))
-                .loc["IB":trans_id]
-                .sum()
+                df.get((account, "S"), pd.Series([], dtype="float64")).sum()
+                + df.get((account, "D"), pd.Series([], dtype="float64")).sum()
+                - df.get((account, "K"), pd.Series([], dtype="float64")).sum()
             )
         else:
             return (
-                df.get((account, "S"), pd.Series([], dtype="float64"))
-                .loc["IB":trans_id]
-                .sum()
-                - df.get((account, "D"), pd.Series([], dtype="float64"))
-                .loc["IB":trans_id]
-                .sum()
-                + df.get((account, "K"), pd.Series([], dtype="float64"))
-                .loc["IB":trans_id]
-                .sum()
+                df.get((account, "S"), pd.Series([], dtype="float64")).sum()
+                - df.get((account, "D"), pd.Series([], dtype="float64")).sum()
+                + df.get((account, "K"), pd.Series([], dtype="float64")).sum()
             )
 
-    df_saldo = df.T.groupby(level=0).apply(
-        lambda df_g: get_df(df_g.name, df_g.T, trans_id)
-    )
-
-    if accounts is not None:
-        for item in accounts:
-            return df_saldo.loc[item]
+    df_saldo = df.T.groupby(level=0).apply(lambda df_g: get_df(df_g.name, df_g.T))
 
     return df_saldo
 
