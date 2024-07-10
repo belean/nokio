@@ -1,4 +1,6 @@
+from pathlib import Path
 import sys
+import pandas as pd
 import pymongo
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
@@ -130,6 +132,32 @@ def recalc_GL():
         logger.info(current_GL)
         oid = current_GL.pop("_id")
         db["TransactionStore"].update_one({"_id": oid}, {"$set": current_GL})
+
+
+def add_transactions(content: list) -> pd.DataFrame:
+    """Add transactions to the GL
+
+    Args:
+        content (list): List of transactions
+
+    Returns:
+        pd.DataFrame: transaction list with multi-index
+    """
+    df_trans = pd.DataFrame().from_records(content)
+
+    def split_account(d):
+        tmp = {}
+        for key, val in d.items():
+            tmp[(int(key[:-1]), key[-1])] = val
+        return tmp
+
+    df_trans.account = df_trans.account.map(lambda d: split_account(d))
+
+    df = pd.DataFrame().from_records(df_trans.account)
+    df.columns = pd.MultiIndex.from_tuples(df.columns, names=["account", "side"])
+    df = df.reindex(sorted(df.columns), axis=1)
+    df.index.name = "Transaction"
+    return df
 
 
 def run():
