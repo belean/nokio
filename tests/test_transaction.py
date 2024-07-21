@@ -124,4 +124,4 @@ def test_calculate_transaction_balance(df: pd.DataFrame):
         df (pd.DataFrame): containing the transactions
     """
     result = calculate_transaction_balance(df)
-    assert result.sum() <= 0.49
+    assert abs(result.sum()) <= 0.49

@@ -141,6 +141,9 @@ def add_transactions(content: list) -> pd.DataFrame:
     Args:
         content (list): List of transactions
 
+    Raises: RuntimeError when transactions are unbalanced (Kredit - Debit) with an
+            combined error of more than 0.49 SEK
+
     Returns:
         pd.DataFrame: transaction list with multi-index
     """
@@ -160,6 +163,9 @@ def add_transactions(content: list) -> pd.DataFrame:
     df.index.name = "Transaction"
     # Make sure the transaction balance otherwise throw error in content
     balance = calculate_transaction_balance(df)
+    if abs(balance.sum()) <= 0.49:
+        logger.error(f"Unbalanced transactions: {balance}")
+        raise RuntimeError("The list of transactions are not balanced")
     return df
 
 
