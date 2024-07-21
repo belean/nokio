@@ -58,8 +58,10 @@ def split_SIE(sie_file: Path):
                     exclude="verificate"
                 ) | {"org_nr": tot["META"]["ORGNR"]}
 
+    (sie_file.parent / "out").mkdir(exist_ok=True)
+    file_path = sie_file.parent / "out" / sie_file.with_suffix(".jsonc").name
     with open(
-        "data/Bokföring - Bokio - 5592945496/out/5592945496_2023.json",
+        file_path,
         "w",
         encoding="utf-8",
     ) as fj:
