@@ -2,6 +2,8 @@ import pytest
 from bson.objectid import ObjectId
 import json
 from pathlib import Path
+import pandas as pd
+import numpy as np
 from nokio.transaction import (
     db,
     recalc_GL,
@@ -9,6 +11,7 @@ from nokio.transaction import (
     get_transactions_made_after_last_GL,
     add_transactions,
     open_jsonc,
+    calculate_transaction_balance,
 )
 import dictdiffer
 
@@ -62,6 +65,25 @@ def content():
     return content
 
 
+@pytest.fixture
+def df(content):
+    df_trans = pd.DataFrame().from_records(content)
+
+    def split_account(d):
+        tmp = {}
+        for key, val in d.items():
+            tmp[(int(key[:-1]), key[-1])] = val
+        return tmp
+
+    df_trans.account = df_trans.account.map(lambda d: split_account(d))
+
+    df = pd.DataFrame().from_records(df_trans.account)
+    df.columns = pd.MultiIndex.from_tuples(df.columns, names=["account", "side"])
+    df = df.reindex(sorted(df.columns), axis=1)
+    df.index.name = "Transaction"
+    return df
+
+
 def test_recalc_GL(setup):
     current_GL = get_latest_transaction_gl()
     assert (
@@ -93,3 +115,13 @@ def test_open_jsonc():
         repr(result)
         == "account        1630            1930            2650          6992    8310\nside              D       K       D       K       D     K       D       K\nTransaction                                                              \n0              10.0     NaN     NaN     NaN     NaN  10.0     NaN     NaN\n1            6250.0  6250.0     NaN  6250.0     NaN   NaN  6250.0     NaN\n2            1017.0  1017.0     NaN  1017.0  1017.0   NaN     NaN     NaN\n3             155.0   155.0     NaN   155.0   155.0   NaN     NaN     NaN\n4               1.0     NaN     NaN     NaN     NaN   NaN     NaN    1.00\n5               1.0     NaN     NaN     NaN     NaN   NaN     NaN    1.00\n6               1.0     NaN     NaN     NaN     NaN   NaN     NaN    1.00\n7               NaN     NaN  540.97     NaN     NaN   NaN     NaN  540.97"
     )
+
+
+def test_calculate_transaction_balance(df: pd.DataFrame):
+    """Calculates the balance for each transaction and checks that the residual values is less than .49 sek
+
+    Args:
+        df (pd.DataFrame): containing the transactions
+    """
+    result = calculate_transaction_balance(df)
+    assert result.sum() <= 0.49

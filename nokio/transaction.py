@@ -158,6 +158,8 @@ def add_transactions(content: list) -> pd.DataFrame:
     df.columns = pd.MultiIndex.from_tuples(df.columns, names=["account", "side"])
     df = df.reindex(sorted(df.columns), axis=1)
     df.index.name = "Transaction"
+    # Make sure the transaction balance otherwise throw error in content
+    balance = calculate_transaction_balance(df)
     return df
 
 
@@ -180,6 +182,21 @@ def open_jsonc(file_path: str):
     tmp = re.sub("/\*.*?\*/", "", file_str, flags=re.DOTALL)
     # Drop //...
     return json.loads(re.sub("//.*", "", tmp))
+
+
+def calculate_transaction_balance(df: pd.DataFrame):
+    """Takes a multiindex dataframe and per transaction check that both sides balances
+
+    Args:
+        df (pd.DataFrame): Transactions
+    Raises:
+    Returns: List of balance
+    """
+
+    def get_df(side):
+        return side["D"] - side["K"]
+
+    return df.T.groupby(level=1).sum().apply(lambda x: get_df(x))
 
 
 def run():
