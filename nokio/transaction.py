@@ -163,7 +163,7 @@ def add_transactions(content: list) -> pd.DataFrame:
     df.index.name = "Transaction"
     # Make sure the transaction balance otherwise throw error in content
     balance = calculate_transaction_balance(df)
-    if abs(balance.sum()) <= 0.49:
+    if abs(balance.sum()) > 0.49:
         logger.error(f"Unbalanced transactions: {balance}")
         raise RuntimeError("The list of transactions are not balanced")
     return df

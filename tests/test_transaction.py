@@ -32,13 +32,13 @@ def setup():
                 "Dept": {"D_Eget kapital -|+ (2045)": -25000.0},
                 "Asset": {"A_Kassa +|- (1930)": 0},
             },
-            "last_transaction": int(gl["last_transaction"]) + 100,
+            "last_transaction": int(gl["last_transaction_seen"]) + 100,
         }
     )
 
     db["Transaction"].insert_one(
         {
-            "t_id": int(gl["last_transaction"]) + 101,
+            "t_id": int(gl["last_transaction_seen"]) + 101,
             "t_name": "Domain fee 1Y",
             "t_date": "2023-10-03T16:38:12Z",
             "t_description": "Domain name to map host IP to nokio.org",
@@ -52,9 +52,11 @@ def setup():
     )
     yield True
     db["TransactionStore"].delete_many(
-        {"last_transaction": {"$gte": int(gl["last_transaction"]) + 100}}
+        {"last_transaction": {"$gte": int(gl["last_transaction_seen"]) + 100}}
     )
-    db["Transaction"].delete_many({"t_id": {"$gte": int(gl["last_transaction"]) + 101}})
+    db["Transaction"].delete_many(
+        {"t_id": {"$gte": int(gl["last_transaction_seen"]) + 101}}
+    )
 
 
 @pytest.fixture
@@ -101,7 +103,7 @@ def test_add_transactions(content):
     result = add_transactions(content)
     assert (
         repr(result)
-        == "account        2614  2641    2645     2890     4531   6910\nside              K     D       D        K        D      D\nTransaction                                               \n0               NaN  9.99     NaN    48.97      NaN  38.98\n1               NaN  9.29     NaN    45.70      NaN  36.41\n2               NaN  8.29     NaN    40.56      NaN  32.27\n3               NaN  8.69     NaN    42.54      NaN  34.85\n4               NaN  4.20     NaN    20.48      NaN  16.28\n5               NaN  4.03     NaN    19.65      NaN  15.62\n6            413.71   NaN  413.71  1654.83  1654.83    NaN\n7             28.15   NaN   28.15   112.58   112.58    NaN"
+        == "account           2091       2098     2099  ...    8310     8999         \nside                 D          K        D  ...       D        D        K\nTransaction                                 ...                          \n0                  NaN        NaN      NaN  ...     NaN      NaN      NaN\n1                  NaN        NaN      NaN  ...     NaN      NaN      NaN\n2                  NaN        NaN      NaN  ...     NaN      NaN      NaN\n3                  NaN        NaN      NaN  ...     NaN      NaN      NaN\n4                  NaN        NaN      NaN  ...     NaN      NaN      NaN\n5                  NaN        NaN      NaN  ...     NaN      NaN      NaN\n6                  NaN        NaN      NaN  ...     NaN      NaN      NaN\n7                  NaN        NaN      NaN  ...     NaN      NaN      NaN\n8            853044.04  853044.04      NaN  ...     NaN      NaN      NaN\n9                  NaN        NaN      NaN  ...  542.97  2287.34      NaN\n10                 NaN        NaN  2287.34  ...     NaN      NaN  2287.34\n\n[11 rows x 19 columns]"
     )
 
 
@@ -113,7 +115,7 @@ def test_open_jsonc():
     result = add_transactions(content)
     assert (
         repr(result)
-        == "account        1630            1930            2650          6992    8310\nside              D       K       D       K       D     K       D       K\nTransaction                                                              \n0              10.0     NaN     NaN     NaN     NaN  10.0     NaN     NaN\n1            6250.0  6250.0     NaN  6250.0     NaN   NaN  6250.0     NaN\n2            1017.0  1017.0     NaN  1017.0  1017.0   NaN     NaN     NaN\n3             155.0   155.0     NaN   155.0   155.0   NaN     NaN     NaN\n4               1.0     NaN     NaN     NaN     NaN   NaN     NaN    1.00\n5               1.0     NaN     NaN     NaN     NaN   NaN     NaN    1.00\n6               1.0     NaN     NaN     NaN     NaN   NaN     NaN    1.00\n7               NaN     NaN  540.97     NaN     NaN   NaN     NaN  540.97"
+        == "account        1630            1650     1930    8310\nside              D       K       K        D       K\nTransaction                                         \n0            1017.0  1017.0  1017.0  1017.00     NaN\n1             155.0     NaN   155.0      NaN     NaN\n2               1.0     NaN     NaN      NaN    1.00\n3               1.0     NaN     NaN      NaN    1.00\n4               NaN     NaN     NaN   540.97  540.97"
     )
 
 

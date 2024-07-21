@@ -8,9 +8,7 @@ from nokio.transaction import open_jsonc
 @pytest.fixture
 def new_content():
     file_path = Path("data/Bokföring - Bokio - 5592945496/new_transactions.json")
-    with open(file_path, "r") as fp:
-        content = json.load(fp)
-    return content
+    return open_jsonc(file_path)
 
 
 @pytest.fixture
@@ -32,6 +30,6 @@ def content_jsonc():
 def test_run(content, new_content, content_jsonc):
     result = run(content, new_content, content_jsonc)
     assert (
-        repr(result)
-        == "account\n1630          8.00\n1650       1172.00\n1930      16796.95\n1931          0.00\n2081     -25000.00\n2093    -837177.70\n2098    -853044.04\n2099    1706088.08\n2440          0.00\n2614      -1395.16\n2640          0.00\n2641        -44.49\n2645       1395.16\n2710          0.00\n2731         -1.40\n2890      -5657.27\n2990     -12500.00\n3740          0.25\n4531       1767.41\n4535        275.31\n4598       -275.31\n5410        464.25\n6000          0.00\n6250        150.00\n6910        449.72\n8423          0.00\ndtype: float64"
+        repr(result.round(2))
+        == "account\n1630       165.00\n1650         0.00\n1930     18354.92\n1931         0.00\n2081    -25000.00\n2091    853044.04\n2093   -837177.70\n2098        -0.00\n2099      2287.34\n2440        -0.00\n2614     -2328.44\n2640        -0.00\n2641        44.31\n2645      2328.44\n2710        -0.00\n2731        -1.40\n2890    -11716.51\n2990        -0.00\n3740        -0.00\n4531        -0.00\n4535         0.00\n4598         0.00\n5410         0.00\n6000         0.00\n6250         0.00\n6910         0.00\n8310         0.00\n8423         0.00\n8999         0.00\ndtype: float64"
     )
