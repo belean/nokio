@@ -261,8 +261,8 @@ def get_IB(content) -> pd.DataFrame:
     return df
 
 
-def current_saldo(content) -> pd.DataFrame:
-    """Calculate the current saldo from sum of incoming balance and transactions
+""" def current_saldo(content) -> pd.DataFrame:
+    "Calculate the current saldo from sum of incoming balance and transactions
 
     Args:
         content (Json): From import file
@@ -272,7 +272,7 @@ def current_saldo(content) -> pd.DataFrame:
 
     Returns:
         pd.DataFrame: with acconts
-    """
+    "
 
     # incoming balance
     df_ib = get_IB(content)
@@ -303,11 +303,11 @@ def current_saldo(content) -> pd.DataFrame:
 
     df_saldo = df.T.groupby(level=0).apply(lambda df_g: get_df(df_g.name, df_g.T))
 
-    return df_saldo
+    return df_saldo """
 
 
-def any_saldo(content, accounts: list[int], trans_id: int = None):
-    """_summary_
+""" def any_saldo(content, accounts: list[int], trans_id: int = None):
+    ""#_summary_
 
     Args:
         content (Json): From import file
@@ -319,7 +319,7 @@ def any_saldo(content, accounts: list[int], trans_id: int = None):
 
     Returns:
         pd.DataFrame: with acconts
-    """
+    ""#
     # incoming balance
     ib = get_IB(content)
 
@@ -345,6 +345,7 @@ def any_saldo(content, accounts: list[int], trans_id: int = None):
             return current_saldo(content)[account]
 
     raise RuntimeError(f"Invalid transaction id: {trans_id}!")
+"""
 
 
 def run(sie_file: Path):
