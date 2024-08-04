@@ -14,9 +14,11 @@ from nokio import settings
 
 import logging
 
+"""Transaction module handles the transactions including storage in MongoDB"""
+
 logger = logging.getLogger(__name__)
 
-# logging.basicConfig(level=logging.DEBUG)  # TODO soething nicer like
+# logging.basicConfig(level=logging.DEBUG)
 stdout = logging.StreamHandler(stream=sys.stdout)
 fmt = logging.Formatter(
     "%(asctime)s-%(levelname)s-%(name)s::%(module)s|%(lineno)s:: %(message)s"
@@ -86,15 +88,10 @@ def get_next_transaction_id(orgnr: str):
     )
 
 
-# find().sort({age: -1}).limit(1)
-
-
-def get_latest_transaction_gl():
+def get_latest_transaction_gl(org: int):
     """Find the general ledger with the highest transaction number"""
     # Get the latest of GL by transaction id
-    return db["TransactionStore"].find_one(
-        sort=[("last_transaction", pymongo.DESCENDING)]
-    )
+    return db["TransactionStore"].find({"Orgnr": org}).limit(1)
 
 
 def get_transactions_made_after_last_GL(current_GL: dict):
@@ -135,17 +132,47 @@ def recalc_GL():
         db["TransactionStore"].update_one({"_id": oid}, {"$set": current_GL})
 
 
-def add_transactions(content: list) -> pd.DataFrame:
-    """Add transactions to the GL
+def reserve_transactions(org: str, last_added_id: int = None):
+    if last_added_id > 0:
+        result = db["TransactionStore"].update_one(
+            {"Orgnr": org}, {"$set": {"last_transaction_seen": last_added_id}}
+        )
+    else:
+        result = db["TransactionStore"].update_one(
+            {"Orgnr": org}, {"$inc": {"last_transaction_seen": 50}}
+        )
+    return result.acknowledged
+
+
+def add_transactions(content: list) -> int:
+    """Add transactions to the data store
 
     Args:
-        content (list): List of transactions
+        content (list): List of new transactions (even one)
 
     Raises: RuntimeError when transactions are unbalanced (Kredit - Debit) with an
             combined error of more than 0.49 SEK
 
     Returns:
-        pd.DataFrame: transaction list with multi-index
+        int, the latest id added
+    """
+
+    # VAlidate the content
+
+    # get the last transaction id from data store
+    org = content["META"]["ORGNR"]
+    get_latest_transaction_gl(org)
+    get_next_transaction_id(org)
+
+    # reserve 50 ids at a time
+    if reserve_transactions(org):
+        for idx, item in enumerate(content["TRANS"].items()):
+            db["Transaction"].insert_many()
+            ...
+        else:
+            reserve_transactions(org, idx + 1)
+    return 0
+
     """
     df_trans = pd.DataFrame().from_records(content)
 
@@ -167,6 +194,7 @@ def add_transactions(content: list) -> pd.DataFrame:
         logger.error(f"Unbalanced transactions: {balance}")
         raise RuntimeError("The list of transactions are not balanced")
     return df
+    """
 
 
 def calculate_transaction_balance(df: pd.DataFrame):

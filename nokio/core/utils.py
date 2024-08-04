@@ -21,3 +21,17 @@ def open_jsonc(file_path: str):
     tmp = re.sub("/\*.*?\*/", "", file_str, flags=re.DOTALL)
     # Drop //...
     return json.loads(re.sub("//.*", "", tmp))
+
+
+def chunk(it: list, size: int = 1):
+    """Divide iteraor into chunks i.e. batches
+
+    Args:
+        it (list): list of dicts
+        size (int): chunk size
+
+    Yields:
+        list[dict]: list of dicts
+    """
+    for i in range(0, len(it), size):
+        yield it[i : i + size]

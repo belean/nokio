@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2023-08-03",
+    "name": "AWS mjukvara licens",
+    "description": null,
+    "recorded_at": "2024-06-30T15:44:00",
+    "account": {
+      "2641D": 9.99,
+      "2890K": 48.97,
+      "6910D": 38.98
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2023-09-02",
+    "name": "AWS mjukvara licens",
+    "description": null,
+    "recorded_at": "2024-06-30T16:03:00",
+    "account": {
+      "2641D": 9.29,
+      "2890K": 45.7,
+      "6910D": 36.41
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2023-10-02",
+    "name": "AWS mjukvara licens",
+    "description": null,
+    "recorded_at": "2024-06-30T16:06:00",
+    "account": {
+      "2641D": 8.29,
+      "2890K": 40.56,
+      "6910D": 32.27
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2023-11-02",
+    "name": "AWS mjukvara licens",
+    "description": null,
+    "recorded_at": "2024-06-30T16:07:00",
+    "account": {
+      "2641D": 8.51,
+      "2890K": 42.54,
+      "6910D": 34.03
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2023-12-03",
+    "name": "AWS mjukvara licens",
+    "description": null,
+    "recorded_at": "2024-06-30T16:09:00",
+    "account": {
+      "2641D": 4.2,
+      "2890K": 20.48,
+      "6910D": 16.28
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2023-12-31",
+    "name": "AWS mjukvara licens",
+    "description": null,
+    "recorded_at": "2024-06-30T16:10:00",
+    "account": {
+      "2641D": 4.03,
+      "2890K": 19.65,
+      "6910D": 15.62
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2023-01-01",
+    "name": "namecheap.com - Sciple.ai 2 år",
+    "recorded_at": "2024-06-30T16:23",
+    "account": {
+      "2614K": 413.71,
+      "2645D": 413.71,
+      "4531D": 1654.83,
+      "2890K": 1654.83
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2023-01-01",
+    "name": "namecheap.com - info@Sciple.ai 1 år",
+    "recorded_at": "2024-06-30T16:39",
+    "account": {
+      "2614K": 28.15,
+      "2645D": 28.15,
+      "4531D": 112.58,
+      "2890K": 112.58
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2023-07-19",
+    "name": "Bokföra efter stämma 2023",
+    "recorded_at": "2024-07-19T18:14",
+    "account": {
+      "2098K": 853044.04,
+      "2091D": 853044.04
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2024-07-19",
+    "name": "Bokföra efter stämma 2023",
+    "recorded_at": "2024-07-19T19:01",
+    "account": {
+      "8999D": 2287.34,
+      "4531K": 1767.41,
+      "4535K": 275.31,
+      "4598D": 275.31,
+      "5410K": 464.25,
+      "6250K": 150.0,
+      "6910K": 448.9,
+      "8310D": 542.97,
+      "3740D": 0.25
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  },
+  {
+    "date": "2024-07-19",
+    "name": "Bokföra efter stämma 2023",
+    "recorded_at": "2024-07-19T19:01",
+    "account": {
+      "8999K": 2287.34,
+      "2099D": 2287.34
+    },
+    "frozen": null,
+    "org_nr": "5599998989"
+  }
+]

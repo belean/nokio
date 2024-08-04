@@ -88,7 +88,7 @@ def test_convert_IB(tot):
     assert repr(tot["IB"]) == "{'1630': {'-1': '10262.00', '0': '-2.00'}}"
 
 
-def test_convert_RES():
+def test_convert_RES(tot):
     rows = ["#RES -1 3308 -23.48", "#RES -1 3740 -1.62"]
     for row in rows:
         convert_RES(tot, row)
