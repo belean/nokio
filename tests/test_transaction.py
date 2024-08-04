@@ -10,10 +10,11 @@ from nokio.transaction import (
     get_latest_transaction_gl,
     get_transactions_made_after_last_GL,
     add_transactions,
-    open_jsonc,
+    # open_jsonc,
     calculate_transaction_balance,
 )
 import dictdiffer
+from nokio import open_jsonc
 
 # TODO Fixture setting up and tearing down
 

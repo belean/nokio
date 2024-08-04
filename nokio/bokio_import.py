@@ -7,20 +7,21 @@ from pydantic import BaseModel
 from typing import Dict, Optional
 from datetime import datetime, date
 from fastapi.encoders import jsonable_encoder
+from nokio.model.transaction import Transaction
+
+"""Modul bokio_import manages the import and transform from Bokio into Nokio. It is mainly responsible for 2 things:
+1. Import the account balances at start of the year and transform into Json.
+2. Import the transactions, validate and transform into Json
+
+Raises:
+    RuntimeError: _description_
+
+Returns:
+    list[dict]: A list of transaction dicts
+"""
 
 
-class Transaction(BaseModel):
-    # org_nr: str
-    date: date
-    name: str
-    description: Optional[str] = None
-    recorded_at: datetime
-    account: Dict[str, float]
-    verificate: Optional[int] = None
-    frozen: Optional[bool] = None
-
-
-def split_SIE(sie_file: Path):
+def transform_bokio_import(sie_file: Path):
     """Split the SIE file in separate rows"""
     tot: dict = dict(IB={}, UB={}, RES={}, KONTO={}, META={"RAR": {}}, TRANS={})
 
@@ -199,162 +200,13 @@ def convert_RES(tot: dict, row: str):
     tot["RES"][items[2]] = tot["RES"].get(items[2], {}) | {items[1]: items[3]}
 
 
-def generate_general_ledger(content) -> pd.DataFrame:
-    """Generate general ledger from list of transactions
-    Args:
-        content: Dict the content of transactions
-    Returns pd.DataFrame accounts, transactions and values
-    """
-    mytrans = {}
-    # trans_list = []
-    # trans_index = []
-    for key, val in content.get("TRANS").items():
-        tmp = {}
-        for key2, val2 in val.get("account").items():
-            tmp[(int(key2[:-1]), key2[-1])] = val2
-        mytrans[int(key)] = tmp
-        # trans_list.append(val.get("account"))
-        # trans_index.append(key)
-
-    df = pd.DataFrame.from_records(mytrans).T
-    df.columns = pd.MultiIndex.from_tuples(df.columns, names=["account", "side"])
-    df = df.reindex(sorted(df.columns), axis=1)
-    df.index.name = "Transaction"
-    return df
-
-
-def get_GL_sum(df_gl):
-    """Get the sum of all accounts"""
-    return df_gl.sum()
-
-
-def get_GL_transaction(df_gl, verificate_id: int) -> pd.DataFrame:
-    return df_gl.loc[verificate_id, :].dropna()
-
-
-def get_GL_accounts(df_gl, account_nr: int):
-    return df_gl.loc[:, account_nr]
-
-
-def get_IB(content) -> pd.DataFrame:
-    """Get ingående balance (Saldo) from import at start of year 1 of Janurary
-    Args:
-        content, Json file with import from Bokio
-    Raises:
-    Returns pd.DataFrame with Saldo
-    """
-    index = []
-    data = []
-    for key, val in content.get("IB").items():
-        """if float(val.get("0")) < 0:
-            index.append((int(key), "K"))
-            data.append(float(val.get("0")) * (-1))
-        else:
-            index.append((int(key), "D"))
-            data.append(float(val.get("0")))"""
-        index.append((int(key), "S"))
-        data.append(float(val.get("0")))
-    df = pd.DataFrame(data, index=index, columns=["IB"]).T
-    df.columns = pd.MultiIndex.from_tuples(df.columns, names=["account", "side"])
-    df = df.reindex(sorted(df.columns), axis=1)
-    df.index.name = "Saldo"
-    return df
-
-
-""" def current_saldo(content) -> pd.DataFrame:
-    "Calculate the current saldo from sum of incoming balance and transactions
-
-    Args:
-        content (Json): From import file
-
-    Raises:
-        RuntimeError: _description_
-
-    Returns:
-        pd.DataFrame: with acconts
-    "
-
-    # incoming balance
-    df_ib = get_IB(content)
-
-    # General ledger
-    df_gl = generate_general_ledger(content)
-
-    df = pd.concat([df_ib, df_gl])  # .sum()
-    df = df.reindex(sorted(df.columns), axis=1)
-
-    # trans_id = (
-    #    trans_id if trans_id is not None and trans_id <= df.index[-1] else df.index[-1]
-    # )
-
-    def get_df(account, df):
-        if str(account)[0] not in ("2", "3"):
-            return (
-                df.get((account, "S"), pd.Series([], dtype="float64")).sum()
-                + df.get((account, "D"), pd.Series([], dtype="float64")).sum()
-                - df.get((account, "K"), pd.Series([], dtype="float64")).sum()
-            )
-        else:
-            return (
-                df.get((account, "S"), pd.Series([], dtype="float64")).sum()
-                - df.get((account, "D"), pd.Series([], dtype="float64")).sum()
-                + df.get((account, "K"), pd.Series([], dtype="float64")).sum()
-            )
-
-    df_saldo = df.T.groupby(level=0).apply(lambda df_g: get_df(df_g.name, df_g.T))
-
-    return df_saldo """
-
-
-""" def any_saldo(content, accounts: list[int], trans_id: int = None):
-    ""#_summary_
-
-    Args:
-        content (Json): From import file
-        account (List[int]): Account numbers
-        trans_id (int, optional): What transaction to include. Zero means incoming balance IB. Defaults to None.
-
-    Raises:
-        RuntimeError: _description_
-
-    Returns:
-        pd.DataFrame: with acconts
-    ""#
-    # incoming balance
-    ib = get_IB(content)
-
-    # General ledger
-    df_gl = generate_general_ledger(content)
-
-    df = pd.concat([ib, df_gl])  # .sum()
-    df = df.reindex(sorted(df.columns), axis=1)
-
-    trans_id = trans_id if trans_id is not None else sys.maxsize
-
-    for account in accounts:
-        # if all([(account, side) in df.columns for side in ("D", "K", "S")]):
-        if trans_id == 0:
-            return df.loc["IB", (account, "S")]
-        elif 0 < trans_id < df.index[-1]:
-            return (
-                df.loc["IB", (account, "S")]
-                + df.loc["IB":trans_id, (account, "D")].sum()
-                - df.loc["IB":trans_id, (account, "K")].sum()
-            )
-        else:
-            return current_saldo(content)[account]
-
-    raise RuntimeError(f"Invalid transaction id: {trans_id}!")
-"""
-
-
 def run(sie_file: Path):
-    split_SIE(sie_file)
+    transform_bokio_import(sie_file)
 
 
 if __name__ == "__main__":
     # Interactive run
     run(Path("data/Bokföring - Bokio - 5592945496") / "5592945496_2023.se")
-    generate_general_ledger(
-        Path("data/Bokföring - Bokio - 5592945496/out/5592945496_2023.json")
-    )
+    # generate_general_ledger(
+    #    Path("data/Bokföring - Bokio - 5592945496/out/5592945496_2023.json")
+    # )

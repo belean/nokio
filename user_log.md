@@ -3,7 +3,9 @@
 ## Next steps
 
 1. ~~Add new transactions to the existing ones~~
+1. Save to persisting store in MongoDB
 1. Connect saldon with SRU codes
+1. Reasons for transactions to be locked
 1. Test with different typical transactions
 1. ~~Imports are divided into kredet and debet~~
 1. Upload verificate
