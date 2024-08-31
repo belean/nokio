@@ -1,0 +1,5394 @@
+{
+  "IB": {
+    "1630": {
+      "-1": "10262.00",
+      "0": "-2.00"
+    },
+    "1650": {
+      "-1": "432.00",
+      "0": "1027.00"
+    },
+    "1930": {
+      "-1": "18642.74",
+      "0": "23046.95"
+    },
+    "1931": {
+      "-1": "392677.14",
+      "0": "0.00"
+    },
+    "2081": {
+      "-1": "-25000.00",
+      "0": "-25000.00"
+    },
+    "2093": {
+      "-1": "-837177.70",
+      "0": "-837177.70"
+    },
+    "2099": {
+      "-1": "444409.89",
+      "0": "853044.04"
+    },
+    "2440": {
+      "-1": "-4186.26",
+      "0": "0.00"
+    },
+    "2614": {
+      "-1": "-1861.80",
+      "0": "-1861.80"
+    },
+    "2640": {
+      "-1": "0.00",
+      "0": "0.00"
+    },
+    "2645": {
+      "-1": "1861.80",
+      "0": "1861.80"
+    },
+    "2710": {
+      "0": "0.00"
+    },
+    "2731": {
+      "0": "-1.40"
+    },
+    "2890": {
+      "-1": "-59.81",
+      "0": "-8686.89"
+    },
+    "2990": {
+      "0": "-6250.00"
+    }
+  },
+  "UB": {
+    "1630": {
+      "-2": "10262.00",
+      "-1": "-2.00",
+      "0": "8.00"
+    },
+    "1650": {
+      "-2": "432.00",
+      "-1": "1027.00",
+      "0": "1172.00"
+    },
+    "1930": {
+      "-2": "18642.74",
+      "-1": "23046.95",
+      "0": "16796.95"
+    },
+    "1931": {
+      "-2": "392677.14",
+      "-1": "0.00",
+      "0": "0.00"
+    },
+    "2081": {
+      "-2": "-25000.00",
+      "-1": "-25000.00",
+      "0": "-25000.00"
+    },
+    "2093": {
+      "-2": "-837177.70",
+      "-1": "-837177.70",
+      "0": "-837177.70"
+    },
+    "2098": {
+      "0": "853044.04"
+    },
+    "2099": {
+      "-2": "444409.89",
+      "-1": "853044.04",
+      "0": "0.00"
+    },
+    "2440": {
+      "-2": "-4186.26",
+      "-1": "0.00",
+      "0": "0.00"
+    },
+    "2614": {
+      "-2": "-1861.80",
+      "-1": "-1861.80",
+      "0": "-1886.58"
+    },
+    "2640": {
+      "-2": "0.00",
+      "-1": "0.00",
+      "0": "0.00"
+    },
+    "2645": {
+      "-2": "1861.80",
+      "-1": "1861.80",
+      "0": "1886.58"
+    },
+    "2710": {
+      "-1": "0.00",
+      "0": "0.00"
+    },
+    "2731": {
+      "-1": "-1.40",
+      "0": "-1.40"
+    },
+    "2890": {
+      "-2": "-59.81",
+      "-1": "-8686.89",
+      "0": "-9731.20"
+    },
+    "2990": {
+      "-1": "-6250.00",
+      "0": "0.00"
+    }
+  },
+  "RES": {
+    "3308": {
+      "-1": "-23.48"
+    },
+    "3740": {
+      "-1": "-1.62",
+      "0": "-0.25"
+    },
+    "3980": {
+      "-1": "-50000.00"
+    },
+    "4531": {
+      "-1": "27334.44"
+    },
+    "4535": {
+      "-1": "31101.41",
+      "0": "275.31"
+    },
+    "4538": {
+      "-1": "20000.00"
+    },
+    "4598": {
+      "-1": "-70035.93",
+      "0": "-275.31"
+    },
+    "5410": {
+      "-1": "4071.20",
+      "0": "464.25"
+    },
+    "6000": {
+      "-1": "6250.00",
+      "0": "0.00"
+    },
+    "6110": {
+      "-1": "39.92"
+    },
+    "6250": {
+      "-1": "156.00",
+      "0": "150.00"
+    },
+    "6550": {
+      "-1": "40000.00"
+    },
+    "6570": {
+      "-1": "1398.41"
+    },
+    "6910": {
+      "-1": "50035.93",
+      "0": "275.31"
+    },
+    "6992": {
+      "-1": "875.00"
+    },
+    "7210": {
+      "-1": "264000.00"
+    },
+    "7510": {
+      "-1": "83560.80"
+    },
+    "7960": {
+      "-1": "-57.52"
+    },
+    "8311": {
+      "-1": "-106.41"
+    },
+    "8423": {
+      "-1": "36.00",
+      "0": "0.00"
+    },
+    "8999": {
+      "-1": "-408634.15"
+    }
+  },
+  "KONTO": {
+    "1010": {
+      "Namn": "Utvecklingsutgifter",
+      "SRU": "7201"
+    },
+    "1011": {
+      "Namn": "Balanserade utgifter för forskning och utveckling",
+      "SRU": "7201"
+    },
+    "1012": {
+      "Namn": "Balanserade utgifter för programvaror",
+      "SRU": "7201"
+    },
+    "1018": {
+      "Namn": "Ackumulerade nedskrivningar på balanserade utgifter",
+      "SRU": "7201"
+    },
+    "1019": {
+      "Namn": "Ackumulerade avskrivningar på balanserade utgifter",
+      "SRU": "7201"
+    },
+    "1020": {
+      "Namn": "Koncessioner m.m.",
+      "SRU": "7201"
+    },
+    "1028": {
+      "Namn": "Ackumulerade nedskrivningar på koncessioner m.m.",
+      "SRU": "7201"
+    },
+    "1029": {
+      "Namn": "Ackumulerade avskrivningar på koncessioner m.m.",
+      "SRU": "7201"
+    },
+    "1030": {
+      "Namn": "Patent",
+      "SRU": "7201"
+    },
+    "1038": {
+      "Namn": "Ackumulerade nedskrivningar på patent",
+      "SRU": "7201"
+    },
+    "1039": {
+      "Namn": "Ackumulerade avskrivningar på patent",
+      "SRU": "7201"
+    },
+    "1040": {
+      "Namn": "Licenser",
+      "SRU": "7201"
+    },
+    "1048": {
+      "Namn": "Ackumulerade nedskrivningar på licenser",
+      "SRU": "7201"
+    },
+    "1049": {
+      "Namn": "Ackumulerade avskrivningar på licenser",
+      "SRU": "7201"
+    },
+    "1050": {
+      "Namn": "Varumärken",
+      "SRU": "7201"
+    },
+    "1058": {
+      "Namn": "Ackumulerade nedskrivningar på varumärken",
+      "SRU": "7201"
+    },
+    "1059": {
+      "Namn": "Ackumulerade avskrivningar på varumärken",
+      "SRU": "7201"
+    },
+    "1060": {
+      "Namn": "Hyresrätter, tomträtter och liknande",
+      "SRU": "7201"
+    },
+    "1068": {
+      "Namn": "Ackumulerade nedskrivningar på hyresrätter, tomträtter och liknande",
+      "SRU": "7201"
+    },
+    "1069": {
+      "Namn": "Ackumulerade avskrivningar på hyresrätter, tomträtter och liknande",
+      "SRU": "7201"
+    },
+    "1070": {
+      "Namn": "Goodwill",
+      "SRU": "7201"
+    },
+    "1078": {
+      "Namn": "Ackumulerade nedskrivningar på goodwill",
+      "SRU": "7201"
+    },
+    "1079": {
+      "Namn": "Ackumulerade avskrivningar på goodwill",
+      "SRU": "7201"
+    },
+    "1080": {
+      "Namn": "Pågående projekt och förskott för immateriella anläggningstillgångar",
+      "SRU": "7201"
+    },
+    "1081": {
+      "Namn": "Pågående projekt för immateriella anläggningstillgångar",
+      "SRU": "7201"
+    },
+    "1088": {
+      "Namn": "Förskott för immateriella anläggningstillgångar",
+      "SRU": "7202"
+    },
+    "1110": {
+      "Namn": "Byggnader",
+      "SRU": "7214"
+    },
+    "1111": {
+      "Namn": "Byggnader på egen mark",
+      "SRU": "7214"
+    },
+    "1112": {
+      "Namn": "Byggnader på annans mark",
+      "SRU": "7214"
+    },
+    "1118": {
+      "Namn": "Ackumulerade nedskrivningar på byggnader",
+      "SRU": "7214"
+    },
+    "1119": {
+      "Namn": "Ackumulerade avskrivningar på byggnader",
+      "SRU": "7214"
+    },
+    "1120": {
+      "Namn": "Förbättringsutgifter på annans fastighet",
+      "SRU": "7216"
+    },
+    "1129": {
+      "Namn": "Ackumulerade avskrivningar på förbättringsutgifter på annans fastighet",
+      "SRU": "7216"
+    },
+    "1130": {
+      "Namn": "Mark",
+      "SRU": "7214"
+    },
+    "1140": {
+      "Namn": "Tomter och obebyggda markområden",
+      "SRU": "7214"
+    },
+    "1150": {
+      "Namn": "Markanläggningar",
+      "SRU": "7214"
+    },
+    "1158": {
+      "Namn": "Ackumulerade nedskrivningar på markanläggningar",
+      "SRU": "7214"
+    },
+    "1159": {
+      "Namn": "Ackumulerade avskrivningar på markanläggningar",
+      "SRU": "7214"
+    },
+    "1180": {
+      "Namn": "Pågående nyanläggningar och förskott för byggnader och mark",
+      "SRU": "7217"
+    },
+    "1181": {
+      "Namn": "Pågående ny-, till- och ombyggnad",
+      "SRU": "7217"
+    },
+    "1188": {
+      "Namn": "Förskott för byggnader och mark",
+      "SRU": "7217"
+    },
+    "1210": {
+      "Namn": "Maskiner och andra tekniska anläggningar",
+      "SRU": "7215"
+    },
+    "1211": {
+      "Namn": "Maskiner",
+      "SRU": "7215"
+    },
+    "1213": {
+      "Namn": "Andra tekniska anläggningar",
+      "SRU": "7215"
+    },
+    "1218": {
+      "Namn": "Ackumulerade nedskrivningar på maskiner och andra tekniska anläggningar",
+      "SRU": "7215"
+    },
+    "1219": {
+      "Namn": "Ackumulerade avskrivningar på maskiner och andra tekniska anläggningar",
+      "SRU": "7215"
+    },
+    "1220": {
+      "Namn": "Inventarier och verktyg",
+      "SRU": "7215"
+    },
+    "1221": {
+      "Namn": "Inventarier",
+      "SRU": "7215"
+    },
+    "1222": {
+      "Namn": "Byggnadsinventarier",
+      "SRU": "7215"
+    },
+    "1223": {
+      "Namn": "Markinventarier",
+      "SRU": "7215"
+    },
+    "1225": {
+      "Namn": "Verktyg",
+      "SRU": "7215"
+    },
+    "1228": {
+      "Namn": "Ackumulerade nedskrivningar på inventarier och verktyg",
+      "SRU": "7215"
+    },
+    "1229": {
+      "Namn": "Ackumulerade avskrivningar på inventarier och verktyg",
+      "SRU": "7215"
+    },
+    "1230": {
+      "Namn": "Installationer",
+      "SRU": "7215"
+    },
+    "1231": {
+      "Namn": "Installationer på egen fastighet",
+      "SRU": "7215"
+    },
+    "1232": {
+      "Namn": "Installationer på annans fastig het",
+      "SRU": "7215"
+    },
+    "1238": {
+      "Namn": "Ackumulerade nedskrivningar på installationer",
+      "SRU": "7215"
+    },
+    "1239": {
+      "Namn": "Ackumulerade avskrivningar på installationer",
+      "SRU": "7215"
+    },
+    "1240": {
+      "Namn": "Bilar och andra transportmedel",
+      "SRU": "7215"
+    },
+    "1241": {
+      "Namn": "Personbilar",
+      "SRU": "7215"
+    },
+    "1242": {
+      "Namn": "Lastbilar",
+      "SRU": "7215"
+    },
+    "1243": {
+      "Namn": "Truckar",
+      "SRU": "7215"
+    },
+    "1244": {
+      "Namn": "Arbetsmaskiner",
+      "SRU": "7215"
+    },
+    "1245": {
+      "Namn": "Traktorer",
+      "SRU": "7215"
+    },
+    "1246": {
+      "Namn": "Motorcyklar, mopeder och skotrar",
+      "SRU": "7215"
+    },
+    "1247": {
+      "Namn": "Båtar, flygplan och helikoptrar",
+      "SRU": "7215"
+    },
+    "1248": {
+      "Namn": "Ackumulerade nedskrivningar på bilar och andra transportmedel",
+      "SRU": "7215"
+    },
+    "1249": {
+      "Namn": "Ackumulerade avskrivningar på bilar och andra transportmedel",
+      "SRU": "7215"
+    },
+    "1250": {
+      "Namn": "Datorer",
+      "SRU": "7215"
+    },
+    "1251": {
+      "Namn": "Datorer, företaget",
+      "SRU": "7215"
+    },
+    "1257": {
+      "Namn": "Datorer, personal",
+      "SRU": "7215"
+    },
+    "1258": {
+      "Namn": "Ackumulerade nedskrivningar på datorer",
+      "SRU": "7215"
+    },
+    "1259": {
+      "Namn": "Ackumulerade avskrivningar på datorer",
+      "SRU": "7215"
+    },
+    "1260": {
+      "Namn": "Leasade tillgångar",
+      "SRU": "7215"
+    },
+    "1269": {
+      "Namn": "Ackumulerade avskrivningar på leasade tillgångar",
+      "SRU": "7215"
+    },
+    "1280": {
+      "Namn": "Pågående nyanläggningar och förskott för maskiner och inventarier",
+      "SRU": "7217"
+    },
+    "1281": {
+      "Namn": "Pågående nyanläggningar, maskiner och inventarier",
+      "SRU": "7217"
+    },
+    "1288": {
+      "Namn": "Förskott för maskiner och inventarier",
+      "SRU": "7217"
+    },
+    "1290": {
+      "Namn": "Övriga materiella anläggningstillgångar",
+      "SRU": "7215"
+    },
+    "1291": {
+      "Namn": "Konst och liknande tillgångar",
+      "SRU": "7215"
+    },
+    "1292": {
+      "Namn": "Djur som klassificeras som anläggningstillgång",
+      "SRU": "7215"
+    },
+    "1298": {
+      "Namn": "Ackumulerade nedskrivningar på övriga materiella anläggningstillgångar",
+      "SRU": "7215"
+    },
+    "1299": {
+      "Namn": "Ackumulerade avskrivningar på övriga materiella anläggningstillgångar",
+      "SRU": "7215"
+    },
+    "1310": {
+      "Namn": "Andelar i koncernföretag",
+      "SRU": "7230"
+    },
+    "1311": {
+      "Namn": "Aktier i noterade svenska koncernföretag",
+      "SRU": "7230"
+    },
+    "1312": {
+      "Namn": "Aktier i onoterade svenska koncernföretag",
+      "SRU": "7230"
+    },
+    "1313": {
+      "Namn": "Aktier i noterade utländska koncernföretag",
+      "SRU": "7230"
+    },
+    "1314": {
+      "Namn": "Aktier i onoterade utländska koncernföretag",
+      "SRU": "7230"
+    },
+    "1316": {
+      "Namn": "Övriga andelar i koncernföretag",
+      "SRU": "7230"
+    },
+    "1318": {
+      "Namn": "Ackumulerade nedskrivningar av andelar i koncernföretag",
+      "SRU": "7230"
+    },
+    "1320": {
+      "Namn": "Långfristiga fordringar hos koncernföretag",
+      "SRU": "7232"
+    },
+    "1321": {
+      "Namn": "Långfristiga fordringar hos moderföretag",
+      "SRU": "7232"
+    },
+    "1322": {
+      "Namn": "Långfristiga fordringar hos dotterföretag",
+      "SRU": "7232"
+    },
+    "1323": {
+      "Namn": "Långfristiga fordringar hos andra koncernföretag",
+      "SRU": "7232"
+    },
+    "1328": {
+      "Namn": "Ackumulerade nedskrivningar av långfristiga fordringar hos koncernföretag",
+      "SRU": "7232"
+    },
+    "1330": {
+      "Namn": "Andelar i intresseföretag",
+      "SRU": "7231"
+    },
+    "1336": {
+      "Namn": "Andelar i ekonomiska föreningar, intresseföretag",
+      "SRU": "7233"
+    },
+    "1338": {
+      "Namn": "Ackumulerade nedskrivningar av andelar i intresseföretag",
+      "SRU": "7231"
+    },
+    "1340": {
+      "Namn": "Långfristiga fordringar hos intresseföretag",
+      "SRU": "7232"
+    },
+    "1348": {
+      "Namn": "Ackumulerade nedskrivningar av långfristiga fordringar hos intresseföretag",
+      "SRU": "7232"
+    },
+    "1350": {
+      "Namn": "Andelar och värdepapper i andra företag",
+      "SRU": "7233"
+    },
+    "1351": {
+      "Namn": "Andelar i börsnoterade företag",
+      "SRU": "7233"
+    },
+    "1352": {
+      "Namn": "Andra andelar",
+      "SRU": "7233"
+    },
+    "1353": {
+      "Namn": "Andelar i bostadsrättsföreningar",
+      "SRU": "7233"
+    },
+    "1354": {
+      "Namn": "Obligationer",
+      "SRU": "7233"
+    },
+    "1356": {
+      "Namn": "Andelar i ekonomiska föreningar, övriga företag",
+      "SRU": "7233"
+    },
+    "1358": {
+      "Namn": "Ackumulerade nedskrivningar av andra andelar och värdepapper",
+      "SRU": "7233"
+    },
+    "1360": {
+      "Namn": "Lån till delägare eller närstående, långfristig del",
+      "SRU": "7234"
+    },
+    "1369": {
+      "Namn": "Ackumulerade nedskrivningar på lån till delägare eller närstående, långfristig del",
+      "SRU": "7234"
+    },
+    "1370": {
+      "Namn": "Uppskjuten skattefordran",
+      "SRU": "7235"
+    },
+    "1380": {
+      "Namn": "Andra långfristiga fordringar",
+      "SRU": "7235"
+    },
+    "1381": {
+      "Namn": "Långfristiga reversfordringar",
+      "SRU": "7235"
+    },
+    "1382": {
+      "Namn": "Långfristiga fordringar hos anställda",
+      "SRU": "7235"
+    },
+    "1383": {
+      "Namn": "Lämnade depositioner, långfristiga",
+      "SRU": "7235"
+    },
+    "1384": {
+      "Namn": "Derivat",
+      "SRU": "7235"
+    },
+    "1385": {
+      "Namn": "Värde av kapitalförsäkring",
+      "SRU": "7235"
+    },
+    "1386": {
+      "Namn": "Förutbetalda leasingavgifter, långfristig del",
+      "SRU": "7235"
+    },
+    "1387": {
+      "Namn": "Långfristiga kontraktsfordringar",
+      "SRU": "7235"
+    },
+    "1389": {
+      "Namn": "Ackumulerade nedskrivningar av andra långfristiga fordringar",
+      "SRU": "7235"
+    },
+    "1410": {
+      "Namn": "Lager av råvaror",
+      "SRU": "7241"
+    },
+    "1419": {
+      "Namn": "Förändring av lager av råvaror",
+      "SRU": "7241"
+    },
+    "1420": {
+      "Namn": "Lager av tillsatsmaterial och förnödenheter",
+      "SRU": "7241"
+    },
+    "1429": {
+      "Namn": "Förändring av lager av tillsatsmaterial och förnödenheter",
+      "SRU": "7241"
+    },
+    "1430": {
+      "Namn": "Lager av halvfabrikat",
+      "SRU": "7241"
+    },
+    "1431": {
+      "Namn": "Lager av köpta halvfabrikat",
+      "SRU": "7241"
+    },
+    "1432": {
+      "Namn": "Lager av egentillverkade halvfabrikat",
+      "SRU": "7242"
+    },
+    "1438": {
+      "Namn": "Förändring av lager av köpta halvfabrikat",
+      "SRU": "7241"
+    },
+    "1439": {
+      "Namn": "Förändring av lager av egentillverkade halvfabrikat",
+      "SRU": "7242"
+    },
+    "1440": {
+      "Namn": "Produkter i arbete",
+      "SRU": "7242"
+    },
+    "1449": {
+      "Namn": "Förändring av produkter i arbete",
+      "SRU": "7242"
+    },
+    "1450": {
+      "Namn": "Lager av färdiga varor",
+      "SRU": "7243"
+    },
+    "1459": {
+      "Namn": "Förändring av lager av färdiga varor",
+      "SRU": "7243"
+    },
+    "1460": {
+      "Namn": "Lager av handelsvaror",
+      "SRU": "7243"
+    },
+    "1465": {
+      "Namn": "Lager av varor VMB",
+      "SRU": "7243"
+    },
+    "1466": {
+      "Namn": "Nedskrivning av varor VMB",
+      "SRU": "7243"
+    },
+    "1467": {
+      "Namn": "Lager av varor VMB förenklad",
+      "SRU": "7243"
+    },
+    "1469": {
+      "Namn": "Förändring av lager av handelsvaror",
+      "SRU": "7243"
+    },
+    "1470": {
+      "Namn": "Pågående arbeten",
+      "SRU": "7245"
+    },
+    "1471": {
+      "Namn": "Pågående arbeten, nedlagda kostnader",
+      "SRU": "7245"
+    },
+    "1478": {
+      "Namn": "Pågående arbeten, fakturering",
+      "SRU": "7245"
+    },
+    "1479": {
+      "Namn": "Förändring av pågående arbeten",
+      "SRU": "7245"
+    },
+    "1480": {
+      "Namn": "Förskott för varor och tjänster",
+      "SRU": "7246"
+    },
+    "1481": {
+      "Namn": "Remburser",
+      "SRU": "7246"
+    },
+    "1489": {
+      "Namn": "Övriga förskott till leverantörer",
+      "SRU": "7246"
+    },
+    "1490": {
+      "Namn": "Övriga lagertillgångar",
+      "SRU": "7244"
+    },
+    "1491": {
+      "Namn": "Lager av värdepapper",
+      "SRU": "7244"
+    },
+    "1492": {
+      "Namn": "Lager av fastigheter",
+      "SRU": "7244"
+    },
+    "1493": {
+      "Namn": "Djur som klassificeras som omsättningstillgång",
+      "SRU": "7244"
+    },
+    "1510": {
+      "Namn": "Kundfordringar",
+      "SRU": "7251"
+    },
+    "1511": {
+      "Namn": "Kundfordringar",
+      "SRU": "7251"
+    },
+    "1512": {
+      "Namn": "Belånade kundfordringar (factoring)",
+      "SRU": "7251"
+    },
+    "1513": {
+      "Namn": "Kundfordringar - delad faktura",
+      "SRU": "7251"
+    },
+    "1515": {
+      "Namn": "Osäkra kundfordringar",
+      "SRU": "7251"
+    },
+    "1516": {
+      "Namn": "Tvistiga kundfordringar",
+      "SRU": "7251"
+    },
+    "1518": {
+      "Namn": "Ej reskontraförda kundfordringar",
+      "SRU": "7251"
+    },
+    "1519": {
+      "Namn": "Nedskrivning av kundfordringar",
+      "SRU": "7251"
+    },
+    "1520": {
+      "Namn": "Växelfordringar",
+      "SRU": "7251"
+    },
+    "1525": {
+      "Namn": "Osäkra växelfordringar",
+      "SRU": "7251"
+    },
+    "1529": {
+      "Namn": "Nedskrivning av växelfordringar",
+      "SRU": "7251"
+    },
+    "1530": {
+      "Namn": "Kontraktsfordringar",
+      "SRU": "7251"
+    },
+    "1531": {
+      "Namn": "Kontraktsfordringar",
+      "SRU": "7251"
+    },
+    "1532": {
+      "Namn": "Belånade kontraktsfordringar",
+      "SRU": "7251"
+    },
+    "1535": {
+      "Namn": "Osäkra kontraktsfordringar",
+      "SRU": "7251"
+    },
+    "1536": {
+      "Namn": "Tvistiga kontraktsfordringar",
+      "SRU": "7251"
+    },
+    "1539": {
+      "Namn": "Nedskrivning av kontraktsfordringar",
+      "SRU": "7251"
+    },
+    "1550": {
+      "Namn": "Konsignationsfordringar",
+      "SRU": "7251"
+    },
+    "1560": {
+      "Namn": "Kundfordringar hos koncernföretag",
+      "SRU": "7252"
+    },
+    "1561": {
+      "Namn": "Kundfordringar hos moderföretag",
+      "SRU": "7252"
+    },
+    "1562": {
+      "Namn": "Kundfordringar hos dotterföretag",
+      "SRU": "7252"
+    },
+    "1563": {
+      "Namn": "Kundfordringar hos andra koncernföretag",
+      "SRU": "7252"
+    },
+    "1565": {
+      "Namn": "Osäkra kundfordringar hos koncernföretag",
+      "SRU": "7252"
+    },
+    "1568": {
+      "Namn": "Ej reskontraförda kundfordringar hos koncernföretag",
+      "SRU": "7252"
+    },
+    "1569": {
+      "Namn": "Nedskrivning av kundfordringar hos koncernföretag",
+      "SRU": "7252"
+    },
+    "1570": {
+      "Namn": "Kundfordringar hos intresseföretag",
+      "SRU": "7252"
+    },
+    "1575": {
+      "Namn": "Osäkra kundfordringar hos intresseföretag",
+      "SRU": "7252"
+    },
+    "1578": {
+      "Namn": "Ej reskontraförda kundfordringar hos intresseföretag",
+      "SRU": "7252"
+    },
+    "1579": {
+      "Namn": "Nedskrivning av kundfordringar hos intresseföretag",
+      "SRU": "7252"
+    },
+    "1580": {
+      "Namn": "Fordringar för kontokort och kuponger",
+      "SRU": "7251"
+    },
+    "1610": {
+      "Namn": "Kortfristiga fordringar hos anställda",
+      "SRU": "7261"
+    },
+    "1611": {
+      "Namn": "Reseförskott",
+      "SRU": "7261"
+    },
+    "1612": {
+      "Namn": "Kassaförskott",
+      "SRU": "7261"
+    },
+    "1613": {
+      "Namn": "Övriga förskott",
+      "SRU": "7261"
+    },
+    "1614": {
+      "Namn": "Tillfälliga lån till anställda",
+      "SRU": "7261"
+    },
+    "1619": {
+      "Namn": "Övriga fordringar hos anställda",
+      "SRU": "7261"
+    },
+    "1620": {
+      "Namn": "Upparbetad men ej fakturerad intäkt",
+      "SRU": "7262"
+    },
+    "1630": {
+      "Namn": "Avräkning för skatter och avgifter (skattekonto)",
+      "SRU": "7261"
+    },
+    "1640": {
+      "Namn": "Skattefordringar",
+      "SRU": "7261"
+    },
+    "1650": {
+      "Namn": "Momsfordran",
+      "SRU": "7261"
+    },
+    "1660": {
+      "Namn": "Kortfristiga fordringar hos koncernföretag",
+      "SRU": "7252"
+    },
+    "1661": {
+      "Namn": "Kortfristiga fordringar hos moderföretag",
+      "SRU": "7252"
+    },
+    "1662": {
+      "Namn": "Kortfristiga fordringar hos dotterföretag",
+      "SRU": "7252"
+    },
+    "1663": {
+      "Namn": "Kortfristiga fordringar hos andra koncernföretag",
+      "SRU": "7252"
+    },
+    "1670": {
+      "Namn": "Kortfristiga fordringar hos intresseföretag",
+      "SRU": "7252"
+    },
+    "1680": {
+      "Namn": "Andra kortfristiga fordringar",
+      "SRU": "7261"
+    },
+    "1681": {
+      "Namn": "Utlägg för kunder",
+      "SRU": "7261"
+    },
+    "1682": {
+      "Namn": "Kortfristiga lånefordringar",
+      "SRU": "7261"
+    },
+    "1683": {
+      "Namn": "Derivat",
+      "SRU": "7261"
+    },
+    "1684": {
+      "Namn": "Kortfristiga fordringar hos leverantörer",
+      "SRU": "7261"
+    },
+    "1685": {
+      "Namn": "Kortfristiga fordringar hos delägare eller närstående",
+      "SRU": "7261"
+    },
+    "1687": {
+      "Namn": "Kortfristig del av långfristiga fordringar",
+      "SRU": "7261"
+    },
+    "1688": {
+      "Namn": "Fordran arbetsmarknadsförsäkringar",
+      "SRU": "7261"
+    },
+    "1689": {
+      "Namn": "Övriga kortfristiga fordringar",
+      "SRU": "7261"
+    },
+    "1690": {
+      "Namn": "Fordringar för tecknat men ej inbetalt aktiekapital",
+      "SRU": "7261"
+    },
+    "1710": {
+      "Namn": "Förutbetalda hyreskostnader",
+      "SRU": "7263"
+    },
+    "1720": {
+      "Namn": "Förutbetalda leasingavgifter, kortfristig del",
+      "SRU": "7263"
+    },
+    "1730": {
+      "Namn": "Förutbetalda försäkringspremier",
+      "SRU": "7263"
+    },
+    "1740": {
+      "Namn": "Förutbetalda räntekostnader",
+      "SRU": "7263"
+    },
+    "1750": {
+      "Namn": "Upplupna hyresintäkter",
+      "SRU": "7263"
+    },
+    "1760": {
+      "Namn": "Upplupna ränteintäkter",
+      "SRU": "7263"
+    },
+    "1770": {
+      "Namn": "Tillgångar av kostnadsnatur",
+      "SRU": "7263"
+    },
+    "1780": {
+      "Namn": "Upplupna avtalsintäkter",
+      "SRU": "7263"
+    },
+    "1790": {
+      "Namn": "Övriga förutbetalda kostnader och upplupna intäkter",
+      "SRU": "7263"
+    },
+    "1810": {
+      "Namn": "Andelar i börsnoterade företag",
+      "SRU": "7271"
+    },
+    "1820": {
+      "Namn": "Obligationer",
+      "SRU": "7271"
+    },
+    "1830": {
+      "Namn": "Konvertibla skuldebrev",
+      "SRU": "7271"
+    },
+    "1860": {
+      "Namn": "Andelar i koncernföretag",
+      "SRU": "7270"
+    },
+    "1869": {
+      "Namn": "Nedskrivning av andelar i koncernföretag",
+      "SRU": "7270"
+    },
+    "1880": {
+      "Namn": "Andra kortfristiga placeringar",
+      "SRU": "7271"
+    },
+    "1886": {
+      "Namn": "Derivat",
+      "SRU": "7271"
+    },
+    "1889": {
+      "Namn": "Andelar i övriga företag",
+      "SRU": "7271"
+    },
+    "1890": {
+      "Namn": "Nedskrivning av kortfristiga placeringar",
+      "SRU": "7271"
+    },
+    "1910": {
+      "Namn": "Kassa",
+      "SRU": "7281"
+    },
+    "1911": {
+      "Namn": "Huvudkassa",
+      "SRU": "7281"
+    },
+    "1912": {
+      "Namn": "Kassa 2",
+      "SRU": "7281"
+    },
+    "1913": {
+      "Namn": "Kassa 3",
+      "SRU": "7281"
+    },
+    "1914": {
+      "Namn": "Kassa 4",
+      "SRU": "7281"
+    },
+    "1920": {
+      "Namn": "PlusGiro",
+      "SRU": "7281"
+    },
+    "1930": {
+      "Namn": "Företagskonto / affärskonto",
+      "SRU": "7281"
+    },
+    "1931": {
+      "Namn": "Sparkonto",
+      "SRU": "7281"
+    },
+    "1940": {
+      "Namn": "Övriga bankkonton",
+      "SRU": "7281"
+    },
+    "1950": {
+      "Namn": "Bankcertifikat",
+      "SRU": "7281"
+    },
+    "1960": {
+      "Namn": "Koncernkonto moderföretag",
+      "SRU": "7281"
+    },
+    "1970": {
+      "Namn": "Särskilda bankkonton",
+      "SRU": "7281"
+    },
+    "1972": {
+      "Namn": "Upphovsmannakonto",
+      "SRU": "7281"
+    },
+    "1973": {
+      "Namn": "Skogskonto",
+      "SRU": "7281"
+    },
+    "1974": {
+      "Namn": "Spärrade bankmedel",
+      "SRU": "7281"
+    },
+    "1979": {
+      "Namn": "Övriga särskilda bankkonton",
+      "SRU": "7281"
+    },
+    "1980": {
+      "Namn": "Valutakonton",
+      "SRU": "7281"
+    },
+    "1990": {
+      "Namn": "Redovisningsmedel",
+      "SRU": "7281"
+    },
+    "2010": {
+      "Namn": "Eget kapital, delägare 1"
+    },
+    "2011": {
+      "Namn": "Egna varuuttag"
+    },
+    "2012": {
+      "Namn": "Avräkning för skatter och avgifter (skattekonto)"
+    },
+    "2013": {
+      "Namn": "Övriga egna uttag"
+    },
+    "2017": {
+      "Namn": "Årets kapitaltillskott"
+    },
+    "2018": {
+      "Namn": "Övriga egna insättningar"
+    },
+    "2019": {
+      "Namn": "Årets resultat, delägare 1"
+    },
+    "2020": {
+      "Namn": "Eget kapital, delägare 2"
+    },
+    "2023": {
+      "Namn": "Egna uttag delägare 2 (Handelsbolag)"
+    },
+    "2028": {
+      "Namn": "Övriga egna insättningar, delägare 2"
+    },
+    "2029": {
+      "Namn": "Årets resultat, delägare 2"
+    },
+    "2030": {
+      "Namn": "Eget kapital, delägare 3"
+    },
+    "2033": {
+      "Namn": "Egna uttag delägare 3 (Handelsbolag)"
+    },
+    "2038": {
+      "Namn": "Övriga egna insättningar, delägare 3"
+    },
+    "2039": {
+      "Namn": "Årets resultat, delägare 3"
+    },
+    "2040": {
+      "Namn": "Eget kapital, delägare 4"
+    },
+    "2043": {
+      "Namn": "Egna uttag delägare 4 (Handelsbolag)"
+    },
+    "2048": {
+      "Namn": "Övriga egna insättningar, delägare 4"
+    },
+    "2049": {
+      "Namn": "Årets resultat, delägare 4"
+    },
+    "2050": {
+      "Namn": "Avsättning till expansionsfond"
+    },
+    "2060": {
+      "Namn": "Eget kapital i ideella föreningar, stiftelser och registrerade trossamfund"
+    },
+    "2061": {
+      "Namn": "Eget kapital/stiftelsekapital/grundkapital"
+    },
+    "2065": {
+      "Namn": "Förändring i fond för verkligt värde"
+    },
+    "2066": {
+      "Namn": "Värdesäkringsfond"
+    },
+    "2067": {
+      "Namn": "Balanserad vinst eller förlust/balanserat kapital"
+    },
+    "2068": {
+      "Namn": "Vinst eller förlust från föregående år"
+    },
+    "2069": {
+      "Namn": "Årets resultat"
+    },
+    "2070": {
+      "Namn": "Ändamålsbestämda medel"
+    },
+    "2071": {
+      "Namn": "Ändamål 1"
+    },
+    "2072": {
+      "Namn": "Ändamål 2"
+    },
+    "2080": {
+      "Namn": "Bundet eget kapital",
+      "SRU": "7301"
+    },
+    "2081": {
+      "Namn": "Aktiekapital",
+      "SRU": "7301"
+    },
+    "2082": {
+      "Namn": "Ej registrerat aktiekapital",
+      "SRU": "7301"
+    },
+    "2083": {
+      "Namn": "Medlemsinsatser",
+      "SRU": "7301"
+    },
+    "2084": {
+      "Namn": "Förlagsinsatser",
+      "SRU": "7301"
+    },
+    "2085": {
+      "Namn": "Uppskrivningsfond",
+      "SRU": "7301"
+    },
+    "2086": {
+      "Namn": "Reservfond",
+      "SRU": "7301"
+    },
+    "2087": {
+      "Namn": "Insatsemission",
+      "SRU": "7301"
+    },
+    "2088": {
+      "Namn": "Fond för yttre underhåll",
+      "SRU": "7301"
+    },
+    "2090": {
+      "Namn": "Fritt eget kapital",
+      "SRU": "7302"
+    },
+    "2091": {
+      "Namn": "Balanserad vinst eller förlust",
+      "SRU": "7302"
+    },
+    "2092": {
+      "Namn": "Mottagna/lämnade koncernbidrag",
+      "SRU": "7302"
+    },
+    "2093": {
+      "Namn": "Erhållna aktieägartillskott",
+      "SRU": "7302"
+    },
+    "2094": {
+      "Namn": "Egna aktier",
+      "SRU": "7302"
+    },
+    "2095": {
+      "Namn": "Fusionsresultat",
+      "SRU": "7302"
+    },
+    "2096": {
+      "Namn": "Fond för verkligt värde",
+      "SRU": "7302"
+    },
+    "2097": {
+      "Namn": "Överkursfond",
+      "SRU": "7302"
+    },
+    "2098": {
+      "Namn": "Vinst eller förlust från föregående år",
+      "SRU": "7302"
+    },
+    "2099": {
+      "Namn": "Årets resultat",
+      "SRU": "7302"
+    },
+    "2110": {
+      "Namn": "Periodiseringsfond vid 2010 års taxering",
+      "SRU": "7321"
+    },
+    "2111": {
+      "Namn": "Periodiseringsfond vid 2011 års taxering",
+      "SRU": "7321"
+    },
+    "2112": {
+      "Namn": "Periodiseringsfond vid 2012 års taxering",
+      "SRU": "7321"
+    },
+    "2113": {
+      "Namn": "Periodiseringsfond vid 2013 års taxering",
+      "SRU": "7321"
+    },
+    "2120": {
+      "Namn": "Periodiseringsfonder",
+      "SRU": "7321"
+    },
+    "2123": {
+      "Namn": "Periodiseringsfond 2020",
+      "SRU": "7321"
+    },
+    "2124": {
+      "Namn": "Periodiseringsfond 2021",
+      "SRU": "7321"
+    },
+    "2125": {
+      "Namn": "Periodiseringsfond 2022",
+      "SRU": "7321"
+    },
+    "2126": {
+      "Namn": "Periodiseringsfond 2023",
+      "SRU": "7321"
+    },
+    "2127": {
+      "Namn": "Periodiseringsfond 2017",
+      "SRU": "7321"
+    },
+    "2128": {
+      "Namn": "Periodiseringsfond 2018",
+      "SRU": "7321"
+    },
+    "2129": {
+      "Namn": "Periodiseringsfond 2019",
+      "SRU": "7321"
+    },
+    "2150": {
+      "Namn": "Ackumulerade överavskrivningar",
+      "SRU": "7322"
+    },
+    "2151": {
+      "Namn": "Ackumulerade överavskrivningar på immateriella anläggningstillgångar",
+      "SRU": "7322"
+    },
+    "2152": {
+      "Namn": "Ackumulerade överavskrivningar på byggnader och markanläggningar",
+      "SRU": "7322"
+    },
+    "2153": {
+      "Namn": "Ackumulerade överavskrivningar på maskiner och inventarier",
+      "SRU": "7322"
+    },
+    "2160": {
+      "Namn": "Ersättningsfond",
+      "SRU": "7323"
+    },
+    "2161": {
+      "Namn": "Ersättningsfond maskiner och inventarier",
+      "SRU": "7323"
+    },
+    "2162": {
+      "Namn": "Ersättningsfond byggnader och markanläggningar",
+      "SRU": "7323"
+    },
+    "2163": {
+      "Namn": "Ersättningsfond mark",
+      "SRU": "7323"
+    },
+    "2164": {
+      "Namn": "Ersättningsfond för djurlager i jordbruk och renskötsel",
+      "SRU": "7323"
+    },
+    "2180": {
+      "Namn": "Obeskattade intäkter",
+      "SRU": "7323"
+    },
+    "2181": {
+      "Namn": "Obeskattade upphovsmannaintäkter",
+      "SRU": "7323"
+    },
+    "2185": {
+      "Namn": "Obeskattade skogsintäkter",
+      "SRU": "7323"
+    },
+    "2190": {
+      "Namn": "Övriga obeskattade reserver",
+      "SRU": "7323"
+    },
+    "2196": {
+      "Namn": "Lagerreserv",
+      "SRU": "7323"
+    },
+    "2199": {
+      "Namn": "Övriga obeskattade reserver",
+      "SRU": "7323"
+    },
+    "2210": {
+      "Namn": "Avsättningar för pensioner enligt tryggandelagen",
+      "SRU": "7331"
+    },
+    "2220": {
+      "Namn": "Avsättningar för garantier",
+      "SRU": "7333"
+    },
+    "2230": {
+      "Namn": "Övriga avsättningar för pensioner och liknande förpliktelser",
+      "SRU": "7332"
+    },
+    "2240": {
+      "Namn": "Avsättningar för uppskjutna skatter",
+      "SRU": "7333"
+    },
+    "2250": {
+      "Namn": "Övriga avsättningar för skatter",
+      "SRU": "7333"
+    },
+    "2252": {
+      "Namn": "Avsättningar för tvistiga skatter",
+      "SRU": "7333"
+    },
+    "2253": {
+      "Namn": "Avsättningar särskild löneskatt, deklarationspost",
+      "SRU": "7333"
+    },
+    "2290": {
+      "Namn": "Övriga avsättningar",
+      "SRU": "7333"
+    },
+    "2310": {
+      "Namn": "Obligations- och förlagslån",
+      "SRU": "7350"
+    },
+    "2320": {
+      "Namn": "Konvertibla lån och liknande",
+      "SRU": "7350"
+    },
+    "2321": {
+      "Namn": "Konvertibla lån",
+      "SRU": "7350"
+    },
+    "2322": {
+      "Namn": "Lån förenade med optionsrätt",
+      "SRU": "7350"
+    },
+    "2323": {
+      "Namn": "Vinstandelslån",
+      "SRU": "7350"
+    },
+    "2324": {
+      "Namn": "Kapitalandelslån",
+      "SRU": "7350"
+    },
+    "2330": {
+      "Namn": "Checkräkningskredit",
+      "SRU": "7351"
+    },
+    "2340": {
+      "Namn": "Byggnadskreditiv",
+      "SRU": "7352"
+    },
+    "2350": {
+      "Namn": "Andra långfristiga skulder till kreditinstitut",
+      "SRU": "7352"
+    },
+    "2351": {
+      "Namn": "Fastighetslån, långfristig del",
+      "SRU": "7352"
+    },
+    "2355": {
+      "Namn": "Långfristiga lån i utländsk valuta från kreditinstitut",
+      "SRU": "7352"
+    },
+    "2359": {
+      "Namn": "Övriga långfristiga lån från kreditinstitut",
+      "SRU": "7352"
+    },
+    "2360": {
+      "Namn": "Långfristiga skulder till koncernföretag",
+      "SRU": "7353"
+    },
+    "2361": {
+      "Namn": "Långfristiga skulder till moderföretag",
+      "SRU": "7353"
+    },
+    "2362": {
+      "Namn": "Långfristiga skulder till dotterföretag",
+      "SRU": "7353"
+    },
+    "2363": {
+      "Namn": "Långfristiga skulder till andra koncernföretag",
+      "SRU": "7353"
+    },
+    "2370": {
+      "Namn": "Långfristiga skulder till intresseföretag",
+      "SRU": "7353"
+    },
+    "2390": {
+      "Namn": "Övriga långfristiga skulder",
+      "SRU": "7354"
+    },
+    "2391": {
+      "Namn": "Avbetalningskontrakt, långfristig del",
+      "SRU": "7354"
+    },
+    "2392": {
+      "Namn": "Villkorliga långfristiga skulder",
+      "SRU": "7354"
+    },
+    "2393": {
+      "Namn": "Lån från närstående personer, långfristig del",
+      "SRU": "7354"
+    },
+    "2394": {
+      "Namn": "Långfristiga leverantörskrediter",
+      "SRU": "7354"
+    },
+    "2395": {
+      "Namn": "Andra långfristiga lån i utländsk valuta",
+      "SRU": "7354"
+    },
+    "2396": {
+      "Namn": "Derivat",
+      "SRU": "7354"
+    },
+    "2397": {
+      "Namn": "Mottagna depositioner, långfristiga",
+      "SRU": "7354"
+    },
+    "2399": {
+      "Namn": "Övriga långfristiga skulder",
+      "SRU": "7354"
+    },
+    "2410": {
+      "Namn": "Andra kortfristiga låneskulder till kreditinstitut",
+      "SRU": "7361"
+    },
+    "2411": {
+      "Namn": "Kortfristiga lån från kreditinstitut",
+      "SRU": "7361"
+    },
+    "2417": {
+      "Namn": "Kortfristig del av långfristiga skulder till kreditinstitut",
+      "SRU": "7361"
+    },
+    "2419": {
+      "Namn": "Övriga kortfristiga skulder till kreditinstitut",
+      "SRU": "7361"
+    },
+    "2420": {
+      "Namn": "Förskott från kunder",
+      "SRU": "7362"
+    },
+    "2421": {
+      "Namn": "Ej inlösta presentkort",
+      "SRU": "7362"
+    },
+    "2429": {
+      "Namn": "Övriga förskott från kunder",
+      "SRU": "7362"
+    },
+    "2430": {
+      "Namn": "Pågående arbeten",
+      "SRU": "7363"
+    },
+    "2431": {
+      "Namn": "Pågående arbeten, fakturering",
+      "SRU": "7363"
+    },
+    "2438": {
+      "Namn": "Pågående arbeten, nedlagda kostnader",
+      "SRU": "7363"
+    },
+    "2439": {
+      "Namn": "Beräknad förändring av pågående arbeten",
+      "SRU": "7363"
+    },
+    "2440": {
+      "Namn": "Leverantörsskulder",
+      "SRU": "7365"
+    },
+    "2441": {
+      "Namn": "Leverantörsskulder",
+      "SRU": "7365"
+    },
+    "2443": {
+      "Namn": "Konsignationsskulder",
+      "SRU": "7365"
+    },
+    "2445": {
+      "Namn": "Tvistiga leverantörsskulder",
+      "SRU": "7365"
+    },
+    "2448": {
+      "Namn": "Ej reskontraförda leverantörsskulder",
+      "SRU": "7365"
+    },
+    "2450": {
+      "Namn": "Fakturerad men ej upparbetad intäkt",
+      "SRU": "7364"
+    },
+    "2460": {
+      "Namn": "Leverantörsskulder till koncernföretag",
+      "SRU": "7367"
+    },
+    "2461": {
+      "Namn": "Leverantörsskulder till moderföretag",
+      "SRU": "7367"
+    },
+    "2462": {
+      "Namn": "Leverantörsskulder till dotterföretag",
+      "SRU": "7367"
+    },
+    "2463": {
+      "Namn": "Leverantörsskulder till andra koncernföretag",
+      "SRU": "7367"
+    },
+    "2470": {
+      "Namn": "Leverantörsskulder till intresseföretag",
+      "SRU": "7367"
+    },
+    "2480": {
+      "Namn": "Checkräkningskredit, kortfristig",
+      "SRU": "7360"
+    },
+    "2490": {
+      "Namn": "Övriga kortfristiga skulder till kreditinstitut, kunder och leverantörer",
+      "SRU": "7369"
+    },
+    "2491": {
+      "Namn": "Avräkning spelarrangörer",
+      "SRU": "7369"
+    },
+    "2492": {
+      "Namn": "Växelskulder",
+      "SRU": "7366"
+    },
+    "2499": {
+      "Namn": "Andra övriga kortfristiga skulder",
+      "SRU": "7369"
+    },
+    "2510": {
+      "Namn": "Skatteskulder",
+      "SRU": "7368"
+    },
+    "2512": {
+      "Namn": "Beräknad inkomstskatt",
+      "SRU": "7368"
+    },
+    "2513": {
+      "Namn": "Beräknad fastighetsskatt/fastighetsavgift",
+      "SRU": "7368"
+    },
+    "2514": {
+      "Namn": "Beräknad särskild löneskatt på pensionskostnader",
+      "SRU": "7368"
+    },
+    "2515": {
+      "Namn": "Beräknad avkastningsskatt",
+      "SRU": "7368"
+    },
+    "2516": {
+      "Namn": "Moms",
+      "SRU": "7368"
+    },
+    "2517": {
+      "Namn": "Beräknad utländsk skatt",
+      "SRU": "7368"
+    },
+    "2518": {
+      "Namn": "Betald F-skatt",
+      "SRU": "7368"
+    },
+    "2610": {
+      "Namn": "Utgående moms, 25 %",
+      "SRU": "7369"
+    },
+    "2611": {
+      "Namn": "Utgående moms på försäljning inom Sverige, 25 %",
+      "SRU": "7369"
+    },
+    "2612": {
+      "Namn": "Utgående moms på egna uttag, 25 %",
+      "SRU": "7369"
+    },
+    "2613": {
+      "Namn": "Utgående moms för uthyrning, 25 %",
+      "SRU": "7369"
+    },
+    "2614": {
+      "Namn": "Utgående moms omvänd skattskyldighet, 25 %",
+      "SRU": "7369"
+    },
+    "2615": {
+      "Namn": "Utgående moms import av varor, 25%",
+      "SRU": "7369"
+    },
+    "2616": {
+      "Namn": "Utgående moms VMB 25 %",
+      "SRU": "7369"
+    },
+    "2617": {
+      "Namn": "Utgående moms omvänd skattskyldighet varor och tjänster i Sverige, 25 %",
+      "SRU": "7369"
+    },
+    "2618": {
+      "Namn": "Vilande utgående moms, 25 %",
+      "SRU": "7369"
+    },
+    "2620": {
+      "Namn": "Utgående moms, 12 %",
+      "SRU": "7369"
+    },
+    "2621": {
+      "Namn": "Utgående moms på försäljning inom Sverige, 12 %",
+      "SRU": "7369"
+    },
+    "2622": {
+      "Namn": "Utgående moms på egna uttag, 12 %",
+      "SRU": "7369"
+    },
+    "2623": {
+      "Namn": "Utgående moms för uthyrning, 12 %",
+      "SRU": "7369"
+    },
+    "2624": {
+      "Namn": "Utgående moms omvänd skattskyldighet, 12 %",
+      "SRU": "7369"
+    },
+    "2625": {
+      "Namn": "Utgående moms import av varor, 12 %",
+      "SRU": "7369"
+    },
+    "2626": {
+      "Namn": "Utgående moms VMB 12 %",
+      "SRU": "7369"
+    },
+    "2627": {
+      "Namn": "Utgående moms omvänd skattskyldighet varor och tjänster i Sverige, 12 %",
+      "SRU": "7369"
+    },
+    "2628": {
+      "Namn": "Vilande utgående moms, 12 %",
+      "SRU": "7369"
+    },
+    "2630": {
+      "Namn": "Utgående moms, 6 %",
+      "SRU": "7369"
+    },
+    "2631": {
+      "Namn": "Utgående moms på försäljning inom Sverige, 6 %",
+      "SRU": "7369"
+    },
+    "2632": {
+      "Namn": "Utgående moms på egna uttag, 6 %",
+      "SRU": "7369"
+    },
+    "2633": {
+      "Namn": "Utgående moms för uthyrning, 6 %",
+      "SRU": "7369"
+    },
+    "2634": {
+      "Namn": "Utgående moms omvänd skattskyldighet, 6 %",
+      "SRU": "7369"
+    },
+    "2635": {
+      "Namn": "Utgående moms import av varor, 6 %",
+      "SRU": "7369"
+    },
+    "2636": {
+      "Namn": "Utgående moms VMB 6 %",
+      "SRU": "7369"
+    },
+    "2637": {
+      "Namn": "Utgående moms omvänd skattskyldighet varor och tjänster i Sverige, 6 %",
+      "SRU": "7369"
+    },
+    "2638": {
+      "Namn": "Vilande utgående moms, 6 %",
+      "SRU": "7369"
+    },
+    "2640": {
+      "Namn": "Ingående moms",
+      "SRU": "7369"
+    },
+    "2641": {
+      "Namn": "Debiterad ingående moms",
+      "SRU": "7369"
+    },
+    "2642": {
+      "Namn": "Debiterad ingående moms i anslutning till frivillig skattskyldighet",
+      "SRU": "7369"
+    },
+    "2645": {
+      "Namn": "Beräknad ingående moms på förvärv från utlandet",
+      "SRU": "7369"
+    },
+    "2646": {
+      "Namn": "Ingående moms på uthyrning",
+      "SRU": "7369"
+    },
+    "2647": {
+      "Namn": "Ingående moms omvänd skattskyldighet varor och tjänster i Sverige",
+      "SRU": "7369"
+    },
+    "2648": {
+      "Namn": "Vilande ingående moms",
+      "SRU": "7369"
+    },
+    "2649": {
+      "Namn": "Ingående moms, blandad verksamhet",
+      "SRU": "7369"
+    },
+    "2650": {
+      "Namn": "Redovisningskonto för moms",
+      "SRU": "7369"
+    },
+    "2660": {
+      "Namn": "Särskilda punktskatter",
+      "SRU": "7369"
+    },
+    "2661": {
+      "Namn": "Reklamskatt",
+      "SRU": "7369"
+    },
+    "2668": {
+      "Namn": "MOSS, moms",
+      "SRU": "7369"
+    },
+    "2669": {
+      "Namn": "Övriga punktskatter",
+      "SRU": "7369"
+    },
+    "2710": {
+      "Namn": "Personalskatt",
+      "SRU": "7369"
+    },
+    "2730": {
+      "Namn": "Lagstadgade sociala avgifter och särskild löneskatt",
+      "SRU": "7369"
+    },
+    "2731": {
+      "Namn": "Avräkning lagstadgade sociala avgifter",
+      "SRU": "7369"
+    },
+    "2732": {
+      "Namn": "Avräkning särskild löneskatt",
+      "SRU": "7369"
+    },
+    "2740": {
+      "Namn": "Avtalade sociala avgifter",
+      "SRU": "7369"
+    },
+    "2750": {
+      "Namn": "Utmätning i lön m.m.",
+      "SRU": "7369"
+    },
+    "2760": {
+      "Namn": "Semestermedel",
+      "SRU": "7369"
+    },
+    "2761": {
+      "Namn": "Avräkning semesterlöner",
+      "SRU": "7369"
+    },
+    "2762": {
+      "Namn": "Semesterlönekassa",
+      "SRU": "7369"
+    },
+    "2790": {
+      "Namn": "Övriga löneavdrag",
+      "SRU": "7369"
+    },
+    "2791": {
+      "Namn": "Personalens intressekonto",
+      "SRU": "7369"
+    },
+    "2792": {
+      "Namn": "Lönsparande",
+      "SRU": "7369"
+    },
+    "2793": {
+      "Namn": "Gruppförsäkringspremier",
+      "SRU": "7369"
+    },
+    "2794": {
+      "Namn": "Fackföreningsavgifter",
+      "SRU": "7369"
+    },
+    "2795": {
+      "Namn": "Mätnings- och granskningsarvoden",
+      "SRU": "7369"
+    },
+    "2799": {
+      "Namn": "Övriga löneavdrag",
+      "SRU": "7369"
+    },
+    "2810": {
+      "Namn": "Avräkning för factoring och belånade kontraktsfordringar",
+      "SRU": "7369"
+    },
+    "2811": {
+      "Namn": "Avräkning för factoring",
+      "SRU": "7369"
+    },
+    "2812": {
+      "Namn": "Avräkning för belånade kontraktsfordringar",
+      "SRU": "7369"
+    },
+    "2820": {
+      "Namn": "Kortfristiga skulder till anställda",
+      "SRU": "7369"
+    },
+    "2821": {
+      "Namn": "Löneskulder",
+      "SRU": "7369"
+    },
+    "2822": {
+      "Namn": "Reseräkningar",
+      "SRU": "7369"
+    },
+    "2823": {
+      "Namn": "Tantiem, gratifikationer",
+      "SRU": "7369"
+    },
+    "2829": {
+      "Namn": "Övriga kortfristiga skulder till anställda",
+      "SRU": "7369"
+    },
+    "2830": {
+      "Namn": "Avräkning för annans räkning",
+      "SRU": "7369"
+    },
+    "2840": {
+      "Namn": "Kortfristiga låneskulder",
+      "SRU": "7369"
+    },
+    "2841": {
+      "Namn": "Kortfristig del av långfristiga skulder",
+      "SRU": "7369"
+    },
+    "2849": {
+      "Namn": "Övriga kortfristiga låneskulder",
+      "SRU": "7369"
+    },
+    "2850": {
+      "Namn": "Avräkning för skatter och avgifter (skattekonto)",
+      "SRU": "7369"
+    },
+    "2860": {
+      "Namn": "Kortfristiga skulder till koncernföretag",
+      "SRU": "7367"
+    },
+    "2861": {
+      "Namn": "Kortfristiga skulder till moderföretag",
+      "SRU": "7367"
+    },
+    "2862": {
+      "Namn": "Kortfristiga skulder till dotterföretag",
+      "SRU": "7367"
+    },
+    "2863": {
+      "Namn": "Kortfristiga skulder till andra koncernföretag",
+      "SRU": "7367"
+    },
+    "2870": {
+      "Namn": "Kortfristiga skulder till intresseföretag",
+      "SRU": "7367"
+    },
+    "2880": {
+      "Namn": "Skuld erhållna bidrag",
+      "SRU": "7369"
+    },
+    "2890": {
+      "Namn": "Övriga kortfristiga skulder",
+      "SRU": "7369"
+    },
+    "2891": {
+      "Namn": "Skulder under indrivning",
+      "SRU": "7369"
+    },
+    "2892": {
+      "Namn": "Inre reparationsfond/underhållsfond",
+      "SRU": "7369"
+    },
+    "2893": {
+      "Namn": "Skulder till närstående personer, kortfristig del",
+      "SRU": "7369"
+    },
+    "2895": {
+      "Namn": "Derivat (kortfristiga skulder)",
+      "SRU": "7369"
+    },
+    "2897": {
+      "Namn": "Mottagna depositioner, kortfristiga",
+      "SRU": "7369"
+    },
+    "2898": {
+      "Namn": "Outtagen vinstutdelning",
+      "SRU": "7369"
+    },
+    "2899": {
+      "Namn": "Övriga kortfristiga skulder",
+      "SRU": "7369"
+    },
+    "2910": {
+      "Namn": "Upplupna löner",
+      "SRU": "7370"
+    },
+    "2911": {
+      "Namn": "Löneskulder",
+      "SRU": "7370"
+    },
+    "2912": {
+      "Namn": "Ackordsöverskott",
+      "SRU": "7370"
+    },
+    "2919": {
+      "Namn": "Övriga upplupna löner",
+      "SRU": "7370"
+    },
+    "2920": {
+      "Namn": "Upplupna semesterlöner",
+      "SRU": "7370"
+    },
+    "2930": {
+      "Namn": "Upplupna pensionskostnader",
+      "SRU": "7370"
+    },
+    "2931": {
+      "Namn": "Upplupna pensionsutbetalningar",
+      "SRU": "7370"
+    },
+    "2940": {
+      "Namn": "Upplupna lagstadgade sociala och andra avgifter",
+      "SRU": "7370"
+    },
+    "2941": {
+      "Namn": "Beräknade upplupna lagstadgade sociala avgifter",
+      "SRU": "7370"
+    },
+    "2942": {
+      "Namn": "Beräknad upplupen särskild löneskatt",
+      "SRU": "7370"
+    },
+    "2943": {
+      "Namn": "Beräknad upplupen särskild löneskatt på pensionskostnader, deklarationspost",
+      "SRU": "7370"
+    },
+    "2944": {
+      "Namn": "Beräknad upplupen avkastningsskatt på pensionskostnader",
+      "SRU": "7370"
+    },
+    "2950": {
+      "Namn": "Upplupna avtalade sociala avgifter",
+      "SRU": "7370"
+    },
+    "2951": {
+      "Namn": "Upplupna avtalade arbetsmarknadsförsäkringar",
+      "SRU": "7370"
+    },
+    "2959": {
+      "Namn": "Upplupna avtalade pensionsförsäkringsavgifter, deklarationspost",
+      "SRU": "7370"
+    },
+    "2960": {
+      "Namn": "Upplupna räntekostnader",
+      "SRU": "7370"
+    },
+    "2970": {
+      "Namn": "Förutbetalda intäkter",
+      "SRU": "7370"
+    },
+    "2971": {
+      "Namn": "Förutbetalda hyresintäkter",
+      "SRU": "7370"
+    },
+    "2972": {
+      "Namn": "Förutbetalda medlemsavgifter",
+      "SRU": "7370"
+    },
+    "2979": {
+      "Namn": "Övriga förutbetalda intäkter",
+      "SRU": "7370"
+    },
+    "2980": {
+      "Namn": "Upplupna avtalskostnader",
+      "SRU": "7370"
+    },
+    "2990": {
+      "Namn": "Övriga upplupna kostnader och förutbetalda intäkter",
+      "SRU": "7370"
+    },
+    "2991": {
+      "Namn": "Beräknat arvode för bokslut",
+      "SRU": "7370"
+    },
+    "2992": {
+      "Namn": "Beräknat arvode för revision",
+      "SRU": "7370"
+    },
+    "2993": {
+      "Namn": "Ospecificerad skuld till leverantörer",
+      "SRU": "7370"
+    },
+    "2998": {
+      "Namn": "Övriga upplupna kostnader och förutbetalda intäkter",
+      "SRU": "7370"
+    },
+    "2999": {
+      "Namn": "OBS-konto",
+      "SRU": "7370"
+    },
+    "3000": {
+      "Namn": "Försäljning inom Sverige",
+      "SRU": "7410"
+    },
+    "3001": {
+      "Namn": "Försäljning varor inom Sverige, 25 % moms",
+      "SRU": "7410"
+    },
+    "3002": {
+      "Namn": "Försäljning varor inom Sverige, 12 % moms",
+      "SRU": "7410"
+    },
+    "3003": {
+      "Namn": "Försäljning varor inom Sverige, 6 % moms",
+      "SRU": "7410"
+    },
+    "3004": {
+      "Namn": "Försäljning varor inom Sverige, momsfri",
+      "SRU": "7410"
+    },
+    "3011": {
+      "Namn": "Försäljning tjänster inom Sverige, 25 % moms",
+      "SRU": "7410"
+    },
+    "3012": {
+      "Namn": "Försäljning tjänster inom Sverige, 12 % moms",
+      "SRU": "7410"
+    },
+    "3013": {
+      "Namn": "Försäljning tjänster inom Sverige, 6 % moms",
+      "SRU": "7410"
+    },
+    "3014": {
+      "Namn": "Försäljning tjänster inom Sverige, momsfri",
+      "SRU": "7410"
+    },
+    "3071": {
+      "Namn": "Förutbetalda intäkter, varor och tjänster",
+      "SRU": "7410"
+    },
+    "3089": {
+      "Namn": "Försäljning inom Sverige, momsfri",
+      "SRU": "7410"
+    },
+    "3099": {
+      "Namn": "Justering av försäljning, ej moms",
+      "SRU": "7410"
+    },
+    "3105": {
+      "Namn": "Försäljning varor till land utanför EU",
+      "SRU": "7410"
+    },
+    "3106": {
+      "Namn": "Försäljning varor till annat EU-land, momspliktig",
+      "SRU": "7410"
+    },
+    "3107": {
+      "Namn": "Treparts försäljn varor till EU",
+      "SRU": "7410"
+    },
+    "3108": {
+      "Namn": "Försäljning varor till annat EU-land, momsfri",
+      "SRU": "7410"
+    },
+    "3200": {
+      "Namn": "Försäljning VMB och omvänd moms",
+      "SRU": "7410"
+    },
+    "3211": {
+      "Namn": "Försäljning positiv VMB 25 %",
+      "SRU": "7410"
+    },
+    "3212": {
+      "Namn": "Försäljning negativ VMB 25 %",
+      "SRU": "7410"
+    },
+    "3223": {
+      "Namn": "Positiv VM omföringskonto",
+      "SRU": "7410"
+    },
+    "3231": {
+      "Namn": "Försäljning inom byggsektorn, omvänd skattskyldighet moms",
+      "SRU": "7410"
+    },
+    "3305": {
+      "Namn": "Försäljning tjänster till land utanför EU",
+      "SRU": "7410"
+    },
+    "3308": {
+      "Namn": "Försäljning tjänster till annat EU-land",
+      "SRU": "7410"
+    },
+    "3389": {
+      "Namn": "Försäljning EU moms/MOSS",
+      "SRU": "7410"
+    },
+    "3401": {
+      "Namn": "Egna uttag momspliktiga, 25 %",
+      "SRU": "7410"
+    },
+    "3402": {
+      "Namn": "Egna uttag momspliktiga, 12 %",
+      "SRU": "7410"
+    },
+    "3403": {
+      "Namn": "Egna uttag momspliktiga, 6 %",
+      "SRU": "7410"
+    },
+    "3404": {
+      "Namn": "Egna uttag, momsfria",
+      "SRU": "7410"
+    },
+    "3500": {
+      "Namn": "Fakturerade kostnader (gruppkonto)",
+      "SRU": "7410"
+    },
+    "3510": {
+      "Namn": "Fakturerat emballage",
+      "SRU": "7410"
+    },
+    "3511": {
+      "Namn": "Fakturerat emballage",
+      "SRU": "7410"
+    },
+    "3518": {
+      "Namn": "Returnerat emballage",
+      "SRU": "7410"
+    },
+    "3520": {
+      "Namn": "Fakturerade frakter",
+      "SRU": "7410"
+    },
+    "3521": {
+      "Namn": "Fakturerade frakter, EU-land",
+      "SRU": "7410"
+    },
+    "3522": {
+      "Namn": "Fakturerade frakter, export",
+      "SRU": "7410"
+    },
+    "3530": {
+      "Namn": "Fakturerade tull- och speditionskostnader m.m.",
+      "SRU": "7410"
+    },
+    "3540": {
+      "Namn": "Faktureringsavgifter",
+      "SRU": "7410"
+    },
+    "3541": {
+      "Namn": "Faktureringsavgifter, EU-land",
+      "SRU": "7410"
+    },
+    "3542": {
+      "Namn": "Faktureringsavgifter, export",
+      "SRU": "7410"
+    },
+    "3550": {
+      "Namn": "Fakturerade resekostnader",
+      "SRU": "7410"
+    },
+    "3560": {
+      "Namn": "Fakturerade kostnader till koncernföretag",
+      "SRU": "7410"
+    },
+    "3561": {
+      "Namn": "Fakturerade kostnader till moderföretag",
+      "SRU": "7410"
+    },
+    "3562": {
+      "Namn": "Fakturerade kostnader till dotterföretag",
+      "SRU": "7410"
+    },
+    "3563": {
+      "Namn": "Fakturerade kostnader till andra koncernföretag",
+      "SRU": "7410"
+    },
+    "3570": {
+      "Namn": "Fakturerade kostnader till intresseföretag",
+      "SRU": "7410"
+    },
+    "3590": {
+      "Namn": "Övriga fakturerade kostnader",
+      "SRU": "7410"
+    },
+    "3600": {
+      "Namn": "Rörelsens sidointäkter (gruppkonto)",
+      "SRU": "7410"
+    },
+    "3610": {
+      "Namn": "Försäljning av material",
+      "SRU": "7410"
+    },
+    "3611": {
+      "Namn": "Försäljning av råmaterial",
+      "SRU": "7410"
+    },
+    "3612": {
+      "Namn": "Försäljning av skrot",
+      "SRU": "7410"
+    },
+    "3613": {
+      "Namn": "Försäljning av förbrukningsmaterial",
+      "SRU": "7410"
+    },
+    "3619": {
+      "Namn": "Försäljning av övrigt material",
+      "SRU": "7410"
+    },
+    "3620": {
+      "Namn": "Tillfällig uthyrning av personal",
+      "SRU": "7410"
+    },
+    "3630": {
+      "Namn": "Tillfällig uthyrning av transportmedel",
+      "SRU": "7410"
+    },
+    "3670": {
+      "Namn": "Intäkter från värdepapper",
+      "SRU": "7410"
+    },
+    "3671": {
+      "Namn": "Försäljning av värdepapper",
+      "SRU": "7410"
+    },
+    "3672": {
+      "Namn": "Utdelning från värdepapper",
+      "SRU": "7410"
+    },
+    "3679": {
+      "Namn": "Övriga intäkter från värdepapper",
+      "SRU": "7410"
+    },
+    "3680": {
+      "Namn": "Management fees",
+      "SRU": "7410"
+    },
+    "3690": {
+      "Namn": "Övriga sidointäkter",
+      "SRU": "7410"
+    },
+    "3700": {
+      "Namn": "Intäktskorrigeringar (gruppkonto)",
+      "SRU": "7410"
+    },
+    "3710": {
+      "Namn": "Ofördelade intäktsreduktioner",
+      "SRU": "7410"
+    },
+    "3730": {
+      "Namn": "Lämnade rabatter",
+      "SRU": "7410"
+    },
+    "3731": {
+      "Namn": "Lämnade kassarabatter",
+      "SRU": "7410"
+    },
+    "3732": {
+      "Namn": "Lämnade mängdrabatter",
+      "SRU": "7410"
+    },
+    "3740": {
+      "Namn": "Öres- och kronutjämning",
+      "SRU": "7410"
+    },
+    "3750": {
+      "Namn": "Punktskatter",
+      "SRU": "7410"
+    },
+    "3751": {
+      "Namn": "Intäktsförda punktskatter (kreditkonto)",
+      "SRU": "7410"
+    },
+    "3752": {
+      "Namn": "Skuldförda punktskatter (debetkonto)",
+      "SRU": "7410"
+    },
+    "3790": {
+      "Namn": "Övriga intäktskorrigeringar",
+      "SRU": "7410"
+    },
+    "3800": {
+      "Namn": "Aktiverat arbete för egen räkning (gruppkonto)",
+      "SRU": "7412"
+    },
+    "3840": {
+      "Namn": "Aktiverat arbete (material)",
+      "SRU": "7412"
+    },
+    "3850": {
+      "Namn": "Aktiverat arbete (omkostnader)",
+      "SRU": "7412"
+    },
+    "3870": {
+      "Namn": "Aktiverat arbete (personal)",
+      "SRU": "7412"
+    },
+    "3900": {
+      "Namn": "Övriga rörelseintäkter (gruppkonto)",
+      "SRU": "7413"
+    },
+    "3910": {
+      "Namn": "Hyres- och arrendeintäkter",
+      "SRU": "7413"
+    },
+    "3911": {
+      "Namn": "Hyresintäkter",
+      "SRU": "7413"
+    },
+    "3912": {
+      "Namn": "Arrendeintäkter",
+      "SRU": "7413"
+    },
+    "3913": {
+      "Namn": "Frivilligt momspliktiga hyresintäkter",
+      "SRU": "7413"
+    },
+    "3914": {
+      "Namn": "Övriga momspliktiga hyresintäkter",
+      "SRU": "7413"
+    },
+    "3920": {
+      "Namn": "Provisionsintäkter, licensintäkter och royalties",
+      "SRU": "7413"
+    },
+    "3921": {
+      "Namn": "Provisionsintäkter",
+      "SRU": "7413"
+    },
+    "3922": {
+      "Namn": "Licensintäkter och royalties",
+      "SRU": "7413"
+    },
+    "3925": {
+      "Namn": "Franchiseintäkter",
+      "SRU": "7413"
+    },
+    "3929": {
+      "Namn": "Kickback momsfri",
+      "SRU": "7413"
+    },
+    "3930": {
+      "Namn": "Påminnelseavgifter",
+      "SRU": "7413"
+    },
+    "3940": {
+      "Namn": "Orealiserade negativa/positiva värdeförändringar på säkringsinstrument",
+      "SRU": "7413"
+    },
+    "3950": {
+      "Namn": "Återvunna, tidigare avskrivna kundfordringar",
+      "SRU": "7413"
+    },
+    "3960": {
+      "Namn": "Valutakursvinster på fordringar och skulder av rörelsekaraktär",
+      "SRU": "7413"
+    },
+    "3970": {
+      "Namn": "Vinst vid avyttring av immateriella och materiella anläggningstillgångar",
+      "SRU": "7413"
+    },
+    "3971": {
+      "Namn": "Vinst vid avyttring av immateriella anläggningstillgångar",
+      "SRU": "7413"
+    },
+    "3972": {
+      "Namn": "Vinst vid avyttring av byggnader och mark",
+      "SRU": "7413"
+    },
+    "3973": {
+      "Namn": "Vinst vid avyttring av maskiner och inventarier",
+      "SRU": "7413"
+    },
+    "3980": {
+      "Namn": "Erhållna offentliga stöd m.m.",
+      "SRU": "7413"
+    },
+    "3981": {
+      "Namn": "Erhållna EU-bidrag",
+      "SRU": "7413"
+    },
+    "3985": {
+      "Namn": "Erhållna statliga bidrag",
+      "SRU": "7413"
+    },
+    "3987": {
+      "Namn": "Erhållna kommunala bidrag",
+      "SRU": "7413"
+    },
+    "3988": {
+      "Namn": "Erhållna bidrag och ersättningar för personal",
+      "SRU": "7413"
+    },
+    "3989": {
+      "Namn": "Övriga erhållna bidrag",
+      "SRU": "7413"
+    },
+    "3990": {
+      "Namn": "Övriga ersättningar och intäkter",
+      "SRU": "7413"
+    },
+    "3991": {
+      "Namn": "Konfliktersättning",
+      "SRU": "7413"
+    },
+    "3992": {
+      "Namn": "Erhållna skadestånd",
+      "SRU": "7413"
+    },
+    "3993": {
+      "Namn": "Erhållna donationer och gåvor",
+      "SRU": "7413"
+    },
+    "3994": {
+      "Namn": "Försäkringsersättningar",
+      "SRU": "7413"
+    },
+    "3995": {
+      "Namn": "Erhållet ackord på skulder av rörelsekaraktär",
+      "SRU": "7413"
+    },
+    "3996": {
+      "Namn": "Erhållna reklambidrag",
+      "SRU": "7413"
+    },
+    "3997": {
+      "Namn": "Sjuklöneersättning",
+      "SRU": "7413"
+    },
+    "3998": {
+      "Namn": "Sjukpenning",
+      "SRU": "7413"
+    },
+    "3999": {
+      "Namn": "Övriga rörelseintäkter",
+      "SRU": "7413"
+    },
+    "4000": {
+      "Namn": "Inköp av varor från Sverige",
+      "SRU": "7512"
+    },
+    "4010": {
+      "Namn": "Inköp material och varor",
+      "SRU": "7512"
+    },
+    "4200": {
+      "Namn": "Sålda varor VMB",
+      "SRU": "7512"
+    },
+    "4211": {
+      "Namn": "Sålda varor positiv VMB 25 %",
+      "SRU": "7512"
+    },
+    "4212": {
+      "Namn": "Sålda varor negativ VMB 25 %",
+      "SRU": "7512"
+    },
+    "4400": {
+      "Namn": "Inköpta tjänster i Sverige, omvänd skattskyldighet",
+      "SRU": "7512"
+    },
+    "4415": {
+      "Namn": "Inköpta varor i Sverige, omvänd skattskyldighet, 25 %",
+      "SRU": "7512"
+    },
+    "4416": {
+      "Namn": "Inköpta varor i Sverige, omvänd skattskyldighet, 12 %",
+      "SRU": "7512"
+    },
+    "4417": {
+      "Namn": "Inköpta varor i Sverige, omvänd skattskyldighet, 6 %",
+      "SRU": "7512"
+    },
+    "4425": {
+      "Namn": "Inköpta tjänster i Sverige, omvänd skattskyldighet, 25 %",
+      "SRU": "7512"
+    },
+    "4426": {
+      "Namn": "Inköpta tjänster i Sverige, omvänd skattskyldighet, 12 %",
+      "SRU": "7512"
+    },
+    "4427": {
+      "Namn": "Inköpta tjänster i Sverige, omvänd skattskyldighet, 6 %",
+      "SRU": "7512"
+    },
+    "4500": {
+      "Namn": "Inköp utanför Sverige",
+      "SRU": "7512"
+    },
+    "4512": {
+      "Namn": "Förvärv varor, trepartsförvärv från annat EU-land, mellan man",
+      "SRU": "7512"
+    },
+    "4515": {
+      "Namn": "Inköp av varor från annat EU-land, 25 %",
+      "SRU": "7512"
+    },
+    "4516": {
+      "Namn": "Inköp av varor från annat EU-land, 12 %",
+      "SRU": "7512"
+    },
+    "4517": {
+      "Namn": "Inköp av varor från annat EU-land, 6 %",
+      "SRU": "7512"
+    },
+    "4518": {
+      "Namn": "Inköp av varor från annat EU-land, momsfri",
+      "SRU": "7512"
+    },
+    "4531": {
+      "Namn": "Import tjänster land utanför EU, 25% moms",
+      "SRU": "7512"
+    },
+    "4532": {
+      "Namn": "Import tjänster land utanför EU, 12% moms",
+      "SRU": "7512"
+    },
+    "4533": {
+      "Namn": "Import tjänster land utanför EU, 6% moms",
+      "SRU": "7512"
+    },
+    "4534": {
+      "Namn": "Import tjänster land utanför EU, momsfri",
+      "SRU": "7512"
+    },
+    "4535": {
+      "Namn": "Inköp av tjänster från annat EU-land, 25 %",
+      "SRU": "7512"
+    },
+    "4536": {
+      "Namn": "Inköp av tjänster från annat EU-land, 12 %",
+      "SRU": "7512"
+    },
+    "4537": {
+      "Namn": "Inköp av tjänster från annat EU-land, 6 %",
+      "SRU": "7512"
+    },
+    "4538": {
+      "Namn": "Inköp av tjänster från annat EU-land, momsfri",
+      "SRU": "7512"
+    },
+    "4545": {
+      "Namn": "Import av varor, 25 % moms",
+      "SRU": "7512"
+    },
+    "4546": {
+      "Namn": "Import av varor, 12 % moms",
+      "SRU": "7512"
+    },
+    "4547": {
+      "Namn": "Import av varor, 6 % moms",
+      "SRU": "7512"
+    },
+    "4549": {
+      "Namn": "Motkonto beskattningsunderlag import",
+      "SRU": "7512"
+    },
+    "4598": {
+      "Namn": "Justering, omvänd moms",
+      "SRU": "7512"
+    },
+    "4600": {
+      "Namn": "Legoarbeten och underentreprenader (gruppkonto)",
+      "SRU": "7512"
+    },
+    "4700": {
+      "Namn": "Reduktion av inköpspriser (gruppkonto)",
+      "SRU": "7512"
+    },
+    "4730": {
+      "Namn": "Erhållna rabatter",
+      "SRU": "7512"
+    },
+    "4731": {
+      "Namn": "Erhållna kassarabatter",
+      "SRU": "7512"
+    },
+    "4732": {
+      "Namn": "Erhållna mängdrabatter (inkl. bonus)",
+      "SRU": "7512"
+    },
+    "4733": {
+      "Namn": "Erhållet aktivitetsstöd",
+      "SRU": "7512"
+    },
+    "4790": {
+      "Namn": "Övriga reduktioner av inköpspriser",
+      "SRU": "7512"
+    },
+    "4900": {
+      "Namn": "Förändring av lager (gruppkonto)",
+      "SRU": "7411"
+    },
+    "4910": {
+      "Namn": "Förändring av lager av råvaror",
+      "SRU": "7511"
+    },
+    "4920": {
+      "Namn": "Förändring av lager av tillsatsmaterial och förnödenheter",
+      "SRU": "7511"
+    },
+    "4930": {
+      "Namn": "Förändring av lager av halvfabrikat",
+      "SRU": "7511"
+    },
+    "4931": {
+      "Namn": "Förändring av lager av köpta halvfabrikat",
+      "SRU": "7511"
+    },
+    "4932": {
+      "Namn": "Förändring av lager av egentillverkade halvfabrikat",
+      "SRU": "7411"
+    },
+    "4940": {
+      "Namn": "Förändring av produkter i arbete",
+      "SRU": "7411"
+    },
+    "4944": {
+      "Namn": "Förändring av produkter i arbete, material och utlägg",
+      "SRU": "7411"
+    },
+    "4945": {
+      "Namn": "Förändring av produkter i arbete, omkostnader",
+      "SRU": "7411"
+    },
+    "4947": {
+      "Namn": "Förändring av produkter i arbete, personalkostnader",
+      "SRU": "7411"
+    },
+    "4950": {
+      "Namn": "Förändring av lager av färdiga varor",
+      "SRU": "7411"
+    },
+    "4960": {
+      "Namn": "Förändring av lager av handelsvaror",
+      "SRU": "7512"
+    },
+    "4970": {
+      "Namn": "Förändring av pågående arbeten, nedlagda kostnader",
+      "SRU": "7411"
+    },
+    "4974": {
+      "Namn": "Förändring av pågående arbeten, material och utlägg",
+      "SRU": "7411"
+    },
+    "4975": {
+      "Namn": "Förändring av pågående arbeten, omkostnader",
+      "SRU": "7411"
+    },
+    "4977": {
+      "Namn": "Förändring av pågående arbeten, personalkostnader",
+      "SRU": "7411"
+    },
+    "4980": {
+      "Namn": "Förändring av lager av värdepapper",
+      "SRU": "7512"
+    },
+    "4981": {
+      "Namn": "Sålda värdepappers anskaffningsvärde",
+      "SRU": "7512"
+    },
+    "4987": {
+      "Namn": "Nedskrivning av värdepapper",
+      "SRU": "7512"
+    },
+    "4988": {
+      "Namn": "Återföring av nedskrivning av värdepapper",
+      "SRU": "7512"
+    },
+    "4990": {
+      "Namn": "Förändring av lager och pågående arbeten (ofördelad)",
+      "SRU": "7411"
+    },
+    "5000": {
+      "Namn": "Lokalkostnader (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5010": {
+      "Namn": "Lokalhyra",
+      "SRU": "7513"
+    },
+    "5011": {
+      "Namn": "Hyra för kontorslokaler",
+      "SRU": "7513"
+    },
+    "5012": {
+      "Namn": "Hyra för garage",
+      "SRU": "7513"
+    },
+    "5013": {
+      "Namn": "Hyra för lagerlokaler",
+      "SRU": "7513"
+    },
+    "5020": {
+      "Namn": "El för belysning",
+      "SRU": "7513"
+    },
+    "5030": {
+      "Namn": "Värme",
+      "SRU": "7513"
+    },
+    "5040": {
+      "Namn": "Vatten och avlopp",
+      "SRU": "7513"
+    },
+    "5050": {
+      "Namn": "Lokaltillbehör",
+      "SRU": "7513"
+    },
+    "5060": {
+      "Namn": "Städning och renhållning",
+      "SRU": "7513"
+    },
+    "5061": {
+      "Namn": "Städning",
+      "SRU": "7513"
+    },
+    "5062": {
+      "Namn": "Sophämtning",
+      "SRU": "7513"
+    },
+    "5063": {
+      "Namn": "Hyra för sopcontainer",
+      "SRU": "7513"
+    },
+    "5064": {
+      "Namn": "Snöröjning",
+      "SRU": "7513"
+    },
+    "5065": {
+      "Namn": "Trädgårdsskötsel",
+      "SRU": "7513"
+    },
+    "5070": {
+      "Namn": "Reparation och underhåll av lokaler",
+      "SRU": "7513"
+    },
+    "5090": {
+      "Namn": "Övriga lokalkostnader",
+      "SRU": "7513"
+    },
+    "5098": {
+      "Namn": "Övriga lokalkostnader, avdragsgilla",
+      "SRU": "7513"
+    },
+    "5099": {
+      "Namn": "Övriga lokalkostnader, ej avdragsgilla",
+      "SRU": "7513"
+    },
+    "5100": {
+      "Namn": "Fastighetskostnader (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5110": {
+      "Namn": "Tomträttsavgäld/arrende",
+      "SRU": "7513"
+    },
+    "5120": {
+      "Namn": "El för belysning",
+      "SRU": "7513"
+    },
+    "5130": {
+      "Namn": "Värme",
+      "SRU": "7513"
+    },
+    "5131": {
+      "Namn": "Uppvärmning",
+      "SRU": "7513"
+    },
+    "5132": {
+      "Namn": "Sotning",
+      "SRU": "7513"
+    },
+    "5140": {
+      "Namn": "Vatten och avlopp",
+      "SRU": "7513"
+    },
+    "5160": {
+      "Namn": "Städning och renhållning",
+      "SRU": "7513"
+    },
+    "5161": {
+      "Namn": "Städning",
+      "SRU": "7513"
+    },
+    "5162": {
+      "Namn": "Sophämtning",
+      "SRU": "7513"
+    },
+    "5163": {
+      "Namn": "Hyra för sopcontainer",
+      "SRU": "7513"
+    },
+    "5164": {
+      "Namn": "Snöröjning",
+      "SRU": "7513"
+    },
+    "5165": {
+      "Namn": "Trädgårdsskötsel",
+      "SRU": "7513"
+    },
+    "5170": {
+      "Namn": "Reparation och underhåll av fastighet",
+      "SRU": "7513"
+    },
+    "5190": {
+      "Namn": "Övriga fastighetskostnader",
+      "SRU": "7513"
+    },
+    "5191": {
+      "Namn": "Fastighetsskatt/fastighetsavgift",
+      "SRU": "7513"
+    },
+    "5192": {
+      "Namn": "Fastighetsförsäkringspremier",
+      "SRU": "7513"
+    },
+    "5193": {
+      "Namn": "Fastighetsskötsel och förvaltning",
+      "SRU": "7513"
+    },
+    "5198": {
+      "Namn": "Övriga fastighetskostnader, avdragsgilla",
+      "SRU": "7513"
+    },
+    "5199": {
+      "Namn": "Övriga fastighetskostnader, ej avdragsgilla",
+      "SRU": "7513"
+    },
+    "5200": {
+      "Namn": "Hyra av anläggningstillgångar (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5210": {
+      "Namn": "Hyra av maskiner och andra tekniska anläggningar",
+      "SRU": "7513"
+    },
+    "5211": {
+      "Namn": "Korttidshyra av maskiner och andra tekniska anläggningar",
+      "SRU": "7513"
+    },
+    "5212": {
+      "Namn": "Leasing av maskiner och andra tekniska anläggningar",
+      "SRU": "7513"
+    },
+    "5220": {
+      "Namn": "Hyra av inventarier och verktyg",
+      "SRU": "7513"
+    },
+    "5221": {
+      "Namn": "Korttidshyra av inventarier och verktyg",
+      "SRU": "7513"
+    },
+    "5222": {
+      "Namn": "Leasing av inventarier och verktyg",
+      "SRU": "7513"
+    },
+    "5250": {
+      "Namn": "Hyra av datorer",
+      "SRU": "7513"
+    },
+    "5251": {
+      "Namn": "Korttidshyra av datorer",
+      "SRU": "7513"
+    },
+    "5252": {
+      "Namn": "Leasing av datorer",
+      "SRU": "7513"
+    },
+    "5290": {
+      "Namn": "Övriga hyreskostnader för anläggningstillgångar",
+      "SRU": "7513"
+    },
+    "5300": {
+      "Namn": "Energikostnader (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5310": {
+      "Namn": "El för drift",
+      "SRU": "7513"
+    },
+    "5320": {
+      "Namn": "Gas",
+      "SRU": "7513"
+    },
+    "5330": {
+      "Namn": "Eldningsolja",
+      "SRU": "7513"
+    },
+    "5340": {
+      "Namn": "Stenkol och koks",
+      "SRU": "7513"
+    },
+    "5350": {
+      "Namn": "Torv, träkol, ved och annat träbränsle",
+      "SRU": "7513"
+    },
+    "5360": {
+      "Namn": "Bensin, fotogen och motorbrännolja",
+      "SRU": "7513"
+    },
+    "5370": {
+      "Namn": "Fjärrvärme, kyla och ånga",
+      "SRU": "7513"
+    },
+    "5380": {
+      "Namn": "Vatten",
+      "SRU": "7513"
+    },
+    "5390": {
+      "Namn": "Övriga energikostnader",
+      "SRU": "7513"
+    },
+    "5400": {
+      "Namn": "Förbrukningsinventarier och förbrukningsmaterial (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5410": {
+      "Namn": "Förbrukningsinventarier",
+      "SRU": "7513"
+    },
+    "5411": {
+      "Namn": "Förbrukningsinventarier med en livslängd på mer än ett år",
+      "SRU": "7513"
+    },
+    "5412": {
+      "Namn": "Förbrukningsinventarier med en livslängd på ett år eller mindre",
+      "SRU": "7513"
+    },
+    "5420": {
+      "Namn": "Programvaror",
+      "SRU": "7513"
+    },
+    "5430": {
+      "Namn": "Transportinventarier",
+      "SRU": "7513"
+    },
+    "5440": {
+      "Namn": "Förbrukningsemballage",
+      "SRU": "7513"
+    },
+    "5460": {
+      "Namn": "Förbrukningsmaterial",
+      "SRU": "7513"
+    },
+    "5480": {
+      "Namn": "Arbetskläder och skyddsmaterial",
+      "SRU": "7513"
+    },
+    "5490": {
+      "Namn": "Övriga förbrukningsinventarier och förbrukningsmaterial",
+      "SRU": "7513"
+    },
+    "5491": {
+      "Namn": "Övriga förbrukningsinventarier med en livslängd på mer än ett år",
+      "SRU": "7513"
+    },
+    "5492": {
+      "Namn": "Övriga förbrukningsinventarier med en livslängd på ett år eller mindre",
+      "SRU": "7513"
+    },
+    "5493": {
+      "Namn": "Övrigt förbrukningsmaterial",
+      "SRU": "7513"
+    },
+    "5500": {
+      "Namn": "Reparation och underhåll (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5510": {
+      "Namn": "Reparation och underhåll av maskiner och andra tekniska anläggningar",
+      "SRU": "7513"
+    },
+    "5520": {
+      "Namn": "Reparation och underhåll av inventarier, verktyg och datorer m.m.",
+      "SRU": "7513"
+    },
+    "5530": {
+      "Namn": "Reparation och underhåll av installationer",
+      "SRU": "7513"
+    },
+    "5550": {
+      "Namn": "Reparation och underhåll av förbrukningsinventarier",
+      "SRU": "7513"
+    },
+    "5580": {
+      "Namn": "Underhåll och tvätt av arbetskläder",
+      "SRU": "7513"
+    },
+    "5590": {
+      "Namn": "Övriga kostnader för reparation och underhåll",
+      "SRU": "7513"
+    },
+    "5600": {
+      "Namn": "Kostnader för transportmedel (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5610": {
+      "Namn": "Personbilskostnader",
+      "SRU": "7513"
+    },
+    "5611": {
+      "Namn": "Drivmedel för personbilar",
+      "SRU": "7513"
+    },
+    "5612": {
+      "Namn": "Försäkring och skatt för personbilar",
+      "SRU": "7513"
+    },
+    "5613": {
+      "Namn": "Reparation och underhåll av personbilar",
+      "SRU": "7513"
+    },
+    "5615": {
+      "Namn": "Leasing av personbilar",
+      "SRU": "7513"
+    },
+    "5616": {
+      "Namn": "Trängselskatt, avdragsgill",
+      "SRU": "7513"
+    },
+    "5619": {
+      "Namn": "Övriga personbilskostnader",
+      "SRU": "7513"
+    },
+    "5620": {
+      "Namn": "Lastbilskostnader",
+      "SRU": "7513"
+    },
+    "5630": {
+      "Namn": "Truckkostnader",
+      "SRU": "7513"
+    },
+    "5640": {
+      "Namn": "Kostnader för arbetsmaskiner",
+      "SRU": "7513"
+    },
+    "5650": {
+      "Namn": "Traktorkostnader",
+      "SRU": "7513"
+    },
+    "5660": {
+      "Namn": "Motorcykel-, moped- och skoterkostnader",
+      "SRU": "7513"
+    },
+    "5670": {
+      "Namn": "Båt-, flygplans- och helikopterkostnader",
+      "SRU": "7513"
+    },
+    "5690": {
+      "Namn": "Övriga kostnader för transportmedel",
+      "SRU": "7513"
+    },
+    "5700": {
+      "Namn": "Frakter och transporter (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5710": {
+      "Namn": "Frakter, transporter och försäkringar vid varudistribution",
+      "SRU": "7513"
+    },
+    "5720": {
+      "Namn": "Tull- och speditionskostnader m.m.",
+      "SRU": "7513"
+    },
+    "5730": {
+      "Namn": "Arbetstransporter",
+      "SRU": "7513"
+    },
+    "5790": {
+      "Namn": "Övriga kostnader för frakter och transporter",
+      "SRU": "7513"
+    },
+    "5800": {
+      "Namn": "Resekostnader (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5810": {
+      "Namn": "Biljetter",
+      "SRU": "7513"
+    },
+    "5820": {
+      "Namn": "Hyrbilskostnader",
+      "SRU": "7513"
+    },
+    "5830": {
+      "Namn": "Kost och logi",
+      "SRU": "7513"
+    },
+    "5831": {
+      "Namn": "Kost och logi i Sverige",
+      "SRU": "7513"
+    },
+    "5832": {
+      "Namn": "Kost och logi i utlandet",
+      "SRU": "7513"
+    },
+    "5841": {
+      "Namn": "Milersättning, avdragsgill (Ägare enskild firma)",
+      "SRU": "7513"
+    },
+    "5842": {
+      "Namn": "Milersättning, ej avdragsgill (Ägare enskild firma)",
+      "SRU": "7513"
+    },
+    "5843": {
+      "Namn": "Traktamente Sverige avdragsgillt (Ägare enskild firma)",
+      "SRU": "7513"
+    },
+    "5844": {
+      "Namn": "Traktamente Sverige ej avdragsgillt (Ägare enskild firma)",
+      "SRU": "7513"
+    },
+    "5845": {
+      "Namn": "Traktamente Utlandet avdragsgillt (Ägare enskild firma)",
+      "SRU": "7513"
+    },
+    "5846": {
+      "Namn": "Traktamente Utlandet ej avdragsgillt (Ägare enskild firma)",
+      "SRU": "7513"
+    },
+    "5890": {
+      "Namn": "Övriga resekostnader",
+      "SRU": "7513"
+    },
+    "5900": {
+      "Namn": "Reklam och PR (gruppkonto)",
+      "SRU": "7513"
+    },
+    "5910": {
+      "Namn": "Annonsering",
+      "SRU": "7513"
+    },
+    "5920": {
+      "Namn": "Utomhus- och trafikreklam",
+      "SRU": "7513"
+    },
+    "5930": {
+      "Namn": "Reklamtrycksaker och direktreklam",
+      "SRU": "7513"
+    },
+    "5940": {
+      "Namn": "Utställningar och mässor",
+      "SRU": "7513"
+    },
+    "5950": {
+      "Namn": "Butiksreklam och återförsäljarreklam",
+      "SRU": "7513"
+    },
+    "5960": {
+      "Namn": "Varuprover, reklamgåvor, presentreklam och tävlingar",
+      "SRU": "7513"
+    },
+    "5970": {
+      "Namn": "Film-, radio-, TV- och Internetreklam",
+      "SRU": "7513"
+    },
+    "5980": {
+      "Namn": "PR, institutionell reklam och sponsring",
+      "SRU": "7513"
+    },
+    "5990": {
+      "Namn": "Övriga kostnader för reklam och PR",
+      "SRU": "7513"
+    },
+    "6000": {
+      "Namn": "Övriga försäljningskostnader (gruppkonto)",
+      "SRU": "7513"
+    },
+    "6010": {
+      "Namn": "Kataloger, prislistor m.m.",
+      "SRU": "7513"
+    },
+    "6020": {
+      "Namn": "Egna facktidskrifter",
+      "SRU": "7513"
+    },
+    "6030": {
+      "Namn": "Speciella orderkostnader",
+      "SRU": "7513"
+    },
+    "6040": {
+      "Namn": "Kontokortsavgifter",
+      "SRU": "7513"
+    },
+    "6050": {
+      "Namn": "Försäljningsprovisioner",
+      "SRU": "7513"
+    },
+    "6055": {
+      "Namn": "Franchisekostnader o.dyl.",
+      "SRU": "7513"
+    },
+    "6060": {
+      "Namn": "Kreditförsäljningskostnader",
+      "SRU": "7513"
+    },
+    "6061": {
+      "Namn": "Kreditupplysning",
+      "SRU": "7513"
+    },
+    "6062": {
+      "Namn": "Inkasso och KFM-avgifter",
+      "SRU": "7513"
+    },
+    "6063": {
+      "Namn": "Kreditförsäkringspremier",
+      "SRU": "7513"
+    },
+    "6064": {
+      "Namn": "Factoringavgifter",
+      "SRU": "7513"
+    },
+    "6069": {
+      "Namn": "Övriga kreditförsäljningskostnader",
+      "SRU": "7513"
+    },
+    "6070": {
+      "Namn": "Representation",
+      "SRU": "7513"
+    },
+    "6071": {
+      "Namn": "Representation, avdragsgill",
+      "SRU": "7513"
+    },
+    "6072": {
+      "Namn": "Representation, ej avdragsgill",
+      "SRU": "7513"
+    },
+    "6080": {
+      "Namn": "Bankgarantier",
+      "SRU": "7513"
+    },
+    "6090": {
+      "Namn": "Övriga försäljningskostnader",
+      "SRU": "7513"
+    },
+    "6100": {
+      "Namn": "Kontorsmateriel och trycksaker (gruppkonto)",
+      "SRU": "7513"
+    },
+    "6110": {
+      "Namn": "Kontorsmateriel",
+      "SRU": "7513"
+    },
+    "6150": {
+      "Namn": "Trycksaker",
+      "SRU": "7513"
+    },
+    "6200": {
+      "Namn": "Tele och post (gruppkonto)",
+      "SRU": "7513"
+    },
+    "6210": {
+      "Namn": "Telekommunikation",
+      "SRU": "7513"
+    },
+    "6211": {
+      "Namn": "Fast telefoni",
+      "SRU": "7513"
+    },
+    "6212": {
+      "Namn": "Mobiltelefon",
+      "SRU": "7513"
+    },
+    "6213": {
+      "Namn": "Mobilsökning",
+      "SRU": "7513"
+    },
+    "6214": {
+      "Namn": "Fax",
+      "SRU": "7513"
+    },
+    "6215": {
+      "Namn": "Telex",
+      "SRU": "7513"
+    },
+    "6230": {
+      "Namn": "Datakommunikation",
+      "SRU": "7513"
+    },
+    "6250": {
+      "Namn": "Postbefordran",
+      "SRU": "7513"
+    },
+    "6300": {
+      "Namn": "Företagsförsäkringar och övriga riskkostnader (gruppkonto)",
+      "SRU": "7513"
+    },
+    "6310": {
+      "Namn": "Företagsförsäkringar",
+      "SRU": "7513"
+    },
+    "6320": {
+      "Namn": "Självrisker vid skada",
+      "SRU": "7513"
+    },
+    "6330": {
+      "Namn": "Förluster i pågående arbeten",
+      "SRU": "7513"
+    },
+    "6340": {
+      "Namn": "Lämnade skadestånd",
+      "SRU": "7513"
+    },
+    "6341": {
+      "Namn": "Lämnade skadestånd, avdragsgilla",
+      "SRU": "7513"
+    },
+    "6342": {
+      "Namn": "Lämnade skadestånd, ej avdragsgilla",
+      "SRU": "7513"
+    },
+    "6350": {
+      "Namn": "Förluster på kundfordringar",
+      "SRU": "7513"
+    },
+    "6351": {
+      "Namn": "Konstaterade förluster på kundfordringar",
+      "SRU": "7513"
+    },
+    "6352": {
+      "Namn": "Befarade förluster på kundfordringar",
+      "SRU": "7513"
+    },
+    "6360": {
+      "Namn": "Garantikostnader",
+      "SRU": "7513"
+    },
+    "6361": {
+      "Namn": "Förändring av garantiavsättning",
+      "SRU": "7513"
+    },
+    "6362": {
+      "Namn": "Faktiska garantikostnader",
+      "SRU": "7513"
+    },
+    "6370": {
+      "Namn": "Kostnader för bevakning och larm",
+      "SRU": "7513"
+    },
+    "6380": {
+      "Namn": "Förluster på övriga kortfristiga fordringar",
+      "SRU": "7513"
+    },
+    "6390": {
+      "Namn": "Övriga riskkostnader",
+      "SRU": "7513"
+    },
+    "6400": {
+      "Namn": "Förvaltningskostnader (gruppkonto)",
+      "SRU": "7513"
+    },
+    "6410": {
+      "Namn": "Styrelsearvoden som inte är lön",
+      "SRU": "7513"
+    },
+    "6420": {
+      "Namn": "Ersättningar till revisor",
+      "SRU": "7513"
+    },
+    "6421": {
+      "Namn": "Revision",
+      "SRU": "7513"
+    },
+    "6422": {
+      "Namn": "Revisonsverksamhet utöver revision",
+      "SRU": "7513"
+    },
+    "6423": {
+      "Namn": "Skatterådgivning - revisor",
+      "SRU": "7513"
+    },
+    "6424": {
+      "Namn": "Övriga tjänster - revisor",
+      "SRU": "7513"
+    },
+    "6430": {
+      "Namn": "Management fees",
+      "SRU": "7513"
+    },
+    "6440": {
+      "Namn": "Årsredovisning och delårsrapporter",
+      "SRU": "7513"
+    },
+    "6450": {
+      "Namn": "Bolagsstämma/års- eller föreningsstämma",
+      "SRU": "7513"
+    },
+    "6490": {
+      "Namn": "Övriga förvaltningskostnader",
+      "SRU": "7513"
+    },
+    "6500": {
+      "Namn": "Övriga externa tjänster (gruppkonto)",
+      "SRU": "7513"
+    },
+    "6510": {
+      "Namn": "Mätningskostnader",
+      "SRU": "7513"
+    },
+    "6520": {
+      "Namn": "Ritnings- och kopieringskostnader",
+      "SRU": "7513"
+    },
+    "6530": {
+      "Namn": "Redovisningstjänster",
+      "SRU": "7513"
+    },
+    "6540": {
+      "Namn": "IT-tjänster",
+      "SRU": "7513"
+    },
+    "6550": {
+      "Namn": "Konsultarvoden",
+      "SRU": "7513"
+    },
+    "6560": {
+      "Namn": "Serviceavgifter till branschorganisationer",
+      "SRU": "7513"
+    },
+    "6570": {
+      "Namn": "Bankkostnader",
+      "SRU": "7513"
+    },
+    "6580": {
+      "Namn": "Advokat- och rättegångskostnader",
+      "SRU": "7513"
+    },
+    "6590": {
+      "Namn": "Övriga externa tjänster",
+      "SRU": "7513"
+    },
+    "6800": {
+      "Namn": "Inhyrd personal (gruppkonto)",
+      "SRU": "7513"
+    },
+    "6810": {
+      "Namn": "Inhyrd produktionspersonal",
+      "SRU": "7513"
+    },
+    "6820": {
+      "Namn": "Inhyrd lagerpersonal",
+      "SRU": "7513"
+    },
+    "6830": {
+      "Namn": "Inhyrd transportpersonal",
+      "SRU": "7513"
+    },
+    "6840": {
+      "Namn": "Inhyrd kontors- och ekonomipersonal",
+      "SRU": "7513"
+    },
+    "6850": {
+      "Namn": "Inhyrd IT-personal",
+      "SRU": "7513"
+    },
+    "6860": {
+      "Namn": "Inhyrd marknads- och försäljningspersonal",
+      "SRU": "7513"
+    },
+    "6870": {
+      "Namn": "Inhyrd restaurang- och butikspersonal",
+      "SRU": "7513"
+    },
+    "6880": {
+      "Namn": "Inhyrda företagsledare",
+      "SRU": "7513"
+    },
+    "6890": {
+      "Namn": "Övrig inhyrd personal",
+      "SRU": "7513"
+    },
+    "6900": {
+      "Namn": "Övriga externa kostnader (gruppkonto)",
+      "SRU": "7513"
+    },
+    "6910": {
+      "Namn": "Licensavgifter och royalties",
+      "SRU": "7513"
+    },
+    "6920": {
+      "Namn": "Kostnader för egna patent",
+      "SRU": "7513"
+    },
+    "6930": {
+      "Namn": "Kostnader för varumärken m.m.",
+      "SRU": "7513"
+    },
+    "6940": {
+      "Namn": "Kontroll-, provnings- och stämpelavgifter",
+      "SRU": "7513"
+    },
+    "6950": {
+      "Namn": "Tillsynsavgifter myndigheter",
+      "SRU": "7513"
+    },
+    "6970": {
+      "Namn": "Tidningar, tidskrifter och facklitteratur",
+      "SRU": "7513"
+    },
+    "6980": {
+      "Namn": "Föreningsavgifter",
+      "SRU": "7513"
+    },
+    "6981": {
+      "Namn": "Föreningsavgifter, avdragsgilla",
+      "SRU": "7513"
+    },
+    "6982": {
+      "Namn": "Föreningsavgifter, ej avdragsgilla",
+      "SRU": "7513"
+    },
+    "6990": {
+      "Namn": "Övriga externa kostnader",
+      "SRU": "7513"
+    },
+    "6991": {
+      "Namn": "Övriga externa kostnader, avdragsgilla",
+      "SRU": "7513"
+    },
+    "6992": {
+      "Namn": "Övriga externa kostnader, ej avdragsgilla",
+      "SRU": "7513"
+    },
+    "6993": {
+      "Namn": "Lämnade bidrag och gåvor",
+      "SRU": "7513"
+    },
+    "6996": {
+      "Namn": "Betald utländsk inkomstskatt",
+      "SRU": "7513"
+    },
+    "6997": {
+      "Namn": "Obetald utländsk inkomstskatt",
+      "SRU": "7513"
+    },
+    "6998": {
+      "Namn": "Utländsk moms",
+      "SRU": "7513"
+    },
+    "6999": {
+      "Namn": "Ingående moms, blandad verksamhet",
+      "SRU": "7513"
+    },
+    "7000": {
+      "Namn": "Löner till kollektivanställda (gruppkonto)",
+      "SRU": "7514"
+    },
+    "7010": {
+      "Namn": "Löner till kollektivanställda",
+      "SRU": "7514"
+    },
+    "7011": {
+      "Namn": "Löner till kollektivanställda",
+      "SRU": "7514"
+    },
+    "7012": {
+      "Namn": "Vinstandelar till kollektivanställda",
+      "SRU": "7514"
+    },
+    "7013": {
+      "Namn": "Löner till kollektivanställda under 26 år",
+      "SRU": "7514"
+    },
+    "7014": {
+      "Namn": "Löner till kollektivanställda (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7015": {
+      "Namn": "Löner till kollektivanställda (avgiftsbefriade)",
+      "SRU": "7514"
+    },
+    "7016": {
+      "Namn": "Vinstandelar till kollektivanställda (avgiftsbefriade)",
+      "SRU": "7514"
+    },
+    "7017": {
+      "Namn": "Avgångsvederlag till kollektivanställda",
+      "SRU": "7514"
+    },
+    "7018": {
+      "Namn": "Bruttolöneavdrag, kollektivanställda",
+      "SRU": "7514"
+    },
+    "7019": {
+      "Namn": "Upplupna löner och vinstandelar till kollektivanställda",
+      "SRU": "7514"
+    },
+    "7030": {
+      "Namn": "Löner till kollektivanställda (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7031": {
+      "Namn": "Löner till kollektivanställda (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7032": {
+      "Namn": "Vinstandelar till kollektivanställda (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7033": {
+      "Namn": "Löner till kollektivanställda under 26 år (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7034": {
+      "Namn": "Löner till kollektivanställda (nya pensionssystemet) (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7035": {
+      "Namn": "Löner till kollektivanställda (avgiftsbefriade) (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7036": {
+      "Namn": "Vinstandelar till kollektivanställda (avgiftsbefriade) (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7037": {
+      "Namn": "Avgångsvederlag till kollektivanställda (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7038": {
+      "Namn": "Bruttolöneavdrag, kollektivanställda (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7039": {
+      "Namn": "Upplupna löner och vinstandelar till kollektivanställda (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7080": {
+      "Namn": "Löner till kollektivanställda för ej arbetad tid",
+      "SRU": "7514"
+    },
+    "7081": {
+      "Namn": "Sjuklöner till kollektivanställda",
+      "SRU": "7514"
+    },
+    "7082": {
+      "Namn": "Semesterlöner till kollektivanställda",
+      "SRU": "7514"
+    },
+    "7083": {
+      "Namn": "Föräldraersättning till kollektivanställda",
+      "SRU": "7514"
+    },
+    "7090": {
+      "Namn": "Förändring av semesterlöneskuld",
+      "SRU": "7514"
+    },
+    "7200": {
+      "Namn": "Löner till tjänstemän och företagsledare (gruppkonto)",
+      "SRU": "7514"
+    },
+    "7210": {
+      "Namn": "Löner till tjänstemän",
+      "SRU": "7514"
+    },
+    "7211": {
+      "Namn": "Löner till tjänstemän",
+      "SRU": "7514"
+    },
+    "7212": {
+      "Namn": "Vinstandelar till tjänstemän",
+      "SRU": "7514"
+    },
+    "7213": {
+      "Namn": "Löner till tjänstemän under 26 år",
+      "SRU": "7514"
+    },
+    "7214": {
+      "Namn": "Löner till tjänstemän (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7215": {
+      "Namn": "Löner till tjänstemän (avgiftsbefriade)",
+      "SRU": "7514"
+    },
+    "7216": {
+      "Namn": "Vinstandelar till tjänstemän (avgiftsbefriade)",
+      "SRU": "7514"
+    },
+    "7217": {
+      "Namn": "Avgångsvederlag till tjänstemän",
+      "SRU": "7514"
+    },
+    "7218": {
+      "Namn": "Bruttolöneavdrag, tjänstemän",
+      "SRU": "7514"
+    },
+    "7219": {
+      "Namn": "Upplupna löner och vinstandelar till tjänstemän",
+      "SRU": "7514"
+    },
+    "7220": {
+      "Namn": "Löner till företagsledare",
+      "SRU": "7514"
+    },
+    "7221": {
+      "Namn": "Löner till företagsledare",
+      "SRU": "7514"
+    },
+    "7222": {
+      "Namn": "Tantiem till företagsledare",
+      "SRU": "7514"
+    },
+    "7223": {
+      "Namn": "Löner till företagsledare under 26 år",
+      "SRU": "7514"
+    },
+    "7224": {
+      "Namn": "Löner till företagsledare (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7225": {
+      "Namn": "Löner till företagsledare (avgiftsbefriade)",
+      "SRU": "7514"
+    },
+    "7227": {
+      "Namn": "Avgångsvederlag till företagsledare",
+      "SRU": "7514"
+    },
+    "7228": {
+      "Namn": "Bruttolöneavdrag, företagsledare",
+      "SRU": "7514"
+    },
+    "7229": {
+      "Namn": "Upplupna löner och tantiem till företagsledare",
+      "SRU": "7514"
+    },
+    "7230": {
+      "Namn": "Löner till tjänstemän och ftgsledare (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7231": {
+      "Namn": "Löner till tjänstemän och ftgsledare (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7232": {
+      "Namn": "Vinstandelar till tjänstemän och ftgsledare (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7233": {
+      "Namn": "Löner till tjänstemän och ftgsledare under 26 år (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7234": {
+      "Namn": "Löner till tjänstemän och ftgsledare (utlandsanställda) (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7235": {
+      "Namn": "Löner till tjänstemän och ftgsledare (utlandsanställda) (avgiftsbefriade)",
+      "SRU": "7514"
+    },
+    "7236": {
+      "Namn": "Vinstandelar till tjänstemän och ftgsledare (utlandsanställda) (avgiftsbefriade)",
+      "SRU": "7514"
+    },
+    "7237": {
+      "Namn": "Avgångsvederlag till tjänstemän och ftgsledare (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7238": {
+      "Namn": "Bruttolöneavdrag, tjänstemän och ftgsledare (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7239": {
+      "Namn": "Upplupna löner och vinstandelar till tjänstemän och ftgsledare (utlandsanställda)",
+      "SRU": "7514"
+    },
+    "7240": {
+      "Namn": "Styrelsearvoden",
+      "SRU": "7514"
+    },
+    "7280": {
+      "Namn": "Löner till tjänstemän och företagsledare för ej arbetad tid",
+      "SRU": "7514"
+    },
+    "7281": {
+      "Namn": "Sjuklöner till tjänstemän",
+      "SRU": "7514"
+    },
+    "7282": {
+      "Namn": "Sjuklöner till företagsledare",
+      "SRU": "7514"
+    },
+    "7283": {
+      "Namn": "Föräldraersättning till tjänstemän",
+      "SRU": "7514"
+    },
+    "7284": {
+      "Namn": "Föräldraersättning till företagsledare",
+      "SRU": "7514"
+    },
+    "7285": {
+      "Namn": "Semesterlöner till tjänstemän",
+      "SRU": "7514"
+    },
+    "7286": {
+      "Namn": "Semesterlöner till företagsledare",
+      "SRU": "7514"
+    },
+    "7288": {
+      "Namn": "Övriga löner till tjänstemän för ej arbetad tid",
+      "SRU": "7514"
+    },
+    "7289": {
+      "Namn": "Övriga löner till företagsledare för ej arbetad tid",
+      "SRU": "7514"
+    },
+    "7290": {
+      "Namn": "Förändring av semesterlöneskuld",
+      "SRU": "7514"
+    },
+    "7291": {
+      "Namn": "Förändring av semesterlöneskuld till tjänstemän",
+      "SRU": "7514"
+    },
+    "7292": {
+      "Namn": "Förändring av semesterlöneskuld till företagsledare",
+      "SRU": "7514"
+    },
+    "7300": {
+      "Namn": "Kostnadsersättningar och förmåner (gruppkonto)",
+      "SRU": "7514"
+    },
+    "7310": {
+      "Namn": "Kontanta extraersättningar",
+      "SRU": "7514"
+    },
+    "7311": {
+      "Namn": "Ersättningar för sammanträden m.m.",
+      "SRU": "7514"
+    },
+    "7312": {
+      "Namn": "Ersättningar för förslagsverksamhet och uppfinningar",
+      "SRU": "7514"
+    },
+    "7313": {
+      "Namn": "Ersättningar för/bidrag till bostadskostnader",
+      "SRU": "7514"
+    },
+    "7314": {
+      "Namn": "Ersättningar för/bidrag till måltidskostnader",
+      "SRU": "7514"
+    },
+    "7315": {
+      "Namn": "Ersättningar för/bidrag till resor till och från arbetsplatsen",
+      "SRU": "7514"
+    },
+    "7316": {
+      "Namn": "Ersättningar för/bidrag till arbetskläder",
+      "SRU": "7514"
+    },
+    "7317": {
+      "Namn": "Ersättningar för/bidrag till arbetsmaterial och arbetsverktyg",
+      "SRU": "7514"
+    },
+    "7318": {
+      "Namn": "Felräkningspengar",
+      "SRU": "7514"
+    },
+    "7319": {
+      "Namn": "Övriga kontanta extraersättningar",
+      "SRU": "7514"
+    },
+    "7320": {
+      "Namn": "Traktamenten vid tjänsteresa",
+      "SRU": "7514"
+    },
+    "7321": {
+      "Namn": "Skattefria traktamenten, Sverige",
+      "SRU": "7514"
+    },
+    "7322": {
+      "Namn": "Skattepliktiga traktamenten, Sverige",
+      "SRU": "7514"
+    },
+    "7323": {
+      "Namn": "Skattefria traktamenten, utlandet",
+      "SRU": "7514"
+    },
+    "7324": {
+      "Namn": "Skattepliktiga traktamenten, utlandet",
+      "SRU": "7514"
+    },
+    "7330": {
+      "Namn": "Bilersättningar",
+      "SRU": "7514"
+    },
+    "7331": {
+      "Namn": "Skattefria bilersättningar",
+      "SRU": "7514"
+    },
+    "7332": {
+      "Namn": "Skattepliktiga bilersättningar",
+      "SRU": "7514"
+    },
+    "7333": {
+      "Namn": "Ersättning för trängselskatt, skattefri",
+      "SRU": "7514"
+    },
+    "7350": {
+      "Namn": "Ersättningar för föreskrivna arbetskläder",
+      "SRU": "7514"
+    },
+    "7370": {
+      "Namn": "Representationsersättningar",
+      "SRU": "7514"
+    },
+    "7380": {
+      "Namn": "Kostnader för förmåner till anställda",
+      "SRU": "7514"
+    },
+    "7381": {
+      "Namn": "Kostnader för fri bostad",
+      "SRU": "7514"
+    },
+    "7382": {
+      "Namn": "Kostnader för fria eller subventionerade måltider",
+      "SRU": "7514"
+    },
+    "7383": {
+      "Namn": "Kostnader för fria resor till och från arbetsplatsen",
+      "SRU": "7514"
+    },
+    "7384": {
+      "Namn": "Kostnader för fria eller subventionerade arbetskläder",
+      "SRU": "7514"
+    },
+    "7385": {
+      "Namn": "Kostnader för fri bil",
+      "SRU": "7514"
+    },
+    "7386": {
+      "Namn": "Subventionerad ränta",
+      "SRU": "7514"
+    },
+    "7387": {
+      "Namn": "Kostnader för lånedatorer",
+      "SRU": "7514"
+    },
+    "7388": {
+      "Namn": "Anställdas ersättning för erhållna förmåner",
+      "SRU": "7514"
+    },
+    "7389": {
+      "Namn": "Övriga kostnader för förmåner",
+      "SRU": "7514"
+    },
+    "7390": {
+      "Namn": "Övriga kostnadsersättningar och förmåner",
+      "SRU": "7514"
+    },
+    "7391": {
+      "Namn": "Kostnad för trängselskatteförmån",
+      "SRU": "7514"
+    },
+    "7392": {
+      "Namn": "Kostnad för förmån av hushållsnära tjänster",
+      "SRU": "7514"
+    },
+    "7399": {
+      "Namn": "Motkonto skattepliktiga förmåner",
+      "SRU": "7514"
+    },
+    "7400": {
+      "Namn": "Pensionskostnader (gruppkonto)",
+      "SRU": "7514"
+    },
+    "7410": {
+      "Namn": "Pensionsförsäkringspremier",
+      "SRU": "7514"
+    },
+    "7411": {
+      "Namn": "Premier för kollektiva pensionsförsäkringar",
+      "SRU": "7514"
+    },
+    "7412": {
+      "Namn": "Premier för individuella pensionsförsäkringar",
+      "SRU": "7514"
+    },
+    "7418": {
+      "Namn": "Återbäring från försäkringsföretag",
+      "SRU": "7514"
+    },
+    "7420": {
+      "Namn": "Förändring av pensionsskuld",
+      "SRU": "7514"
+    },
+    "7421": {
+      "Namn": "Direktpension, ej avdragsgill",
+      "SRU": "7514"
+    },
+    "7430": {
+      "Namn": "Avdrag för räntedel i pensionskostnad",
+      "SRU": "7514"
+    },
+    "7440": {
+      "Namn": "Förändring av pensionsstiftelsekapital",
+      "SRU": "7514"
+    },
+    "7441": {
+      "Namn": "Avsättning till pensionsstiftelse",
+      "SRU": "7514"
+    },
+    "7448": {
+      "Namn": "Gottgörelse från pensionsstiftelse",
+      "SRU": "7514"
+    },
+    "7460": {
+      "Namn": "Pensionsutbetalningar",
+      "SRU": "7514"
+    },
+    "7461": {
+      "Namn": "Pensionsutbetalningar till f.d. kollektivanställda",
+      "SRU": "7514"
+    },
+    "7462": {
+      "Namn": "Pensionsutbetalningar till f.d. tjänstemän",
+      "SRU": "7514"
+    },
+    "7463": {
+      "Namn": "Pensionsutbetalningar till f.d. företagsledare",
+      "SRU": "7514"
+    },
+    "7470": {
+      "Namn": "Förvaltnings- och kreditförsäkringsavgifter",
+      "SRU": "7514"
+    },
+    "7490": {
+      "Namn": "Övriga pensionskostnader",
+      "SRU": "7514"
+    },
+    "7500": {
+      "Namn": "Sociala och andra avgifter enligt lag och avtal (gruppkonto)",
+      "SRU": "7514"
+    },
+    "7510": {
+      "Namn": "Lagstadgade sociala avgifter",
+      "SRU": "7514"
+    },
+    "7511": {
+      "Namn": "Sociala avgifter för löner och ersättningar",
+      "SRU": "7514"
+    },
+    "7512": {
+      "Namn": "Sociala avgifter för förmånsvärden",
+      "SRU": "7514"
+    },
+    "7515": {
+      "Namn": "Sociala avgifter på skattepliktiga kostnadsersättningar",
+      "SRU": "7514"
+    },
+    "7516": {
+      "Namn": "Sociala avgifter på arvoden",
+      "SRU": "7514"
+    },
+    "7518": {
+      "Namn": "Sociala avgifter på bruttolöneavdrag m.m.",
+      "SRU": "7514"
+    },
+    "7519": {
+      "Namn": "Sociala avgifter för semester- och löneskulder",
+      "SRU": "7514"
+    },
+    "7520": {
+      "Namn": "Arbetsgivaravgifter (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7521": {
+      "Namn": "Arbetsgivaravgifter för löner och ersättningar (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7522": {
+      "Namn": "Arbetsgivaravgifter för förmånsvärden (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7525": {
+      "Namn": "Arbetsgivaravgifter på skattepliktiga kostnadsersättningar (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7526": {
+      "Namn": "Arbetsgivaravgifter på arvoden (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7528": {
+      "Namn": "Arbetsgivaravgifter på bruttolöneavdrag m.m. (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7529": {
+      "Namn": "Arbetsgivaravgifter för semester- och löneskulder (nya pensionssystemet)",
+      "SRU": "7514"
+    },
+    "7530": {
+      "Namn": "Särskild löneskatt",
+      "SRU": "7514"
+    },
+    "7531": {
+      "Namn": "Särskild löneskatt för vissa försäkringsersättningar m.m.",
+      "SRU": "7514"
+    },
+    "7532": {
+      "Namn": "Särskild löneskatt pensionskostnader, deklarationspost",
+      "SRU": "7514"
+    },
+    "7533": {
+      "Namn": "Särskild löneskatt för pensionskostnader",
+      "SRU": "7514"
+    },
+    "7550": {
+      "Namn": "Avkastningsskatt på pensionsmedel",
+      "SRU": "7514"
+    },
+    "7560": {
+      "Namn": "Arbetsgivaravgifter under 26 år",
+      "SRU": "7514"
+    },
+    "7570": {
+      "Namn": "Premier för arbetsmarknadsförsäkringar",
+      "SRU": "7514"
+    },
+    "7571": {
+      "Namn": "Arbetsmarknadsförsäkringar",
+      "SRU": "7514"
+    },
+    "7572": {
+      "Namn": "Arbetsmarknadsförsäkringar pensionsförsäkringspremier, deklarationspost",
+      "SRU": "7514"
+    },
+    "7580": {
+      "Namn": "Gruppförsäkringspremier",
+      "SRU": "7514"
+    },
+    "7581": {
+      "Namn": "Grupplivförsäkringspremier",
+      "SRU": "7514"
+    },
+    "7582": {
+      "Namn": "Gruppsjukförsäkringspremier",
+      "SRU": "7514"
+    },
+    "7583": {
+      "Namn": "Gruppolycksfallsförsäkringspremier",
+      "SRU": "7514"
+    },
+    "7589": {
+      "Namn": "Övriga gruppförsäkringspremier",
+      "SRU": "7514"
+    },
+    "7590": {
+      "Namn": "Övriga sociala och andra avgifter enligt lag och avtal",
+      "SRU": "7514"
+    },
+    "7600": {
+      "Namn": "Övriga personalkostnader (gruppkonto)",
+      "SRU": "7514"
+    },
+    "7610": {
+      "Namn": "Utbildning",
+      "SRU": "7514"
+    },
+    "7620": {
+      "Namn": "Sjuk- och hälsovård",
+      "SRU": "7514"
+    },
+    "7621": {
+      "Namn": "Sjuk- och hälsovård, avdragsgill",
+      "SRU": "7514"
+    },
+    "7622": {
+      "Namn": "Sjuk- och hälsovård, ej avdragsgill",
+      "SRU": "7514"
+    },
+    "7623": {
+      "Namn": "Sjukvårdsförsäkring, ej avdragsgill",
+      "SRU": "7514"
+    },
+    "7630": {
+      "Namn": "Personalrepresentation",
+      "SRU": "7514"
+    },
+    "7631": {
+      "Namn": "Personalrepresentation, avdragsgill",
+      "SRU": "7514"
+    },
+    "7632": {
+      "Namn": "Personalrepresentation, ej avdragsgill",
+      "SRU": "7514"
+    },
+    "7650": {
+      "Namn": "Sjuklöneförsäkring",
+      "SRU": "7514"
+    },
+    "7670": {
+      "Namn": "Förändring av personalstiftelsekapital",
+      "SRU": "7514"
+    },
+    "7671": {
+      "Namn": "Avsättning till personalstiftelse",
+      "SRU": "7514"
+    },
+    "7678": {
+      "Namn": "Gottgörelse från personalstiftelse",
+      "SRU": "7514"
+    },
+    "7690": {
+      "Namn": "Övriga personalkostnader",
+      "SRU": "7514"
+    },
+    "7691": {
+      "Namn": "Personalrekrytering",
+      "SRU": "7514"
+    },
+    "7692": {
+      "Namn": "Begravningshjälp",
+      "SRU": "7514"
+    },
+    "7693": {
+      "Namn": "Fritidsverksamhet",
+      "SRU": "7514"
+    },
+    "7699": {
+      "Namn": "Övriga personalkostnader",
+      "SRU": "7514"
+    },
+    "7710": {
+      "Namn": "Nedskrivningar av immateriella anläggningstillgångar",
+      "SRU": "7515"
+    },
+    "7720": {
+      "Namn": "Nedskrivningar av byggnader och mark",
+      "SRU": "7515"
+    },
+    "7730": {
+      "Namn": "Nedskrivningar av maskiner och inventarier",
+      "SRU": "7515"
+    },
+    "7740": {
+      "Namn": "Nedskrivningar av vissa omsättningstillgångar",
+      "SRU": "7516"
+    },
+    "7760": {
+      "Namn": "Återföring av nedskrivningar av immateriella anläggningstillgångar",
+      "SRU": "7515"
+    },
+    "7770": {
+      "Namn": "Återföring av nedskrivningar av byggnader och mark",
+      "SRU": "7515"
+    },
+    "7780": {
+      "Namn": "Återföring av nedskrivningar av maskiner och inventarier",
+      "SRU": "7515"
+    },
+    "7790": {
+      "Namn": "Återföring av nedskrivningar av vissa omsättningstillgångar",
+      "SRU": "7516"
+    },
+    "7810": {
+      "Namn": "Avskrivningar på immateriella anläggningstillgångar",
+      "SRU": "7515"
+    },
+    "7811": {
+      "Namn": "Avskrivningar på balanserade utgifter",
+      "SRU": "7515"
+    },
+    "7812": {
+      "Namn": "Avskrivningar på koncessioner m.m.",
+      "SRU": "7515"
+    },
+    "7813": {
+      "Namn": "Avskrivningar på patent",
+      "SRU": "7515"
+    },
+    "7814": {
+      "Namn": "Avskrivningar på licenser",
+      "SRU": "7515"
+    },
+    "7815": {
+      "Namn": "Avskrivningar på varumärken",
+      "SRU": "7515"
+    },
+    "7816": {
+      "Namn": "Avskrivningar på hyresrätter",
+      "SRU": "7515"
+    },
+    "7817": {
+      "Namn": "Avskrivningar på goodwill",
+      "SRU": "7515"
+    },
+    "7819": {
+      "Namn": "Avskrivningar på övriga immateriella anläggningstillgångar",
+      "SRU": "7515"
+    },
+    "7820": {
+      "Namn": "Avskrivningar på byggnader och markanläggningar",
+      "SRU": "7515"
+    },
+    "7821": {
+      "Namn": "Avskrivningar på byggnader",
+      "SRU": "7515"
+    },
+    "7824": {
+      "Namn": "Avskrivningar på markanläggningar",
+      "SRU": "7515"
+    },
+    "7829": {
+      "Namn": "Avskrivningar på övriga byggnader",
+      "SRU": "7515"
+    },
+    "7830": {
+      "Namn": "Avskrivningar på maskiner och inventarier",
+      "SRU": "7515"
+    },
+    "7831": {
+      "Namn": "Avskrivningar på maskiner och andra tekniska anläggningar",
+      "SRU": "7515"
+    },
+    "7832": {
+      "Namn": "Avskrivningar på inventarier och verktyg",
+      "SRU": "7515"
+    },
+    "7833": {
+      "Namn": "Avskrivningar på installationer",
+      "SRU": "7515"
+    },
+    "7834": {
+      "Namn": "Avskrivningar på bilar och andra transportmedel",
+      "SRU": "7515"
+    },
+    "7835": {
+      "Namn": "Avskrivningar på datorer",
+      "SRU": "7515"
+    },
+    "7836": {
+      "Namn": "Avskrivningar på leasade tillgångar",
+      "SRU": "7515"
+    },
+    "7839": {
+      "Namn": "Avskrivningar på övriga maskiner och inventarier",
+      "SRU": "7515"
+    },
+    "7840": {
+      "Namn": "Avskrivningar på förbättringsutgifter på annans fastighet",
+      "SRU": "7515"
+    },
+    "7940": {
+      "Namn": "Orealiserade positiva/negativa värdeförändringar på säkringsinstrument",
+      "SRU": "7517"
+    },
+    "7960": {
+      "Namn": "Valutakursförluster på fordringar och skulder av rörelsekaraktär",
+      "SRU": "7517"
+    },
+    "7970": {
+      "Namn": "Förlust vid avyttring av immateriella och materiella anläggningstillgångar",
+      "SRU": "7517"
+    },
+    "7971": {
+      "Namn": "Förlust vid avyttring av immateriella anläggningstillgångar",
+      "SRU": "7517"
+    },
+    "7972": {
+      "Namn": "Förlust vid avyttring av byggnader och mark",
+      "SRU": "7517"
+    },
+    "7973": {
+      "Namn": "Förlust vid avyttring av maskiner och inventarier",
+      "SRU": "7517"
+    },
+    "7990": {
+      "Namn": "Övriga rörelsekostnader",
+      "SRU": "7517"
+    },
+    "8010": {
+      "Namn": "Utdelning på andelar i koncernföretag",
+      "SRU": "7414"
+    },
+    "8012": {
+      "Namn": "Utdelning på andelar i dotterföretag",
+      "SRU": "7414"
+    },
+    "8013": {
+      "Namn": "Utdelning på andelar i andra koncernföretag",
+      "SRU": "7414"
+    },
+    "8014": {
+      "Namn": "Koncernbidrag",
+      "SRU": "7414"
+    },
+    "8016": {
+      "Namn": "Insatsemission, koncernföretag",
+      "SRU": "7414"
+    },
+    "8019": {
+      "Namn": "Övriga utdelningar på andelar i koncernföretag",
+      "SRU": "7414"
+    },
+    "8020": {
+      "Namn": "Resultat vid försäljning av andelar i koncernföretag",
+      "SRU": "7414"
+    },
+    "8022": {
+      "Namn": "Resultat vid försäljning av andelar i dotterföretag",
+      "SRU": "7414"
+    },
+    "8023": {
+      "Namn": "Resultat vid försäljning av andelar i andra koncernföretag",
+      "SRU": "7414"
+    },
+    "8030": {
+      "Namn": "Resultatandelar från handelsbolag (dotterföretag)",
+      "SRU": "7414"
+    },
+    "8070": {
+      "Namn": "Nedskrivningar av andelar i och långfristiga fordringar hos koncernföretag",
+      "SRU": "7521"
+    },
+    "8072": {
+      "Namn": "Nedskrivningar av andelar i dotterföretag",
+      "SRU": "7521"
+    },
+    "8073": {
+      "Namn": "Nedskrivningar av andelar i andra koncernföretag",
+      "SRU": "7521"
+    },
+    "8076": {
+      "Namn": "Nedskrivningar av långfristiga fordringar hos moderföretag",
+      "SRU": "7521"
+    },
+    "8077": {
+      "Namn": "Nedskrivningar av långfristiga fordringar hos dotterföretag",
+      "SRU": "7521"
+    },
+    "8078": {
+      "Namn": "Nedskrivningar av långfristiga fordringar hos andra koncernföretag",
+      "SRU": "7521"
+    },
+    "8080": {
+      "Namn": "Återföringar av nedskrivningar av andelar i och långfristiga fordringar hos koncernföretag",
+      "SRU": "7521"
+    },
+    "8082": {
+      "Namn": "Återföringar av nedskrivningar av andelar i dotterföretag",
+      "SRU": "7521"
+    },
+    "8083": {
+      "Namn": "Återföringar av nedskrivningar av andelar i andra koncernföretag",
+      "SRU": "7521"
+    },
+    "8086": {
+      "Namn": "Återföringar av nedskrivningar av långfristiga fordringar hos moderföretag",
+      "SRU": "7521"
+    },
+    "8087": {
+      "Namn": "Återföringar av nedskrivningar av långfristiga fordringar hos dotterföretag",
+      "SRU": "7521"
+    },
+    "8088": {
+      "Namn": "Återföringar av nedskrivningar av långfristiga fordringar hos andra koncernföretag",
+      "SRU": "7521"
+    },
+    "8110": {
+      "Namn": "Utdelning på andelar i intresseföretag",
+      "SRU": "7415"
+    },
+    "8112": {
+      "Namn": "Utdelningar från intresseföretag",
+      "SRU": "7415"
+    },
+    "8116": {
+      "Namn": "Insatsemission, intresseföretag",
+      "SRU": "7415"
+    },
+    "8120": {
+      "Namn": "Resultat vid försäljning av andelar i intresseföretag",
+      "SRU": "7415"
+    },
+    "8130": {
+      "Namn": "Resultatandelar från handelsbolag (intresseföretag)",
+      "SRU": "7415"
+    },
+    "8170": {
+      "Namn": "Nedskrivningar av andelar i och långfristiga fordringar hos intresseföretag",
+      "SRU": "7521"
+    },
+    "8171": {
+      "Namn": "Nedskrivningar av andelar i intresseföretag",
+      "SRU": "7521"
+    },
+    "8172": {
+      "Namn": "Nedskrivningar av långfristiga fordringar hos intresseföretag",
+      "SRU": "7521"
+    },
+    "8180": {
+      "Namn": "Återföringar av nedskrivningar av andelar i och långfristiga fordringar hos intresseföretag",
+      "SRU": "7521"
+    },
+    "8181": {
+      "Namn": "Återföringar av nedskrivningar av andelar i intresseföretag",
+      "SRU": "7521"
+    },
+    "8182": {
+      "Namn": "Återföringar av nedskrivningar av långfristiga fordringar hos intresseföretag",
+      "SRU": "7521"
+    },
+    "8210": {
+      "Namn": "Utdelningar på andelar i andra företag",
+      "SRU": "7416"
+    },
+    "8212": {
+      "Namn": "Utdelningar, övriga företag",
+      "SRU": "7416"
+    },
+    "8216": {
+      "Namn": "Insatsemissioner, övriga företag",
+      "SRU": "7416"
+    },
+    "8220": {
+      "Namn": "Resultat vid försäljning av värdepapper i och långfristiga fordringar hos andra företag",
+      "SRU": "7416"
+    },
+    "8221": {
+      "Namn": "Resultat vid försäljning av andelar i andra företag",
+      "SRU": "7416"
+    },
+    "8222": {
+      "Namn": "Resultat vid försäljning av långfristiga fordringar hos andra företag",
+      "SRU": "7416"
+    },
+    "8223": {
+      "Namn": "Resultat vid försäljning av derivat (långfristiga värdepappersinnehav)",
+      "SRU": "7416"
+    },
+    "8228": {
+      "Namn": "Värdeförändring kapitalförsäkring, skattemässig justering",
+      "SRU": "7416"
+    },
+    "8230": {
+      "Namn": "Valutakursdifferenser på långfristiga fordringar",
+      "SRU": "7416"
+    },
+    "8231": {
+      "Namn": "Valutakursvinster på långfristiga fordringar",
+      "SRU": "7416"
+    },
+    "8236": {
+      "Namn": "Valutakursförluster på långfristiga fordringar",
+      "SRU": "7416"
+    },
+    "8240": {
+      "Namn": "Resultatandelar från handelsbolag (andra företag)",
+      "SRU": "7416"
+    },
+    "8250": {
+      "Namn": "Ränteintäkter från långfristiga fordringar hos och värdepapper i andra företag",
+      "SRU": "7416"
+    },
+    "8251": {
+      "Namn": "Ränteintäkter från långfristiga fordringar",
+      "SRU": "7416"
+    },
+    "8252": {
+      "Namn": "Ränteintäkter från övriga värdepapper",
+      "SRU": "7416"
+    },
+    "8254": {
+      "Namn": "Skattefria ränteintäkter, långfristiga tillgångar",
+      "SRU": "7416"
+    },
+    "8260": {
+      "Namn": "Ränteintäkter från långfristiga fordringar hos koncernföretag",
+      "SRU": "7416"
+    },
+    "8261": {
+      "Namn": "Ränteintäkter från långfristiga fordringar hos moderföretag",
+      "SRU": "7416"
+    },
+    "8262": {
+      "Namn": "Ränteintäkter från långfristiga fordringar hos dotterföretag",
+      "SRU": "7416"
+    },
+    "8263": {
+      "Namn": "Ränteintäkter från långfristiga fordringar hos andra koncernföretag",
+      "SRU": "7416"
+    },
+    "8270": {
+      "Namn": "Nedskrivningar av innehav av andelar i och långfristiga fordringar hos andra företag",
+      "SRU": "7521"
+    },
+    "8271": {
+      "Namn": "Nedskrivningar av andelar i andra företag",
+      "SRU": "7521"
+    },
+    "8272": {
+      "Namn": "Nedskrivningar av långfristiga fordringar hos andra företag",
+      "SRU": "7521"
+    },
+    "8273": {
+      "Namn": "Nedskrivningar av övriga värdepapper hos andra företag",
+      "SRU": "7521"
+    },
+    "8280": {
+      "Namn": "Återföringar av nedskrivningar av andelar i och långfristiga fordringar hos andra företag",
+      "SRU": "7521"
+    },
+    "8281": {
+      "Namn": "Återföringar av nedskrivningar av andelar i andra företag",
+      "SRU": "7521"
+    },
+    "8282": {
+      "Namn": "Återföringar av nedskrivningar av långfristiga fordringar hos andra företag",
+      "SRU": "7521"
+    },
+    "8283": {
+      "Namn": "Återföringar av nedskrivningar av övriga värdepapper i andra företag",
+      "SRU": "7521"
+    },
+    "8290": {
+      "Namn": "Värdering till verkligt värde, anläggningstillgångar",
+      "SRU": "7416"
+    },
+    "8291": {
+      "Namn": "Orealiserade värdeförändringar på anläggningstillgångar",
+      "SRU": "7416"
+    },
+    "8295": {
+      "Namn": "Orealiserade värdeförändringar på derivatinstrument",
+      "SRU": "7416"
+    },
+    "8310": {
+      "Namn": "Ränteintäkter från omsättningstillgångar",
+      "SRU": "7417"
+    },
+    "8311": {
+      "Namn": "Ränteintäkter från bank",
+      "SRU": "7417"
+    },
+    "8312": {
+      "Namn": "Ränteintäkter från kortfristiga placeringar",
+      "SRU": "7417"
+    },
+    "8313": {
+      "Namn": "Ränteintäkter från kortfristiga fordringar",
+      "SRU": "7417"
+    },
+    "8314": {
+      "Namn": "Skattefria ränteintäkter",
+      "SRU": "7417"
+    },
+    "8317": {
+      "Namn": "Ränteintäkter för dold räntekompensation",
+      "SRU": "7417"
+    },
+    "8319": {
+      "Namn": "Övriga ränteintäkter från omsättningstillgångar",
+      "SRU": "7417"
+    },
+    "8320": {
+      "Namn": "Värdering till verkligt värde, omsättningstillgångar",
+      "SRU": "7417"
+    },
+    "8321": {
+      "Namn": "Orealiserade värdeförändringar på omsättningstillgångar",
+      "SRU": "7417"
+    },
+    "8325": {
+      "Namn": "Orealiserade värdeförändringar på derivatinstrument (oms.-tillg.)",
+      "SRU": "7417"
+    },
+    "8330": {
+      "Namn": "Valutakursdifferenser på kortfristiga fordringar och placeringar",
+      "SRU": "7417"
+    },
+    "8331": {
+      "Namn": "Valutakursvinster på kortfristiga fordringar och placeringar",
+      "SRU": "7417"
+    },
+    "8336": {
+      "Namn": "Valutakursförluster på kortfristiga fordringar och placeringar",
+      "SRU": "7417"
+    },
+    "8340": {
+      "Namn": "Utdelningar på kortfristiga placeringar",
+      "SRU": "7417"
+    },
+    "8350": {
+      "Namn": "Resultat vid försäljning av kortfristiga placeringar",
+      "SRU": "7417"
+    },
+    "8360": {
+      "Namn": "Övriga ränteintäkter från koncernföretag",
+      "SRU": "7417"
+    },
+    "8361": {
+      "Namn": "Övriga ränteintäkter från moderföretag",
+      "SRU": "7417"
+    },
+    "8362": {
+      "Namn": "Övriga ränteintäkter från dotterföretag",
+      "SRU": "7417"
+    },
+    "8363": {
+      "Namn": "Övriga ränteintäkter från andra koncernföretag",
+      "SRU": "7417"
+    },
+    "8370": {
+      "Namn": "Nedskrivningar av kortfristiga placeringar",
+      "SRU": "7521"
+    },
+    "8380": {
+      "Namn": "Återföringar av nedskrivningar av kortfristiga placeringar",
+      "SRU": "7521"
+    },
+    "8390": {
+      "Namn": "Övriga finansiella intäkter",
+      "SRU": "7417"
+    },
+    "8398": {
+      "Namn": "Värdeförändring kortfristig placering, skattemässig justering",
+      "SRU": "7417"
+    },
+    "8400": {
+      "Namn": "Räntekostnader (gruppkonto)",
+      "SRU": "7522"
+    },
+    "8410": {
+      "Namn": "Räntekostnader för långfristiga skulder",
+      "SRU": "7522"
+    },
+    "8411": {
+      "Namn": "Räntekostnader för obligations-, förlags- och konvertibla lån",
+      "SRU": "7522"
+    },
+    "8412": {
+      "Namn": "Räntedel i årets pensionskostnad",
+      "SRU": "7522"
+    },
+    "8413": {
+      "Namn": "Räntekostnader för checkräkningskredit",
+      "SRU": "7522"
+    },
+    "8414": {
+      "Namn": "Räntekostnader för byggnadskreditiv",
+      "SRU": "7522"
+    },
+    "8415": {
+      "Namn": "Räntekostnader för andra skulder till kreditinstitut",
+      "SRU": "7522"
+    },
+    "8417": {
+      "Namn": "Räntekostnader för dold räntekompensation m.m.",
+      "SRU": "7522"
+    },
+    "8418": {
+      "Namn": "Avdragspost för räntesubventioner",
+      "SRU": "7522"
+    },
+    "8419": {
+      "Namn": "Övriga räntekostnader för långfristiga skulder",
+      "SRU": "7522"
+    },
+    "8420": {
+      "Namn": "Räntekostnader för kortfristiga skulder",
+      "SRU": "7522"
+    },
+    "8421": {
+      "Namn": "Räntekostnader till kreditinstitut",
+      "SRU": "7522"
+    },
+    "8422": {
+      "Namn": "Dröjsmålsräntor för leverantörsskulder",
+      "SRU": "7522"
+    },
+    "8423": {
+      "Namn": "Räntekostnader för skatter och avgifter",
+      "SRU": "7522"
+    },
+    "8429": {
+      "Namn": "Övriga räntekostnader för kortfristiga skulder",
+      "SRU": "7522"
+    },
+    "8430": {
+      "Namn": "Valutakursdifferenser på skulder",
+      "SRU": "7522"
+    },
+    "8431": {
+      "Namn": "Valutakursvinster på skulder",
+      "SRU": "7522"
+    },
+    "8436": {
+      "Namn": "Valutakursförluster på skulder",
+      "SRU": "7522"
+    },
+    "8440": {
+      "Namn": "Erhållna räntebidrag",
+      "SRU": "7522"
+    },
+    "8450": {
+      "Namn": "Orealiserade värdeförändringar på skulder",
+      "SRU": "7522"
+    },
+    "8451": {
+      "Namn": "Orealiserade värdeförändringar på skulder",
+      "SRU": "7522"
+    },
+    "8455": {
+      "Namn": "Orealiserade värdeförändringar på säkringsinstrument",
+      "SRU": "7522"
+    },
+    "8460": {
+      "Namn": "Räntekostnader till koncernföretag",
+      "SRU": "7522"
+    },
+    "8461": {
+      "Namn": "Räntekostnader till moderföretag",
+      "SRU": "7522"
+    },
+    "8462": {
+      "Namn": "Räntekostnader till dotterföretag",
+      "SRU": "7522"
+    },
+    "8463": {
+      "Namn": "Räntekostnader till andra koncernföretag",
+      "SRU": "7522"
+    },
+    "8480": {
+      "Namn": "Aktiverade ränteutgifter",
+      "SRU": "7522"
+    },
+    "8490": {
+      "Namn": "Övriga skuldrelaterade poster",
+      "SRU": "7522"
+    },
+    "8491": {
+      "Namn": "Erhållet ackord på skulder till kreditinstitut m.m.",
+      "SRU": "7522"
+    },
+    "8710": {
+      "Namn": "Extraordinära intäkter"
+    },
+    "8750": {
+      "Namn": "Extraordinära kostnader"
+    },
+    "8810": {
+      "Namn": "Förändring av periodiseringsfond",
+      "SRU": "7525"
+    },
+    "8811": {
+      "Namn": "Avsättning till periodiseringsfond",
+      "SRU": "7525"
+    },
+    "8819": {
+      "Namn": "Återföring från periodiseringsfond",
+      "SRU": "7525"
+    },
+    "8820": {
+      "Namn": "Mottagna koncernbidrag",
+      "SRU": "7419"
+    },
+    "8830": {
+      "Namn": "Lämnade koncernbidrag",
+      "SRU": "7524"
+    },
+    "8840": {
+      "Namn": "Lämnade gottgörelser",
+      "SRU": "7422"
+    },
+    "8850": {
+      "Namn": "Förändring av överavskrivningar",
+      "SRU": "7421"
+    },
+    "8851": {
+      "Namn": "Förändring av överavskrivningar, immateriella anläggningstillgångar",
+      "SRU": "7421"
+    },
+    "8852": {
+      "Namn": "Förändring av överavskrivningar, byggnader och markanläggningar",
+      "SRU": "7421"
+    },
+    "8853": {
+      "Namn": "Förändring av överavskrivningar, maskiner och inventarier",
+      "SRU": "7421"
+    },
+    "8860": {
+      "Namn": "Förändring av ersättningsfond",
+      "SRU": "7422"
+    },
+    "8861": {
+      "Namn": "Avsättning till ersättningsfond för inventarier",
+      "SRU": "7422"
+    },
+    "8862": {
+      "Namn": "Avsättning till ersättningsfond för byggnader och markanläggningar",
+      "SRU": "7422"
+    },
+    "8863": {
+      "Namn": "Avsättning till ersättningsfond för mark",
+      "SRU": "7422"
+    },
+    "8864": {
+      "Namn": "Avsättning till ersättningsfond för djurlager i jordbruk och renskötsel",
+      "SRU": "7422"
+    },
+    "8865": {
+      "Namn": "Ianspråktagande av ersättningsfond för avskrivningar",
+      "SRU": "7422"
+    },
+    "8866": {
+      "Namn": "Ianspråktagande av ersättningsfond för annat än avskrivningar",
+      "SRU": "7422"
+    },
+    "8869": {
+      "Namn": "Återföring från ersättningsfond",
+      "SRU": "7422"
+    },
+    "8880": {
+      "Namn": "Förändring av obeskattade intäkter",
+      "SRU": "7422"
+    },
+    "8881": {
+      "Namn": "Avsättning till upphovsmannakonto",
+      "SRU": "7422"
+    },
+    "8882": {
+      "Namn": "Återföring från upphovsmannakonto",
+      "SRU": "7422"
+    },
+    "8885": {
+      "Namn": "Avsättning till skogskonto",
+      "SRU": "7422"
+    },
+    "8886": {
+      "Namn": "Återföring från skogskonto",
+      "SRU": "7422"
+    },
+    "8890": {
+      "Namn": "Övriga bokslutsdispositioner",
+      "SRU": "7422"
+    },
+    "8891": {
+      "Namn": "Förändring av skillnad mellan bokförd och faktisk pensionsskuld",
+      "SRU": "7422"
+    },
+    "8892": {
+      "Namn": "Nedskrivningar av konsolideringskaraktär av anläggningstillgångar",
+      "SRU": "7422"
+    },
+    "8896": {
+      "Namn": "Förändring av lagerreserv",
+      "SRU": "7422"
+    },
+    "8899": {
+      "Namn": "Övriga bokslutsdispositioner",
+      "SRU": "7422"
+    },
+    "8910": {
+      "Namn": "Skatt som belastar årets resultat",
+      "SRU": "7528"
+    },
+    "8920": {
+      "Namn": "Skatt på grund av ändrad beskattning",
+      "SRU": "7528"
+    },
+    "8930": {
+      "Namn": "Restituerad skatt",
+      "SRU": "7528"
+    },
+    "8940": {
+      "Namn": "Uppskjuten skatt",
+      "SRU": "7528"
+    },
+    "8980": {
+      "Namn": "Övriga skatter",
+      "SRU": "7528"
+    },
+    "8990": {
+      "Namn": "Resultat",
+      "SRU": "7450"
+    },
+    "8999": {
+      "Namn": "Årets resultat",
+      "SRU": "7450"
+    }
+  },
+  "META": {
+    "RAR": {
+      "0": {
+        "from": "20230101",
+        "to": "20231231"
+      },
+      "-1": {
+        "from": "20220101",
+        "to": "20221231"
+      },
+      "-2": {
+        "from": "20201001",
+        "to": "20211231"
+      }
+    },
+    "FORMAT": "PC8",
+    "GEN": "20230922",
+    "ORGNR": "5599998989",
+    "FNAMN": "Nokio Test AB",
+    "KPTYP": "BAS2014"
+  },
+  "TRANS": {
+    "1": {
+      "date": "2023-01-14",
+      "name": "Förbrukningsinventarier",
+      "description": null,
+      "recorded_at": "2023-01-21T00:00:00",
+      "account": {
+        "2640D": 154.75,
+        "2890K": 619.0,
+        "5410D": 464.25
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "2": {
+      "date": "2023-01-01",
+      "name": "Periodisering",
+      "description": null,
+      "recorded_at": "2023-01-21T00:00:00",
+      "account": {
+        "2990D": 6250.0,
+        "6000K": 6250.0
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "3": {
+      "date": "2023-01-16",
+      "name": "Förseningsavgift",
+      "description": null,
+      "recorded_at": "2023-01-21T00:00:00",
+      "account": {
+        "1630D": 6250.0,
+        "1630K": 6250.0,
+        "1930K": 6250.0,
+        "2990D": 6250.0,
+        "6000K": 6250.0,
+        "8423D": 6250.0
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "4": {
+      "date": "2023-01-02",
+      "name": "Omprövning moms jul-sep2022",
+      "description": null,
+      "recorded_at": "2023-01-21T00:00:00",
+      "account": {
+        "1630D": 10.0,
+        "1650K": 10.0
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "5": {
+      "date": "2023-01-16",
+      "name": "Annullering av V3: Förseningsavgift",
+      "description": null,
+      "recorded_at": "2023-01-21T00:00:00",
+      "account": {
+        "1630K": 6250.0,
+        "1630D": 6250.0,
+        "1930D": 6250.0,
+        "2990K": 6250.0,
+        "6000D": 6250.0,
+        "8423K": 6250.0
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "6": {
+      "date": "2023-01-16",
+      "name": "Förseningsavgift skv",
+      "description": null,
+      "recorded_at": "2023-01-21T00:00:00",
+      "account": {
+        "1630D": 6250.0,
+        "1630K": 6250.0,
+        "1930K": 6250.0,
+        "6000D": 6250.0
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "7": {
+      "date": "2023-04-03",
+      "name": "AWS mjukvara licens",
+      "description": null,
+      "recorded_at": "2023-05-05T00:00:00",
+      "account": {
+        "2614K": 12.2,
+        "2645D": 12.2,
+        "2890K": 48.81,
+        "4535D": 48.81,
+        "4598K": 48.81,
+        "6910D": 48.81
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "8": {
+      "date": "2023-02-02",
+      "name": "AWS mjukvara licens",
+      "description": null,
+      "recorded_at": "2023-05-05T00:00:00",
+      "account": {
+        "2614K": 9.98,
+        "2645D": 9.98,
+        "2890K": 39.9,
+        "4535D": 39.9,
+        "4598K": 39.9,
+        "6910D": 39.9
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "9": {
+      "date": "2023-03-02",
+      "name": "AWS mjukvara license",
+      "description": null,
+      "recorded_at": "2023-05-05T00:00:00",
+      "account": {
+        "2614K": 9.69,
+        "2645D": 9.69,
+        "2890K": 38.71,
+        "4535D": 38.71,
+        "4598K": 38.71,
+        "6910D": 38.71
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "10": {
+      "date": "2023-03-31",
+      "name": "Momsredovisning: januari 2023 - mars 2023",
+      "description": null,
+      "recorded_at": "2023-05-05T00:00:00",
+      "account": {
+        "1650D": 155.0,
+        "2614D": 19.67,
+        "2640K": 154.75,
+        "2645K": 19.67,
+        "3740K": 0.25
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "11": {
+      "date": "2023-01-01",
+      "name": "Boka om årets resultat",
+      "description": null,
+      "recorded_at": "2023-05-05T00:00:00",
+      "account": {
+        "2098D": 853044.04,
+        "2099K": 853044.04
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "12": {
+      "date": "2023-05-04",
+      "name": "Frimärke",
+      "description": null,
+      "recorded_at": "2023-05-05T00:00:00",
+      "account": {
+        "2890K": 150.0,
+        "6250D": 150.0
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "13": {
+      "date": "2023-06-02",
+      "name": "AWS mjukvara licens",
+      "description": null,
+      "recorded_at": "2023-09-01T00:00:00",
+      "account": {
+        "2614K": 12.2,
+        "2645D": 12.2,
+        "2890K": 48.78,
+        "4535D": 48.78,
+        "4598K": 48.78,
+        "6910D": 48.78
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "14": {
+      "date": "2023-08-03",
+      "name": "AWS mjukvara licens",
+      "description": null,
+      "recorded_at": "2023-09-01T00:00:00",
+      "account": {
+        "2614K": 12.24,
+        "2645D": 12.24,
+        "2890K": 48.97,
+        "4535D": 48.97,
+        "4598K": 48.97,
+        "6910D": 48.97
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "15": {
+      "date": "2023-07-02",
+      "name": "AWS mjukvara licens",
+      "description": null,
+      "recorded_at": "2023-09-01T00:00:00",
+      "account": {
+        "2614K": 12.54,
+        "2645D": 12.54,
+        "2890K": 50.14,
+        "4535D": 50.14,
+        "4598K": 50.14,
+        "6910D": 50.14
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    },
+    "16": {
+      "date": "2023-06-30",
+      "name": "Momsredovisning: april 2023 - juni 2023",
+      "description": null,
+      "recorded_at": "2023-09-01T00:00:00",
+      "account": {
+        "2614D": 24.4,
+        "2645K": 24.4
+      },
+      "frozen": null,
+      "org_nr": "5599998989"
+    }
+  }
+}

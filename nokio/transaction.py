@@ -10,7 +10,7 @@ from pymongo.server_api import ServerApi
 import json
 
 from typing import TYPE_CHECKING
-from nokio import settings
+from nokio import settings, chunk
 
 import logging
 
@@ -133,6 +133,16 @@ def recalc_GL():
 
 
 def reserve_transactions(org: str, last_added_id: int = None):
+    """Reserve 50 id numbers in one go, if the last_added_id is less than the reserved
+    id set the real last_added_id
+
+    Args:
+        org (str): Org number, last_added_id is per org nr
+        last_added_id (int, optional): The last added id. Defaults to None.
+
+    Returns:
+        bool: The result after writing to MongoDb
+    """
     if last_added_id > 0:
         result = db["TransactionStore"].update_one(
             {"Orgnr": org}, {"$set": {"last_transaction_seen": last_added_id}}
@@ -157,20 +167,27 @@ def add_transactions(content: list) -> int:
         int, the latest id added
     """
 
-    # VAlidate the content
+    # Validate the content
 
     # get the last transaction id from data store
     org = content["META"]["ORGNR"]
-    get_latest_transaction_gl(org)
-    get_next_transaction_id(org)
+    ts_id = get_latest_transaction_gl(org)
+    n_id = get_next_transaction_id(org)
 
-    # reserve 50 ids at a time
+    # reserve 50 ids at a time and create batches
+    batch_size = 50
     if reserve_transactions(org):
-        for idx, item in enumerate(content["TRANS"].items()):
-            db["Transaction"].insert_many()
-            ...
+        content_list = []
+        for id, val in content["TRANS"].items():
+            val["t_id"] = id
+            content_list.append(val)
+
+        for batch in list(chunk(content_list, batch_size)):
+            db["Transaction"].insert_many(batch)
         else:
-            reserve_transactions(org, idx + 1)
+            reserve_transactions(
+                org,
+            )  # set the latest written value if t_id
     return 0
 
     """
