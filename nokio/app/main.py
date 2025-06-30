@@ -221,6 +221,57 @@ def get_user(org_email: str) -> list:
     raise HTTPException(status_code=404, detail=f"User: {org_email} not found!")
 
 
+@app.get("/accounts")
+def get_accounts(orgnr: str):
+    """Get a list of accounts to consolidate
+    Returns a list of accounts with their names and value by consolidationDate"""
+    if not orgnr:
+        raise HTTPException(status_code=400, detail="orgnr is required")
+
+    accounts = db["AccountPlan"].find_one({"Orgnr": orgnr}, {"_id": 0, "Orgnr": 0})
+    if accounts is None:
+        raise HTTPException(status_code=404, detail=f"Accounts for {orgnr} not found")
+
+    # get the latest consolidation date
+    latest_consolidation = list(
+        db["Consolidate"]
+        .find({"Orgnr": orgnr}, {"_id": 0, "Orgnr": 0, "recorded_at": 0})
+        .sort("consolidationDate", pymongo.DESCENDING)
+        .limit(1)
+    )[0]
+
+    return {
+        f"{k} - {v[0]}": latest_consolidation.get(k, 0) for k, v in accounts.items()
+    } | {
+        "consolidationDate": latest_consolidation.get(
+            "consolidationDate", "Not consolidated yet"
+        )
+    }
+
+
+@app.post("/consolidate")
+def consolidate_accounts(orgnr: str, accounts: dict):
+    """Consolidate accounts by summing up the values of each account"""
+    if not orgnr:
+        raise HTTPException(status_code=400, detail="orgnr is required")
+    if not accounts:
+        raise HTTPException(status_code=400, detail="accounts are required")
+
+    # Convert string keys to integers
+    accounts = {k.split(" - ")[0]: v for k, v in accounts.items()}
+
+    # Update the database with the consolidated values
+    accounts["recorded_at"] = datetime.now().isoformat()
+    accounts["Orgnr"] = orgnr
+    result = db["Consolidate"].insert_one(accounts)
+
+    if result.acknowledged == False:
+        logging.error(f"Failed to consolidate accounts for {orgnr}")
+        raise HTTPException(status_code=404, detail=f"Accounts for {orgnr} not found")
+
+    return {"message": "Accounts consolidated successfully"}
+
+
 if __name__ == "__main__":
 
     uvicorn.run(app, host="0.0.0.0", port=8000)

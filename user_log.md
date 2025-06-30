@@ -41,6 +41,10 @@
 1. ~~see <https://docs.appsmith.com/core-concepts/writing-code/ext-libraries>~~
 1. ~~Create a text edit area with and sum calculation.~~
 
+## 2025-06-29
+
+1. List transaction for orgnr and year. Choose year in Appsmith
+
 ## 2024-06-26
 
 ## 2024-06-22
