@@ -14,6 +14,7 @@ import json
 from datetime import datetime
 import logging
 import uvicorn
+import re
 
 
 from typing import Optional, Any
@@ -30,9 +31,9 @@ class TransactionModel(BaseModel):
     # t_id: int
     t_name: str
     t_date: str
-    t_data: dict[str, float]
+    t_data: str  # dict[str, float]
     t_locked: Optional[bool] = None
-    Orgnr: str
+    # Orgnr: str
     t_description: Optional[str] = None
     t_verification: Optional[str] = None
     # customField1: float | None
@@ -67,7 +68,7 @@ db = client.nokio
 
 
 @app.get("/transaction")
-def get_transaction_list(orgnr: str, sort_by: str = "date"):
+def get_transaction_list(orgnr: str, year: str, sort_by: str = "date"):
     """Get a list of tranactions sorted by date
 
     Args:
@@ -84,7 +85,7 @@ def get_transaction_list(orgnr: str, sort_by: str = "date"):
         sort_field = "t_name"
         sort_order = pymongo.ASCENDING
 
-    query = {"Orgnr": orgnr}
+    query = {"Orgnr": orgnr, "t_date": re.compile(year)}
     # if orgnr:
     #    # Convert string to dict
     #    query["Orgnr"] = json.loads(orgnr)["orgnr"]
@@ -157,7 +158,13 @@ def update_trans(
 @app.post("/transaction", response_description="Add new transaction")
 def create_transaction(orgnr: str, transaction: TransactionModel = Body(...)):
     transaction = jsonable_encoder(transaction)
-    transaction["t_id"] = next(get_next_transaction_id(orgnr))["t_id"] + 1
+    try:
+        transaction["t_id"] = next(get_next_transaction_id(orgnr))["t_id"] + 1
+    except StopIteration:
+        # No existing transaction for orgnr
+        transaction["t_id"] = 1
+    transaction["Orgnr"] = orgnr
+    transaction["t_data"] = json.loads(transaction["t_data"])
     new_transaction = db["Transaction"].insert_one(transaction)
     # transaction.model_dump_json
     # transaction_dict = transaction.model_dump()

@@ -5,7 +5,7 @@ Author: **Mikael Backlund** Owner: **Be Lean Building Solutions AB**
 Nokio is an Open Source product (GPL3) that helps small business doing small and easy bookkeeping tasks. These tasks
 include:
 
-- Keeping gneral ledger (GL)
+- Keeping general ledger (GL)
 - Performing Reconciliation of accounts
 - VAT reporting
 - Balance sheet
