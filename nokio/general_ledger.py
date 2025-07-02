@@ -29,20 +29,21 @@ def calculate(df_gl: pd.DataFrame, brand: list = None):
     return result
 
 
-def generate_general_ledger(content) -> pd.DataFrame:
+def generate_general_ledger(content: list[dict]) -> pd.DataFrame:
     """Generate general ledger from list of transactions
     Args:
-        content: Dict the content of transactions
+        content: list of Dict, i.e. the content of transactions
     Returns pd.DataFrame accounts, transactions and values
     """
     mytrans = {}
     # trans_list = []
     # trans_index = []
-    for key, val in content.get("TRANS").items():
+    for trans_item in content:
+        # for key, val in content.get("TRANS").items():
         tmp = {}
-        for key2, val2 in val.get("account").items():
-            tmp[(int(key2[:-1]), key2[-1])] = val2
-        mytrans[int(key)] = tmp
+        for key, val in trans_item.get("t_data").items():
+            tmp[(int(key[:-1]), key[-1])] = val
+        mytrans[int(trans_item["t_id"])] = tmp
         # trans_list.append(val.get("account"))
         # trans_index.append(key)
 

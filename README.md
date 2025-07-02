@@ -30,7 +30,7 @@ To start appsmith environment
 
 ```bash
 cd ~/Projects/appsmith
-docker compose up
+docker-compose up -d
 ```
 
 ## Transaction
@@ -115,7 +115,7 @@ Are historic transactions that can be utilized to help out with the transaction 
 
 ## Reconciliation
 
-Sometimes you need to reconciliate the account and make everything upto that data immutable.
+Sometimes you need to reconciliate the account and make everything upto that date immutable. Start with entering the ammount on the accounts 1630, 1930, 1940, 1385 at a certain date. Calculate the sum since the last consolidation and compare. Check with the user if it is correct or not. If correct then lock each transaction since last and log the consilidation datetime. If not correct display the unlocked transactions and let the user correct manually faulty transactions. Find the last entered consolidate_date for the last and the second last.
 
 ## VAT
 
@@ -165,14 +165,17 @@ Gives the amount owned by company to major shareholders
 
 ### FastAPI routes
 
-| Endpoint            | Request type | Description                                                                                          |
-| ------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
-| /transaction        | GET          | Get a list of transactions with sorting options. Options: Sort by id asc and name asc and date desc. |
-| /transaction/{t_id} | GET          | Get transaction by t_id                                                                              |
-| /transaction        | POST         | Create new transaction                                                                               |
-| /template           | GET          | Get list of templates                                                                                |
-| /template/{temp_id} | GET          | Get template by id                                                                                   |
-| /template           | POST         | Create new template                                                                                  |
+| Endpoint             | Request type | Description                                                                                                  |
+| -------------------- | ------------ | ------------------------------------------------------------------------------------------------------------ |
+| /transaction         | GET          | Get a list of transactions with sorting options. Options: Sort by id asc and name asc and date desc.         |
+| /transaction/{t_id}  | GET          | Get transaction by t_id                                                                                      |
+| /transaction         | POST         | Create new transaction                                                                                       |
+| /template            | GET          | Get list of templates                                                                                        |
+| /template/{temp_id}  | GET          | Get template by id                                                                                           |
+| /template            | POST         | Create new template                                                                                          |
+| /accounts            | GET          | Get a list of accounts to consolidate                                                                        |
+| /consilidation       | POST         | User provided balance for some accounts                                                                      |
+| /consilidation_error | GET          | Calculate the error between the latest consilidation + transaction should equal the provided account balance |
 
 or use debugging by using \*\*FastAPI (nokio) and set breakpoints
 
