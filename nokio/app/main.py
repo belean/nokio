@@ -304,9 +304,10 @@ def get_consolidation_error(orgnr: str):
 
     # Take the second last consolidation and add the transactions that are not locked
     if second_last_consolidation is not None:
-        transactions = get_transaction_list(
-            "556997-9445", "2024"
-        )  # TODO: Fix this line to use the correct orgnr and date interval
+        transactions = get_transaction_list(  # TODO: take this from cache
+            orgnr, last_consolidation.get("consolidationDate", "2024")[:4]
+        )
+        # Use the lastest consilidation and use whole year. Maybe expand to other periods in the future
         """ transactions = db["Transaction"].find(
             {
                 "Orgnr": orgnr,
@@ -321,43 +322,52 @@ def get_consolidation_error(orgnr: str):
         # Create dataframe from transactions
         df_trans = generate_general_ledger(transactions)
 
-    trans_sum = {  # df_trans.sum().to_dict()
-        (1385, "K"): 41308.0,
-        (1630, "D"): 9102.0,
-        (1630, "K"): 136.0,
-        (1930, "D"): 41476.53,
-        (1930, "K"): 41366.0,
-        (1940, "D"): 32275.11,
-        (1940, "K"): 32266.0,
-        (2614, "K"): 79.68,
-        (2640, "D"): 2962.05,
-        (2645, "D"): 79.68,
-        (2890, "K"): 15279.0,
-        (2898, "D"): 32266.0,
-        (4535, "D"): 318.75,
-        (4598, "K"): 318.75,
-        (5410, "D"): 11431.2,
-        (6230, "D"): 417.0,
-        (6250, "D"): 150.0,
-        (6910, "D"): 318.75,
-        (8311, "K"): 177.64,
-        (8314, "K"): 2.0,
-        (8324, "D"): 136.0,
-    }
+    trans_sum = df_trans.sum().to_dict()
+    # {
+    #    (1385, "K"): 41308.0,
+    #    (1630, "D"): 9102.0,
+    #    (1630, "K"): 136.0,
+    #    (1930, "D"): 41476.53,
+    #    (1930, "K"): 41366.0,
+    #    (1940, "D"): 32275.11,
+    #    (1940, "K"): 32266.0,
+    #    (2614, "K"): 79.68,
+    #    (2640, "D"): 2962.05,
+    #    (2645, "D"): 79.68,
+    #    (2890, "K"): 15279.0,
+    #    (2898, "D"): 32266.0,
+    #    (4535, "D"): 318.75,
+    #    (4598, "K"): 318.75,
+    #    (5410, "D"): 11431.2,
+    #    (6230, "D"): 417.0,
+    #    (6250, "D"): 150.0,
+    #    (6910, "D"): 318.75,
+    #    (8311, "K"): 177.64,
+    #    (8314, "K"): 2.0,
+    #    (8324, "D"): 136.0,
+    # }
     tmp = {}
     sign_mapper = {"2": -1, "3": -1}
     dk_mapper = {"D": 1, "K": -1}
     for key, val in trans_sum.items():
         sign = sign_mapper.get(str(key[0])[0], 1)
-        dk = dk_mapper.get(key[1])
+        dk = dk_mapper.get(key[1], 1)
         tmp[key[0]] = round(tmp.get(key[0], 0) + val * sign * dk, 2)
 
-    # Convert the cursor to a list and return it
-    return {
-        "last_consolidation": last_consolidation,
-        "second_last_consolidation": second_last_consolidation,
-        # "transactions": df_trans.sum().to_dict(),
-    }
+    # Calculate the diffs from 2nd last year + transactions - last year equals 0
+    # second_last_consolidation + tmp -  last_consolidation = 0
+    residual = {}
+    for key, val in last_consolidation.items():
+        try:
+            key = int(key)
+        except ValueError:
+            logging.error(f"Key {key} is not an integer, skipping")
+            continue
+        residual[key] = round(
+            second_last_consolidation.get(str(key), 0) + tmp.get(key, 0) - val, 2
+        )
+
+    return {"residual": residual}
 
 
 if __name__ == "__main__":
