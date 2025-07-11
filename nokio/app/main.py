@@ -370,6 +370,19 @@ def get_consolidation_error(orgnr: str):
     return {"residual": residual}
 
 
+@app.put("/lock_transaction", response_description="Lock transactions")
+def lock_transaction(orgnr: str, year: str, transaction_ids=Body(...)):
+    """Lock a list of transactions by setting t_locked to True"""
+    for transaction in transaction_ids:
+        # if not transaction.get("t_locked"):
+        #    transaction["t_locked"] = True
+        db["Transaction"].update_one(
+            {"t_id": transaction, "Orgnr": orgnr},
+            {"$set": {"t_locked": True}},
+        )
+    return {"message": "Transactions locked successfully"}
+
+
 if __name__ == "__main__":
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
