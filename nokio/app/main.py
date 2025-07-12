@@ -16,6 +16,7 @@ from datetime import datetime
 import logging
 import uvicorn
 import re
+import pandas as pd
 
 
 from typing import Optional, Any
@@ -381,6 +382,45 @@ def lock_transaction(orgnr: str, year: str, transaction_ids=Body(...)):
             {"$set": {"t_locked": True}},
         )
     return {"message": "Transactions locked successfully"}
+
+
+@app.get("/general_ledger")
+def get_general_ledger(orgnr: str, year: str):
+    """Get the general ledger for an organization and year"""
+    trans = get_transaction_list(orgnr, year)
+
+    # Beräkna transactioner per account
+    df_trans = generate_general_ledger(trans)
+    trans_sum = df_trans.sum().to_dict()
+
+    trans_account = {}
+    sign_mapper = {"2": -1, "3": -1}
+    dk_mapper = {"D": 1, "K": -1}
+    for key, val in trans_sum.items():
+        sign = sign_mapper.get(str(key[0])[0], 1)
+        dk = dk_mapper.get(key[1], 1)
+        trans_account[key[0]] = round(trans_account.get(key[0], 0) + val * sign * dk, 2)
+
+    def get_df(side):
+        return side["D"] - side["K"]
+
+    # trans_balance = (
+    #    df_trans.T.groupby(level=1)
+    #    .sum()
+    #    .apply(lambda x: get_df(x))
+    #    .reset_index(name="sum")
+    #    .to_dict(orient="records")
+    # )
+    # add sum of transaction to the right of t he dataframe
+    s_sum = df_trans.T.groupby(level=1).sum().apply(lambda x: get_df(x))
+    s_sum.name = ("Sum", "tot")
+    df_trans = pd.concat([df_trans, s_sum], axis=1)
+
+    return {
+        "trans_table": df_trans.to_html().replace("\n", "").replace("NaN", ""),
+        # "trans_balance": trans_balance,
+        "trans_accounts": trans_account,
+    }
 
 
 if __name__ == "__main__":
