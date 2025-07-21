@@ -384,6 +384,36 @@ def lock_transaction(orgnr: str, year: str, transaction_ids=Body(...)):
     return {"message": "Transactions locked successfully"}
 
 
+@app.get("/incoming_balance")
+def get_incoming_balance(orgnr: str, year: str):
+    """Get the incoming balance for an organization"""
+    if not orgnr:  # Check if orgnr is provided
+        raise HTTPException(status_code=400, detail="orgnr is required")
+
+    query = {"orgnr": orgnr, "date": f"{year}-01-01"}
+    incoming_balance = db["TransactionStore"].find_one(
+        query, {"_id": 0}  # , "orgnr": 0, "date": 0, "data": 1},
+    )
+    return incoming_balance
+
+
+@app.post("/incoming_balance")
+def add_incoming_balance(orgnr: str, year: str, incoming_balance: dict):
+    """Add or update the incoming balance for an organization"""
+    if not orgnr:
+        raise HTTPException(status_code=400, detail="orgnr is required")
+    result = db["TransactionStore"].update_one(
+        {"orgnr": orgnr, "date": f"{year}-01-01"},
+        {"$set": {"data": incoming_balance}},
+        upsert=True,
+    )
+    if result.acknowledged == False:
+        logging.error(f"Failed to add ing balance for {orgnr} and {year}")
+        raise HTTPException(status_code=404, detail=f"Accounts for {orgnr} not found")
+
+    return {"message": "Incoming balance added/updated successfully"}
+
+
 @app.get("/general_ledger")
 def get_general_ledger(orgnr: str, year: str):
     """Get the general ledger for an organization and year"""
@@ -416,25 +446,30 @@ def get_general_ledger(orgnr: str, year: str):
     s_sum.name = ("Sum", "error")
     df_trans = pd.concat([df_trans, s_sum], axis=1)
 
-    books_2023 = transform_bokio_import(
-        Path("data/Bokföring - Bokio - 5569979445") / "5569979445_2023.se"
-    )
-    df_ib = pd.DataFrame.from_records(books_2023["IB"]).T
-    df_ib = df_ib.rename(columns={"-1": "2022", "-2": "2021"}).drop(
-        columns=["-5", "-4", "-3", "-6"]
-    )
-    df_ib = df_ib.rename(columns={"0": "2023"})
-    df_ib = df_ib.astype(float).fillna(0.0)
-    df_ib = df_ib[~(df_ib == 0.0).all(axis=1)]
+    # Get incominace for org and year
+    # books_2023 = transform_bokio_import(
+    #     Path("data/Bokföring - Bokio - 5569979445") / "5569979445_2023.se"
+    # )
+    # df_ib = pd.DataFrame.from_records(books_2023["IB"]).T
+    # df_ib = df_ib.rename(columns={"-1": "2022", "-2": "2021"}).drop(
+    #     columns=["-5", "-4", "-3", "-6"]
+    # )
+    # df_ib = df_ib.rename(columns={"0": "2023"})
+    # df_ib = df_ib.astype(float).fillna(0.0)
+    # df_ib = df_ib[~(df_ib == 0.0).all(axis=1)]
+    # df_ib.index = df_ib.index.astype("int64")
+    ib = get_incoming_balance(orgnr, year)
+    df_ib = pd.DataFrame.from_dict(ib["data"], orient="index", columns=[year])
     df_ib.index = df_ib.index.astype("int64")
+
+    s_out_bal = pd.concat([df_ib, pd.Series(trans_account)], axis=1).sum(axis=1)
+    # .loc[:, [year, 0]]
 
     return {
         "trans_table": df_trans.to_html().replace("\n", "").replace("NaN", ""),
         # "trans_balance": trans_balance,
         "trans_accounts": trans_account,
-        "incoming_balance": pd.concat([df_ib, pd.Series(trans_account)], axis=1)
-        .loc[:, [year, 0]]
-        .sum(axis=1),
+        "outgoing_balance": s_out_bal[~(s_out_bal == 0.0)],
     }
 
 
