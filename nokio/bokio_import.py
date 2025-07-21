@@ -58,7 +58,10 @@ def transform_bokio_import(sie_file: Path):
                 tot["TRANS"][result.verificate] = result.model_dump(
                     exclude="verificate"
                 ) | {"org_nr": tot["META"]["ORGNR"]}
+    return tot
 
+
+def write_bokio_import(sie_file: Path, tot: dict):
     (sie_file.parent / "out").mkdir(exist_ok=True)
     file_path = sie_file.parent / "out" / sie_file.with_suffix(".jsonc").name
     with open(
@@ -200,8 +203,23 @@ def convert_RES(tot: dict, row: str):
     tot["RES"][items[2]] = tot["RES"].get(items[2], {}) | {items[1]: items[3]}
 
 
+def get_incoming_balance() -> pd.DataFrame:
+    """Get the incoming balance from the IB dict"""
+    books_2023 = transform_bokio_import(
+        Path("data/Bokföring - Bokio - 5569979445") / "5569979445_2023.se"
+    )
+    df_ib = pd.DataFrame.from_records(books_2023["IB"]).T
+    df_ib = df_ib.rename(columns={"-1": "2022", "-2": "2021", "0": "2023"}).drop(
+        columns=["-5", "-4", "-3", "-6"]
+    )
+    df_ib = df_ib.astype(float).fillna(0.0)
+    df_ib = df_ib[~(df_ib == 0.0).all(axis=1)]
+    return df_ib
+
+
 def run(sie_file: Path):
-    transform_bokio_import(sie_file)
+    tot = transform_bokio_import(sie_file)
+    write_bokio_import(sie_file, tot)
 
 
 if __name__ == "__main__":

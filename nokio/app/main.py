@@ -17,8 +17,8 @@ import logging
 import uvicorn
 import re
 import pandas as pd
-
-
+from pathlib import Path
+from nokio.bokio_import import transform_bokio_import
 from typing import Optional, Any
 
 logging.basicConfig(level=logging.DEBUG)  # TODO soething nicer like
@@ -394,12 +394,12 @@ def get_general_ledger(orgnr: str, year: str):
     trans_sum = df_trans.sum().to_dict()
 
     trans_account = {}
-    sign_mapper = {"2": -1, "3": -1}
+    # sign_mapper = {"2": -1, "3": -1}
     dk_mapper = {"D": 1, "K": -1}
     for key, val in trans_sum.items():
-        sign = sign_mapper.get(str(key[0])[0], 1)
+        # sign = sign_mapper.get(str(key[0])[0], 1)
         dk = dk_mapper.get(key[1], 1)
-        trans_account[key[0]] = round(trans_account.get(key[0], 0) + val * sign * dk, 2)
+        trans_account[key[0]] = round(trans_account.get(key[0], 0) + val * dk, 2)
 
     def get_df(side):
         return side["D"] - side["K"]
@@ -413,13 +413,28 @@ def get_general_ledger(orgnr: str, year: str):
     # )
     # add sum of transaction to the right of t he dataframe
     s_sum = df_trans.T.groupby(level=1).sum().apply(lambda x: get_df(x))
-    s_sum.name = ("Sum", "tot")
+    s_sum.name = ("Sum", "error")
     df_trans = pd.concat([df_trans, s_sum], axis=1)
+
+    books_2023 = transform_bokio_import(
+        Path("data/Bokföring - Bokio - 5569979445") / "5569979445_2023.se"
+    )
+    df_ib = pd.DataFrame.from_records(books_2023["IB"]).T
+    df_ib = df_ib.rename(columns={"-1": "2022", "-2": "2021"}).drop(
+        columns=["-5", "-4", "-3", "-6"]
+    )
+    df_ib = df_ib.rename(columns={"0": "2023"})
+    df_ib = df_ib.astype(float).fillna(0.0)
+    df_ib = df_ib[~(df_ib == 0.0).all(axis=1)]
+    df_ib.index = df_ib.index.astype("int64")
 
     return {
         "trans_table": df_trans.to_html().replace("\n", "").replace("NaN", ""),
         # "trans_balance": trans_balance,
         "trans_accounts": trans_account,
+        "incoming_balance": pd.concat([df_ib, pd.Series(trans_account)], axis=1)
+        .loc[:, [year, 0]]
+        .sum(axis=1),
     }
 
 
